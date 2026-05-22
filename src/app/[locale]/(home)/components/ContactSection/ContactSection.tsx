@@ -1,6 +1,7 @@
 import { useTranslations } from 'next-intl';
 
 import { ContactFormContacts } from '@/features/contact-form/ui/ContactFormContacts';
+
 import { WEBSITE_EMAIL } from '@/shared/lib/constants/constants';
 
 import styles from './ContactSection.module.scss';

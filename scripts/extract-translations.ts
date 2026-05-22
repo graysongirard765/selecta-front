@@ -56,11 +56,12 @@ function extractFromFile(filePath: string): void {
       return;
     }
 
-    if (!ts.isCallExpression(node.initializer)) {
+    const callExpression = unwrapCallExpression(node.initializer);
+    if (!callExpression) {
       return;
     }
 
-    const expression = node.initializer.expression;
+    const expression = callExpression.expression;
     if (!ts.isIdentifier(expression)) {
       return;
     }
@@ -69,7 +70,7 @@ function extractFromFile(filePath: string): void {
       return;
     }
 
-    const namespace = getStaticString(node.initializer.arguments[0]);
+    const namespace = getStaticString(callExpression.arguments[0]);
     if (!namespace) {
       return;
     }
@@ -103,6 +104,22 @@ function extractFromFile(filePath: string): void {
   };
 
   visit(sourceFile);
+}
+
+function unwrapCallExpression(node: ts.Expression): ts.CallExpression | undefined {
+  if (ts.isCallExpression(node)) {
+    return node;
+  }
+
+  if (ts.isAwaitExpression(node)) {
+    return unwrapCallExpression(node.expression);
+  }
+
+  if (ts.isParenthesizedExpression(node)) {
+    return unwrapCallExpression(node.expression);
+  }
+
+  return undefined;
 }
 
 function getStaticString(node?: ts.Expression): string | undefined {
