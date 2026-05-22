@@ -32,7 +32,20 @@ export const HeroSection = () => {
 
           <a href="#brokers" className={styles.cta}>
             <span>{cta}</span>
-            <span className={styles.ctaArrow} aria-hidden="true" />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="14"
+              height="14"
+              viewBox="0 0 14 14"
+              fill="none"
+            >
+              <path
+                d="M2.91663 6.99984H11.0833M7.58329 2.9165L11.6666 6.99984L7.58329 11.0832"
+                stroke="#030303"
+                strokeWidth="1.16667"
+                strokeLinecap="round"
+              />
+            </svg>
           </a>
         </div>
       </div>

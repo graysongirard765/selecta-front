@@ -26,8 +26,16 @@ export const Footer = () => {
   const legalPrivacy = t("privacy", { fallback: "Politica de privacidad" });
   const legalCookies = t("cookies", { fallback: "Politica de cookies" });
   const navItems: readonly NavItem[] = [
-    { href: `${homePrefix || "/"}`, label: t("home", { fallback: "Inicio" }), isRoute: true },
-    { href: howItWorksHref, label: t("howItWorks", { fallback: "Como funciona" }), isRoute: true },
+    {
+      href: `${homePrefix || "/"}`,
+      label: t("home", { fallback: "Inicio" }),
+      isRoute: true,
+    },
+    {
+      href: howItWorksHref,
+      label: t("howItWorks", { fallback: "Como funciona" }),
+      isRoute: true,
+    },
     {
       href: homeAnchor("brokers"),
       label: t("findBroker", { fallback: "Encontrar un broker" }),
@@ -36,13 +44,24 @@ export const Footer = () => {
       href: homeAnchor("updates"),
       label: t("updates", { fallback: "Actualizaciones del sector" }),
     },
-    { href: homeAnchor("compare"), label: t("tools", { fallback: "Herramientas" }) },
-    { href: homeAnchor("platform"), label: t("about", { fallback: "Acerca de" }) },
-    { href: homeAnchor("contact"), label: t("contact", { fallback: "Contacto" }) },
+    {
+      href: homeAnchor("compare"),
+      label: t("tools", { fallback: "Herramientas" }),
+    },
+    {
+      href: homeAnchor("platform"),
+      label: t("about", { fallback: "Acerca de" }),
+    },
+    {
+      href: homeAnchor("contact"),
+      label: t("contact", { fallback: "Contacto" }),
+    },
   ] as const;
 
   const year = new Date().getFullYear();
-  const copyright = t("copyright", { fallback: "Todos los derechos reservados." });
+  const copyright = t("copyright", {
+    fallback: "Todos los derechos reservados.",
+  });
 
   return (
     <footer className={styles.footer}>
@@ -88,7 +107,20 @@ export const Footer = () => {
               </div>
               <a href={`mailto:${WEBSITE_EMAIL}`} className={styles.email}>
                 <span>{WEBSITE_EMAIL}</span>
-                <span className={styles.emailArrow} aria-hidden="true" />
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="14"
+                  height="14"
+                  viewBox="0 0 14 14"
+                  fill="none"
+                >
+                  <path
+                    d="M2.91663 6.99984H11.0833M7.58329 2.9165L11.6666 6.99984L7.58329 11.0832"
+                    stroke="#ffffff"
+                    strokeWidth="1.16667"
+                    strokeLinecap="round"
+                  />
+                </svg>
               </a>
             </div>
 
@@ -98,17 +130,25 @@ export const Footer = () => {
                   {t("navigationLabel", { fallback: "Navegacion" })}
                 </p>
                 <div className={styles.linkList}>
-                  {navItems.map((item) => (
+                  {navItems.map((item) =>
                     item.isRoute ? (
-                      <Link key={item.href} href={item.href} className={styles.link}>
+                      <Link
+                        key={item.href}
+                        href={item.href}
+                        className={styles.link}
+                      >
                         {item.label}
                       </Link>
                     ) : (
-                      <a key={item.href} href={item.href} className={styles.link}>
+                      <a
+                        key={item.href}
+                        href={item.href}
+                        className={styles.link}
+                      >
                         {item.label}
                       </a>
-                    )
-                  ))}
+                    ),
+                  )}
                 </div>
               </div>
 
@@ -127,7 +167,7 @@ export const Footer = () => {
 
           <div className={styles.bottom}>
             <p className={styles.copyright}>
-              © {year} Selecta.{" "}{copyright}
+              © {year} Selecta. {copyright}
             </p>
           </div>
         </div>
