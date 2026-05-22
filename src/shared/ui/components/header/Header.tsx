@@ -26,6 +26,7 @@ export const Header = () => {
   const homePrefix = locale === 'es' ? '' : `/${locale}`;
   const homeAnchor = (hash: string) => `${homePrefix}/#${hash}`;
   const howItWorksHref = `${homePrefix}/como-funciona`;
+  const updatesHref = `${homePrefix}/actualizaciones-del-sector`;
 
   const navItems: readonly NavItem[] = [
     {
@@ -34,8 +35,9 @@ export const Header = () => {
       isRoute: true,
     },
     {
-      href: homeAnchor('updates'),
+      href: updatesHref,
       label: t('updates', { fallback: 'Actualizaciones del sector' }),
+      isRoute: true,
     },
     { href: homeAnchor('compare'), label: t('tools', { fallback: 'Herramientas' }) },
     { href: homeAnchor('platform'), label: t('about', { fallback: 'Acerca de' }) },

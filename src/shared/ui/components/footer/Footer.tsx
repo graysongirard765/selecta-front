@@ -22,6 +22,7 @@ export const Footer = () => {
   const homePrefix = locale === "es" ? "" : `/${locale}`;
   const homeAnchor = (hash: string) => `${homePrefix}/#${hash}`;
   const howItWorksHref = `${homePrefix}/como-funciona`;
+  const updatesHref = `${homePrefix}/actualizaciones-del-sector`;
   const legalTerms = t("terms", { fallback: "Terminos y condiciones" });
   const legalPrivacy = t("privacy", { fallback: "Politica de privacidad" });
   const legalCookies = t("cookies", { fallback: "Politica de cookies" });
@@ -41,8 +42,9 @@ export const Footer = () => {
       label: t("findBroker", { fallback: "Encontrar un broker" }),
     },
     {
-      href: homeAnchor("updates"),
+      href: updatesHref,
       label: t("updates", { fallback: "Actualizaciones del sector" }),
+      isRoute: true,
     },
     {
       href: homeAnchor("compare"),

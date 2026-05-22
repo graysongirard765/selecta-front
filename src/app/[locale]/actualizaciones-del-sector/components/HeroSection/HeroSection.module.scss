@@ -1,0 +1,88 @@
+.hero {
+  position: relative;
+  min-height: 676px;
+  padding: 183px 0 100px;
+  background:
+    linear-gradient(180deg, rgba(3, 3, 3, 0.14) 0%, rgba(3, 3, 3, 0.68) 100%),
+    center top / cover no-repeat url("/images/sector-updates/hero-desktop.png");
+  color: #f7f7f2;
+}
+
+.inner {
+  width: 100%;
+  padding: 0 120px;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(180deg, rgba(3, 3, 3, 0.08) 0%, rgba(3, 3, 3, 0.64) 100%);
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  gap: 28px;
+  width: min(100%, 100%);
+}
+
+.kicker {
+  margin: 0;
+  color: #fff;
+  font-size: 12px;
+  line-height: 1.4;
+  opacity: 0.4;
+  text-transform: uppercase;
+}
+
+.title {
+  margin: 0;
+  max-width: 1040px;
+  font-size: 100px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: -3px;
+}
+
+.description {
+  width: min(100%, 860px);
+  margin: 0;
+  color: rgba(247, 247, 242, 0.68);
+  font-size: 18px;
+  line-height: 1.4;
+  letter-spacing: -0.36px;
+}
+
+@media (max-width: 767px) {
+  .hero {
+    min-height: 0;
+    padding: 134px 0 64px;
+    background-image:
+      linear-gradient(180deg, rgba(3, 3, 3, 0.14) 0%, rgba(3, 3, 3, 0.68) 100%),
+      url("/images/sector-updates/hero-mobile.png");
+    background-position: center top;
+  }
+
+  .inner {
+    padding: 0 20px;
+  }
+
+  .content {
+    gap: 24px;
+  }
+
+  .title {
+    font-size: 50px;
+    line-height: 1.1;
+    letter-spacing: -2px;
+  }
+
+  .description {
+    font-size: 16px;
+    line-height: 1.4;
+    letter-spacing: 0;
+    max-width: 340px;
+  }
+}

@@ -15,6 +15,7 @@ export default function HowItWorksPage() {
   const locale = useLocale();
   const homePrefix = locale === "es" ? "" : `/${locale}`;
   const homeAnchor = (hash: string) => `${homePrefix}/#${hash}`;
+  const updatesHref = `${homePrefix}/actualizaciones-del-sector`;
 
   const steps: readonly StepItem[] = [
     {
@@ -51,7 +52,7 @@ export default function HowItWorksPage() {
           label: t("step2.ctaUpdates", {
             fallback: "Leer actualizaciones del sector",
           }),
-          href: homeAnchor("updates"),
+          href: updatesHref,
         },
       ],
     },
