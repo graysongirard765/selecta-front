@@ -1,0 +1,17 @@
+.page {
+  background: #f4f1eb;
+  color: #030303;
+  overflow: clip;
+}
+
+.waveBand {
+  position: relative;
+  min-height: 200px;
+  background: #030303 url('/images/home/wave-band-desktop.png') center / cover no-repeat;
+}
+
+@media (max-width: 767px) {
+  .waveBand {
+    background-image: url('/images/home/wave-band-mobile.png');
+  }
+}

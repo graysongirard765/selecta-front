@@ -1,0 +1,73 @@
+.hero {
+  position: relative;
+  background: center / cover no-repeat url('/images/how-it-works/hero-desktop.png');
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  gap: 32px;
+  width: min(820px, 100%);
+  padding: 192px 0 100px;
+  color: #fff;
+}
+
+.kicker {
+  margin: 0;
+  opacity: 0.4;
+  font-size: 12px;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.title {
+  margin: 0;
+  font-size: 100px;
+  font-weight: 400;
+  line-height: 0.96;
+  letter-spacing: -3px;
+}
+
+.description {
+  width: min(820px, 100%);
+  margin: 0;
+  opacity: 0.68;
+  font-size: 16px;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1023px) {
+  .content {
+    padding-top: 164px;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero {
+    background-image: url('/images/how-it-works/hero-mobile.png');
+  }
+
+  .content {
+    width: 100%;
+    gap: 28px;
+    padding: 180px 0 80px;
+  }
+
+  .title {
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: -0.64px;
+  }
+
+  .description {
+    width: 100%;
+  }
+}

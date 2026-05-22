@@ -1,0 +1,171 @@
+@use '@/shared/lib/styles/mixin.scss' as *;
+
+.form {
+  width: 100%;
+}
+
+.formInner {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px 48px;
+
+  @include mobile {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 0;
+}
+
+.fieldWide,
+.fieldMessage {
+  grid-column: 1 / -1;
+}
+
+.fieldTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.label,
+.meta {
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.label {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.meta {
+  color: rgba(255, 255, 255, 0.25);
+  font-size: 8px;
+  font-weight: 400;
+}
+
+.input,
+.textarea {
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 1);
+  background: transparent;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.4;
+  padding: 0 0 12px;
+
+  &::placeholder {
+    color: transparent;
+  }
+}
+
+.textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.inputError {
+  border-bottom-color: #ff6b6b;
+}
+
+.recaptcha {
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+
+  @include mobile {
+    justify-content: flex-start;
+  }
+}
+
+.submit {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 42px;
+  border: 1px solid #ec9117;
+  border-radius: 999px;
+  background: #ec9117;
+  color: #030303;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4;
+  padding: 11px 19px;
+  transition:
+    transform 0.2s ease,
+    background-color 0.2s ease;
+
+  &:hover {
+    background: #f2a12b;
+    transform: translateY(-1px);
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+    transform: none;
+  }
+}
+
+.submitArrow {
+  display: inline-flex;
+  width: 20px;
+  height: 20px;
+  position: relative;
+
+  &::before,
+  &::after {
+    content: '';
+    position: absolute;
+    background: #030303;
+  }
+
+  &::before {
+    width: 10px;
+    height: 1.5px;
+    left: 4px;
+    top: 9px;
+  }
+
+  &::after {
+    width: 6px;
+    height: 6px;
+    border-top: 1.5px solid #030303;
+    border-right: 1.5px solid #030303;
+    background: transparent;
+    right: 4px;
+    top: 6px;
+    transform: rotate(45deg);
+  }
+}
+
+.error {
+  color: #ff7b7b;
+  font-size: 12px;
+  line-height: 1.4;
+  margin: 0;
+}

@@ -1,0 +1,304 @@
+.header {
+  inset: 0 0 auto;
+  position: absolute;
+  z-index: 30;
+}
+
+.notice {
+  background: #030303;
+  color: #ffffff;
+}
+
+.noticeInner {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  min-height: 40px;
+}
+
+.noticeEmail {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 12px;
+  line-height: 1.4;
+  text-decoration: none;
+}
+
+.localeButton {
+  align-items: center;
+  background: transparent;
+  border: 0;
+  color: rgba(255, 255, 255, 0.8);
+  display: inline-flex;
+  gap: 4px;
+  padding: 0;
+}
+
+.localeButton span {
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.localeCaret,
+.navCaret {
+  border-left: 1px solid currentColor;
+  border-top: 1px solid currentColor;
+  display: inline-flex;
+  height: 6px;
+  transform: rotate(-135deg);
+  width: 6px;
+}
+
+.desktopBar {
+  display: block;
+  position: sticky;
+  top: 0;
+}
+
+.desktopShell {
+  align-items: center;
+  display: flex;
+  height: 72px;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.brand {
+  align-items: center;
+  color: #ec9117;
+  display: inline-flex;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.brandMark {
+  align-items: flex-end;
+  background: #030303;
+  border-radius: 11.81px;
+  display: inline-flex;
+  height: 26px;
+  justify-content: flex-end;
+  padding: 6px 6px 6px 7px;
+  width: 21.22px;
+}
+
+.brandDot {
+  background: #ec9117;
+  border-radius: 4px;
+  display: inline-flex;
+  height: 8px;
+  width: 8px;
+}
+
+.brandText {
+  color: #ec9117;
+  font-size: 19px;
+  font-weight: 500;
+  letter-spacing: -0.19px;
+  line-height: 1.5;
+}
+
+.nav {
+  align-items: center;
+  display: flex;
+  gap: 4px;
+  width: 579.58px;
+}
+
+.navItem {
+  align-items: center;
+  border-radius: 999px;
+  color: #ffffff;
+  display: inline-flex;
+  font-size: 14px;
+  gap: 4px;
+  line-height: 1.4;
+  padding: 8px 14px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.navItem:first-child {
+  padding-right: 8px;
+}
+
+.actions {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+}
+
+.contactAction,
+.primaryAction {
+  align-items: center;
+  border-radius: 999px;
+  display: inline-flex;
+  font-size: 14px;
+  line-height: 1.4;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.contactAction {
+  border: 1px solid #ec9117;
+  color: #ffffff;
+  padding: 13px 19px;
+}
+
+.primaryAction {
+  background: #ec9117;
+  border: 1px solid #ec9117;
+  color: #f7f7f2;
+  gap: 8px;
+  padding: 12px 14px;
+}
+
+.actionArrow {
+  display: inline-flex;
+  height: 20px;
+  position: relative;
+  width: 20px;
+}
+
+.actionArrow::before,
+.actionArrow::after {
+  content: '';
+  position: absolute;
+}
+
+.actionArrow::before {
+  background: currentColor;
+  height: 1.5px;
+  left: 4px;
+  top: 9px;
+  width: 10px;
+}
+
+.actionArrow::after {
+  border-right: 1.5px solid currentColor;
+  border-top: 1.5px solid currentColor;
+  height: 6px;
+  right: 4px;
+  top: 6px;
+  transform: rotate(45deg);
+  width: 6px;
+}
+
+.mobileBar {
+  display: none;
+}
+
+.mobilePanel {
+  display: none;
+}
+
+@media (max-width: 1023px) {
+  .desktopBar {
+    display: none;
+  }
+
+  .mobileBar {
+    display: block;
+  }
+
+  .mobileShell {
+    align-items: center;
+    background: rgba(48, 63, 83, 0.92);
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+
+  .mobileShell .brandMark {
+    border-radius: 10px;
+    height: 30px;
+    padding: 5px 5px 5px 7px;
+    width: 20px;
+  }
+
+  .mobileShell .brandDot {
+    border-radius: 4px;
+  }
+
+  .mobileShell .brandText {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .menuButton {
+    align-items: flex-end;
+    background: transparent;
+    border: 0;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 0;
+    width: 22px;
+  }
+
+  .menuLine {
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 1px;
+    display: block;
+    height: 2px;
+    width: 22px;
+  }
+
+  .menuLineShort {
+    width: 16px;
+  }
+
+  .mobilePanel {
+    display: block;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.24s ease;
+  }
+
+  .mobilePanelOpen {
+    max-height: 420px;
+  }
+
+  .mobileInner {
+    background: rgba(3, 3, 3, 0.96);
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 20px ;
+  }
+
+  .mobileNav {
+    display: grid;
+    gap: 0;
+  }
+
+  .mobileLink {
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    color: #ffffff;
+    display: flex;
+    font-size: 14px;
+    justify-content: space-between;
+    line-height: 1.4;
+    padding: 14px 0;
+    text-decoration: none;
+  }
+
+  .mobileActions {
+    display: grid;
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  .mobileActions .contactAction,
+  .mobileActions .primaryAction {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .noticeInner {
+    min-height: 40px;
+  }
+}

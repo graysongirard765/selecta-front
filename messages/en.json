@@ -1,0 +1,768 @@
+{
+  "homePage": {
+    "brokers": {
+      "tradeRepublic": {
+        "name": "Trade Republic",
+        "description": "Broker global · EU · UK",
+        "badge": "Verificado",
+        "markets": "Forex · Acciones · Cripto · ETFs",
+        "platform": "Web · Móvil · Escritorio",
+        "fees": "Desde 0,0 pips · 0€ custodia",
+        "tagRegulated": "Regulado",
+        "tagFastExecution": "Ejecución rápida",
+        "tagApi": "API",
+        "rating": "4.8 · 12,4k resenas",
+        "platforms": "Web · Movil · Escritorio",
+        "spreads": "Desde 0,0 pips · 0€ custodia",
+        "tag1": "Regulado",
+        "tag2": "Ejecucion rapida",
+        "tag3": "API"
+      },
+      "labels": {
+        "markets": "Mercados",
+        "platform": "Plataforma",
+        "fees": "Comisiones",
+        "platforms": "Plataforma",
+        "spreads": "Spreads"
+      },
+      "jadeTrax": {
+        "name": "JadeTrax",
+        "description": "Banco + broker · ES",
+        "badge": "Verificado",
+        "markets": "Acciones · Fondos · Bonos",
+        "tagLongTerm": "Largo plazo",
+        "tagRoboAdvisor": "Robo-advisor",
+        "tag1": "Largo plazo",
+        "tag2": "Robo-advisor"
+      },
+      "swissquote": {
+        "name": "Swissquote",
+        "description": "Broker · Acciones · ES",
+        "badge": "Verificado",
+        "markets": "Acciones · ETFs · Planes",
+        "tagZeroFee": "0€ compra",
+        "tagFractional": "Fraccionadas",
+        "tag1": "0€ compra",
+        "tag2": "Fraccionadas"
+      },
+      "revolut": {
+        "name": "Revolut",
+        "description": "Plataforma · Multi-mercado",
+        "badge": "Verificado",
+        "markets": "Forex · CFDs · Cripto",
+        "tagCopyTrading": "Copy trading",
+        "tagAnalytics": "Analítica",
+        "tagAlwaysOn": "24/7",
+        "tag1": "Copy trading",
+        "tag2": "Analitica",
+        "tag3": "24/7"
+      },
+      "xtb": {
+        "name": "XTB",
+        "description": "Banco privado · Global",
+        "badge": "Verificado",
+        "markets": "Acciones · Fondos · Alternativos",
+        "tagHighNetWorth": "Alta cartera",
+        "tagDedicatedAdvisor": "Asesor dedicado",
+        "tag1": "Alta cartera",
+        "tag2": "Asesor dedicado"
+      },
+      "fxpro": {
+        "name": "FxPro",
+        "description": "Broker retail · UE",
+        "badge": "Verificado",
+        "markets": "Acciones · Cripto · Derivados",
+        "tagCommunity": "Comunidad",
+        "tagEducation": "Educación",
+        "tag1": "Comunidad",
+        "tag2": "Educacion"
+      },
+      "step": "02 / Entender",
+      "titleLine1": "Conoce tus opciones",
+      "titleLine2": "reales a la hora de decidir.",
+      "closing": "Determina si alguna de estas companias puede cubrir tus necesidades informandote de una forma clara, rapida y precisa. Consulta sus servicios, costes y productos en un solo clic.",
+      "title": "Conoce tus opciones reales a la hora de decidir."
+    },
+    "comparison": {
+      "execution": {
+        "step": "01",
+        "title": "Entorno de ejecucion",
+        "body": "Infraestructura que respalda el procesamiento de ordenes y las operaciones de trading."
+      },
+      "costs": {
+        "step": "02",
+        "title": "Costes de trading",
+        "body": "Comisiones, tarifas y costes habituales de la cuenta."
+      },
+      "platform": {
+        "step": "03",
+        "title": "Plataforma",
+        "body": "Desde la plataforma acceso a tu cartera de inversion, noticias y diferentes ordenes."
+      },
+      "reviews": {
+        "step": "04",
+        "title": "Opinion de los clientes",
+        "body": "Resenas de usuarios disponibles en plataformas independientes que califican el servicio."
+      },
+      "step": "03 / Comparar",
+      "title": "Elementos a tener en cuenta a la hora de elegir.",
+      "description": "Al revisar plataformas o brokers, normalmente se comparan varios aspectos practicos que resumiremos a continuacion.",
+      "note": "Estos elementos ayudan a formar una vision mas clara de como se diferencian las plataformas entre todas ellas y cual nos puede ofrecer un servicio mucho mas personalizado."
+    },
+    "contact": {
+      "step": "08 / Contacto",
+      "eyebrow": "Contactar con el equipo",
+      "title": "Aqui para ayudar",
+      "description": "Si necesitas aclaraciones o resolver dudas sobre como funciona la plataforma, puedes contactar directamente con el equipo.",
+      "note": "Tu informacion de contacto solo se utilizara para responder a tu consulta. Selecta no comparte informacion personal con terceros."
+    },
+    "decision": {
+      "explore": {
+        "step": "01",
+        "title": "Explora",
+        "body": "Revisar el funcionamiento de las plataformas y la informacion disponible sobre ellas."
+      },
+      "compare": {
+        "step": "02",
+        "title": "Compara",
+        "body": "Examinar las diferencias y calificaciones entre todas las recomendaciones."
+      },
+      "select": {
+        "step": "03",
+        "title": "Selecciona",
+        "body": "Identificar cual de ellas se puede ajustar a tus preferencias de trading."
+      },
+      "step": "05 / Decidir",
+      "titleLine1": "Pasar de la búsqueda",
+      "titleLine2": "a la selección",
+      "subtitle": "La seleccion de brokers se desarrolla en tres pasos.",
+      "title": "Pasar de la busqueda a la seleccion"
+    },
+    "heroEyebrow": "SELECTA · BROKER DISCOVERY",
+    "heroTitleLineOne": "Descubre tu",
+    "heroTitleLineTwo": "broker.",
+    "heroDescription": "Encuentra la plataforma, banco o broker que mas se adapte a tu perfil y a tus necesidades.",
+    "heroPrimaryCta": "Get Started",
+    "introStep": "01 / Inicio",
+    "introTitle": "Comienza con una vision mas clara",
+    "introQuestionLineOne": "Cuando empiezas a buscar una empresa que te ofrezca un servicio",
+    "introQuestionLineTwo": "de inversion la primera pregunta suele ser:",
+    "introQuestionHighlight": "Donde?",
+    "introBodyPrimary": "Encontrar la respuesta normalmente implica gastar mucho tiempo en diferentes webs, buscar resenas y descripciones que muchas veces no alcanzamos a entender o desconocemos.",
+    "introBodySecondary": "En Selecta, te ayudamos a que la eleccion sea facil y comoda ayudandote durante todo el proceso para que puedas elegir con una vision mas clara antes de tomar una decision.",
+    "introCta": "Encontrar un broker",
+    "platform": {
+      "step": "07 / Nuestra plataforma",
+      "title": "Estructura independiente",
+      "cardTitle": "Un recurso independiente",
+      "lead": "Selecta es un recurso independiente dedicado a organizar la informacion de brokers y los desarrollos del sector.",
+      "body": "No actua como broker ni gestiona cuentas de trading. Su proposito es presentar la informacion de las diferentes alternativas dentro de una estructura mas clara que facilite la exploracion y la comparacion.",
+      "metaPrimary": "Plataforma · Independiente",
+      "metaSecondary": "Est. 2026",
+      "cta": "Acerca de la plataforma"
+    },
+    "reviews": {
+      "maria": {
+        "name": "Maria A.",
+        "source": "Trustpilot",
+        "rating": "4.7 / 5",
+        "quote": "Las condiciones de ejecucion y las comisiones se ven con claridad, sin tener que saltar entre webs."
+      },
+      "javier": {
+        "name": "Javier P.",
+        "source": "Trustpilot",
+        "rating": "4.9 / 5",
+        "quote": "Mire cuatro brokers en un rato. La comparacion estructurada ayuda a decidir sin prisa."
+      },
+      "lucia": {
+        "name": "Lucia O.",
+        "source": "Google Reviews",
+        "rating": "5.0 / 5",
+        "quote": "Selecta no me vende nada. Me organiza la informacion y me deja elegir con calma."
+      },
+      "step": "04 / Verificar",
+      "titleLine1": "Perspectivas",
+      "titleLine2": "externas de",
+      "titleLine3": "comunidades",
+      "titleLine4": "de trading",
+      "description": "Las plataformas de brokers se discuten con frecuencia en plataformas de resenas independientes donde los traders comparten sus experiencias.",
+      "note": "Estas perspectivas externas pueden proporcionar una ayuda adicional para entender y valorar el servicio antes de realizar una eleccion.",
+      "titleLineOne": "Perspectivas externas de",
+      "titleLineTwo": "comunidades de trading",
+      "title": "Perspectivas externas de comunidades de trading"
+    },
+    "updates": {
+      "article01": {
+        "alt": "Invierte a largo y corto plazo.",
+        "label": "Artículo 01",
+        "title": "Invierte a largo y corto plazo.",
+        "body": "Elige una Plataforma que te permita adaptar tu inversion en funcion de tus necesidades ya sean a largo o corto plazo que aumente tus posibilidades de obtener rentabilidad."
+      },
+      "article02": {
+        "alt": "Realiza aportaciones o reinvierte beneficios con comodidad.",
+        "label": "Artículo 02",
+        "title": "Realiza aportaciones o reinvierte beneficios con comodidad.",
+        "body": "Las herramientas analiticas ayudan a los inversores a revisar caracteristicas clave de las plataformas, como los costes de tarifas, las condiciones y el tiempo de ejecucion."
+      },
+      "article03": {
+        "alt": "Invierte y paga comisiones bajas por ello.",
+        "label": "Artículo 03",
+        "title": "Invierte y paga comisiones bajas por ello.",
+        "body": "El activo mas rentable es pagar comisiones bajas por realizar tu inversion, no puedes controlar si el mercado sube o baja, pero si puedes controlar lo que pagas por ello."
+      },
+      "readArticle": "Leer articulo",
+      "step": "06 / Actualizaciones",
+      "eyebrow": "El mercado global avanza, nosotros tambien.",
+      "titleLine1": "Qué está cambiando",
+      "titleLine2": "en las plataformas",
+      "description": "Mantente informado sobre los cambios en las plataformas. Explora nuevas herramientas, actualizaciones de noticias y cambios en el acceso al mercado.",
+      "cta": "Ver todas las actualizaciones",
+      "title": "Que esta cambiando en las plataformas"
+    },
+    "brokersStep": "02 / Entender",
+    "brokersTitle": "Conoce tus opciones reales a la hora de decidir.",
+    "brokersMarketsLabel": "Mercados",
+    "brokersPlatformLabel": "Plataforma",
+    "brokersFeesLabel": "Comisiones",
+    "brokersFooter": "Determina si alguna de estas companias puede cubrir tus necesidades informandote de una forma clara, rapida y precisa. Consulta sus servicios, costes y productos en un solo clic.",
+    "workSecurityTitle": "Security",
+    "workSecurityDescription": "We use cutting edge technologies to secure your transactions.",
+    "workTransparencyTitle": "Transparency",
+    "workTransparencyDescription": "No hidden fees or conditions",
+    "workPlatformTitle": "The platform",
+    "workPlatformDescription": "The platform is built for your convenience, based on time saving and easy to use methods.",
+    "workSupportTitle": "Professional support",
+    "workSupportDescription": "A highly experienced customer support staff is at your disposal for any issue you may have.",
+    "workTitle": "Why Selecta?",
+    "workCta": "Create a profile",
+    "converterSpendLabel": "You spend",
+    "converterReceiveLabel": "You get",
+    "heroTitle": "Cryptocurrency has never been that simple",
+    "heroSubtitle": "Sign up and exchange BTC & ETH!",
+    "converterTitle": "Exchange BTC & ETH",
+    "converterDescription": "Make an exchange with an incredible speed",
+    "plansTitle": "Exchange instantly!",
+    "plansDescription": "Exchange swiftly and securely. At Selecta, all of your funds are transferred using the safest possible methods.",
+    "plansCta": "Exchange now",
+    "faqPersonalDataEncryptionTitle": "Personal data encryption",
+    "faqPersonalDataEncryptionBody": "Your personal information is completely encrypted with cutting-edge technologies.",
+    "faqComplianceTitle": "Compliance",
+    "faqComplianceBody": "We verify our client’s identity at the highest level of compliance through AML and KYC checks.",
+    "faqTransactionSecurityTitle": "Transaction security",
+    "faqTransactionSecurityBody": "We are always one step ahead! Our multi-layer security protocol ensures the highest standards of client safety.",
+    "faqKycTitle": "Why do I need to pass the KYC check?",
+    "faqKycBody": "KYC verification helps us manage risks by verifying that every customer using our platform is not a risk to us or, more importantly, to you.",
+    "faqKycBodySecondary": "KYC is developed to avoid the risk of identity theft, money laundering, financial fraud, and criminal organisation financing.",
+    "faqSupportTitle": "Excellent support service",
+    "faqSupportBody": "We are here six days a week, from Monday till Saturday 10:00 – 02:00 GMT+3. On all other hours, you can email the support, and we will be in contact with you in less than 24 hours.",
+    "faqTitle": "We put safety first",
+    "faqDescription": "Our KYC process is simple and secure:",
+    "servicesBody": "Your privacy and security is our main objective. We have developed an impeccable safeguard system that excellently counters any threat to your data, funds, and transactions.",
+    "startStepOne": "Sign up and verify your email",
+    "startStepTwo": "Complete your profile verification process",
+    "startStepThree": "Exchange with no limits",
+    "startTitle": "How to start exchanging?",
+    "startCta": "Create a profile",
+    "approachBodyPrimary": "Every transaction is carefully screened and reviewed, not only for the platform's security but also for yours.",
+    "approachBodySecondary": "Selecta offers a cryptocurrency exchange that is guaranteed safe, efficient and convenient. Anyone, whether new or experienced, may buy and sell crypto at competitive rates and in a 'worry-free' environment, thanks to the technologies we deploy.",
+    "solutionsTitleLineOne": "Welcome",
+    "solutionsTitleLineTwo": "to Selecta!",
+    "solutionsDescription": "Your privacy and security are our main objectives.",
+    "solutionsCta": "More about safety"
+  },
+  "howItWorksPage": {
+    "step1": {
+      "kicker": "Paso 1",
+      "title": "Explorar brokers",
+      "body": "Comienza conociendo las plataformas más utilizadas y con mejores condiciones del mercado. La sección Encontrar un broker reúne perfiles de plataformas en un solo lugar. Cada perfil presenta los elementos clave de un entorno de corretaje en un formato consistente, lo que facilita revisar y moverse entre plataformas.",
+      "ctaPrimary": "Explorar brokers"
+    },
+    "step2": {
+      "kicker": "Paso 2",
+      "title": "No quedarse ahí e ir más allá del listado",
+      "body": "La investigación de brokers rara vez se detiene en el perfil básico. La sección Herramientas ofrece utilidades analíticas que ayudan a interpretar las condiciones de trading. Al mismo tiempo, Actualizaciones del sector sigue los cambios en torno a las plataformas, incluyendo nuevas funciones, ajustes y cambios en el acceso al mercado.",
+      "ctaTools": "Ver herramientas",
+      "ctaUpdates": "Leer actualizaciones del sector"
+    },
+    "step3": {
+      "kicker": "Paso 3",
+      "title": "Ver las diferencias",
+      "body": "Después de explorar los listados y revisar el contexto, el siguiente paso es observar cómo se diferencian las plataformas. Los usuarios suelen fijarse en los siguientes aspectos:",
+      "bulletPlatform": "Entorno de la plataforma",
+      "bulletTrading": "Condiciones de trading",
+      "bulletTechnology": "Tecnologías disponibles",
+      "bulletReviews": "Opiniones de usuarios externos"
+    },
+    "step4": {
+      "kicker": "Paso 4",
+      "title": "Continua tu investigación",
+      "body": "Una vez que una plataforma capte tu atención puedes seguir explorándola directamente. Selecta no abre cuentas, no gestiona transacciones ni participa en actividades de trading. El servicio se centra en organizar la información de brokers para que los usuarios puedan revisar las plataformas antes de avanzar por su cuenta.",
+      "ctaPrimary": "Encontrar un broker"
+    },
+    "hero": {
+      "kicker": "Selecta · Cómo funciona",
+      "title": "Cómo funciona.",
+      "description": "Sigue el proceso que siguen los inversores al explorar plataformas y descubre cómo Selecta organiza la información para que la búsqueda sea más clara y estructurada."
+    },
+    "intro": {
+      "kicker": "Cómo comienza la elección de una plataforma",
+      "title": "Selecta reúne listados de plataformas, contexto de mercado y herramientas prácticas.",
+      "body": "Selecta reúne listados de plataformas, contexto de mercado y herramientas prácticas para que los usuarios puedan avanzar en la búsqueda de una forma más clara y estructurada. El proceso se desarrolla en cuatro pasos que se describen a continuación."
+    },
+    "explore": {
+      "kicker": "Explora a tu propio ritmo",
+      "lead": "La investigación de brokers rara vez sigue un único camino. Algunos usuarios identifican rápidamente las plataformas que desean explorar más a fondo, mientras que otros dedican más tiempo a revisar herramientas, actualizaciones del sector y detalles de las plataformas antes de decidir en qué centrarse a continuación.",
+      "body": "La estructura de la plataforma permite a los usuarios moverse libremente entre secciones a medida que evoluciona su investigación."
+    },
+    "selection": {
+      "kicker": "Selección a tu medida",
+      "body": "Selecta opera como una plataforma independiente de búsqueda y comparación de brokers. No retiene fondos de clientes ni proporciona asesoramiento de inversión. Su función se limita a presentar información de brokers, herramientas y contexto del sector dentro de una estructura de investigación más clara."
+    }
+  },
+  "contactsForm": {
+    "firstName": "Nombre",
+    "firstNamePlaceholder": "Escribe tu nombre",
+    "lastName": "Apellido",
+    "lastNamePlaceholder": "Escribe tu apellido",
+    "email": "Email",
+    "emailPlaceholder": "Enter your email",
+    "phone": "Numero de telefono",
+    "phonePlaceholder": "Escribe tu numero de telefono",
+    "message": "Message",
+    "messagePlaceholder": "Leave your message here",
+    "required": "Required",
+    "optional": "Optional",
+    "loading": "Loading...",
+    "submit": "Send Message",
+    "name": "Name",
+    "namePlaceholder": "Enter your name"
+  },
+  "contactThankYou": {
+    "title": "Thank you for reaching out to Travellio Global!",
+    "messageReceived": "Your message has been successfully received. Our team will review your inquiry carefully and respond shortly.",
+    "appreciation": "We appreciate your interest and look forward to assisting you.",
+    "prompt": "Return to the previous page or:",
+    "cta": "Head Back Home"
+  },
+  "forms": {
+    "affiliateForm": {
+      "errors": {
+        "required": "This field is required.",
+        "emailInvalid": "Please provide a valid email address.",
+        "websiteInvalid": "Please provide a valid website address."
+      },
+      "fields": {
+        "name": {
+          "label": "Name:",
+          "placeholder": "Enter your full name"
+        },
+        "username": {
+          "label": "Username:",
+          "placeholder": "Enter your username"
+        },
+        "companyName": {
+          "label": "Company name:",
+          "placeholder": "Enter your company name"
+        },
+        "companyCountry": {
+          "label": "Company country:",
+          "placeholder": "Enter your company country"
+        },
+        "website": {
+          "label": "Website:",
+          "placeholder": "Enter your website"
+        },
+        "geoOfCustomers": {
+          "label": "GEO of customers:",
+          "placeholder": "Enter your GEO of customers"
+        },
+        "email": {
+          "label": "Email:",
+          "placeholder": "Enter your email"
+        },
+        "password": {
+          "label": "Password:",
+          "placeholder": "Enter your password"
+        },
+        "positionInCompany": {
+          "label": "Your position in the company:",
+          "placeholder": "Enter your position in the company"
+        },
+        "businessActivity": {
+          "label": "Your business activity:",
+          "placeholder": "Enter your business activity"
+        },
+        "yearsOnMarket": {
+          "label": "Years on the market:",
+          "placeholder": "Enter your company years on the market"
+        },
+        "plannedVolume": {
+          "label": "The planned amount of customers or volume:",
+          "placeholder": "Enter your planned amount of volume"
+        }
+      },
+      "sending": "Sending...",
+      "submit": "Send",
+      "popupAction": "Close",
+      "popupTitle": "Thank you!",
+      "popupMessage": "Your request has been sent successfully. Our Selecta team will review it and contact you asap."
+    },
+    "projectTypeWebsiteLabel": "Website",
+    "projectTypeWebApplicationLabel": "Web Application",
+    "projectTypeEcommerceLabel": "Ecommerce",
+    "projectTypeLandingPageLabel": "Landing Page",
+    "projectTypeRedesignLabel": "Redesign",
+    "projectTypePerformanceImprovementsLabel": "Performance Improvements",
+    "projectTypeOngoingSupportLabel": "Ongoing Support",
+    "projectTypeOtherOptionLabel": "Other",
+    "budgetUnder1000Label": "Under €1,000",
+    "budget1000To2500Label": "€1,000 – €2,500",
+    "budget2500To5000Label": "€2,500 – €5,000",
+    "budget5000PlusLabel": "€5,000+",
+    "timelineAsSoonAsPossibleLabel": "As soon as possible",
+    "timelineWithinOneToTwoMonthsLabel": "Within 1-2 months",
+    "timelineWithinTwoToFourMonthsLabel": "Within 2-4 months",
+    "timelineFlexibleLabel": "Flexible",
+    "communicationEmailLabel": "Email",
+    "communicationPhoneLabel": "Phone",
+    "communicationVideoCallLabel": "Video Call",
+    "customSolutionForm": {
+      "fileTooLarge": "Please choose a file smaller than 10MB.",
+      "title": "Start Your Project",
+      "description": "Tell us about your idea — we’ll help shape it into a clear, functional digital solution. Share a few details below, and we’ll get in touch to discuss the next steps.",
+      "resetAction": "Send Another Request",
+      "closeAction": "Close",
+      "successTitle": "Thank you!",
+      "successMessage": "Your request has been received. We will review the details and contact you shortly to discuss the next steps.",
+      "sections": {
+        "details": "Your Details",
+        "projectDetails": "Project Details",
+        "scopeBudget": "Project Scope & Budget"
+      },
+      "fields": {
+        "timeline": {
+          "label": "When would you like to get started?"
+        },
+        "communication": {
+          "label": "Preferred communication"
+        }
+      }
+    },
+    "nextStepsTitle": "Next Steps",
+    "nextStepsDescription": "Once submitted, we’ll review your request and reach out to discuss your idea, clarify details, and define the best way forward.",
+    "submit": "Submit",
+    "loading": "Sending…",
+    "fullNameLabel": "Full name",
+    "fullNamePlaceholder": "Tell us your name",
+    "emailLabel": "Email address",
+    "emailPlaceholder": "Enter your email",
+    "phoneLabel": "Phone number (optional)",
+    "phonePlaceholder": "Enter your phone number",
+    "websiteLabel": "Your website (optional)",
+    "websitePlaceholder": "Enter your website",
+    "projectTypeOtherLabel": "Please specify",
+    "projectTypeOtherPlaceholder": "Enter your option",
+    "projectTypeOtherHelper": "Use this field when \"Other\" is selected.",
+    "budgetLabel": "Estimated budget",
+    "goalsLabel": "What are your main goals for this project?",
+    "goalsPlaceholder": "Enter your goals",
+    "timelineFilesTitle": "Timeline & Optional Files",
+    "attachmentLabel": "Upload any materials (optional)",
+    "attachmentAction": "Choose File",
+    "attachmentEmpty": "no file selected",
+    "attachmentMeta": "Max size: 10MB",
+    "close": "Close",
+    "requestForm": {
+      "successTitle": "Thank you!",
+      "successMessage1": "Your request has been received successfully. Our team will review your details and contact you shortly to discuss the next steps."
+    },
+    "firstName": "First Name:",
+    "firstNamePlaceholder": "Enter your first name",
+    "lastName": "Last Name:",
+    "lastNamePlaceholder": "Enter your last name",
+    "email": "Email:",
+    "phone": "Phone:",
+    "website": "Your Website:",
+    "message": "Message:",
+    "messagePlaceholder": "Enter your message",
+    "supportForm": {
+      "errors": {
+        "required": "This field is required.",
+        "emailInvalid": "Please provide a valid email address."
+      },
+      "fields": {
+        "name": {
+          "label": "Name:",
+          "placeholder": "Enter your full name"
+        },
+        "email": {
+          "label": "Email:",
+          "placeholder": "Enter your email"
+        },
+        "message": {
+          "label": "Message:",
+          "placeholder": "Enter your message"
+        }
+      },
+      "sending": "Sending...",
+      "submit": "Send",
+      "popupAction": "Close",
+      "popupTitle": "Thank you!",
+      "popupMessage": "Your request has been sent successfully! Our Selecta team will review it and contact you asap!"
+    }
+  },
+  "notFoundPage": {
+    "title": "This Destination Doesn’t Exist",
+    "messagePrimary": "The page you’re looking for seems to have taken a different route.",
+    "cta": "Head Back Home",
+    "messageSecondary": "It may have moved — or perhaps it never existed at all. Either way, your journey continues.",
+    "prompt": "Return to the previous page or:"
+  },
+  "notFound": {
+    "title": "404 — Page Not Found",
+    "description": "The page you tried to reach isn’t here.",
+    "quickLinks": "Quick Links",
+    "button1": "Main Page",
+    "button2": "Free Guides",
+    "button3": "Contact Us"
+  },
+  "engagementPlansPage": {
+    "corePlanTitle": "Core Plan",
+    "corePlanDescription": "A practical website package designed for individuals who need a simple, professional online presence without advanced custom functionality.",
+    "corePlanPrice": "From €600",
+    "corePlanCta": "Order Core Plan",
+    "corePlanIncludedPageCount": "1–2 page modern website",
+    "corePlanIncludedResponsive": "Responsive design adaptation",
+    "corePlanIncludedSeo": "Basic SEO setup",
+    "corePlanIncludedContact": "Contact form integration",
+    "corePlanIncludedPresentation": "Clear, structured presentation",
+    "corePlanIncludedPerformance": "Fast-loading structure",
+    "corePlanIncludedLaunch": "Launch-ready delivery",
+    "frameworkPlanTitle": "Framework Plan",
+    "frameworkPlanDescription": "A flexible website package designed for individuals who need more structure, customization, and room to grow.",
+    "frameworkPlanPrice": "From €1,500",
+    "frameworkPlanCta": "Order Framework Plan",
+    "frameworkPlanIncludedPageCount": "3–5 page custom website",
+    "frameworkPlanIncludedDesign": "Enhanced UI/UX design",
+    "frameworkPlanIncludedResponsive": "Responsive layout adaptation",
+    "frameworkPlanIncludedSeo": "SEO foundations and metadata",
+    "frameworkPlanIncludedPerformance": "Performance optimization",
+    "frameworkPlanIncludedCms": "CMS-ready structure",
+    "frameworkPlanIncludedForms": "Lead capture or advanced forms (basic)",
+    "expansionPlanTitle": "Expansion Plan",
+    "expansionPlanDescription": "Designed for growing projects that require more functionality and flexibility.",
+    "expansionPlanPrice": "From €2,000",
+    "expansionPlanCta": "Order Expansion Plan",
+    "expansionPlanIncludedPageCount": "Up to 10 custom pages or sections",
+    "expansionPlanIncludedDesignSystem": "Advanced visual design system",
+    "expansionPlanIncludedInteractions": "Custom interactive elements",
+    "expansionPlanIncludedPerformance": "Optimized performance and speed",
+    "expansionPlanIncludedResponsiveness": "Enhanced responsiveness",
+    "expansionPlanIncludedWebApp": "Basic web app functionality (if required)",
+    "architecturePlanTitle": "Architecture Plan",
+    "architecturePlanDescription": "A comprehensive solution for complex projects that require custom functionality, flexibility, and long-term scalability.",
+    "architecturePlanPrice": "From €3,500",
+    "architecturePlanCta": "Order Architecture Plan",
+    "architecturePlanIncludedWebsite": "Fully custom website or platform",
+    "architecturePlanIncludedInteractions": "Advanced UI/UX with refined interactions",
+    "architecturePlanIncludedFlows": "Custom functionality & user flows",
+    "architecturePlanIncludedIntegrations": "API and system integrations",
+    "architecturePlanIncludedPerformance": "Performance and scalability optimization",
+    "architecturePlanIncludedExpansion": "Advanced structure for future expansion",
+    "architecturePlanIncludedWorkflow": "Priority development workflow",
+    "fullStackPlanTitle": "Full Stack Plan",
+    "fullStackPlanDescription": "A complete, high-end digital solution built from the ground up. Ideal for complex ideas requiring precision, scalability, and a fully tailored approach.",
+    "fullStackPlanPrice": "From €5,000",
+    "fullStackPlanCta": "Order Full Stack Plan",
+    "fullStackPlanIncludedSolution": "Fully custom web solution or application",
+    "fullStackPlanIncludedArchitecture": "Complex system architecture",
+    "fullStackPlanIncludedDesign": "Advanced UI/UX design and interaction logic",
+    "fullStackPlanIncludedBackend": "Custom features and backend functionality",
+    "fullStackPlanIncludedEcosystem": "Full integration ecosystem (APIs, tools, services)",
+    "fullStackPlanIncludedPerformance": "Performance engineering and optimization",
+    "fullStackPlanIncludedSupport": "Ongoing support (initial phase)",
+    "fullStackPlanIncludedDelivery": "Priority delivery and dedicated workflow"
+  },
+  "whatWeBuildPage": {
+    "customWebsitesTitle": "Custom Websites",
+    "customWebsitesDescription": "We create fully tailored websites designed around your vision and goals. Whether it's a personal project, portfolio, or service-based website, every detail is crafted to reflect your identity while maintaining usability and performance.",
+    "customWebsitesIncludedResponsiveDesign": "Responsive design across all devices",
+    "customWebsitesIncludedCleanStructure": "Clean structure and intuitive navigation",
+    "customWebsitesIncludedSeoFoundation": "SEO-friendly foundation",
+    "customWebsitesIncludedFastLoading": "Fast loading and optimized performance",
+    "customWebsitesIncludedScalableArchitecture": "Scalable architecture for future growth",
+    "webApplicationsTitle": "Web Applications",
+    "webApplicationsDescription": "For more advanced needs, we build web applications that go beyond static pages. These solutions include custom functionality, user interactions, and system logic tailored to your specific requirements.",
+    "webApplicationsIncludedCustomFeatures": "Custom features and user flows",
+    "webApplicationsIncludedSecureLogic": "Secure data handling and system logic",
+    "webApplicationsIncludedScalableArchitecture": "Scalable and modular architecture",
+    "webApplicationsIncludedIntegrations": "Integration with third-party tools",
+    "webApplicationsIncludedBackendStructure": "Performance-focused backend structure",
+    "uiUxDesignTitle": "UI/UX Design",
+    "uiUxDesignDescription": "Design is not just about appearance - it's about how your product works. We create interfaces that feel natural, structured, and easy to navigate, ensuring a smooth experience for every user.",
+    "uiUxDesignIncludedWireframing": "Wireframing and interface planning",
+    "uiUxDesignIncludedUserCentered": "User-centered design approach",
+    "uiUxDesignIncludedVisualLayouts": "Clean and modern visual layouts",
+    "uiUxDesignIncludedDesignSystems": "Consistent design systems",
+    "uiUxDesignIncludedUsability": "Improved usability and clarity",
+    "ecommerceSolutionsTitle": "E-Commerce Solutions",
+    "ecommerceSolutionsDescription": "We build online stores that are simple to manage and easy to use. The focus is on creating a seamless experience - from product browsing to checkout - while ensuring stability and performance.",
+    "ecommerceSolutionsIncludedCatalog": "Product and catalog setup",
+    "ecommerceSolutionsIncludedCheckout": "Secure checkout experience",
+    "ecommerceSolutionsIncludedMobileFlow": "Mobile-optimized shopping flow",
+    "ecommerceSolutionsIncludedIntegrations": "Payment and system integrations",
+    "ecommerceSolutionsIncludedOptimization": "Performance and speed optimization",
+    "landingPagesTitle": "Landing Pages",
+    "landingPagesDescription": "Landing pages are designed with one goal in mind - clear communication and focused action. We create pages that guide users naturally, without distraction or unnecessary elements.",
+    "landingPagesIncludedMessaging": "Clear structure and messaging",
+    "landingPagesIncludedLayout": "Conversion-focused layout",
+    "landingPagesIncludedResponsive": "Fast-loading and responsive design",
+    "landingPagesIncludedTools": "Integration with tools or forms",
+    "landingPagesIncludedFlow": "Optimized user flow",
+    "websiteRedesignTitle": "Website Redesign",
+    "websiteRedesignDescription": "If your current website no longer reflects your vision or performs effectively, we help transform it into a modern, structured, and efficient product.",
+    "websiteRedesignIncludedDesign": "Design and layout improvements",
+    "websiteRedesignIncludedStructure": "Structural and UX enhancements",
+    "websiteRedesignIncludedPerformance": "Performance upgrades",
+    "websiteRedesignIncludedContent": "Content reorganization",
+    "websiteRedesignIncludedRebuild": "Modern, responsive rebuild",
+    "performanceOptimizationTitle": "Performance Optimization",
+    "performanceOptimizationDescription": "Speed and performance directly impact user experience. We analyze and improve your website or application to ensure it runs efficiently and reliably.",
+    "performanceOptimizationIncludedSpeed": "Speed and loading optimization",
+    "performanceOptimizationIncludedRefinement": "Code and asset refinement",
+    "performanceOptimizationIncludedResponsiveness": "Improved responsiveness",
+    "performanceOptimizationIncludedAudits": "Performance audits and fixes",
+    "performanceOptimizationIncludedStability": "Stability improvements",
+    "maintenanceSupportTitle": "Maintenance & Support",
+    "maintenanceSupportDescription": "Digital products require ongoing care. We provide continuous support to keep your project secure, updated, and functioning without interruptions.",
+    "maintenanceSupportIncludedUpdates": "Regular updates and monitoring",
+    "maintenanceSupportIncludedBugFixes": "Bug fixes and issue resolution",
+    "maintenanceSupportIncludedPerformance": "Performance checks",
+    "maintenanceSupportIncludedFeatures": "Feature updates if needed",
+    "maintenanceSupportIncludedSupport": "Ongoing technical support"
+  },
+  "selectedWorkPage": {
+    "personalPortfolioPlatformTitle": "Personal Portfolio Platform",
+    "personalPortfolioPlatformOverview": "A clean, minimal portfolio designed for an individual showcasing creative work and services.",
+    "personalPortfolioPlatformChallenge": "The client needed a structured way to present their work without overwhelming visitors, while keeping the design refined and professional.",
+    "personalPortfolioPlatformSolution": "We developed a custom website with a clear layout, smooth navigation, and responsive design, ensuring content remained the focal point.",
+    "personalPortfolioPlatformFeature1": "Minimal UI/UX design",
+    "personalPortfolioPlatformFeature2": "Responsive layout",
+    "personalPortfolioPlatformFeature3": "Structured content flow",
+    "personalPortfolioPlatformFeature4": "Fast loading performance",
+    "ecommerceStoreForNicheProductsTitle": "E-Commerce Store for Niche Products",
+    "ecommerceStoreForNicheProductsOverview": "An online store built for a small niche product business, focused on simplicity and usability.",
+    "ecommerceStoreForNicheProductsChallenge": "Creating a seamless shopping experience without unnecessary complexity or a heavy interface.",
+    "ecommerceStoreForNicheProductsSolution": "We combined a streamlined product structure with an intuitive checkout flow that keeps the buying journey clear and efficient.",
+    "ecommerceStoreForNicheProductsFeature1": "Product catalog setup",
+    "ecommerceStoreForNicheProductsFeature2": "Secure checkout integration",
+    "ecommerceStoreForNicheProductsFeature3": "Performance optimization",
+    "serviceBasedWebsiteTitle": "Service-Based Website",
+    "serviceBasedWebsiteOverview": "A multi-page website designed for an individual offering professional services.",
+    "serviceBasedWebsiteChallenge": "The client needed a clear way to communicate services and guide users toward inquiry or booking.",
+    "serviceBasedWebsiteSolution": "We structured the website with focused sections, strong visual hierarchy, and clear calls to action.",
+    "serviceBasedWebsiteFeature1": "Structured service layout",
+    "serviceBasedWebsiteFeature2": "Contact form integration",
+    "serviceBasedWebsiteFeature3": "SEO-ready setup",
+    "webApplicationForBookingSystemTitle": "Web Application for Booking System",
+    "webApplicationForBookingSystemOverview": "A custom-built web application allowing users to manage bookings and sessions.",
+    "webApplicationForBookingSystemChallenge": "Developing a system that is easy to use while handling multiple interactions and user inputs.",
+    "webApplicationForBookingSystemSolution": "We created a structured backend with a simple front-end interface, making session management fast and flexible.",
+    "webApplicationForBookingSystemFeature1": "User-friendly dashboard",
+    "webApplicationForBookingSystemFeature2": "Booking and scheduling system",
+    "webApplicationForBookingSystemFeature3": "Data handling and logic",
+    "webApplicationForBookingSystemFeature4": "Scalable architecture",
+    "websiteRedesignProjectTitle": "Website Redesign Project",
+    "websiteRedesignProjectOverview": "A complete redesign of an outdated website that lacked structure and performance.",
+    "websiteRedesignProjectChallenge": "Improving usability and modernising the visual experience without losing existing content.",
+    "websiteRedesignProjectSolution": "We rebuilt the website with a new structure, improved navigation, and optimized performance.",
+    "websiteRedesignProjectFeature1": "Modern UI/UX redesign",
+    "websiteRedesignProjectFeature2": "Improved site structure",
+    "websiteRedesignProjectFeature3": "Faster loading speed",
+    "websiteRedesignProjectFeature4": "Responsive rebuild",
+    "highPerformanceLandingPageTitle": "High-Performance Landing Page",
+    "highPerformanceLandingPageOverview": "A single-page solution designed to clearly present an idea and guide user action.",
+    "highPerformanceLandingPageChallenge": "Keeping the page simple while making it engaging and effective.",
+    "highPerformanceLandingPageSolution": "We focused on clarity, structured content, and smooth interaction to guide users naturally.",
+    "highPerformanceLandingPageFeature1": "Conversion-focused design",
+    "highPerformanceLandingPageFeature2": "Clear content flow",
+    "highPerformanceLandingPageFeature3": "Fast and lightweight structure",
+    "highPerformanceLandingPageFeature4": "Responsive layout"
+  },
+  "cookiePopup": {
+    "title": "Cookie Notice",
+    "text": "We use cookies to keep things working as expected and to better understand how visitors interact with the site.",
+    "accept": "Accept Cookies",
+    "link": "More About Cookies"
+  },
+  "footer": {
+    "terms": "Terminos y condiciones",
+    "privacy": "Politica de privacidad",
+    "cookies": "Politica de cookies",
+    "home": "Home",
+    "howItWorks": "Como funciona",
+    "findBroker": "Encontrar un broker",
+    "updates": "Actualizaciones del sector",
+    "tools": "Herramientas",
+    "about": "About",
+    "contact": "Contacto",
+    "copyright": "Copyright {year} by Selecta. All Right Reserved",
+    "banner": "Selecta presenta informacion independiente sobre brokers y desarrollos del mercado. No ofrece servicios de inversion ni actua como intermediario financiero.",
+    "descriptionLead": "Plataforma independiente de descubrimiento de brokers.",
+    "descriptionBody": "Disenada para ayudar a las personas que estan interesados en invertir y ahorrar a identificar plataformas y bancos que ofrezcan las mejores condiciones del mercado.",
+    "navigationLabel": "Navigation",
+    "legalLabel": "Legal",
+    "eyebrow": "Broker discovery",
+    "brand": "Selecta",
+    "menuLabel": "Menu",
+    "productsLabel": "Products",
+    "officeLabel": "Office",
+    "description": "Selecta is a powerful and utterly safe crypto exchange platform.",
+    "legalPrimary1": "Selecta.io is owned and operated by",
+    "legalPrimary2": "Digital Currencies Exchange DCE No.",
+    "legalSecondary": "This website and its content have been produced and disseminated for persons outside of the United Kingdom. The information provided is not directed at or intended for distribution to, or use by, any person or entity located within the UK. The financial products and services mentioned on this website are not eligible for the UK. Cryptoassets are classified as Restricted Mass Market Investments in the UK, meaning that they are high-risk investments and are not suitable for most retail investors",
+    "paymentsAlt": "Accepted payment cards",
+    "legalPrimary": "Selecta.io is owned and operated by Digitex Corp Pty Ltd ACN 643 966 250 (Level 35, International Towers Sydney, 100 Barangaroo Ave, NSW 2000, Australia). Digital Currencies Exchange DCE No. 100713696-001",
+    "companyNumber": "Digital Currencies Exchange DCE No.",
+    "howToExchange": "How to exchange",
+    "affiliateProgram": "Affiliate program",
+    "faq": "Q&A",
+    "blog": "Blog",
+    "contactUs": "Contact us",
+    "termsOfService": "Terms and Conditions",
+    "privacyPolicy": "Privacy Policy",
+    "riskDisclosure": "Risk Disclosure",
+    "refundPolicy": "Refund Policy",
+    "amlPolicy": "AML & KYC Policy",
+    "officeAddress": "Level 35, International Towers Sydney, 100 Barangaroo Ave, NSW 2000, Australia",
+    "officePhone": "+61283173582",
+    "officeEmail": "Email"
+  },
+  "header": {
+    "howItWorks": "Como funciona",
+    "updates": "Actualizaciones del sector",
+    "tools": "Herramientas",
+    "about": "About",
+    "contact": "Contacto",
+    "findBroker": "Encontrar un broker",
+    "navLabel": "Main navigation",
+    "menu": "Menu",
+    "brandMeta": "Broker discovery",
+    "noticeTitle": "IMPORTANT NOTICE",
+    "noticeBodyPrimary": "This website is not intended for the UK audience. If you are accessing this website from the UK, please exit this site immediately.",
+    "noticeBodySecondary": "Please be informed that services offered on this website are currently not accessible to Retail Clients based in the UK.",
+    "brand": "Selecta",
+    "signUp": "Sign Up",
+    "logIn": "Log In",
+    "home": "Home",
+    "howToExchange": "How to exchange",
+    "affiliateProgram": "Affiliate program",
+    "faq": "Q&A",
+    "blog": "Blog",
+    "contactUs": "Contact us"
+  },
+  "priceList": {
+    "title": "Check our full price list",
+    "button": "Download"
+  }
+}

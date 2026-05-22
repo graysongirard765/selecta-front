@@ -1,0 +1,53 @@
+.section {
+  background: #f7f7f2;
+  padding: 64px 0;
+}
+
+.content {
+  display: grid;
+  gap: 32px;
+}
+
+.kicker {
+  margin: 0;
+  color: #ec9117;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.lead {
+  width: min(100%, 1200px);
+  margin: 0;
+  font-size: 32px;
+  line-height: 1.2;
+  letter-spacing: -0.64px;
+}
+
+.body {
+  width: min(100%, 1200px);
+  margin: 0;
+  color: #3a3f32;
+  font-size: 16px;
+  line-height: 1.4;
+  opacity: 0.75;
+}
+
+@media (max-width: 767px) {
+  .section {
+    padding: 52px 0;
+  }
+
+  .content {
+    gap: 24px;
+  }
+
+  .lead {
+    font-size: 18px;
+    line-height: 1.4;
+    letter-spacing: -0.36px;
+  }
+
+  .body {
+    font-size: 14px;
+  }
+}

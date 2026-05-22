@@ -1,0 +1,164 @@
+@use '@/shared/lib/styles/mixin.scss' as *;
+
+.section {
+  background: #030303;
+  color: #fff;
+  padding: 60px 0;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.kicker {
+  color: #ec9117;
+  font-size: 12px;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.title {
+  font-size: 60px;
+  font-weight: 400;
+  letter-spacing: -2px;
+  line-height: 1.1;
+  margin: 0;
+
+  @include mobile {
+    font-size: 38px;
+    letter-spacing: -0.76px;
+  }
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.04);
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 72px;
+  margin-top: 40px;
+  overflow: hidden;
+  padding: 72px;
+  position: relative;
+  min-height: 393px;
+
+  &::before,
+  &::after {
+    border: 1px solid rgba(236, 145, 23, 0.22);
+    border-radius: 999px;
+    content: '';
+    position: absolute;
+    right: -120px;
+    top: -120px;
+  }
+
+  &::before {
+    height: 420px;
+    width: 420px;
+  }
+
+  &::after {
+    height: 300px;
+    right: -60px;
+    top: -60px;
+    width: 300px;
+  }
+
+  @include tablet {
+    gap: 40px;
+    padding: 48px;
+  }
+
+  @include mobile {
+    grid-template-columns: 1fr;
+    gap: 28px;
+    padding: 32px;
+  }
+}
+
+.question,
+.copy {
+  position: relative;
+  z-index: 1;
+}
+
+.question {
+  font-size: 32px;
+  letter-spacing: -0.64px;
+  line-height: 1.2;
+
+  p {
+    margin: 0;
+  }
+
+  strong {
+    font-weight: 700;
+  }
+
+  @include mobile {
+    font-size: 26px;
+  }
+}
+
+.copy {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  max-width: 492px;
+
+  p {
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: -0.36px;
+    line-height: 1.4;
+    margin: 0;
+  }
+}
+
+.link {
+  align-items: center;
+  background: #ec9117;
+  border: 1px solid #ec9117;
+  border-radius: 999px;
+  color: #030303;
+  display: inline-flex;
+  gap: 4px;
+  font-size: 14px;
+  line-height: 1.4;
+  margin-top: 2px;
+  padding: 11px 19px;
+  text-decoration: none;
+  width: fit-content;
+}
+
+.linkArrow {
+  display: inline-flex;
+  width: 20px;
+  height: 20px;
+  position: relative;
+
+  &::before,
+  &::after {
+    content: '';
+    position: absolute;
+  }
+
+  &::before {
+    background: currentColor;
+    height: 1.5px;
+    left: 4px;
+    top: 9px;
+    width: 10px;
+  }
+
+  &::after {
+    border-right: 1.5px solid currentColor;
+    border-top: 1.5px solid currentColor;
+    height: 6px;
+    right: 4px;
+    top: 6px;
+    transform: rotate(45deg);
+    width: 6px;
+  }
+}
