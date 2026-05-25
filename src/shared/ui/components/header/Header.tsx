@@ -24,10 +24,12 @@ export const Header = () => {
   const locale = useLocale();
   const t = useTranslations('header');
   const homePrefix = locale === 'es' ? '' : `/${locale}`;
-  const homeAnchor = (hash: string) => `${homePrefix}/#${hash}`;
   const howItWorksHref = `${homePrefix}/como-funciona`;
   const updatesHref = `${homePrefix}/actualizaciones-del-sector`;
   const toolsHref = `${homePrefix}/herramientas`;
+  const brokersHref = `${homePrefix}/encontrar-un-broker`;
+  const aboutHref = `${homePrefix}/acerca-de`;
+  const contactHref = `${homePrefix}/contacto`;
 
   const navItems: readonly NavItem[] = [
     {
@@ -41,7 +43,7 @@ export const Header = () => {
       isRoute: true,
     },
     { href: toolsHref, label: t('tools', { fallback: 'Herramientas' }), isRoute: true },
-    { href: homeAnchor('platform'), label: t('about', { fallback: 'Acerca de' }) },
+    { href: aboutHref, label: t('about', { fallback: 'Acerca de' }), isRoute: true },
   ] as const;
 
   const contactLabel = t('contact', { fallback: 'Contacto' });
@@ -92,16 +94,14 @@ export const Header = () => {
           </nav>
 
           <div className={styles.actions}>
-            <a href={homeAnchor('contact')} className={styles.contactAction}>
-              {contactLabel}
-            </a>
+            <Link href={contactHref} className={styles.contactAction}>{contactLabel}</Link>
 
-            <a href={homeAnchor('brokers')} className={styles.primaryAction}>
+            <Link href={brokersHref} className={styles.primaryAction}>
               <span>{ctaLabel}</span>
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
   <path d="M13.3333 14.1667L17.5 10L13.3333 5.83334M17.5 10H2.5" stroke="white" strokeLinecap="round" strokeLinejoin="round"/>
 </svg>
-            </a>
+            </Link>
           </div>
         </div>
         </div>
@@ -161,14 +161,14 @@ export const Header = () => {
             </nav>
 
             <div className={styles.mobileActions}>
-              <a href={homeAnchor('contact')} className={styles.contactAction} onClick={() => setIsOpen(false)}>
+              <Link href={contactHref} className={styles.contactAction} onClick={() => setIsOpen(false)}>
                 {contactLabel}
-              </a>
+              </Link>
 
-              <a href={homeAnchor('brokers')} className={styles.primaryAction} onClick={() => setIsOpen(false)}>
+              <Link href={brokersHref} className={styles.primaryAction} onClick={() => setIsOpen(false)}>
                 <span>{ctaLabel}</span>
                 <span className={styles.actionArrow} aria-hidden="true" />
-              </a>
+              </Link>
             </div>
           </div>
         </div>

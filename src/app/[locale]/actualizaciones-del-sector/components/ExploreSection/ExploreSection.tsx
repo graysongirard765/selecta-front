@@ -8,7 +8,7 @@ export const ExploreSection = async () => {
   const locale = await getLocale();
   const t = await getTranslations("sectorUpdatesPage");
   const homePrefix = locale === "es" ? "" : `/${locale}`;
-  const homeAnchor = (hash: string) => `${homePrefix}/#${hash}`;
+  const brokersHref = `${homePrefix}/encontrar-un-broker`;
   const toolsHref = `${homePrefix}/herramientas`;
 
   return (
@@ -30,7 +30,7 @@ export const ExploreSection = async () => {
 
             <div className={styles.actions}>
               <a
-                href={homeAnchor("brokers")}
+                href={brokersHref}
                 className={`${styles.button} ${styles.buttonFilled}`}
               >
                 <span>
