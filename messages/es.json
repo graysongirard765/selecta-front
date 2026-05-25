@@ -347,6 +347,22 @@
       "body": "Selecta opera como una plataforma independiente de búsqueda y comparación de brokers. No retiene fondos de clientes ni proporciona asesoramiento de inversión. Su función se limita a presentar información de brokers, herramientas y contexto del sector dentro de una estructura de investigación más clara."
     }
   },
+  "contactPage": {
+    "contact": {
+      "kicker": "Datos de contacto",
+      "title": "Aquí para ayudar.",
+      "description": "Si prefieres una comunicación directa, puedes ponerte en contacto con el equipo utilizando los datos de contacto a continuación.",
+      "emailLabel": "CORREO ELECTRÓNICO",
+      "phoneLabel": "TELÉFONO",
+      "privacyTitle": "Selecta de privacidad",
+      "privacyBody": "Tu información de contacto solo se utilizará para responder a tu consulta. Selecta no comparte información personal con terceros."
+    },
+    "hero": {
+      "kicker": "SELECTA · CONTACTO",
+      "title": "Hablemos.",
+      "description": "Pueden surgir preguntas al explorar los listados de brokers, revisar la información de las plataformas o navegar por las diferentes secciones del sitio web. Si algo en la plataforma requiere aclaración, puedes contactar directamente con el equipo."
+    }
+  },
   "FindABrokerPageHero": {
     "title": "Encontrar un broker",
     "description": "Explora diferentes plataformas a través de listados organizados y perfiles de brokers estructurados."
@@ -463,6 +479,8 @@
     "phonePlaceholder": "Escribe tu numero de telefono",
     "message": "Mensaje",
     "messagePlaceholder": "Leave your message here",
+    "panelTitle": "Enviar un mensaje",
+    "panelDescription": "También puedes ponerte en contacto con nosotros a través del siguiente formulario.",
     "required": "Required",
     "optional": "Optional",
     "loading": "Loading...",

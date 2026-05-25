@@ -22,7 +22,15 @@ type FormField = {
   placeholder: string;
 };
 
-export const ContactFormContacts = () => {
+type ContactFormContactsProps = {
+  variant?: 'default' | 'contactPage';
+  showRecaptcha?: boolean;
+};
+
+export const ContactFormContacts = ({
+  variant = 'default',
+  showRecaptcha = ENABLE_RECAPTCHA,
+}: ContactFormContactsProps) => {
   const [isLoading, setIsLoading] = useState(false);
   const [recaptchaKey, setRecaptchaKey] = useState(0);
   const t = useTranslations('contactsForm');
@@ -67,14 +75,14 @@ export const ContactFormContacts = () => {
     reset,
     formState: { errors },
   } = useForm<ContactFormNewSchema>({
-    resolver: zodResolver(createContactFormNewSchema()),
+    resolver: zodResolver(createContactFormNewSchema(showRecaptcha)),
     defaultValues: {
       firstName: '',
       lastName: '',
       email: '',
       phone: '',
       message: '',
-      recaptcha: '',
+      recaptcha: showRecaptcha ? '' : 'disabled',
     },
   });
 
@@ -85,7 +93,7 @@ export const ContactFormContacts = () => {
         await submitContactFormNew(data);
         reset();
         setRecaptchaKey((currentValue) => currentValue + 1);
-        router.push('/contacts/thank-you');
+        router.push('/contacto/gracias');
       } catch (error) {
         console.error(error);
         setRecaptchaKey((currentValue) => currentValue + 1);
@@ -97,7 +105,7 @@ export const ContactFormContacts = () => {
   );
 
   const handleRecaptchaChange = (token: string | null) => {
-    if (ENABLE_RECAPTCHA) {
+    if (showRecaptcha) {
       setValue('recaptcha', token || '', { shouldValidate: true });
       return;
     }
@@ -106,7 +114,21 @@ export const ContactFormContacts = () => {
   };
 
   return (
-    <div className={styles.form}>
+    <div className={`${styles.form} ${variant === 'contactPage' ? styles.formContactPage : ''}`}>
+      {variant === 'contactPage' ? (
+        <div className={styles.header}>
+          <h2 className={styles.title}>
+            {t('panelTitle', { fallback: 'Enviar un mensaje' })}
+          </h2>
+          <p className={styles.description}>
+            {t('panelDescription', {
+              fallback:
+                'También puedes ponerte en contacto con nosotros a través del siguiente formulario.',
+            })}
+          </p>
+        </div>
+      ) : null}
+
       <form onSubmit={handleSubmit(onSubmit)} className={styles.formInner}>
         <div className={styles.grid}>
           {fields.map((field) => {
@@ -167,7 +189,7 @@ export const ContactFormContacts = () => {
           })}
         </div>
 
-        {ENABLE_RECAPTCHA ? (
+        {showRecaptcha ? (
           <div className={styles.recaptcha}>
             <ReCAPTCHA
               key={recaptchaKey}
