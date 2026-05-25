@@ -50,6 +50,8 @@
   font-size: 16px;
   line-height: 1.35;
   text-decoration: none;
+  &.tocLinkActive{
+    font-weight: 500;  }
 }
 
 .card {

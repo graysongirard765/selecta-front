@@ -9,6 +9,7 @@ export const ExploreSection = async () => {
   const t = await getTranslations("sectorUpdatesPage");
   const homePrefix = locale === "es" ? "" : `/${locale}`;
   const homeAnchor = (hash: string) => `${homePrefix}/#${hash}`;
+  const toolsHref = `${homePrefix}/herramientas`;
 
   return (
     <>
@@ -47,7 +48,7 @@ export const ExploreSection = async () => {
               </a>
 
               <a
-                href={homeAnchor("compare")}
+                href={toolsHref}
                 className={`${styles.button} ${styles.buttonOutline}`}
               >
                 <span>

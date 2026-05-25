@@ -16,6 +16,7 @@ export default function HowItWorksPage() {
   const homePrefix = locale === "es" ? "" : `/${locale}`;
   const homeAnchor = (hash: string) => `${homePrefix}/#${hash}`;
   const updatesHref = `${homePrefix}/actualizaciones-del-sector`;
+  const toolsHref = `${homePrefix}/herramientas`;
 
   const steps: readonly StepItem[] = [
     {
@@ -46,7 +47,7 @@ export default function HowItWorksPage() {
       ctas: [
         {
           label: t("step2.ctaTools", { fallback: "Ver herramientas" }),
-          href: homeAnchor("compare"),
+          href: toolsHref,
         },
         {
           label: t("step2.ctaUpdates", {
