@@ -23,6 +23,7 @@ export const Footer = () => {
   const homeAnchor = (hash: string) => `${homePrefix}/#${hash}`;
   const howItWorksHref = `${homePrefix}/como-funciona`;
   const updatesHref = `${homePrefix}/actualizaciones-del-sector`;
+  const toolsHref = `${homePrefix}/herramientas`;
   const legalTerms = t("terms", { fallback: "Terminos y condiciones" });
   const legalPrivacy = t("privacy", { fallback: "Politica de privacidad" });
   const legalCookies = t("cookies", { fallback: "Politica de cookies" });
@@ -47,8 +48,9 @@ export const Footer = () => {
       isRoute: true,
     },
     {
-      href: homeAnchor("compare"),
+      href: toolsHref,
       label: t("tools", { fallback: "Herramientas" }),
+      isRoute: true,
     },
     {
       href: homeAnchor("platform"),
