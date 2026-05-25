@@ -1,4 +1,7 @@
+@use '@/shared/lib/styles/mixin.scss' as *;
+
 .hero {
+  padding: 200px 0 100px;
   position: relative;
   background: center top / cover no-repeat url("/images/contact/hero-desktop.png");
 }
@@ -12,7 +15,13 @@
 .inner {
   position: relative;
   z-index: 1;
-  padding: 200px 120px 100px;
+  width: 100%;
+  max-width: 1328px;
+  margin: 0 auto;
+  padding: 0 16px;
+  @include largeDesktop {
+    max-width: 1440px;
+  }
 }
 
 .content {
@@ -49,11 +58,12 @@
 
 @media (max-width: 767px) {
   .hero {
+    padding: 128px 0 64px;
     background-image: url("/images/contact/hero-mobile.png");
   }
 
   .inner {
-    padding: 64px 20px;
+    padding: 0 16px;
   }
 
   .content {

@@ -1,3 +1,5 @@
+@use '@/shared/lib/styles/mixin.scss' as *;
+
 .section {
   background: #f7f7f2;
   padding: 120px;
@@ -7,6 +9,13 @@
   display: flex;
   gap: 64px;
   align-items: flex-start;
+  width: 100%;
+  max-width: 1328px;
+  margin: 0 auto;
+  padding: 0 16px;
+  @include largeDesktop {
+    max-width: 1440px;
+  }
 }
 
 .infoColumn {
