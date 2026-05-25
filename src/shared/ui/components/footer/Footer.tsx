@@ -20,10 +20,12 @@ export const Footer = () => {
   const t = useTranslations("footer");
   const locale = useLocale();
   const homePrefix = locale === "es" ? "" : `/${locale}`;
-  const homeAnchor = (hash: string) => `${homePrefix}/#${hash}`;
   const howItWorksHref = `${homePrefix}/como-funciona`;
   const updatesHref = `${homePrefix}/actualizaciones-del-sector`;
   const toolsHref = `${homePrefix}/herramientas`;
+  const brokersHref = `${homePrefix}/encontrar-un-broker`;
+  const aboutHref = `${homePrefix}/acerca-de`;
+  const contactHref = `${homePrefix}/contacto`;
   const legalTerms = t("terms", { fallback: "Terminos y condiciones" });
   const legalPrivacy = t("privacy", { fallback: "Politica de privacidad" });
   const legalCookies = t("cookies", { fallback: "Politica de cookies" });
@@ -39,8 +41,9 @@ export const Footer = () => {
       isRoute: true,
     },
     {
-      href: homeAnchor("brokers"),
+      href: brokersHref,
       label: t("findBroker", { fallback: "Encontrar un broker" }),
+      isRoute: true,
     },
     {
       href: updatesHref,
@@ -53,12 +56,14 @@ export const Footer = () => {
       isRoute: true,
     },
     {
-      href: homeAnchor("platform"),
+      href: aboutHref,
       label: t("about", { fallback: "Acerca de" }),
+      isRoute: true,
     },
     {
-      href: homeAnchor("contact"),
+      href: contactHref,
       label: t("contact", { fallback: "Contacto" }),
+      isRoute: true,
     },
   ] as const;
 

@@ -1,9 +1,12 @@
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 
 import styles from "./PlatformSection.module.scss";
 
 export const PlatformSection = () => {
   const t = useTranslations("homePage.platform");
+  const locale = useLocale();
+  const homePrefix = locale === "es" ? "" : `/${locale}`;
+  const aboutHref = `${homePrefix}/acerca-de`;
   const step = t("step", { fallback: "07 / Nuestra plataforma" });
   const title = t("title", { fallback: "Estructura independiente" });
   const cardTitle = t("cardTitle", { fallback: "Un recurso independiente" });
@@ -44,7 +47,7 @@ export const PlatformSection = () => {
             </div>
           </div>
 
-          <a href="#top" className={styles.cta}>
+          <a href={aboutHref} className={styles.cta}>
             <span>{cta}</span>
             <svg
               xmlns="http://www.w3.org/2000/svg"

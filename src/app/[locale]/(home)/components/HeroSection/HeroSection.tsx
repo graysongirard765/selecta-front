@@ -1,9 +1,12 @@
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 
 import styles from './HeroSection.module.scss';
 
 export const HeroSection = () => {
   const t = useTranslations('homePage');
+  const locale = useLocale();
+  const homePrefix = locale === 'es' ? '' : `/${locale}`;
+  const brokersHref = `${homePrefix}/encontrar-un-broker`;
   const eyebrow = t('heroEyebrow', { fallback: 'SELECTA · BROKER DISCOVERY' });
   const titleLineOne = t('heroTitleLineOne', { fallback: 'Descubre tu' });
   const titleLineTwo = t('heroTitleLineTwo', { fallback: 'broker.' });
@@ -30,7 +33,7 @@ export const HeroSection = () => {
 
           <p className={styles.description}>{description}</p>
 
-          <a href="#brokers" className={styles.cta}>
+          <a href={brokersHref} className={styles.cta}>
             <span>{cta}</span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
