@@ -1,0 +1,45 @@
+@use '@/shared/lib/styles/mixin.scss' as *;
+
+.broker_hero {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url('/images/find-a-broker/hero.jpg') lightgray 50% / cover no-repeat;
+
+    &__inner {
+        padding-top: 112px;
+        min-height: 468px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 32px;
+
+        @include tablet {
+            padding-top: 100px;
+        }
+
+        @include mobile {
+            gap: 28px;
+            min-height: 402px;
+        }
+    }
+
+    &__title {
+        color: #FFF;
+        font-size: 100px;
+        font-weight: 400;
+        line-height: 100%;
+        letter-spacing: -3px;
+
+        @include mobile {
+            font-size: 40px;
+            letter-spacing: -0.64px;
+        }
+    }
+
+    &__description {
+        max-width: 820px;
+        color: #FFF;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 140%;
+        text-transform: uppercase;
+    }
+}

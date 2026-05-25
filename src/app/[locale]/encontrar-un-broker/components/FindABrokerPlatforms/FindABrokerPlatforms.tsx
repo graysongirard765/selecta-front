@@ -1,41 +1,36 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 import { useTranslations } from 'next-intl';
 
 import { usePlatformsData } from '@/shared/lib/hooks/usePlatformsData';
 
-import styles from './UpdatesSection.module.scss';
+import styles from './FindABrokerPlatforms.module.scss';
 
-export const UpdatesSection = () => {
+export const FindABrokerPlatforms = () => {
   const { cards, readLabel } = usePlatformsData();
 
-  const t = useTranslations('homePage.updates');
+  const t = useTranslations('FindABrokerPlatforms');
 
   return (
     <section id="updates" className={styles.section}>
       <div className="container">
         <div className={styles.heading}>
           <div className={styles.copy}>
-            <p className={styles.step}>{t('step', { fallback: '06 / Actualizaciones' })}</p>
-            <p className={styles.eyebrow}>
-              {t('eyebrow', { fallback: 'El mercado global avanza, nosotros también.' })}
-            </p>
-
             <h2 className={styles.title}>
-              <span>{t('titleLine1', { fallback: 'Qué está cambiando' })}</span>
-              <span>{t('titleLine2', { fallback: 'en las plataformas' })}</span>
+              {t('title', { fallback: 'Mantente actualizado sobre las plataformas' })}
             </h2>
 
             <p className={styles.description}>
               {t('description', {
                 fallback:
-                  'Mantente informado sobre los cambios en las plataformas. Explora nuevas herramientas, actualizaciones de noticias y cambios en el acceso al mercado.',
+                  'Los servicios de brokers y los entornos de trading continúan evolucionando. Seguir los desarrollos del sector puede proporcionar contexto adicional al explorar plataformas de inversión.',
               })}
             </p>
           </div>
 
-          <a href="#top" className={styles.cta}>
-            <span>{t('cta', { fallback: 'Ver todas las actualizaciones' })}</span>
+          <Link href="/" className={styles.cta}>
+            <span>{t('link', { fallback: 'Ver actualizaciones del sector' })}</span>
             <Image
               src="/images/home/updates-arrow.svg"
               alt=""
@@ -44,7 +39,7 @@ export const UpdatesSection = () => {
               height={14}
               className={styles.arrow}
             />
-          </a>
+          </Link>
         </div>
 
         <div className={styles.grid}>
@@ -77,7 +72,7 @@ export const UpdatesSection = () => {
                 <p className={styles.cardBody}>{card.body}</p>
               </div>
 
-              <a href="#top" className={styles.cardLink}>
+              <Link href="/" className={styles.cardLink}>
                 <span>{readLabel}</span>
                 <Image
                   src="/images/home/updates-arrow.svg"
@@ -87,7 +82,7 @@ export const UpdatesSection = () => {
                   height={14}
                   className={styles.arrow}
                 />
-              </a>
+              </Link>
             </article>
           ))}
         </div>

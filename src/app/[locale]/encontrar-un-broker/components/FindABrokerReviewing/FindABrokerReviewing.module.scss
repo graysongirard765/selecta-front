@@ -1,0 +1,106 @@
+@use '@/shared/lib/styles/mixin.scss' as *;
+
+
+.find_broker_reviewing {
+    padding-block: 60px;
+    background: #030303;
+
+    &__top {
+        margin-bottom: 48px;
+    }
+
+    &__title {
+        color: #FFF;
+        font-size: 60px;
+        font-weight: 400;
+        line-height: 110%;
+        letter-spacing: -2px;
+        margin-bottom: 48px;
+
+        @include mobile {
+            font-size: 32px;
+            letter-spacing: -0.64px;
+        }
+    }
+
+    &__description {
+        max-width: 700px;
+        color: #FFF;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 140%;
+        letter-spacing: -0.36px;
+    }
+
+    &__list {
+        display: grid;
+        gap: 16px;
+        grid-template-columns: repeat(4, 1fr);
+
+        @include tablet {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        @include mobile {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    &__item {
+        padding: 40px;
+        background: rgba(255, 255, 255, 0.05);
+    }
+
+    &__item_top {
+        margin-bottom: 77px;
+
+        @include tablet {
+            margin-bottom: 12px;
+        }
+    }
+
+    &__item_number {
+        display: block;
+        color: #EC9117;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 140%;
+        margin-bottom: 12px;
+    }
+
+    &__item_title {
+        color: #FFF;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 130%;
+        letter-spacing: -0.33px;
+        margin-bottom: 8px;
+        max-width: 160px;
+
+        @include tablet {
+           max-width: initial;
+        }
+    }
+
+    &__item_description {
+        color: rgba(255, 255, 255, 0.80);
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 140%;
+        max-width: 208px;
+
+        @include tablet {
+            max-width: initial;
+        }
+    }
+
+    &__item_icon {
+        display: flex;
+        width: 42px;
+        height: 42px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 12px;
+        background: #FFF;
+    }
+}

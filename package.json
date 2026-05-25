@@ -22,7 +22,6 @@
     "classnames": "^2.5.1",
     "clsx": "^2.1.1",
     "framer-motion": "^12.28.1",
-    "fs": "^0.0.1-security",
     "google-libphonenumber": "^3.2.44",
     "gray-matter": "^4.0.3",
     "lenis": "^1.3.17",
