@@ -4,6 +4,35 @@
   width: 100%;
 }
 
+.formContactPage {
+  display: grid;
+  gap: 24px;
+  padding: 40px;
+  border-radius: 12px;
+  background: #030303;
+}
+
+.header {
+  display: grid;
+  gap: 6px;
+}
+
+.title {
+  margin: 0;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.3;
+  letter-spacing: -0.33px;
+}
+
+.description {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.45);
+  font-size: 14px;
+  line-height: 1.4;
+}
+
 .formInner {
   display: flex;
   flex-direction: column;
@@ -168,4 +197,70 @@
   font-size: 12px;
   line-height: 1.4;
   margin: 0;
+}
+
+.formContactPage {
+  .formInner {
+    gap: 24px;
+  }
+
+  .grid {
+    gap: 16px 20px;
+  }
+
+  .field {
+    gap: 6px;
+  }
+
+  .meta {
+    font-size: 10px;
+  }
+
+  .input,
+  .textarea {
+    border-bottom: 0;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.04);
+    font-size: 14px;
+    padding: 10px 14px;
+
+    &::placeholder {
+      color: rgba(255, 255, 255, 0.2);
+    }
+  }
+
+  .textarea {
+    min-height: 116px;
+  }
+
+  .inputError {
+    background: rgba(255, 0, 0, 0.15);
+    color: #ff5a5a;
+  }
+
+  .actions {
+    justify-content: flex-start;
+  }
+}
+
+@include mobile {
+  .formContactPage {
+    gap: 20px;
+    padding: 40px 20px;
+    border-radius: 0;
+
+    .formInner {
+      gap: 20px;
+    }
+
+    .grid {
+      gap: 20px;
+    }
+
+    .submit {
+      width: 100%;
+      justify-content: space-between;
+      padding: 14px 24px;
+    }
+  }
 }

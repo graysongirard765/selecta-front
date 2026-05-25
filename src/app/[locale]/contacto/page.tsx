@@ -1,5 +1,11 @@
-import { ContactSection } from "../(home)/components/ContactSection/ContactSection";
+import { ContactDetailsSection, HeroSection } from "./components";
+import styles from "./page.module.scss";
 
 export default function ContactPage() {
-  return <ContactSection />;
+  return (
+    <div className={styles.page}>
+      <HeroSection />
+      <ContactDetailsSection />
+    </div>
+  );
 }
