@@ -270,65 +270,6 @@
     "solutionsDescription": "Your privacy and security are our main objectives.",
     "solutionsCta": "More about safety"
   },
-  "AboutPageBroaderView": {
-    "subtitle": "Una visión más amplia del entorno de trading",
-    "title": "Los servicios de trading continúan cambiando a medida que evoluciona la tecnología de trading y se amplía el acceso al mercado.",
-    "description": "Las plataformas introducen nuevos instrumentos, actualizan el software de trading y ajustan las características de las cuentas con el tiempo. Seguir estos desarrollos puede proporcionar contexto adicional al revisar las plataformas de corretaje y sus entornos operativos.",
-    "rightSubtitle": "Seguir explorando",
-    "rightDesciption": "Si necesitas aclaraciones mientras exploras plataformas de brokers o utilizas sus herramientas analíticas, puedes ponerte en contacto a través de la página de contacto.",
-    "linkTitle": "Ir a Contacto"
-  },
-  "AboutPageHero": {
-    "subtitle": "SELECTA · ACERCA DE",
-    "title": "Un lugar donde la investigación se integra",
-    "description": "La investigación de brokers a menudo requiere consultar múltiples fuentes. Selecta reúne la información de brokers y el contexto del sector en un solo lugar para facilitar la exploración."
-  },
-  "AboutPageInformation": {
-    "subtitle": "Qué información se suele revisar",
-    "title": "Los elementos clave que los traders examinan al explorar plataformas de corretaje.",
-    "description": "Cuando los traders exploran plataformas de corretaje, la atención suele centrarse en varios aspectos prácticos del entorno de la plataforma.",
-    "itemTitleOne": "Infraestructura de ejecución",
-    "itemDescriptionOne": "Sistemas de procesamiento de órdenes y el entorno técnico que respalda la ejecución de operaciones.",
-    "itemTitleTwo": "Condiciones de trading",
-    "itemDescriptionTwo": "Spreads, comisiones, costes de financiación y otros parámetros relacionados con la actividad de trading.",
-    "itemTitleThree": "Acceso a la plataforma",
-    "itemDescriptionThree": "Disponibilidad del software de trading en entornos web, móvil y de escritorio.",
-    "itemTitleFour": "Opinión pública",
-    "itemDescriptionFour": "Experiencias compartidas por traders en plataformas de reseñas externas."
-  },
-  "AboutPageInvestigation": {
-    "subtitle": "Una plataforma diseñada para la exploración",
-    "title": "La investigación rara vez sigue un orden estricto.",
-    "descriptionOne": "Un usuario puede comenzar revisando listados, mientras que otro puede empezar con herramientas analíticas o con observaciones del sector.",
-    "descriptionTwo": "Dado que los caminos de investigación difieren, Selecta permite moverse entre secciones sin imponer una secuencia fija.",
-    "linkTitle": "Ver cómo funciona",
-    "listSubtitle": "El papel independiente de Selecta",
-    "listDescription": "Selecta opera como una plataforma independiente de búsqueda de brokers. El servicio no abre cuentas de trading, no retiene fondos de clientes, no ejecuta operaciones ni proporciona asesoramiento de inversión. Nuestro papel se limita a:",
-    "listItemTitleOne": "Organización de la información de brokers",
-    "listItemTitleOneTwo": "Observaciones del sector",
-    "listItemTitleOneThree": "Herramientas analíticas de investigación",
-    "listItemTitleOneFour": "Referencias a reseñas externas"
-  },
-  "AboutPageProcess": {
-    "subtitle": "Por qué la organización cambia el proceso de investigación",
-    "descriptionOne": "Las plataformas de brokers rara vez presentan su información de la misma manera. Los costes de trading pueden aparecer en una página, las capacidades de la plataforma en otra y el acceso al mercado en la documentación técnica.",
-    "descriptionTwo": "Cuando estos elementos se analizan dentro de un mismo marco, las diferencias entre plataformas se vuelven más fáciles de identificar.",
-    "descriptionThree": "Ese es el principio detrás de Selecta: mantener la información de brokers dentro de un entorno consistente donde las plataformas puedan explorarse sin cambiar constantemente de formato."
-  },
-  "AboutPageResources": {
-    "subtitle": "Un entorno, varias perspectivas",
-    "title": "Tres recursos integrados en una sola plataforma.",
-    "itemTitleOne": "Listados de brokers",
-    "itemDescriptionOne": "Perfiles estructurados que presentan las plataformas de trading en una sola vista general.",
-    "itemTitleTwo": "Observaciones del sector",
-    "itemDescriptionTwo": "Artículos que cubren desarrollos de plataformas, actualizaciones de infraestructura y cambios en el entorno.",
-    "itemTitleThree": "Utilidades analíticas",
-    "itemDescriptionThree": "Herramientas interactivas que permiten a los usuarios examinar parámetros de trading y supuestos de estrategia."
-  },
-  "sectorUpdatesArticlePage": {
-    "back": "Back",
-    "toc": "Table of contents"
-  },
   "sectorUpdatesPage": {
     "articlesLabelPrefix": "Artículo",
     "articlesRead": "Leer artículo",
@@ -352,6 +293,10 @@
     "servicesKicker": "SERVICIOS DE BROKERS A LO LARGO DEL TIEMPO",
     "servicesTitle": "Servicios fiables en el largo plazo",
     "servicesDescription": "Las plataformas de corretaje suelen ampliar y ajustar sus servicios a medida que evolucionan la tecnología de trading y el acceso al mercado. Con el tiempo, estos cambios pueden incluir:"
+  },
+  "sectorUpdatesArticlePage": {
+    "back": "Back",
+    "toc": "Table of contents"
   },
   "howItWorksPage": {
     "step1": {
@@ -402,6 +347,22 @@
       "body": "Selecta opera como una plataforma independiente de búsqueda y comparación de brokers. No retiene fondos de clientes ni proporciona asesoramiento de inversión. Su función se limita a presentar información de brokers, herramientas y contexto del sector dentro de una estructura de investigación más clara."
     }
   },
+  "contactPage": {
+    "contact": {
+      "kicker": "Datos de contacto",
+      "title": "Aquí para ayudar.",
+      "description": "Si prefieres una comunicación directa, puedes ponerte en contacto con el equipo utilizando los datos de contacto a continuación.",
+      "emailLabel": "CORREO ELECTRÓNICO",
+      "phoneLabel": "TELÉFONO",
+      "privacyTitle": "Selecta de privacidad",
+      "privacyBody": "Tu información de contacto solo se utilizará para responder a tu consulta. Selecta no comparte información personal con terceros."
+    },
+    "hero": {
+      "kicker": "SELECTA · CONTACTO",
+      "title": "Hablemos.",
+      "description": "Pueden surgir preguntas al explorar los listados de brokers, revisar la información de las plataformas o navegar por las diferentes secciones del sitio web. Si algo en la plataforma requiere aclaración, puedes contactar directamente con el equipo."
+    }
+  },
   "FindABrokerPageHero": {
     "title": "Encontrar un broker",
     "description": "Explora diferentes plataformas a través de listados organizados y perfiles de brokers estructurados."
@@ -413,14 +374,14 @@
     "itemLinkTwo": "Visitar broker",
     "sliderNext": "Siguiente"
   },
-  "FindABrokerPagePlatformSelect": {
-    "title": "Selecta de plataforma independiente",
-    "description": "La plataforma se centra en organizar la información de brokers para que los usuarios puedan explorar plataformas de corretaje inversión antes de continuar su investigación directamente con un broker."
-  },
   "FindABrokerPlatforms": {
     "title": "Mantente actualizado sobre las plataformas",
     "description": "Los servicios de brokers y los entornos de trading continúan evolucionando. Seguir los desarrollos del sector puede proporcionar contexto adicional al explorar plataformas de inversión.",
     "link": "Ver actualizaciones del sector"
+  },
+  "FindABrokerPagePlatformSelect": {
+    "title": "Selecta de plataforma independiente",
+    "description": "La plataforma se centra en organizar la información de brokers para que los usuarios puedan explorar plataformas de corretaje inversión antes de continuar su investigación directamente con un broker."
   },
   "FindABrokerPageReviewing": {
     "title": "Qué buscar al revisar brokers",
@@ -518,6 +479,8 @@
     "phonePlaceholder": "Escribe tu numero de telefono",
     "message": "Mensaje",
     "messagePlaceholder": "Leave your message here",
+    "panelTitle": "Enviar un mensaje",
+    "panelDescription": "También puedes ponerte en contacto con nosotros a través del siguiente formulario.",
     "required": "Required",
     "optional": "Optional",
     "loading": "Loading...",
@@ -547,7 +510,7 @@
     "findBroker": "Encontrar un broker",
     "updates": "Actualizaciones del sector",
     "tools": "Herramientas",
-    "about": "About",
+    "about": "Acerca de",
     "contact": "Contacto",
     "copyright": "Todos los derechos reservados.",
     "banner": "Selecta presenta informacion independiente sobre brokers y desarrollos del mercado. No ofrece servicios de inversion ni actua como intermediario financiero.",
@@ -585,7 +548,7 @@
     "howItWorks": "Como funciona",
     "updates": "Actualizaciones del sector",
     "tools": "Herramientas",
-    "about": "About",
+    "about": "Acerca de",
     "contact": "Contacto",
     "findBroker": "Encontrar un broker",
     "navLabel": "Main navigation",

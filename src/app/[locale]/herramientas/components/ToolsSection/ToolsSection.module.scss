@@ -6,7 +6,12 @@
 
 .inner {
   width: 100%;
-  padding: 0 120px;
+  max-width: 1328px;
+  margin: 0 auto;
+  padding: 0 16px;
+  @include largeDesktop {
+    max-width: 1440px;
+  }
 }
 
 .heading {
@@ -313,7 +318,7 @@
   }
 
   .inner {
-    padding: 0 20px;
+    padding: 0 16px;
   }
 
   .heading {

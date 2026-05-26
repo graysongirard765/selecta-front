@@ -1,9 +1,12 @@
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 
 import styles from './IntroSection.module.scss';
 
 export const IntroSection = () => {
   const t = useTranslations('homePage');
+  const locale = useLocale();
+  const homePrefix = locale === 'es' ? '' : `/${locale}`;
+  const brokersHref = `${homePrefix}/encontrar-un-broker`;
   const step = t('introStep', { fallback: '01 / Inicio' });
   const title = t('introTitle', { fallback: 'Comienza con una vision mas clara' });
   const questionLineOne = t('introQuestionLineOne', {
@@ -42,7 +45,7 @@ export const IntroSection = () => {
           <div className={styles.copy}>
             <p>{bodyPrimary}</p>
             <p>{bodySecondary}</p>
-            <a href="#brokers" className={styles.link}>
+            <a href={brokersHref} className={styles.link}>
               <span>{cta}</span>
               <svg
               xmlns="http://www.w3.org/2000/svg"

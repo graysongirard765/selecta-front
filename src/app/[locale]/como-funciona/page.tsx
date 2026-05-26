@@ -14,7 +14,7 @@ export default function HowItWorksPage() {
   const t = useTranslations("howItWorksPage");
   const locale = useLocale();
   const homePrefix = locale === "es" ? "" : `/${locale}`;
-  const homeAnchor = (hash: string) => `${homePrefix}/#${hash}`;
+  const brokersHref = `${homePrefix}/encontrar-un-broker`;
   const updatesHref = `${homePrefix}/actualizaciones-del-sector`;
   const toolsHref = `${homePrefix}/herramientas`;
 
@@ -30,7 +30,7 @@ export default function HowItWorksPage() {
       ctas: [
         {
           label: t("step1.ctaPrimary", { fallback: "Explorar brokers" }),
-          href: homeAnchor("brokers"),
+          href: brokersHref,
           filled: true,
         },
       ],
@@ -84,7 +84,7 @@ export default function HowItWorksPage() {
       ctas: [
         {
           label: t("step4.ctaPrimary", { fallback: "Encontrar un broker" }),
-          href: homeAnchor("brokers"),
+          href: brokersHref,
         },
       ],
     },

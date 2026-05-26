@@ -1,19 +1,15 @@
 @use '@/shared/lib/styles/mixin.scss' as *;
 
 .hero {
+  padding: 200px 0 100px;
   position: relative;
-  min-height: 320px;
-  padding: 202px 0 100px;
-  background:
-    center / cover no-repeat url("/images/tools/hero-desktop.png");
-  color: #f7f7f2;
+  background: center top / cover no-repeat url("/images/contact/hero-desktop.png");
 }
 
 .overlay {
   position: absolute;
   inset: 0;
-  background:
-    linear-gradient(180deg, rgba(3, 3, 3, 0.35) 0%, rgba(3, 3, 3, 0.68) 100%);
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .inner {
@@ -30,13 +26,14 @@
 
 .content {
   display: grid;
-  gap: 12px;
-  width: min(100%, 620px);
+  gap: 24px;
+  width: min(780px, 100%);
+  color: #fff;
 }
 
 .kicker {
   margin: 0;
-  color: rgba(247, 247, 242, 0.42);
+  opacity: 0.4;
   font-size: 12px;
   line-height: 1.4;
   text-transform: uppercase;
@@ -51,17 +48,18 @@
 }
 
 .description {
+  width: min(780px, 100%);
   margin: 0;
-  color: rgba(247, 247, 242, 0.82);
-  font-size: 14px;
+  opacity: 0.68;
+  font-size: 18px;
   line-height: 1.4;
+  letter-spacing: -0.36px;
 }
 
 @media (max-width: 767px) {
   .hero {
-    min-height: 260px;
-    padding: 128px 0 36px;
-    background-image: url("/images/tools/hero-mobile.png");
+    padding: 128px 0 64px;
+    background-image: url("/images/contact/hero-mobile.png");
   }
 
   .inner {
@@ -69,14 +67,18 @@
   }
 
   .content {
-    gap: 16px;
-    width: 100%;
-    max-width: 320px;
+    gap: 24px;
   }
 
   .title {
     font-size: 32px;
     line-height: 1.2;
     letter-spacing: -0.64px;
+  }
+
+  .description {
+    width: 100%;
+    font-size: 16px;
+    letter-spacing: 0;
   }
 }

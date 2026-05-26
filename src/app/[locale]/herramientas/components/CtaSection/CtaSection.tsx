@@ -8,7 +8,7 @@ export const CtaSection = async () => {
   const locale = await getLocale();
   const t = await getTranslations("toolsPage");
   const homePrefix = locale === "es" ? "" : `/${locale}`;
-  const brokersHref = `${homePrefix}/#brokers`;
+  const brokersHref = `${homePrefix}/encontrar-un-broker`;
   const updatesHref = `${homePrefix}/actualizaciones-del-sector`;
 
   return (
