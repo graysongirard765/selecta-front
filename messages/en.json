@@ -1,203 +1,205 @@
 {
   "homePage": {
     "brokers": {
-      "step": "02 / Entender",
-      "titleLine1": "Conoce tus opciones",
-      "titleLine2": "reales a la hora de decidir.",
-      "closing": "Determina si alguna de estas companias puede cubrir tus necesidades informandote de una forma clara, rapida y precisa. Consulta sus servicios, costes y productos en un solo clic.",
+      "step": "02 / Understand",
+      "titleLine1": "Know your real",
+      "titleLine2": "options before deciding.",
+      "closing": "See whether any of these companies can meet your needs with clear, fast and precise information. Review their services, costs and products in a single click.",
       "tradeRepublic": {
         "name": "Trade Republic",
         "description": "Broker global · EU · UK",
-        "badge": "Verificado",
-        "markets": "Forex · Acciones · Cripto · ETFs",
-        "platform": "Web · Móvil · Escritorio",
-        "fees": "Desde 0,0 pips · 0€ custodia",
-        "tagRegulated": "Regulado",
-        "tagFastExecution": "Ejecución rápida",
+        "badge": "Verified",
+        "markets": "Forex · Stocks · Crypto · ETFs",
+        "platform": "Web · Mobile · Desktop",
+        "fees": "From 0.0 pips · €0 custody",
+        "tagRegulated": "Regulated",
+        "tagFastExecution": "Fast execution",
         "tagApi": "API",
-        "rating": "4.8 · 12,4k resenas",
-        "platforms": "Web · Movil · Escritorio",
-        "spreads": "Desde 0,0 pips · 0€ custodia",
-        "tag1": "Regulado",
-        "tag2": "Ejecucion rapida",
+        "rating": "4.8 · 12.4k reviews",
+        "platforms": "Web · Mobile · Desktop",
+        "spreads": "From 0.0 pips · €0 custody",
+        "tag1": "Regulated",
+        "tag2": "Fast execution",
         "tag3": "API"
       },
       "labels": {
-        "markets": "Mercados",
-        "platform": "Plataforma",
-        "fees": "Comisiones",
-        "platforms": "Plataforma",
+        "markets": "Markets",
+        "platform": "Platform",
+        "fees": "Fees",
+        "platforms": "Platform",
         "spreads": "Spreads"
       },
       "jadeTrax": {
         "name": "JadeTrax",
-        "description": "Banco + broker · ES",
-        "badge": "Verificado",
-        "markets": "Acciones · Fondos · Bonos",
-        "tagLongTerm": "Largo plazo",
+        "description": "Bank + broker · ES",
+        "badge": "Verified",
+        "markets": "Stocks · Funds · Bonds",
+        "tagLongTerm": "Long term",
         "tagRoboAdvisor": "Robo-advisor",
-        "tag1": "Largo plazo",
+        "tag1": "Long term",
         "tag2": "Robo-advisor"
       },
       "swissquote": {
         "name": "Swissquote",
-        "description": "Broker · Acciones · ES",
-        "badge": "Verificado",
-        "markets": "Acciones · ETFs · Planes",
-        "tagZeroFee": "0€ compra",
-        "tagFractional": "Fraccionadas",
-        "tag1": "0€ compra",
-        "tag2": "Fraccionadas"
+        "description": "Broker · Stocks · ES",
+        "badge": "Verified",
+        "markets": "Stocks · ETFs · Plans",
+        "tagZeroFee": "€0 purchase",
+        "tagFractional": "Fractional",
+        "tag1": "€0 purchase",
+        "tag2": "Fractional"
       },
       "revolut": {
         "name": "Revolut",
-        "description": "Plataforma · Multi-mercado",
-        "badge": "Verificado",
+        "description": "Platform · Multi-market",
+        "badge": "Verified",
         "markets": "Forex · CFDs · Cripto",
         "tagCopyTrading": "Copy trading",
-        "tagAnalytics": "Analítica",
+        "tagAnalytics": "Analytics",
         "tagAlwaysOn": "24/7",
         "tag1": "Copy trading",
-        "tag2": "Analitica",
+        "tag2": "Analytics",
         "tag3": "24/7"
       },
       "xtb": {
         "name": "XTB",
-        "description": "Banco privado · Global",
-        "badge": "Verificado",
-        "markets": "Acciones · Fondos · Alternativos",
-        "tagHighNetWorth": "Alta cartera",
-        "tagDedicatedAdvisor": "Asesor dedicado",
-        "tag1": "Alta cartera",
-        "tag2": "Asesor dedicado"
+        "description": "Private bank · Global",
+        "badge": "Verified",
+        "markets": "Stocks · Funds · Alternatives",
+        "tagHighNetWorth": "High-net-worth",
+        "tagDedicatedAdvisor": "Dedicated advisor",
+        "tag1": "High-net-worth",
+        "tag2": "Dedicated advisor"
       },
       "fxpro": {
         "name": "FxPro",
-        "description": "Broker retail · UE",
-        "badge": "Verificado",
-        "markets": "Acciones · Cripto · Derivados",
-        "tagCommunity": "Comunidad",
-        "tagEducation": "Educación",
-        "tag1": "Comunidad",
-        "tag2": "Educacion"
+        "description": "Retail broker · EU",
+        "badge": "Verified",
+        "markets": "Stocks · Crypto · Derivatives",
+        "tagCommunity": "Community",
+        "tagEducation": "Education",
+        "tag1": "Community",
+        "tag2": "Education"
       },
-      "title": "Conoce tus opciones reales a la hora de decidir."
+      "title": "Know your real options before deciding."
     },
     "comparison": {
       "execution": {
         "step": "01",
-        "title": "Entorno de ejecucion",
-        "body": "Infraestructura que respalda el procesamiento de ordenes y las operaciones de trading."
+        "title": "Execution environment",
+        "body": "Infrastructure that supports order processing and trading operations."
       },
       "costs": {
         "step": "02",
-        "title": "Costes de trading",
-        "body": "Comisiones, tarifas y costes habituales de la cuenta."
+        "title": "Trading costs",
+        "body": "Commissions, fees and standard account costs."
       },
       "platform": {
         "step": "03",
-        "title": "Plataforma",
-        "body": "Desde la plataforma acceso a tu cartera de inversion, noticias y diferentes ordenes."
+        "title": "Platform",
+        "body": "Access your investment portfolio, news and different order types from the platform."
       },
       "reviews": {
         "step": "04",
-        "title": "Opinion de los clientes",
-        "body": "Resenas de usuarios disponibles en plataformas independientes que califican el servicio."
+        "title": "Customer opinion",
+        "body": "User reviews available on independent platforms that rate the service."
       },
-      "step": "03 / Comparar",
-      "title": "Elementos a tener en cuenta a la hora de elegir.",
-      "description": "Al revisar plataformas o brokers, normalmente se comparan varios aspectos practicos que resumiremos a continuacion.",
-      "note": "Estos elementos ayudan a formar una vision mas clara de como se diferencian las plataformas entre todas ellas y cual nos puede ofrecer un servicio mucho mas personalizado."
+      "step": "03 / Compare",
+      "title": "What to keep in mind when choosing.",
+      "description": "When reviewing platforms or brokers, several practical aspects are usually compared, which we summarize below.",
+      "note": "These elements help create a clearer view of how platforms differ from one another and which one may offer a more suitable service."
     },
     "contact": {
-      "step": "08 / Contacto",
-      "eyebrow": "Contactar con el equipo",
-      "title": "Aqui para ayudar",
-      "description": "Si necesitas aclaraciones o resolver dudas sobre como funciona la plataforma, puedes contactar directamente con el equipo.",
-      "note": "Tu informacion de contacto solo se utilizara para responder a tu consulta. Selecta no comparte informacion personal con terceros."
+      "step": "08 / Contact",
+      "eyebrow": "Contact the team",
+      "title": "Here to help",
+      "description": "If you need clarification or have questions about how the platform works, you can contact the team directly.",
+      "note": "Your contact information will only be used to respond to your enquiry. Selecta does not share personal information with third parties."
     },
     "decision": {
       "explore": {
         "step": "01",
-        "title": "Explora",
-        "body": "Revisar el funcionamiento de las plataformas y la informacion disponible sobre ellas."
+        "title": "Explore",
+        "body": "Review how the platforms work and the information available about them."
       },
       "compare": {
         "step": "02",
-        "title": "Compara",
-        "body": "Examinar las diferencias y calificaciones entre todas las recomendaciones."
+        "title": "Compare",
+        "body": "Examine the differences and ratings across all recommendations."
       },
       "select": {
         "step": "03",
-        "title": "Selecciona",
-        "body": "Identificar cual de ellas se puede ajustar a tus preferencias de trading."
+        "title": "Select",
+        "body": "Identify which one best fits your trading preferences."
       },
-      "step": "05 / Decidir",
-      "titleLine1": "Pasar de la búsqueda",
-      "titleLine2": "a la selección",
-      "subtitle": "La seleccion de brokers se desarrolla en tres pasos.",
-      "title": "Pasar de la busqueda a la seleccion"
+      "step": "05 / Decide",
+      "titleLine1": "Move from search",
+      "titleLine2": "to selection",
+      "subtitle": "Broker selection happens in three steps.",
+      "title": "Move from search to selection"
     },
     "heroEyebrow": "SELECTA · BROKER DISCOVERY",
     "heroTitleLineOne": "Descubre tu",
     "heroTitleLineTwo": "broker.",
-    "heroDescription": "Encuentra la plataforma, banco o broker que mas se adapte a tu perfil y a tus necesidades.",
-    "heroPrimaryCta": "Get Started",
-    "introStep": "01 / Inicio",
-    "introTitle": "Comienza con una vision mas clara",
-    "introQuestionLineOne": "Cuando empiezas a buscar una empresa que te ofrezca un servicio",
-    "introQuestionLineTwo": "de inversion la primera pregunta suele ser:",
-    "introQuestionHighlight": "Donde?",
-    "introBodyPrimary": "Encontrar la respuesta normalmente implica gastar mucho tiempo en diferentes webs, buscar resenas y descripciones que muchas veces no alcanzamos a entender o desconocemos.",
-    "introBodySecondary": "En Selecta, te ayudamos a que la eleccion sea facil y comoda ayudandote durante todo el proceso para que puedas elegir con una vision mas clara antes de tomar una decision.",
-    "introCta": "Encontrar un broker",
+    "heroDescription": "Find the platform, bank or broker that best matches your profile and needs.",
+    "heroPrimaryCta": "Find a broker",
+    "introStep": "01 / Start",
+    "introTitle": "Start with a clearer view",
+    "introQuestionLineOne": "When you start looking for a company that offers you an",
+    "introQuestionLineTwo": "investment service, the first question is usually:",
+    "introQuestionHighlight": "Where?",
+    "introBodyPrimary": "Finding the answer usually means spending a lot of time across different websites, reading reviews and descriptions that are often unclear or unfamiliar.",
+    "introBodySecondary": "At Selecta, we help make the choice simple and convenient by guiding you through the process so you can decide with a clearer perspective.",
+    "introCta": "Find a broker",
     "platform": {
       "step": "07 / Nuestra plataforma",
-      "title": "Estructura independiente",
-      "cardTitle": "Un recurso independiente",
-      "lead": "Selecta es un recurso independiente dedicado a organizar la informacion de brokers y los desarrollos del sector.",
-      "body": "No actua como broker ni gestiona cuentas de trading. Su proposito es presentar la informacion de las diferentes alternativas dentro de una estructura mas clara que facilite la exploracion y la comparacion.",
-      "metaPrimary": "Plataforma · Independiente",
+      "title": "Independent structure",
+      "cardTitle": "An independent resource",
+      "lead": "Selecta is an independent resource dedicated to organizing broker information and industry developments.",
+      "body": "It does not act as a broker or manage trading accounts. Its purpose is to present information about different options within a clearer structure that makes exploration and comparison easier.",
+      "metaPrimary": "Platform · Independent",
       "metaSecondary": "Est. 2026",
-      "cta": "Acerca de la plataforma"
+      "cta": "About the platform"
     },
     "reviews": {
       "maria": {
         "name": "Maria A.",
         "source": "Trustpilot",
         "rating": "4.7 / 5",
-        "quote": "Las condiciones de ejecucion y las comisiones se ven con claridad, sin tener que saltar entre webs."
+        "quote": "Execution conditions and fees are easy to understand without jumping between websites."
       },
       "javier": {
         "name": "Javier P.",
         "source": "Trustpilot",
         "rating": "4.9 / 5",
-        "quote": "Mire cuatro brokers en un rato. La comparacion estructurada ayuda a decidir sin prisa."
+        "quote": "I looked at four brokers in no time. Structured comparison helps you decide without rushing."
       },
       "lucia": {
         "name": "Lucia O.",
         "source": "Google Reviews",
         "rating": "5.0 / 5",
-        "quote": "Selecta no me vende nada. Me organiza la informacion y me deja elegir con calma."
+        "quote": "Selecta doesn't try to sell me anything. It organizes the information and lets me choose calmly."
       },
-      "step": "04 / Verificar",
-      "titleLine1": "Perspectivas",
-      "titleLine2": "externas de",
-      "titleLine3": "comunidades",
-      "titleLine4": "de trading",
-      "description": "Las plataformas de brokers se discuten con frecuencia en plataformas de resenas independientes donde los traders comparten sus experiencias.",
-      "note": "Estas perspectivas externas pueden proporcionar una ayuda adicional para entender y valorar el servicio antes de realizar una eleccion.",
-      "titleLineOne": "Perspectivas externas de",
-      "titleLineTwo": "comunidades de trading",
-      "title": "Perspectivas externas de comunidades de trading"
+      "step": "04 / Verify",
+      "titleLine1": "External",
+      "titleLine2": "perspectives from",
+      "titleLine3": "trading",
+      "titleLine4": "communities",
+      "description": "Broker platforms are often discussed on independent review platforms where traders share their experiences.",
+      "note": "These external perspectives can provide additional support when understanding and evaluating a service before making a choice.",
+      "titleLineOne": "External perspectives from",
+      "titleLineTwo": "trading communities",
+      "title": "External perspectives from trading communities"
     },
     "updates": {
-      "step": "06 / Actualizaciones",
-      "eyebrow": "El mercado global avanza, nosotros también.",
-      "titleLine1": "Qué está cambiando",
-      "titleLine2": "en las plataformas",
-      "description": "Mantente informado sobre los cambios en las plataformas. Explora nuevas herramientas, actualizaciones de noticias y cambios en el acceso al mercado.",
-      "cta": "Ver todas las actualizaciones",
+      "articleLabelPrefix": "Article",
+      "readArticle": "Read article",
+      "step": "06 / Updates",
+      "eyebrow": "The global market moves forward, and so do we.",
+      "titleLine1": "What is changing",
+      "titleLine2": "across platforms",
+      "description": "Stay informed about platform changes. Explore new tools, news updates and changes in market access.",
+      "cta": "View all updates",
       "article01": {
         "alt": "Invierte a largo y corto plazo.",
         "label": "Artículo 01",
@@ -215,16 +217,14 @@
         "label": "Artículo 03",
         "title": "Invierte y paga comisiones bajas por ello.",
         "body": "El activo más rentable es pagar comisiones bajas por realizar tu inversión, no puedes controlar si el mercado sube o baja, pero si puedes controlar lo que pagas por ello."
-      },
-      "readArticle": "Leer artículo",
-      "articleLabelPrefix": "Artículo"
+      }
     },
-    "brokersStep": "02 / Entender",
-    "brokersTitle": "Conoce tus opciones reales a la hora de decidir.",
-    "brokersMarketsLabel": "Mercados",
-    "brokersPlatformLabel": "Plataforma",
-    "brokersFeesLabel": "Comisiones",
-    "brokersFooter": "Determina si alguna de estas companias puede cubrir tus necesidades informandote de una forma clara, rapida y precisa. Consulta sus servicios, costes y productos en un solo clic.",
+    "brokersStep": "02 / Understand",
+    "brokersTitle": "Know your real options before deciding.",
+    "brokersMarketsLabel": "Markets",
+    "brokersPlatformLabel": "Platform",
+    "brokersFeesLabel": "Fees",
+    "brokersFooter": "See whether any of these companies can meet your needs with clear, fast and precise information. Review their services, costs and products in a single click.",
     "workSecurityTitle": "Security",
     "workSecurityDescription": "We use cutting edge technologies to secure your transactions.",
     "workTransparencyTitle": "Transparency",
@@ -270,29 +270,84 @@
     "solutionsDescription": "Your privacy and security are our main objectives.",
     "solutionsCta": "More about safety"
   },
+  "AboutPageBroaderView": {
+    "subtitle": "A broader view of the trading environment",
+    "title": "Trading services continue to change as trading technology evolves and market access expands.",
+    "description": "Platforms introduce new instruments, update trading software and adjust account features over time. Following these developments can provide additional context when reviewing broker platforms and their operating environments.",
+    "rightSubtitle": "Keep exploring",
+    "rightDesciption": "If you need clarification while exploring broker platforms or using analytical tools, you can get in touch through the contact page.",
+    "linkTitle": "Go to Contact"
+  },
+  "AboutPageHero": {
+    "subtitle": "SELECTA · ABOUT",
+    "title": "A place where research comes together",
+    "description": "Broker research often requires checking multiple sources. Selecta brings broker information and industry context together in one place to make exploration easier."
+  },
+  "AboutPageInformation": {
+    "subtitle": "What information is usually reviewed",
+    "title": "The key elements traders examine when exploring broker platforms.",
+    "description": "When traders explore broker platforms, attention usually focuses on several practical aspects of the platform environment.",
+    "itemTitleOne": "Execution infrastructure",
+    "itemDescriptionOne": "Order-processing systems and the technical environment that supports trade execution.",
+    "itemTitleTwo": "Trading conditions",
+    "itemDescriptionTwo": "Spreads, commissions, financing costs and other parameters related to trading activity.",
+    "itemTitleThree": "Platform access",
+    "itemDescriptionThree": "Availability of trading software across web, mobile and desktop environments.",
+    "itemTitleFour": "Public opinion",
+    "itemDescriptionFour": "Experiences shared by traders on external review platforms."
+  },
+  "AboutPageInvestigation": {
+    "subtitle": "A platform designed for exploration",
+    "title": "Research rarely follows a strict order.",
+    "descriptionOne": "One user may start by reviewing listings, while another may begin with analytical tools or industry observations.",
+    "descriptionTwo": "Because research paths differ, Selecta allows movement between sections without imposing a fixed sequence.",
+    "linkTitle": "See how it works",
+    "listSubtitle": "Selecta's independent role",
+    "listDescription": "Selecta operates as an independent broker discovery platform. The service does not open trading accounts, hold client funds, execute trades or provide investment advice. Our role is limited to:",
+    "listItemTitleOne": "Organizing broker information",
+    "listItemTitleOneTwo": "Industry observations",
+    "listItemTitleOneThree": "Analytical research tools",
+    "listItemTitleOneFour": "External review references"
+  },
+  "AboutPageProcess": {
+    "subtitle": "Why organization changes the research process",
+    "descriptionOne": "Broker platforms rarely present information in the same way. Trading costs may appear on one page, platform capabilities on another and market access in technical documentation.",
+    "descriptionTwo": "When these elements are reviewed within the same framework, differences between platforms become easier to identify.",
+    "descriptionThree": "That is the principle behind Selecta: keeping broker information within a consistent environment where platforms can be explored without constantly switching formats."
+  },
+  "AboutPageResources": {
+    "subtitle": "One environment, multiple perspectives",
+    "title": "Three resources integrated into a single platform.",
+    "itemTitleOne": "Broker listings",
+    "itemDescriptionOne": "Structured profiles that present trading platforms in a single overview.",
+    "itemTitleTwo": "Industry observations",
+    "itemDescriptionTwo": "Articles covering platform developments, infrastructure updates and environmental changes.",
+    "itemTitleThree": "Analytical tools",
+    "itemDescriptionThree": "Interactive tools that let users examine trading parameters and strategy assumptions."
+  },
   "sectorUpdatesPage": {
-    "articlesLabelPrefix": "Artículo",
-    "articlesRead": "Leer artículo",
-    "articlesKicker": "ACTUALIZACIONES RECIENTES",
-    "articlesTitle": "Qué está cambiando en las plataformas",
-    "exploreKicker": "DE LA INFORMACIÓN A LA EXPLORACIÓN",
-    "exploreBody": "Las observaciones del sector pueden proporcionar contexto adicional al revisar las plataformas de corretaje. Continúa tu investigación explorando los listados de brokers y las herramientas analíticas disponibles en la plataforma.",
-    "explorePrimary": "Encontrar un broker",
-    "exploreSecondary": "Explorar herramientas",
-    "heroKicker": "SELECTA · ACTUALIZACIONES DEL SECTOR",
-    "heroTitle": "Actualizaciones del sector.",
-    "heroDescription": "Comprende cómo evolucionan las plataformas de corretaje con el tiempo desde cambios tecnológicos hasta transformaciones en la infraestructura de trading y los entornos de las plataformas.",
-    "servicesTitlePlatformUpdates": "Actualizaciones de la plataforma",
-    "servicesBodyPlatformUpdates": "El software de trading evoluciona con nuevas funciones, actualizaciones de la interfaz y entornos de ejecución mejorados.",
-    "servicesTitleNewTools": "Nuevas herramientas de trading",
-    "servicesBodyNewTools": "Las plataformas introducen herramientas analíticas adicionales, funciones de automatización y utilidades de la plataforma.",
-    "servicesTitleMarketAccess": "Ampliación del acceso al mercado",
-    "servicesBodyMarketAccess": "Los inversores pueden añadir gradualmente nuevas clases de activos como acciones, ETF, criptomonedas o derivados.",
-    "servicesTitleAdjustments": "Ajustes de servicios",
-    "servicesBodyAdjustments": "Las estructuras de cuentas, las capacidades de la plataforma y las funciones disponibles pueden cambiar a medida que las plataformas perfeccionan sus servicios.",
-    "servicesKicker": "SERVICIOS DE BROKERS A LO LARGO DEL TIEMPO",
-    "servicesTitle": "Servicios fiables en el largo plazo",
-    "servicesDescription": "Las plataformas de corretaje suelen ampliar y ajustar sus servicios a medida que evolucionan la tecnología de trading y el acceso al mercado. Con el tiempo, estos cambios pueden incluir:"
+    "articlesLabelPrefix": "Article",
+    "articlesRead": "Read article",
+    "articlesKicker": "RECENT UPDATES",
+    "articlesTitle": "What is changing across platforms",
+    "exploreKicker": "FROM INFORMATION TO EXPLORATION",
+    "exploreBody": "Industry observations can provide additional context when reviewing broker platforms. Continue your research by exploring broker listings and analytical tools available on the platform.",
+    "explorePrimary": "Find a broker",
+    "exploreSecondary": "Explore tools",
+    "heroKicker": "SELECTA · INDUSTRY UPDATES",
+    "heroTitle": "Industry updates.",
+    "heroDescription": "Understand how broker platforms evolve over time, from technology changes to shifts in trading infrastructure and platform environments.",
+    "servicesTitlePlatformUpdates": "Platform updates",
+    "servicesBodyPlatformUpdates": "Trading software evolves with new features, interface updates and improved execution environments.",
+    "servicesTitleNewTools": "New trading tools",
+    "servicesBodyNewTools": "Platforms introduce additional analytical tools, automation features and platform utilities.",
+    "servicesTitleMarketAccess": "Expanded market access",
+    "servicesBodyMarketAccess": "Investors may gradually gain access to new asset classes such as stocks, ETFs, cryptocurrencies or derivatives.",
+    "servicesTitleAdjustments": "Service adjustments",
+    "servicesBodyAdjustments": "Account structures, platform capabilities and available features may change as platforms refine their services.",
+    "servicesKicker": "BROKER SERVICES OVER TIME",
+    "servicesTitle": "Reliable services in the long term",
+    "servicesDescription": "Broker platforms often expand and adjust their services as trading technology and market access evolve. Over time, these changes may include:"
   },
   "sectorUpdatesArticlePage": {
     "back": "Back",
@@ -300,191 +355,191 @@
   },
   "howItWorksPage": {
     "step1": {
-      "kicker": "Paso 1",
-      "title": "Explorar brokers",
-      "body": "Comienza conociendo las plataformas más utilizadas y con mejores condiciones del mercado. La sección Encontrar un broker reúne perfiles de plataformas en un solo lugar. Cada perfil presenta los elementos clave de un entorno de corretaje en un formato consistente, lo que facilita revisar y moverse entre plataformas.",
-      "ctaPrimary": "Explorar brokers"
+      "kicker": "Step 1",
+      "title": "Explore brokers",
+      "body": "Start by getting to know the most widely used platforms with the strongest market conditions. The Find a broker section brings platform profiles together in one place. Each profile presents the key elements of a brokerage environment in a consistent format, making it easier to review and move between platforms.",
+      "ctaPrimary": "Explore brokers"
     },
     "step2": {
-      "kicker": "Paso 2",
-      "title": "No quedarse ahí e ir más allá del listado",
-      "body": "La investigación de brokers rara vez se detiene en el perfil básico. La sección Herramientas ofrece utilidades analíticas que ayudan a interpretar las condiciones de trading. Al mismo tiempo, Actualizaciones del sector sigue los cambios en torno a las plataformas, incluyendo nuevas funciones, ajustes y cambios en el acceso al mercado.",
-      "ctaTools": "Ver herramientas",
-      "ctaUpdates": "Leer actualizaciones del sector"
+      "kicker": "Step 2",
+      "title": "Go beyond the listing",
+      "body": "Broker research rarely stops at the basic profile. The Tools section offers analytical utilities that help interpret trading conditions. At the same time, Industry updates tracks platform-related changes, including new features, adjustments and changes in market access.",
+      "ctaTools": "View tools",
+      "ctaUpdates": "Read industry updates"
     },
     "step3": {
-      "kicker": "Paso 3",
-      "title": "Ver las diferencias",
-      "body": "Después de explorar los listados y revisar el contexto, el siguiente paso es observar cómo se diferencian las plataformas. Los usuarios suelen fijarse en los siguientes aspectos:",
-      "bulletPlatform": "Entorno de la plataforma",
-      "bulletTrading": "Condiciones de trading",
-      "bulletTechnology": "Tecnologías disponibles",
-      "bulletReviews": "Opiniones de usuarios externos"
+      "kicker": "Step 3",
+      "title": "See the differences",
+      "body": "After exploring listings and reviewing the context, the next step is to see how platforms differ. Users usually focus on the following aspects:",
+      "bulletPlatform": "Platform environment",
+      "bulletTrading": "Trading conditions",
+      "bulletTechnology": "Available technologies",
+      "bulletReviews": "External user opinions"
     },
     "step4": {
-      "kicker": "Paso 4",
-      "title": "Continua tu investigación",
-      "body": "Una vez que una plataforma capte tu atención puedes seguir explorándola directamente. Selecta no abre cuentas, no gestiona transacciones ni participa en actividades de trading. El servicio se centra en organizar la información de brokers para que los usuarios puedan revisar las plataformas antes de avanzar por su cuenta.",
-      "ctaPrimary": "Encontrar un broker"
+      "kicker": "Step 4",
+      "title": "Continue your research",
+      "body": "Once a platform catches your attention, you can continue exploring it directly. Selecta does not open accounts, manage transactions or take part in trading activity. The service focuses on organizing broker information so users can review platforms before proceeding on their own.",
+      "ctaPrimary": "Find a broker"
     },
     "hero": {
-      "kicker": "Selecta · Cómo funciona",
-      "title": "Cómo funciona.",
-      "description": "Sigue el proceso que siguen los inversores al explorar plataformas y descubre cómo Selecta organiza la información para que la búsqueda sea más clara y estructurada."
+      "kicker": "Selecta · How it works",
+      "title": "How it works.",
+      "description": "Follow the process investors use when exploring platforms and discover how Selecta organizes information to make research clearer and more structured."
     },
     "intro": {
-      "kicker": "Cómo comienza la elección de una plataforma",
-      "title": "Selecta reúne listados de plataformas, contexto de mercado y herramientas prácticas.",
-      "body": "Selecta reúne listados de plataformas, contexto de mercado y herramientas prácticas para que los usuarios puedan avanzar en la búsqueda de una forma más clara y estructurada. El proceso se desarrolla en cuatro pasos que se describen a continuación."
+      "kicker": "How platform selection begins",
+      "title": "Selecta brings together platform listings, market context and practical tools.",
+      "body": "Selecta brings together platform listings, market context and practical tools so users can move forward with research in a clearer and more structured way. The process unfolds in four steps described below."
     },
     "explore": {
-      "kicker": "Explora a tu propio ritmo",
-      "lead": "La investigación de brokers rara vez sigue un único camino. Algunos usuarios identifican rápidamente las plataformas que desean explorar más a fondo, mientras que otros dedican más tiempo a revisar herramientas, actualizaciones del sector y detalles de las plataformas antes de decidir en qué centrarse a continuación.",
-      "body": "La estructura de la plataforma permite a los usuarios moverse libremente entre secciones a medida que evoluciona su investigación."
+      "kicker": "Explore at your own pace",
+      "lead": "Broker research rarely follows a single path. Some users quickly identify the platforms they want to explore further, while others spend more time reviewing tools, industry updates and platform details before deciding where to focus next.",
+      "body": "The platform structure allows users to move freely between sections as their research evolves."
     },
     "selection": {
-      "kicker": "Selección a tu medida",
-      "body": "Selecta opera como una plataforma independiente de búsqueda y comparación de brokers. No retiene fondos de clientes ni proporciona asesoramiento de inversión. Su función se limita a presentar información de brokers, herramientas y contexto del sector dentro de una estructura de investigación más clara."
+      "kicker": "Selection on your terms",
+      "body": "Selecta operates as an independent broker discovery and comparison platform. It does not hold client funds or provide investment advice. Its role is limited to presenting broker information, tools and industry context within a clearer research structure."
     }
   },
   "contactPage": {
     "contact": {
-      "kicker": "Datos de contacto",
-      "title": "Aquí para ayudar.",
-      "description": "Si prefieres una comunicación directa, puedes ponerte en contacto con el equipo utilizando los datos de contacto a continuación.",
-      "emailLabel": "CORREO ELECTRÓNICO",
-      "phoneLabel": "TELÉFONO",
-      "privacyTitle": "Selecta de privacidad",
-      "privacyBody": "Tu información de contacto solo se utilizará para responder a tu consulta. Selecta no comparte información personal con terceros."
+      "kicker": "Contact details",
+      "title": "Here to help.",
+      "description": "If you prefer direct communication, you can get in touch with the team using the contact details below.",
+      "emailLabel": "EMAIL",
+      "phoneLabel": "PHONE",
+      "privacyTitle": "Selecta privacy",
+      "privacyBody": "Your contact information will only be used to respond to your enquiry. Selecta does not share personal information with third parties."
     },
     "hero": {
       "kicker": "SELECTA · CONTACTO",
-      "title": "Hablemos.",
-      "description": "Pueden surgir preguntas al explorar los listados de brokers, revisar la información de las plataformas o navegar por las diferentes secciones del sitio web. Si algo en la plataforma requiere aclaración, puedes contactar directamente con el equipo."
+      "title": "Let's talk.",
+      "description": "Questions may come up while exploring broker listings, reviewing platform information or navigating different sections of the website. If anything on the platform needs clarification, you can contact the team directly."
     }
   },
   "FindABrokerPageHero": {
-    "title": "Encontrar un broker",
-    "description": "Explora diferentes plataformas a través de listados organizados y perfiles de brokers estructurados."
+    "title": "Find a broker",
+    "description": "Explore different platforms through organized listings and structured broker profiles."
   },
   "FindABrokerPageBrokerListings": {
-    "title": "Listados de brokers",
-    "description": "Explora las plataformas disponibles y revisa sus entornos a través de una visión general. Cada listado presenta detalles clave de cada una de estas, lo que permite explorar diferentes alternativas dentro de la misma estructura.",
-    "itemLinkOno": "Ver reseñas",
-    "itemLinkTwo": "Visitar broker",
-    "sliderNext": "Siguiente"
+    "title": "Broker listings",
+    "description": "Explore available platforms and review their environments through a single overview. Each listing presents key details, making it possible to compare different options within the same structure.",
+    "itemLinkOno": "View reviews",
+    "itemLinkTwo": "Visit broker",
+    "sliderNext": "Next"
   },
   "FindABrokerPlatforms": {
-    "title": "Mantente actualizado sobre las plataformas",
-    "description": "Los servicios de brokers y los entornos de trading continúan evolucionando. Seguir los desarrollos del sector puede proporcionar contexto adicional al explorar plataformas de inversión.",
-    "link": "Ver actualizaciones del sector"
+    "title": "Stay up to date with platforms",
+    "description": "Broker services and trading environments continue to evolve. Following industry developments can provide additional context when exploring investment platforms.",
+    "link": "View industry updates"
   },
   "FindABrokerPagePlatformSelect": {
-    "title": "Selecta de plataforma independiente",
-    "description": "La plataforma se centra en organizar la información de brokers para que los usuarios puedan explorar plataformas de corretaje inversión antes de continuar su investigación directamente con un broker."
+    "title": "Selecta as an independent platform",
+    "description": "The platform focuses on organizing broker information so users can explore brokerage and investment platforms before continuing their research directly with a broker."
   },
   "FindABrokerPageReviewing": {
-    "title": "Qué buscar al revisar brokers",
-    "description": "Al explorar los listados de plataformas, los inversores suelen prestar atención a varios aspectos prácticos de una plataforma. Estos elementos ayudan a crear una imagen más clara de cómo difieren los entornos de inversión.",
-    "itemTitleOne": "Entorno de ejecución",
-    "itemDescriptionOne": "Infraestructura que respalda el procesamiento de órdenes y las operaciones de trading.",
-    "itemTitleTwo": "Costes de trading",
-    "itemDescriptionTwo": "Spreads, comisiones y cargos habituales relacionados con la cuenta.",
-    "itemTitleThree": "Acceso a la plataforma",
-    "itemDescriptionThree": "Disponibilidad del software de trading en web, escritorio y dispositivos móviles.",
-    "itemTitleFour": "Opinión pública",
-    "itemDescriptionFour": "Reseñas compartidas por traders en plataformas independientes."
+    "title": "What to look for when reviewing brokers",
+    "description": "When exploring platform listings, investors usually pay attention to several practical aspects of a platform. These elements help create a clearer picture of how investment environments differ.",
+    "itemTitleOne": "Execution environment",
+    "itemDescriptionOne": "Infrastructure that supports order processing and trading operations.",
+    "itemTitleTwo": "Trading costs",
+    "itemDescriptionTwo": "Spreads, commissions and standard account-related charges.",
+    "itemTitleThree": "Platform access",
+    "itemDescriptionThree": "Availability of trading software across web, desktop and mobile devices.",
+    "itemTitleFour": "Public opinion",
+    "itemDescriptionFour": "Reviews shared by traders on independent platforms."
   },
   "FindABrokerPageTools": {
-    "title": "Herramientas para la investigación de brokers",
-    "description": "Además de los listados de brokers, nuestra plataforma ofrece herramientas analíticas que ayudan a los usuarios a revisar las condiciones de trading y el entorno de la plataforma desde una perspectiva diferente.",
-    "link": "Explorar herramientas"
+    "title": "Tools for broker research",
+    "description": "In addition to broker listings, our platform offers analytical tools that help users review trading conditions and the platform environment from a different perspective.",
+    "link": "Explore tools"
   },
   "toolsPage": {
-    "ctaKicker": "CONTINUAR LA INVESTIGACIÓN",
-    "ctaBody": "Las herramientas analíticas pueden complementar los listados de brokers y la información del sector disponible en la plataforma.",
-    "ctaPrimary": "Encontrar un broker",
-    "ctaSecondary": "Actualizaciones del sector",
-    "heroKicker": "SELECTA · HERRAMIENTAS ANALÍTICAS",
-    "heroTitle": "Herramientas.",
-    "heroDescription": "Herramientas analíticas disponibles para ayudar a examinar entornos de trading, condiciones de las plataformas y posibles escenarios de estrategia.",
-    "toolsKicker": "HERRAMIENTAS DE ANÁLISIS",
-    "toolsTitle": "Cuatro herramientas para explorar condiciones de trading y supuestos de estrategia.",
+    "ctaKicker": "CONTINUE THE RESEARCH",
+    "ctaBody": "Analytical tools can complement broker listings and the industry information available on the platform.",
+    "ctaPrimary": "Find a broker",
+    "ctaSecondary": "Industry updates",
+    "heroKicker": "SELECTA · ANALYTICAL TOOLS",
+    "heroTitle": "Tools.",
+    "heroDescription": "Analytical tools available to help examine trading environments, platform conditions and possible strategy scenarios.",
+    "toolsKicker": "ANALYTICAL TOOLS",
+    "toolsTitle": "Four tools for exploring trading conditions and strategy assumptions.",
     "card1": {
-      "category": "PROYECCIÓN DE CAPITAL",
-      "title": "Calculadora de proyección de capital",
-      "description": "Estima cómo el capital puede cambiar con el tiempo en función del saldo inicial, las aportaciones adicionales y el rendimiento asumido.",
-      "initialCapital": "Capital inicial",
-      "monthlyContribution": "Aportación mensual",
-      "annualReturn": "Rentabilidad anual",
-      "period": "Período",
-      "years": "AÑOS",
-      "projectedCapital": "CAPITAL PROYECTADO",
-      "overCapital": "sobre el capital aportado"
+      "category": "CAPITAL PROJECTION",
+      "title": "Capital projection calculator",
+      "description": "Estimate how capital may change over time based on the starting balance, additional contributions and assumed return.",
+      "initialCapital": "Initial capital",
+      "monthlyContribution": "Monthly contribution",
+      "annualReturn": "Annual return",
+      "period": "Period",
+      "years": "YEARS",
+      "projectedCapital": "PROJECTED CAPITAL",
+      "overCapital": "over invested capital"
     },
-    "inputsLabel": "ENTRADAS",
-    "resultLabel": "RESULTADO",
+    "inputsLabel": "INPUTS",
+    "resultLabel": "RESULT",
     "card2": {
-      "category": "RIESGO POR OPERACIÓN",
-      "title": "Estimación de riesgo por operación",
-      "description": "Estima la exposición potencial por operación en función del saldo de la cuenta y del porcentaje de riesgo seleccionado.",
-      "accountBalance": "Saldo de cuenta",
-      "riskPerTrade": "Riesgo por operación",
+      "category": "RISK PER TRADE",
+      "title": "Risk-per-trade estimate",
+      "description": "Estimate potential exposure per trade based on account balance and the selected risk percentage.",
+      "accountBalance": "Account balance",
+      "riskPerTrade": "Risk per trade",
       "stopLoss": "Stop loss",
-      "accountType": "Tipo de cuenta",
-      "accountStandard": "Estándar",
+      "accountType": "Account type",
+      "accountStandard": "Standard",
       "accountMini": "Mini",
       "accountMicro": "Micro",
-      "riskApplied": "RIESGO POR OPERACIÓN",
-      "percentageApplied": "por operación aplicada",
-      "positionSize": "TAMAÑO DE LA POSICIÓN",
+      "riskApplied": "RISK PER TRADE",
+      "percentageApplied": "applied per trade",
+      "positionSize": "POSITION SIZE",
       "lots": "Lots"
     },
     "card3": {
-      "category": "COSTES DE TRADING",
-      "title": "Aplicación de costes",
-      "description": "Revisa cómo los spreads, las comisiones y el tamaño de la operación influyen en el coste total de una operación.",
-      "instrument": "Instrumento",
+      "category": "TRADING COSTS",
+      "title": "Cost application",
+      "description": "Review how spreads, commissions and trade size affect the total cost of a trade.",
+      "instrument": "Instrument",
       "spread": "Spread",
-      "commission": "Comisión",
-      "tradeSize": "Tamaño de operación",
-      "tradeLots": "lotes",
-      "totalCost": "COSTE TOTAL",
+      "commission": "Commission",
+      "tradeSize": "Trade size",
+      "tradeLots": "lots",
+      "totalCost": "TOTAL COST",
       "spreadLabel": "spread",
-      "commissionLabel": "comisión"
+      "commissionLabel": "commission"
     },
     "card4": {
-      "category": "SIMULADOR DE ESTRATEGIA",
-      "title": "Simulador de resultados de estrategia",
-      "description": "Simula posibles resultados a lo largo de una serie de operaciones en función de la tasa de aciertos y la relación riesgo-beneficio.",
-      "initialCapital": "Capital inicial",
-      "winRate": "Tasa de aciertos",
-      "riskPerTrade": "Riesgo por operación",
-      "rewardRatio": "Ratio R/R",
-      "estimatedProjection": "PROYECCIÓN ESTIMADA",
-      "overTrades": "en 100 operaciones"
+      "category": "STRATEGY SIMULATOR",
+      "title": "Strategy results simulator",
+      "description": "Simulate possible outcomes across a series of trades based on win rate and risk-reward ratio.",
+      "initialCapital": "Initial capital",
+      "winRate": "Win rate",
+      "riskPerTrade": "Risk per trade",
+      "rewardRatio": "R/R ratio",
+      "estimatedProjection": "ESTIMATED PROJECTION",
+      "overTrades": "over 100 trades"
     },
-    "usageKicker": "USO DE HERRAMIENTAS ANALÍTICAS",
-    "usageLead": "Estas utilidades permiten a los usuarios examinar diferentes parámetros relacionados con los entornos de trading y los supuestos de estrategia.",
-    "usageBody": "Están diseñadas para apoyar la investigación y la exploración de escenarios, no para proporcionar asesoramiento de inversión."
+    "usageKicker": "USE OF ANALYTICAL TOOLS",
+    "usageLead": "These utilities allow users to examine different parameters related to trading environments and strategy assumptions.",
+    "usageBody": "They are designed to support research and scenario exploration, not to provide investment advice."
   },
   "contactsForm": {
-    "firstName": "Nombre",
-    "firstNamePlaceholder": "Escribe tu nombre",
-    "lastName": "Apellido",
-    "lastNamePlaceholder": "Escribe tu apellido",
+    "firstName": "First name",
+    "firstNamePlaceholder": "Enter your first name",
+    "lastName": "Last name",
+    "lastNamePlaceholder": "Enter your last name",
     "email": "Email",
     "emailPlaceholder": "Enter your email",
-    "phone": "Numero de telefono",
-    "phonePlaceholder": "Escribe tu numero de telefono",
+    "phone": "Phone number",
+    "phonePlaceholder": "Enter your phone number",
     "message": "Message",
     "messagePlaceholder": "Leave your message here",
-    "panelTitle": "Enviar un mensaje",
-    "panelDescription": "También puedes ponerte en contacto con nosotros a través del siguiente formulario.",
+    "panelTitle": "Send a message",
+    "panelDescription": "You can also get in touch with us using the form below.",
     "required": "Required",
     "optional": "Optional",
     "loading": "Loading...",
-    "submit": "Send Message",
+    "submit": "Send message",
     "name": "Name",
     "namePlaceholder": "Enter your name"
   },
@@ -502,20 +557,20 @@
     "link": "More About Cookies"
   },
   "footer": {
-    "terms": "Terminos y condiciones",
-    "privacy": "Politica de privacidad",
-    "cookies": "Politica de cookies",
+    "terms": "Terms and conditions",
+    "privacy": "Privacy policy",
+    "cookies": "Cookie policy",
     "home": "Home",
-    "howItWorks": "Como funciona",
-    "findBroker": "Encontrar un broker",
-    "updates": "Actualizaciones del sector",
-    "tools": "Herramientas",
+    "howItWorks": "How it works",
+    "findBroker": "Find a broker",
+    "updates": "Industry updates",
+    "tools": "Tools",
     "about": "About",
-    "contact": "Contacto",
-    "copyright": "Copyright {year} by Selecta. All Right Reserved",
-    "banner": "Selecta presenta informacion independiente sobre brokers y desarrollos del mercado. No ofrece servicios de inversion ni actua como intermediario financiero.",
-    "descriptionLead": "Plataforma independiente de descubrimiento de brokers.",
-    "descriptionBody": "Disenada para ayudar a las personas que estan interesados en invertir y ahorrar a identificar plataformas y bancos que ofrezcan las mejores condiciones del mercado.",
+    "contact": "Contact",
+    "copyright": "All rights reserved.",
+    "banner": "Selecta presents independent information about brokers and market developments. It does not offer investment services or act as a financial intermediary.",
+    "descriptionLead": "Independent broker discovery platform.",
+    "descriptionBody": "Designed to help people interested in investing and saving identify platforms and banks that offer the best market conditions.",
     "navigationLabel": "Navigation",
     "legalLabel": "Legal",
     "eyebrow": "Broker discovery",
@@ -545,12 +600,12 @@
     "officeEmail": "Email"
   },
   "header": {
-    "howItWorks": "Como funciona",
-    "updates": "Actualizaciones del sector",
-    "tools": "Herramientas",
+    "howItWorks": "How it works",
+    "updates": "Industry updates",
+    "tools": "Tools",
     "about": "About",
-    "contact": "Contacto",
-    "findBroker": "Encontrar un broker",
+    "contact": "Contact",
+    "findBroker": "Find a broker",
     "navLabel": "Main navigation",
     "menu": "Menu",
     "brandMeta": "Broker discovery",

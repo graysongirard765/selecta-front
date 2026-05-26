@@ -6,6 +6,7 @@ import Image from 'next/image';
 import { useLocale, useTranslations } from 'next-intl';
 
 import { WEBSITE_EMAIL } from '@/shared/lib/constants/constants';
+import { LangSelector } from '@/shared/ui/components/language-switcher/LangSelector';
 
 import styles from './Header.module.scss';
 
@@ -21,8 +22,8 @@ type NavItem = {
 export const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   const pathname = usePathname();
-  const locale = useLocale();
   const t = useTranslations('header');
+  const locale = useLocale();
   const homePrefix = locale === 'es' ? '' : `/${locale}`;
   const howItWorksHref = `${homePrefix}/como-funciona`;
   const updatesHref = `${homePrefix}/actualizaciones-del-sector`;
@@ -62,10 +63,7 @@ export const Header = () => {
               {WEBSITE_EMAIL}
             </a>
 
-            <button type="button" className={styles.localeButton} aria-label="Language selector">
-              <span>{locale.toUpperCase()}</span>
-              <span className={styles.localeCaret} aria-hidden="true" />
-            </button>
+            <LangSelector compact />
           </div>
         </div>
       </div>
@@ -159,6 +157,8 @@ export const Header = () => {
                 )
               ))}
             </nav>
+
+            <LangSelector inMobileMenu />
 
             <div className={styles.mobileActions}>
               <Link href={contactHref} className={styles.contactAction} onClick={() => setIsOpen(false)}>
