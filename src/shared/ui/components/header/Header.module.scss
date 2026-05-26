@@ -23,21 +23,6 @@
   text-decoration: none;
 }
 
-.localeButton {
-  align-items: center;
-  background: transparent;
-  border: 0;
-  color: rgba(255, 255, 255, 0.8);
-  display: inline-flex;
-  gap: 4px;
-  padding: 0;
-}
-
-.localeButton span {
-  font-size: 12px;
-  line-height: 1.4;
-}
-
 .localeCaret,
 .navCaret {
   border-left: 1px solid currentColor;

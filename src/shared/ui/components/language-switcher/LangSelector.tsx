@@ -1,7 +1,6 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
-import Image from 'next/image';
 
 import { useLocale } from 'next-intl';
 
@@ -10,15 +9,8 @@ import styles from './LangSelector.module.scss';
 import { routing } from '@/i18n/routing';
 
 const LOCALE_LABELS: Record<string, string> = {
-  en: 'English',
-  de: 'Deutsch',
-  it: 'Italiano',
-};
-
-const LOCALE_ICONS: Record<string, string> = {
-  en: '/images/languages/en.svg',
-  de: '/images/languages/de.svg',
-  it: '/images/languages/it.svg',
+  es: 'ES',
+  en: 'EN',
 };
 
 function getPathnameWithoutLocale(pathname: string, locales: readonly string[]): string {
@@ -56,9 +48,8 @@ export const LangSelector = ({
   const [isOpen, setIsOpen] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
 
-  const locales = routing.locales.filter((loc) => LOCALE_LABELS[loc] && LOCALE_ICONS[loc]);
+  const locales = routing.locales.filter((loc) => LOCALE_LABELS[loc]);
   const currentLabel = LOCALE_LABELS[locale] ?? locale;
-  const currentIcon = LOCALE_ICONS[locale] ?? LOCALE_ICONS[routing.defaultLocale];
   const dropdownLocales = locales.filter((loc) => loc !== locale);
 
   const handleChange = (newLocale: string) => {
@@ -122,9 +113,9 @@ export const LangSelector = ({
         aria-label={currentLabel}
       >
         <span className={styles.langSelector__current}>
-          <Image src={currentIcon} width={24} height={18} alt="" aria-hidden="true" />
           <span>{currentLabel}</span>
         </span>
+        <span className={styles.caret} aria-hidden="true" />
       </button>
 
       {isOpen && (
@@ -144,13 +135,6 @@ export const LangSelector = ({
                 className={styles.langSelectorDropdownItem}
               >
                 <span className={styles.langSelectorDropdownItemInner}>
-                  <Image
-                    src={LOCALE_ICONS[loc]}
-                    width={24}
-                    height={18}
-                    alt=""
-                    aria-hidden="true"
-                  />
                   <span>{LOCALE_LABELS[loc] ?? loc}</span>
                 </span>
               </button>
