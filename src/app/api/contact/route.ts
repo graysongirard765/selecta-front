@@ -23,13 +23,13 @@ export async function POST(request: Request): Promise<NextResponse> {
     // Verify reCAPTCHA token (only if enabled)
     if (ENABLE_RECAPTCHA) {
       if (!recaptcha || recaptcha === 'disabled') {
-        return NextResponse.json({ message: 'reCAPTCHA verification is required.' }, { status: 400 });
+        return NextResponse.json({ message: 'La verificación de reCAPTCHA es requerida.' }, { status: 400 });
       }
 
       const isRecaptchaValid = await verifyRecaptcha(recaptcha);
       if (!isRecaptchaValid) {
         return NextResponse.json(
-          { message: 'reCAPTCHA verification failed. Please try again.' },
+          { message: 'La verificación de reCAPTCHA falló. Por favor, inténtalo de nuevo.' },
           { status: 400 }
         );
       }
@@ -65,17 +65,17 @@ export async function POST(request: Request): Promise<NextResponse> {
     const msg = {
       to: process.env.ADMIN_EMAIL!,
       from: process.env.FROM_EMAIL!,
-      subject: 'New Property Analysis Request',
+      subject: 'Nueva solicitud de análisis de propiedad',
       html: `
-        <h2>New Property Analysis Request</h2>
-        <p><strong>Full Name:</strong> ${escapeHtml(fullName)}</p>
+        <h2>Nueva solicitud de análisis de propiedad</h2>
+        <p><strong>Nombre completo:</strong> ${escapeHtml(fullName)}</p>
         <p><strong>Email:</strong> ${escapeHtml(email)}</p>
-        ${phone ? `<p><strong>Phone:</strong> ${escapeHtml(phone)}</p>` : ''}
-        <p><strong>Property Location:</strong> ${escapeHtml(propertyLocation)}</p>
-        <p><strong>Primary Objective:</strong> ${escapeHtml(primaryObjective)}</p>
-        <p><strong>Inheritance:</strong> ${escapeHtml(inheritance)}</p>
-        <p><strong>Description:</strong> ${escapeHtml(description)}</p>
-        ${documents.length > 0 ? `<p><strong>Documents:</strong> ${documents.length} file(s) attached</p>` : ''}
+        ${phone ? `<p><strong>Teléfono:</strong> ${escapeHtml(phone)}</p>` : ''}
+        <p><strong>Ubicación de la propiedad:</strong> ${escapeHtml(propertyLocation)}</p>
+        <p><strong>Objetivo principal:</strong> ${escapeHtml(primaryObjective)}</p>
+        <p><strong>Herencia:</strong> ${escapeHtml(inheritance)}</p>
+        <p><strong>Descripción:</strong> ${escapeHtml(description)}</p>
+        ${documents.length > 0 ? `<p><strong>Documentos:</strong> ${documents.length} archivo(s) adjunto(s)</p>` : ''}
       `,
       attachments,
     };
@@ -84,7 +84,7 @@ export async function POST(request: Request): Promise<NextResponse> {
     const userMsg = {
       to: email,
       from: process.env.FROM_EMAIL!,
-      subject: "We've Received Your Message",
+      subject: "Hemos recibido tu mensaje",
       html: `
 <!DOCTYPE html>
 <html lang="en">
@@ -92,7 +92,7 @@ export async function POST(request: Request): Promise<NextResponse> {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Order Received - selecta </title>
+    <title>Pedido recibido - selecta </title>
 </head>
 
 <body
@@ -120,7 +120,7 @@ export async function POST(request: Request): Promise<NextResponse> {
                             font-style: normal;
                             font-weight: 400;
                             line-height: normal;">
-                                Dear Customer,
+                                Estimado cliente,
                             </p>
 
                             <p style="margin: 0 0 24px; 
@@ -129,7 +129,7 @@ export async function POST(request: Request): Promise<NextResponse> {
                             font-style: normal;
                             font-weight: 300;
                             line-height: normal;">
-                               Thank you for contacting <b>selecta </b>.
+                               Gracias por contactar a <b>selecta </b>.
                             </p>
 
                             <p style="margin: 0 0 24px; 
@@ -138,7 +138,7 @@ export async function POST(request: Request): Promise<NextResponse> {
                             font-style: normal;
                             font-weight: 300;
                             line-height: normal;">
-                               Your message has been received and forwarded to our <b>customer support team</b>. A member of our team will review your request and get back to you shortly using this email address.
+                               Tu mensaje ha sido recibido y ha sido enviado a nuestro <b>equipo de soporte al cliente</b>. Un miembro de nuestro equipo revisará tu solicitud y te responderá brevemente utilizando este correo electrónico.
                             </p>
 
                             <p style="margin: 0 0 24px; 
@@ -147,7 +147,7 @@ export async function POST(request: Request): Promise<NextResponse> {
                             font-style: normal;
                             font-weight: 300;
                             line-height: normal;">
-                               If you have additional details to share, you may reply directly to this message.
+                               Si tienes detalles adicionales para compartir, puedes responder directamente a este mensaje.
                             </p>
 
                             <p style="margin: 0; color: #FFF;
@@ -155,8 +155,8 @@ export async function POST(request: Request): Promise<NextResponse> {
                             font-style: normal;
                             font-weight: 400;
                             line-height: normal;">
-                                Kind regards,<br>
-                                <strong style="color: #ffffff;">The selecta  Team</strong>
+                                Atentamente,<br>
+                                <strong style="color: #ffffff;">El equipo de selecta </strong>
                             </p>
                         </td>
                     </tr>
@@ -164,7 +164,7 @@ export async function POST(request: Request): Promise<NextResponse> {
                     <!-- Footer -->
                     <tr>
                         <td style="border-top: 1px solid #222; padding: 24px 30px; background: #000;">
-                            <a href="mailto:info@selecta .com" style="color: #FFF;
+                            <a href="mailto:info@selecta.es" style="color: #FFF;
                             font-size: 10px;
                             font-style: normal;
                             font-weight: 400;
@@ -173,11 +173,11 @@ export async function POST(request: Request): Promise<NextResponse> {
                             float: left;
                             text-decoration: none;">
                                 <img style="margin-right: 8px;margin-bottom: -2px;" width="14" height="14"
-                                    src="https://selecta .com/images/mail-icon.png" alt="selecta  Mail Icon">
-                                info@selecta .com
+                                    src="https://selecta.es/images/mail-icon.png" alt="selecta  Mail Icon">
+                                info@selecta.es
                             </a>
                             <img style="width: 124.695px;height: 20px; float: right;"
-                                src="https://selecta .com/images/mail-logo.png" alt="selecta  Mail Icon">
+                                src="https://selecta.es/images/mail-logo.png" alt="selecta  Mail Icon">
                         </td>
                     </tr>
                 </table>
