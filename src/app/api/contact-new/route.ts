@@ -25,7 +25,7 @@ export async function POST(request: Request): Promise<NextResponse> {
     if (ENABLE_RECAPTCHA) {
       if (!recaptcha || recaptcha === 'disabled') {
         return NextResponse.json(
-          { message: 'reCAPTCHA verification is required.' },
+          { message: 'La verificación de reCAPTCHA es requerida.' },
           { status: 400 }
         );
       }
@@ -33,7 +33,7 @@ export async function POST(request: Request): Promise<NextResponse> {
       const isRecaptchaValid = await verifyRecaptcha(recaptcha);
       if (!isRecaptchaValid) {
         return NextResponse.json(
-          { message: 'reCAPTCHA verification failed. Please try again.' },
+          { message: 'La verificación de reCAPTCHA falló. Por favor, inténtalo de nuevo.' },
           { status: 400 }
         );
       }
@@ -46,13 +46,13 @@ export async function POST(request: Request): Promise<NextResponse> {
     const msg = {
       to: process.env.ADMIN_EMAIL!,
       from: process.env.FROM_EMAIL!,
-      subject: 'New Contact Request',
+      subject: 'Nueva solicitud de contacto',
       html: `
-        <h2>New Contact Request</h2>
-        <p><strong>Full Name:</strong> ${escapeHtml(fullName)}</p>
+        <h2>Nueva solicitud de contacto</h2>
+        <p><strong>Nombre completo:</strong> ${escapeHtml(fullName)}</p>
         <p><strong>Email:</strong> ${escapeHtml(email)}</p>
-        ${phone ? `<p><strong>Phone:</strong> ${escapeHtml(phone)}</p>` : ''}
-        <p><strong>Message:</strong> ${escapeHtml(message)}</p>
+        ${phone ? `<p><strong>Teléfono:</strong> ${escapeHtml(phone)}</p>` : ''}
+        <p><strong>Mensaje:</strong> ${escapeHtml(message)}</p>
       `,
     };
 
@@ -60,15 +60,15 @@ export async function POST(request: Request): Promise<NextResponse> {
     const userMsg = {
       to: email,
       from: process.env.FROM_EMAIL!,
-      subject: "We've Received Your Message",
+      subject: "Hemos recibido tu mensaje",
       html: createBrandedEmailHtml({
-        previewTitle: 'Thank you for reaching out to Travellio Global!',
-        title: 'Thank you for reaching out to Travellio Global!',
+        previewTitle: 'Gracias por contactar a selecta!',
+        title: 'Gracias por contactar a selecta!',
         bodyHtml: [
           renderEmailParagraph(
-            'Your message has been successfully received. Our team will review your inquiry carefully and respond shortly.'
+            'Tu mensaje ha sido recibido. Nuestro equipo revisará tu consulta cuidadosamente y te responderá brevemente.'
           ),
-          renderEmailParagraph('We appreciate your interest and look forward to assisting you.'),
+          renderEmailParagraph('Apreciamos tu interés y te esperamos para ayudarte.'),
         ].join('<div style="height: 24px; line-height: 24px;">&nbsp;</div>'),
       }),
     };
@@ -77,12 +77,12 @@ export async function POST(request: Request): Promise<NextResponse> {
     await sgMail.send(msg);
     await sgMail.send(userMsg);
 
-    return NextResponse.json({ message: 'Contact request sent successfully.' });
+    return NextResponse.json({ message: 'Solicitud de contacto enviada correctamente.' });
   } catch (error: unknown) {
-    const errorMessage = error instanceof Error ? error.message : 'Unknown error occurred';
-    console.error('Error sending contact request:', errorMessage);
+    const errorMessage = error instanceof Error ? error.message : 'Error desconocido';
+    console.error('Error al enviar la solicitud de contacto:', errorMessage);
     return NextResponse.json(
-      { message: 'Failed to send contact request.', error: errorMessage },
+      { message: 'Error al enviar la solicitud de contacto.', error: errorMessage },
       { status: 500 }
     );
   }

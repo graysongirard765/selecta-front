@@ -144,8 +144,8 @@ export const ContactFormContacts = ({
                     </span>
                     <span className={styles.meta}>
                       {field.required
-                        ? t('required', { fallback: 'Required' })
-                        : t('optional', { fallback: 'Optional' })}
+                        ? t('required', { fallback: 'Requerido' })
+                        : t('optional', { fallback: 'Opcional' })}
                     </span>
                   </span>
                   <textarea
@@ -173,8 +173,8 @@ export const ContactFormContacts = ({
                   </span>
                   <span className={styles.meta}>
                     {field.required
-                      ? t('required', { fallback: 'Required' })
-                      : t('optional', { fallback: 'Optional' })}
+                      ? t('required', { fallback: 'Requerido' })
+                      : t('optional', { fallback: 'Opcional' })}
                   </span>
                 </span>
                 <input

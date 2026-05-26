@@ -37,7 +37,7 @@ export async function POST(request: Request): Promise<NextResponse> {
     const attachmentFiles = formData.getAll('attachments') as File[];
 
     if (!fullName || !email || !phone || !projectType || !investmentRange || !timing || !followUp) {
-      return NextResponse.json({ message: 'Please fill in all required fields.' }, { status: 400 });
+      return NextResponse.json({ message: 'Por favor, complete todos los campos requeridos.' }, { status: 400 });
     }
 
     sgMail.setApiKey(SENDGRID_API_KEY);
