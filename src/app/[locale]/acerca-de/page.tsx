@@ -1,5 +1,19 @@
-import { PlatformSection } from "../(home)/components/PlatformSection/PlatformSection";
+import { AboutHero } from './components';
+import { AboutResources } from './components';
+import { AboutProcess } from './components';
+import { AboutInformation } from './components';
+import { AboutInvestigation } from './components';
+import { AboutBroaderView } from './components';
 
-export default function AboutPage() {
-  return <PlatformSection />;
+export default function FindABrokerPage() {
+  return (
+    <>
+      <AboutHero />
+      <AboutResources />
+      <AboutProcess />
+      <AboutInformation />
+      <AboutInvestigation />
+      <AboutBroaderView />
+    </>
+  );
 }

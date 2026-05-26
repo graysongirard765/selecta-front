@@ -1,0 +1,84 @@
+@use '@/shared/lib/styles/mixin.scss' as *;
+
+.about_process {
+    overflow: hidden;
+
+    &__top {
+        background: linear-gradient(180deg, rgba(3, 3, 3, 0.00) 0%, #030303 100%), url('/images/about/process.jpg') lightgray 50% / cover no-repeat;
+        height: 200px;
+
+        @include mobile {
+            background: linear-gradient(180deg, rgba(3, 3, 3, 0.00) 0%, #030303 100%), url('/images/about/process-mobile.jpg') lightgray 50% / cover no-repeat;
+        }
+    }
+
+    &__bottom {
+        padding: 80px 120px;
+        background: #030303;
+        display: flex;
+        gap: 24px 100px;
+        align-items: flex-start;
+
+        @include tablet {
+            padding: 52px 20px;
+        }
+
+        @include mobile {
+            flex-direction: column;
+        }
+    }
+
+    &__subtitle {
+        color: #EC9117;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 140%;
+        text-transform: uppercase;
+    }
+
+    &__description_wrapper {
+        max-width: 840px;
+
+        &>*:not(:last-child) {
+            margin-bottom: 28px;
+        }
+
+        &>*:first-child {
+            color: rgba(255, 255, 255, 0.72);
+        }
+
+        &>*:nth-child(2) {
+            padding: 20px 24px;
+            background: rgba(255, 255, 255, 0.05);
+            color: rgba(255, 255, 255, 0.88);
+            font-size: 16px;
+            font-weight: 700;
+
+            &::before {
+                content: '';
+                border-radius: 2px;
+                background: #EC9117;
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                left: 0;
+                width: 3px;
+                height: 48px;
+            }
+        }
+
+        &>*:nth-child(3) {
+            color: rgba(255, 255, 255, 0.55);
+        }
+    }
+
+    &__description {
+        color: #FFF;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 140%;
+        letter-spacing: -0.36px;
+        position: relative;
+        border-radius: 4px;
+    }
+}

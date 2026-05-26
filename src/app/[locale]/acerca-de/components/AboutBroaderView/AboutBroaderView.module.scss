@@ -1,0 +1,84 @@
+@use '@/shared/lib/styles/mixin.scss' as *;
+
+
+.about_broader {
+    padding-top: 129px;
+    padding-bottom: 80px;
+    background: #F7F7F2;
+
+    @include tablet {
+        padding-block: 52px;
+    }
+
+    &__row {
+        display: grid;
+        grid-template-columns: 1.45162fr 1fr;
+        gap: 80px;
+
+        @include tablet {
+            grid-template-columns: 1fr;
+        }
+
+        &>*:nth-child(1) {
+            &>*:not(:last-child) {
+                margin-bottom: 20px;
+            }
+        }
+
+        &>*:nth-child(2) {
+            &>*:not(:last-child) {
+                margin-bottom: 24px;
+            }
+        }
+    }
+
+    &__subtitle {
+        color: #EC9117;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 140%;
+        text-transform: uppercase;
+        margin-bottom: 12px;
+    }
+
+    &__title {
+        color: #1E2218;
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 1.1875;
+        letter-spacing: -0.64px;
+    }
+
+    &__description {
+        color: rgba(58, 63, 50, 0.78);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.375;
+    }
+
+    &__right_subtitle {
+        color: #EC9117;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 140%;
+    }
+
+    &__right_description {
+        color: #1E2218;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.375;
+    }
+
+    &__link {
+        display: inline-flex;
+        gap: 6px;
+        padding: 12px 20px;
+        border-radius: 999px;
+        background: #EC9117;
+        color: #1E2218;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 140%;
+    }
+}
