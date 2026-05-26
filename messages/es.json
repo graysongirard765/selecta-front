@@ -1,6 +1,10 @@
 {
   "homePage": {
     "brokers": {
+      "step": "02 / Entender",
+      "titleLine1": "Conoce tus opciones",
+      "titleLine2": "reales a la hora de decidir.",
+      "closing": "Determina si alguna de estas companias puede cubrir tus necesidades informandote de una forma clara, rapida y precisa. Consulta sus servicios, costes y productos en un solo clic.",
       "tradeRepublic": {
         "name": "Trade Republic",
         "description": "Broker global · EU · UK",
@@ -77,10 +81,6 @@
         "tag1": "Comunidad",
         "tag2": "Educacion"
       },
-      "step": "02 / Entender",
-      "titleLine1": "Conoce tus opciones",
-      "titleLine2": "reales a la hora de decidir.",
-      "closing": "Determina si alguna de estas companias puede cubrir tus necesidades informandote de una forma clara, rapida y precisa. Consulta sus servicios, costes y productos en un solo clic.",
       "title": "Conoce tus opciones reales a la hora de decidir."
     },
     "comparison": {
@@ -192,14 +192,32 @@
       "title": "Perspectivas externas de comunidades de trading"
     },
     "updates": {
-      "articleLabelPrefix": "Artículo",
-      "readArticle": "Leer artículo",
       "step": "06 / Actualizaciones",
       "eyebrow": "El mercado global avanza, nosotros también.",
       "titleLine1": "Qué está cambiando",
       "titleLine2": "en las plataformas",
       "description": "Mantente informado sobre los cambios en las plataformas. Explora nuevas herramientas, actualizaciones de noticias y cambios en el acceso al mercado.",
-      "cta": "Ver todas las actualizaciones"
+      "cta": "Ver todas las actualizaciones",
+      "article01": {
+        "alt": "Invierte a largo y corto plazo.",
+        "label": "Artículo 01",
+        "title": "Invierte a largo y corto plazo.",
+        "body": "Elige una Plataforma que te permita adaptar tu inversión en función de tus necesidades ya sean a largo o corto plazo que aumente tus posibilidades de obtener rentabilidad."
+      },
+      "article02": {
+        "alt": "Realiza aportaciones o reinvierte beneficios con comodidad.",
+        "label": "Artículo 02",
+        "title": "Realiza aportaciones o reinvierte beneficios con comodidad.",
+        "body": "Las herramientas analíticas ayudan a los inversores a revisar características clave de las plataformas, como los costes de tarifas, las condiciones y el tiempo de ejecución."
+      },
+      "article03": {
+        "alt": "Invierte y paga comisiones bajas por ello.",
+        "label": "Artículo 03",
+        "title": "Invierte y paga comisiones bajas por ello.",
+        "body": "El activo más rentable es pagar comisiones bajas por realizar tu inversión, no puedes controlar si el mercado sube o baja, pero si puedes controlar lo que pagas por ello."
+      },
+      "readArticle": "Leer artículo",
+      "articleLabelPrefix": "Artículo"
     },
     "brokersStep": "02 / Entender",
     "brokersTitle": "Conoce tus opciones reales a la hora de decidir.",
@@ -252,6 +270,65 @@
     "solutionsDescription": "Your privacy and security are our main objectives.",
     "solutionsCta": "More about safety"
   },
+  "AboutPageBroaderView": {
+    "subtitle": "Una visión más amplia del entorno de trading",
+    "title": "Los servicios de trading continúan cambiando a medida que evoluciona la tecnología de trading y se amplía el acceso al mercado.",
+    "description": "Las plataformas introducen nuevos instrumentos, actualizan el software de trading y ajustan las características de las cuentas con el tiempo. Seguir estos desarrollos puede proporcionar contexto adicional al revisar las plataformas de corretaje y sus entornos operativos.",
+    "rightSubtitle": "Seguir explorando",
+    "rightDesciption": "Si necesitas aclaraciones mientras exploras plataformas de brokers o utilizas sus herramientas analíticas, puedes ponerte en contacto a través de la página de contacto.",
+    "linkTitle": "Ir a Contacto"
+  },
+  "AboutPageHero": {
+    "subtitle": "SELECTA · ACERCA DE",
+    "title": "Un lugar donde la investigación se integra",
+    "description": "La investigación de brokers a menudo requiere consultar múltiples fuentes. Selecta reúne la información de brokers y el contexto del sector en un solo lugar para facilitar la exploración."
+  },
+  "AboutPageInformation": {
+    "subtitle": "Qué información se suele revisar",
+    "title": "Los elementos clave que los traders examinan al explorar plataformas de corretaje.",
+    "description": "Cuando los traders exploran plataformas de corretaje, la atención suele centrarse en varios aspectos prácticos del entorno de la plataforma.",
+    "itemTitleOne": "Infraestructura de ejecución",
+    "itemDescriptionOne": "Sistemas de procesamiento de órdenes y el entorno técnico que respalda la ejecución de operaciones.",
+    "itemTitleTwo": "Condiciones de trading",
+    "itemDescriptionTwo": "Spreads, comisiones, costes de financiación y otros parámetros relacionados con la actividad de trading.",
+    "itemTitleThree": "Acceso a la plataforma",
+    "itemDescriptionThree": "Disponibilidad del software de trading en entornos web, móvil y de escritorio.",
+    "itemTitleFour": "Opinión pública",
+    "itemDescriptionFour": "Experiencias compartidas por traders en plataformas de reseñas externas."
+  },
+  "AboutPageInvestigation": {
+    "subtitle": "Una plataforma diseñada para la exploración",
+    "title": "La investigación rara vez sigue un orden estricto.",
+    "descriptionOne": "Un usuario puede comenzar revisando listados, mientras que otro puede empezar con herramientas analíticas o con observaciones del sector.",
+    "descriptionTwo": "Dado que los caminos de investigación difieren, Selecta permite moverse entre secciones sin imponer una secuencia fija.",
+    "linkTitle": "Ver cómo funciona",
+    "listSubtitle": "El papel independiente de Selecta",
+    "listDescription": "Selecta opera como una plataforma independiente de búsqueda de brokers. El servicio no abre cuentas de trading, no retiene fondos de clientes, no ejecuta operaciones ni proporciona asesoramiento de inversión. Nuestro papel se limita a:",
+    "listItemTitleOne": "Organización de la información de brokers",
+    "listItemTitleOneTwo": "Observaciones del sector",
+    "listItemTitleOneThree": "Herramientas analíticas de investigación",
+    "listItemTitleOneFour": "Referencias a reseñas externas"
+  },
+  "AboutPageProcess": {
+    "subtitle": "Por qué la organización cambia el proceso de investigación",
+    "descriptionOne": "Las plataformas de brokers rara vez presentan su información de la misma manera. Los costes de trading pueden aparecer en una página, las capacidades de la plataforma en otra y el acceso al mercado en la documentación técnica.",
+    "descriptionTwo": "Cuando estos elementos se analizan dentro de un mismo marco, las diferencias entre plataformas se vuelven más fáciles de identificar.",
+    "descriptionThree": "Ese es el principio detrás de Selecta: mantener la información de brokers dentro de un entorno consistente donde las plataformas puedan explorarse sin cambiar constantemente de formato."
+  },
+  "AboutPageResources": {
+    "subtitle": "Un entorno, varias perspectivas",
+    "title": "Tres recursos integrados en una sola plataforma.",
+    "itemTitleOne": "Listados de brokers",
+    "itemDescriptionOne": "Perfiles estructurados que presentan las plataformas de trading en una sola vista general.",
+    "itemTitleTwo": "Observaciones del sector",
+    "itemDescriptionTwo": "Artículos que cubren desarrollos de plataformas, actualizaciones de infraestructura y cambios en el entorno.",
+    "itemTitleThree": "Utilidades analíticas",
+    "itemDescriptionThree": "Herramientas interactivas que permiten a los usuarios examinar parámetros de trading y supuestos de estrategia."
+  },
+  "sectorUpdatesArticlePage": {
+    "back": "Back",
+    "toc": "Table of contents"
+  },
   "sectorUpdatesPage": {
     "articlesLabelPrefix": "Artículo",
     "articlesRead": "Leer artículo",
@@ -275,10 +352,6 @@
     "servicesKicker": "SERVICIOS DE BROKERS A LO LARGO DEL TIEMPO",
     "servicesTitle": "Servicios fiables en el largo plazo",
     "servicesDescription": "Las plataformas de corretaje suelen ampliar y ajustar sus servicios a medida que evolucionan la tecnología de trading y el acceso al mercado. Con el tiempo, estos cambios pueden incluir:"
-  },
-  "sectorUpdatesArticlePage": {
-    "back": "Back",
-    "toc": "Table of contents"
   },
   "howItWorksPage": {
     "step1": {
@@ -328,6 +401,43 @@
       "kicker": "Selección a tu medida",
       "body": "Selecta opera como una plataforma independiente de búsqueda y comparación de brokers. No retiene fondos de clientes ni proporciona asesoramiento de inversión. Su función se limita a presentar información de brokers, herramientas y contexto del sector dentro de una estructura de investigación más clara."
     }
+  },
+  "FindABrokerPageHero": {
+    "title": "Encontrar un broker",
+    "description": "Explora diferentes plataformas a través de listados organizados y perfiles de brokers estructurados."
+  },
+  "FindABrokerPageBrokerListings": {
+    "title": "Listados de brokers",
+    "description": "Explora las plataformas disponibles y revisa sus entornos a través de una visión general. Cada listado presenta detalles clave de cada una de estas, lo que permite explorar diferentes alternativas dentro de la misma estructura.",
+    "itemLinkOno": "Ver reseñas",
+    "itemLinkTwo": "Visitar broker",
+    "sliderNext": "Siguiente"
+  },
+  "FindABrokerPagePlatformSelect": {
+    "title": "Selecta de plataforma independiente",
+    "description": "La plataforma se centra en organizar la información de brokers para que los usuarios puedan explorar plataformas de corretaje inversión antes de continuar su investigación directamente con un broker."
+  },
+  "FindABrokerPlatforms": {
+    "title": "Mantente actualizado sobre las plataformas",
+    "description": "Los servicios de brokers y los entornos de trading continúan evolucionando. Seguir los desarrollos del sector puede proporcionar contexto adicional al explorar plataformas de inversión.",
+    "link": "Ver actualizaciones del sector"
+  },
+  "FindABrokerPageReviewing": {
+    "title": "Qué buscar al revisar brokers",
+    "description": "Al explorar los listados de plataformas, los inversores suelen prestar atención a varios aspectos prácticos de una plataforma. Estos elementos ayudan a crear una imagen más clara de cómo difieren los entornos de inversión.",
+    "itemTitleOne": "Entorno de ejecución",
+    "itemDescriptionOne": "Infraestructura que respalda el procesamiento de órdenes y las operaciones de trading.",
+    "itemTitleTwo": "Costes de trading",
+    "itemDescriptionTwo": "Spreads, comisiones y cargos habituales relacionados con la cuenta.",
+    "itemTitleThree": "Acceso a la plataforma",
+    "itemDescriptionThree": "Disponibilidad del software de trading en web, escritorio y dispositivos móviles.",
+    "itemTitleFour": "Opinión pública",
+    "itemDescriptionFour": "Reseñas compartidas por traders en plataformas independientes."
+  },
+  "FindABrokerPageTools": {
+    "title": "Herramientas para la investigación de brokers",
+    "description": "Además de los listados de brokers, nuestra plataforma ofrece herramientas analíticas que ayudan a los usuarios a revisar las condiciones de trading y el entorno de la plataforma desde una perspectiva diferente.",
+    "link": "Explorar herramientas"
   },
   "toolsPage": {
     "ctaKicker": "CONTINUAR LA INVESTIGACIÓN",

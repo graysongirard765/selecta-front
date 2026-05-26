@@ -1,0 +1,134 @@
+@use '@/shared/lib/styles/mixin.scss' as *;
+
+
+.about_resources {
+    padding-block: 64px;
+    background: #F7F7F2;
+
+    @include tablet {
+        padding-block: 52px;
+    }
+
+    &__top {
+        margin-bottom: 32px;
+
+        @include tablet {
+            margin-bottom: 20px;
+        }
+    }
+
+    &__subtitle {
+        color: #EC9117;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 140%;
+        text-transform: uppercase;
+        margin-bottom: 32px;
+
+        @include tablet {
+            margin-bottom: 20px;
+        }
+    }
+
+    &__title {
+        color: #1E2218;
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 120%;
+        letter-spacing: -0.64px;
+
+        @include mobile {
+            font-size: 24px;
+            letter-spacing: -0.33px;
+            font-weight: 500;
+        }
+    }
+
+    &__list {
+        display: grid;
+        gap: 24px;
+        grid-template-columns: repeat(3, 1fr);
+
+        @include tablet {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        @include mobile {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    &__item {
+        border-radius: 6px;
+        border: 1px solid rgba(30, 34, 24, 0.08);
+        background: #FFF;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__item_top {
+        display: flex;
+        padding: 14px 20px;
+        align-items: center;
+        gap: 10px;
+        background: rgba(228, 230, 195, 0.28);
+    }
+
+    &__item_icon {
+        display: flex;
+        height: 44px;
+        flex: 0 0 44px;
+        flex-shrink: 0;
+        justify-content: center;
+        align-items: center;
+        border-radius: 99px;
+        background: rgba(30, 34, 24, 0.10);
+        padding: 12px;
+    }
+
+    &__item_subtitle {
+        color: rgba(30, 34, 24, 0.6);
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 140%;
+        text-transform: uppercase;
+    }
+
+    &__item_bottom {
+        padding: 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-grow: 1;
+    }
+
+    &__item_title {
+        color: #1E2218;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 130%;
+        letter-spacing: -0.33px;
+        margin-bottom: 16px;
+    }
+
+    &__item_description {
+        color: #3A3F32;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 140%;
+        margin-bottom: 27px;
+
+        @include tablet {
+            margin-bottom: 7px;
+        }
+    }
+
+    &__item_link {
+        color: #899878;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 140%;
+        display: inline-block;
+        flex-grow: 1;
+    }
+}

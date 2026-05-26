@@ -1,0 +1,124 @@
+@use '@/shared/lib/styles/mixin.scss' as *;
+
+.about_investigation {
+    overflow: hidden;
+
+    &__top {
+        padding: 80px 120px;
+        background: #030303;
+        display: grid;
+        grid-template-columns: 1.8462fr 1fr;
+        gap: 80px;
+        align-items: flex-start;
+
+        @include tablet {
+            padding: 52px 20px;
+            grid-template-columns: 1fr;
+        }
+
+        &>*:first-child {
+            &>*:not(:last-child) {
+                margin-bottom: 28px;
+            }
+        }
+
+        &>*:nth-child(2) {
+            &>*:not(:last-child) {
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    &__subtitle {
+        color: #EC9117;
+        font-size: 12px;;
+        font-weight: 400;
+        line-height: 140%;
+        text-transform: uppercase;
+    }
+
+    &__title {
+        color: #FFF;
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 120%;
+        letter-spacing: -0.64px;
+    }
+
+
+    &__description {
+        color: rgba(255, 255, 255, 0.7);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.375;
+
+        &>*:nth-child(2) {
+            color: rgba(255, 255, 255, 0.52);
+        }
+
+        &>*:not(:last-child) {
+            margin-bottom: 24px;
+        }
+    }
+
+    &__link {
+        display: inline-flex;
+        gap: 6px;
+        padding: 12px 20px;
+        border-radius: 999px;
+        background: #EC9117;
+        color: #1E2218;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 140%;
+    }
+
+    &__list_subtitle {
+        color: #EC9117;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 140%;
+    }
+
+    &__list_description {
+        color: rgba(255, 255, 255, 0.7);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.375;
+    }
+
+    &__list {
+        &>*:not(:last-child) {
+            margin-bottom: 20px;
+        }
+    }
+
+    &__list_item {
+        position: relative;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        color: rgba(255, 255, 255, 0.75);
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 140%;
+
+        &::before {
+            content: '';
+            width: 8px;
+            height: 8px;
+            border-radius: 4px;
+            background: rgba(236, 145, 23, 0.80);
+            display: block;
+        }
+    }
+
+    &__bottom {
+        background: linear-gradient(180deg, #030303 0%, rgba(3, 3, 3, 0.00) 100%), url('/images/about/investigation.jpg') lightgray 50% / cover no-repeat;
+        height: 200px;
+
+        @include mobile {
+            background: linear-gradient(180deg, #030303 0%, rgba(3, 3, 3, 0.00) 100%), url('/images/about/investigation-mobile.jpg') lightgray 50% / cover no-repeat;
+        }
+    }
+}
