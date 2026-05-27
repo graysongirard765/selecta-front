@@ -7,7 +7,7 @@ export const HeroSection = () => {
   const locale = useLocale();
   const homePrefix = locale === 'es' ? '' : `/${locale}`;
   const brokersHref = `${homePrefix}/encontrar-un-broker`;
-  const eyebrow = t('heroEyebrow', { fallback: 'SELECTA · BROKER DISCOVERY' });
+  const eyebrow = t('heroEyebrow', { fallback: 'SILECTA · BROKER DISCOVERY' });
   const titleLineOne = t('heroTitleLineOne', { fallback: 'Descubre tu' });
   const titleLineTwo = t('heroTitleLineTwo', { fallback: 'broker.' });
   const description = t('heroDescription', {

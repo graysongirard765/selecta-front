@@ -4,11 +4,11 @@ import styles from './AboutHero.module.scss';
 
 export const AboutHero = () => {
   const t = useTranslations('AboutPageHero');
-  const subtitle = t('subtitle', { fallback: 'SELECTA · ACERCA DE' });
+  const subtitle = t('subtitle', { fallback: 'SILECTA · ACERCA DE' });
   const title = t('title', { fallback: 'Un lugar donde la investigación se integra' });
   const description = t('description', {
     fallback:
-      'La investigación de brokers a menudo requiere consultar múltiples fuentes. Selecta reúne la información de brokers y el contexto del sector en un solo lugar para facilitar la exploración.',
+      'La investigación de brokers a menudo requiere consultar múltiples fuentes. Silecta reúne la información de brokers y el contexto del sector en un solo lugar para facilitar la exploración.',
   });
 
   return (

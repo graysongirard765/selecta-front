@@ -164,7 +164,7 @@ export async function POST(request: Request): Promise<NextResponse> {
                     <!-- Footer -->
                     <tr>
                         <td style="border-top: 1px solid #222; padding: 24px 30px; background: #000;">
-                            <a href="mailto:info@selecta.es" style="color: #FFF;
+                            <a href="mailto:info@silecta.es" style="color: #FFF;
                             font-size: 10px;
                             font-style: normal;
                             font-weight: 400;
@@ -173,11 +173,11 @@ export async function POST(request: Request): Promise<NextResponse> {
                             float: left;
                             text-decoration: none;">
                                 <img style="margin-right: 8px;margin-bottom: -2px;" width="14" height="14"
-                                    src="https://selecta.es/images/mail-icon.png" alt="selecta  Mail Icon">
-                                info@selecta.es
+                                    src="https://silecta.es/images/mail-icon.png" alt="selecta  Mail Icon">
+                                info@silecta.es
                             </a>
                             <img style="width: 124.695px;height: 20px; float: right;"
-                                src="https://selecta.es/images/mail-logo.png" alt="selecta  Mail Icon">
+                                src="https://silecta.es/images/mail-logo.png" alt="selecta  Mail Icon">
                         </td>
                     </tr>
                 </table>

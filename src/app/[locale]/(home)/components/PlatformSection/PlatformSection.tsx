@@ -12,7 +12,7 @@ export const PlatformSection = () => {
   const cardTitle = t("cardTitle", { fallback: "Un recurso independiente" });
   const lead = t("lead", {
     fallback:
-      "Selecta es un recurso independiente dedicado a organizar la informacion de brokers y los desarrollos del sector.",
+      "Silecta es un recurso independiente dedicado a organizar la informacion de brokers y los desarrollos del sector.",
   });
   const body = t("body", {
     fallback:

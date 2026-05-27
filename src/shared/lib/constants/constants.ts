@@ -1,5 +1,5 @@
-export const WEBSITE_EMAIL = 'areacliente@selecta.es';
-export const WEBSITE_PHONE = '+61283173582';
+export const WEBSITE_EMAIL = 'areacliente@silecta.es';
+export const WEBSITE_PHONE = '[phone number]';
 
 export const LINKEDIN_URL = '#';
 export const FACEBOOK_URL = '#';

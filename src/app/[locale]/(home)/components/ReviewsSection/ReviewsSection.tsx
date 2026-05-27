@@ -51,7 +51,7 @@ export const ReviewsSection = () => {
       source: t('lucia.source', { fallback: 'Google Reviews' }),
       rating: t('lucia.rating', { fallback: '5.0 / 5' }),
       quote: t('lucia.quote', {
-        fallback: '“Selecta no me vende nada. Me organiza la información y me deja elegir con calma.”',
+        fallback: '“Silecta no me vende nada. Me organiza la información y me deja elegir con calma.”',
       }),
       sourceOnNextLine: true,
     },

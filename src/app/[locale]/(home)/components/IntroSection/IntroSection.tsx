@@ -22,7 +22,7 @@ export const IntroSection = () => {
   });
   const bodySecondary = t('introBodySecondary', {
     fallback:
-      'En Selecta, te ayudamos a que la eleccion sea facil y comoda ayudandote durante todo el proceso para que puedas elegir con una vision mas clara antes de tomar una decision.',
+      'En Silecta, te ayudamos a que la eleccion sea facil y comoda ayudandote durante todo el proceso para que puedas elegir con una vision mas clara antes de tomar una decision.',
   });
   const cta = t('introCta', { fallback: 'Encontrar un broker' });
 

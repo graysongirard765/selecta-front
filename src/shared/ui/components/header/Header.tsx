@@ -71,8 +71,8 @@ export const Header = () => {
       <div className={styles.desktopBar}>
       <div className="container">
         <div className={styles.desktopShell}>
-          <Link href="/" className={styles.brand} aria-label="Selecta">
-            <Image src="/images/logo.svg" alt="Selecta" width={97} height={29} />
+          <Link href="/" className={styles.brand} aria-label="Silecta">
+            <Image src="/images/logo.svg" alt="Silecta" width={97} height={29} />
           </Link>
 
           <nav className={styles.nav} aria-label={t('navLabel', { fallback: 'Main navigation' })}>
@@ -107,11 +107,11 @@ export const Header = () => {
 
       <div className={styles.mobileBar}>
         <div className={styles.mobileShell}>
-          <Link href="/" className={styles.brand} aria-label="Selecta">
+          <Link href="/" className={styles.brand} aria-label="Silecta">
             <span className={styles.brandMark}>
               <span className={styles.brandDot} />
             </span>
-            <span className={styles.brandText}>Selecta</span>
+            <span className={styles.brandText}>Silecta</span>
           </Link>
 
           <button
