@@ -5,9 +5,9 @@ seoTitle: El camino que siguen los inversores al elegir un broker
 seoDescription: La selección de un broker suele comenzar con la investigación, continuar con la comparación y terminar con la identificación de una plataforma que se ajuste a las preferencias individuales.
 ---
 
-Un detalle curioso aparece cada vez que los traders hablan sobre su primera cuenta de ~~corretaje~~ inversión: casi nadie describe la elección como rápida. La decisión suele desarrollarse a través de una cadena de pequeñas investigaciones. Una pregunta lleva a otra. Una plataforma llama la atención, luego una segunda entra en la comparación, después una tercera. Poco a poco, la imagen se vuelve más clara.
+Un detalle curioso aparece cada vez que los traders hablan sobre su primera cuenta de inversión: casi nadie describe la elección como rápida. La decisión suele desarrollarse a través de una cadena de pequeñas investigaciones. Una pregunta lleva a otra. Una plataforma llama la atención, luego una segunda entra en la comparación, después una tercera. Poco a poco, la imagen se vuelve más clara.
 
-La selección de una plataforma de ~~corretaje~~ trading rara vez comienza con la propia plataforma. La mayoría de las personas empiezan con algo completamente distinto: una idea sobre cómo quieren operar.
+La selección de una plataforma de trading rara vez comienza con la propia plataforma. La mayoría de las personas empiezan con algo completamente distinto: una idea sobre cómo quieren operar.
 
 Algunos quieren acceso a una amplia gama de mercados. A otros les importan las herramientas de la plataforma. Un grupo de traders presta especial atención a las condiciones de ejecución, los spreads y el procesamiento de órdenes durante periodos de volatilidad. Esos intereses iniciales moldean silenciosamente todo el proceso de investigación.
 

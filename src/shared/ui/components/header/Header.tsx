@@ -49,14 +49,18 @@ export const Header = () => {
 
   const contactLabel = t('contact', { fallback: 'Contacto' });
   const ctaLabel = t('findBroker', { fallback: 'Encontrar un broker' });
+  const isPolicyPage =
+    pathname === '/terminos-y-condiciones' ||
+    pathname === '/politica-de-privacidad' ||
+    pathname === '/politica-de-cookies';
 
   useEffect(() => {
     //setIsOpen(false);
   }, [pathname]);
 
   return (
-    <header className={styles.header}>
-      <div className={styles.notice}>
+    <header className={`${styles.header} ${isPolicyPage ? styles.headerPolicy : ''}`}>
+      <div className={`${styles.notice}`}>
         <div className="container">
           <div className={styles.noticeInner}>
             <a href={`mailto:${WEBSITE_EMAIL}`} className={styles.noticeEmail}>
@@ -68,7 +72,7 @@ export const Header = () => {
         </div>
       </div>
 
-      <div className={styles.desktopBar}>
+      <div className={`${styles.desktopBar} ${isPolicyPage ? styles.desktopBarPolicy : ''}`}>
       <div className="container">
         <div className={styles.desktopShell}>
           <Link href="/" className={styles.brand} aria-label="Silecta">
@@ -105,7 +109,7 @@ export const Header = () => {
         </div>
       </div>
 
-      <div className={styles.mobileBar}>
+      <div className={`${styles.mobileBar} ${isPolicyPage ? styles.mobileBarPolicy : ''}`}>
         <div className={styles.mobileShell}>
           <Link href="/" className={styles.brand} aria-label="Silecta">
             <span className={styles.brandMark}>
@@ -131,7 +135,7 @@ export const Header = () => {
 
       <div id="mobile-menu" className={`${styles.mobilePanel} ${isOpen ? styles.mobilePanelOpen : ''}`}>
         <div className="container">
-          <div className={styles.mobileInner}>
+          <div className={`${styles.mobileInner} ${isPolicyPage ? styles.mobileInnerPolicy : ''}`}>
             <nav className={styles.mobileNav}>
               {navItems.map((item) => (
                 item.isRoute ? (
@@ -158,7 +162,6 @@ export const Header = () => {
               ))}
             </nav>
 
-            <LangSelector inMobileMenu />
 
             <div className={styles.mobileActions}>
               <Link href={contactHref} className={styles.contactAction} onClick={() => setIsOpen(false)}>
