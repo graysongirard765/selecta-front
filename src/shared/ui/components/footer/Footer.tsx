@@ -26,6 +26,9 @@ export const Footer = () => {
   const brokersHref = `${homePrefix}/encontrar-un-broker`;
   const aboutHref = `${homePrefix}/acerca-de`;
   const contactHref = `${homePrefix}/contacto`;
+  const termsHref = `${homePrefix}/terminos-y-condiciones`;
+  const privacyHref = `${homePrefix}/politica-de-privacidad`;
+  const cookiesHref = `${homePrefix}/politica-de-cookies`;
   const legalTerms = t("terms", { fallback: "Terminos y condiciones" });
   const legalPrivacy = t("privacy", { fallback: "Politica de privacidad" });
   const legalCookies = t("cookies", { fallback: "Politica de cookies" });
@@ -166,9 +169,15 @@ export const Footer = () => {
                   {t("legalLabel", { fallback: "Legal" })}
                 </p>
                 <div className={styles.linkList}>
-                  <span className={styles.link}>{legalTerms}</span>
-                  <span className={styles.link}>{legalPrivacy}</span>
-                  <span className={styles.link}>{legalCookies}</span>
+                  <Link href={termsHref} className={styles.link}>
+                    {legalTerms}
+                  </Link>
+                  <Link href={privacyHref} className={styles.link}>
+                    {legalPrivacy}
+                  </Link>
+                  <Link href={cookiesHref} className={styles.link}>
+                    {legalCookies}
+                  </Link>
                 </div>
               </div>
             </div>

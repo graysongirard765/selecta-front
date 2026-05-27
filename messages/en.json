@@ -523,6 +523,10 @@
     "usageLead": "These utilities allow users to examine different parameters related to trading environments and strategy assumptions.",
     "usageBody": "They are designed to support research and scenario exploration, not to provide investment advice."
   },
+  "policyPage": {
+    "back": "Back",
+    "toc": "Table of contents"
+  },
   "contactsForm": {
     "firstName": "First name",
     "firstNamePlaceholder": "Enter your first name",

@@ -1,0 +1,128 @@
+.section {
+  padding: 44px 0 80px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(280px, 340px);
+  gap: 24px;
+  align-items: start;
+}
+
+.main {
+  display: grid;
+  gap: 18px;
+}
+
+.sidebar {
+  position: sticky;
+  top: 0;
+}
+
+.tocCard,
+.card {
+  border: 1px solid rgba(30, 34, 24, 0.1);
+}
+
+.tocCard {
+  display: grid;
+  gap: 18px;
+  padding: 24px;
+  border-radius: 18px;
+}
+
+.tocList {
+  display: grid;
+  gap: 12px;
+}
+
+.tocLink {
+  color: #1e2218;
+  font-size: 16px;
+  line-height: 1.35;
+  text-decoration: none;
+}
+
+.tocLinkActive {
+  font-weight: 500;
+}
+
+.card {
+  padding: 24px;
+  background: #fff;
+}
+
+.sectionTitle {
+  margin: 0 0 18px;
+  color: #1e2218;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 1.1;
+  letter-spacing: -1.08px;
+}
+
+.richText {
+  color: #3a3f32;
+  font-size: 16px;
+  line-height: 1.65;
+}
+
+.richText :global(p),
+.richText :global(ul) {
+  margin: 0;
+}
+
+.richText :global(p + p),
+.richText :global(p + ul),
+.richText :global(ul + p),
+.richText :global(ul + ul) {
+  margin-top: 18px;
+}
+
+.richText :global(ul) {
+  padding-left: 22px;
+  list-style-type: disc;
+}
+
+.richText :global(li + li) {
+  margin-top: 8px;
+}
+
+.richText :global(strong) {
+  font-weight: 500;
+}
+
+@media (max-width: 767px) {
+  .section {
+    padding: 28px 0 52px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar {
+    position: static;
+    order: -1;
+  }
+
+  .tocCard {
+    gap: 14px;
+    padding: 20px;
+  }
+
+  .card {
+    padding: 22px 20px;
+  }
+
+  .sectionTitle {
+    margin-bottom: 16px;
+    font-size: 28px;
+    letter-spacing: -0.84px;
+  }
+
+  .richText {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+}

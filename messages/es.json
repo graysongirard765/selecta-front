@@ -523,6 +523,10 @@
     "usageLead": "Estas utilidades permiten a los usuarios examinar diferentes parámetros relacionados con los entornos de trading y los supuestos de estrategia.",
     "usageBody": "Están diseñadas para apoyar la investigación y la exploración de escenarios, no para proporcionar asesoramiento de inversión."
   },
+  "policyPage": {
+    "back": "Volver",
+    "toc": "Tabla de contenidos"
+  },
   "contactsForm": {
     "firstName": "Nombre",
     "firstNamePlaceholder": "Escribe tu nombre",

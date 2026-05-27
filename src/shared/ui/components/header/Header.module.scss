@@ -4,9 +4,16 @@
   z-index: 30;
 }
 
+.headerPolicy {
+}
+
 .notice {
   background: #030303;
   color: #ffffff;
+}
+
+.noticeHidden {
+  display: none;
 }
 
 .noticeInner {
@@ -37,6 +44,10 @@
   display: block;
   position: sticky;
   top: 0;
+}
+
+.desktopBarPolicy {
+  background: #f7f7f2;
 }
 
 .desktopShell {
@@ -173,8 +184,17 @@
   display: none;
 }
 
+.mobileBarPolicy {
+  background: #f7f7f2;
+}
+
 .mobilePanel {
   display: none;
+}
+
+.mobileInnerPolicy {
+  background: #f7f7f2;
+  border-top: 1px solid rgba(30, 34, 24, 0.08);
 }
 
 @media (max-width: 1023px) {
@@ -279,10 +299,41 @@
   .mobileActions .primaryAction {
     justify-content: center;
   }
+
+  .headerPolicy {
+  }
+
+  .headerPolicy .mobileShell {
+    background: #f7f7f2;
+  }
+
+  .headerPolicy .menuLine {
+    background: rgba(30, 34, 24, 0.7);
+  }
+
+  .headerPolicy .mobileLink {
+   
+  }
+
+  .headerPolicy .mobileActions .contactAction {
+    color: #fff;
+  }
 }
 
 @media (max-width: 767px) {
   .noticeInner {
     min-height: 40px;
   }
+}
+
+.headerPolicy .navItem {
+  color: #1e2218;
+}
+
+.headerPolicy .contactAction {
+  color: #1e2218;
+}
+
+.headerPolicy :global(.langSelector > button) {
+  color: rgba(30, 34, 24, 0.72);
 }
