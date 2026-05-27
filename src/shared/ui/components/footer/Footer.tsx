@@ -81,7 +81,7 @@ export const Footer = () => {
             <p className={styles.bannerText}>
               {t("banner", {
                 fallback:
-                  "Selecta es una plataforma independiente de busqueda de brokers. No retenemos fondos de clientes ni proporcionamos asesoramiento de inversion.",
+                  "Silecta es una plataforma independiente de busqueda de brokers. No retenemos fondos de clientes ni proporcionamos asesoramiento de inversion.",
               })}
             </p>
           </div>
@@ -95,7 +95,7 @@ export const Footer = () => {
               <Link href="/" className={styles.brand}>
                 <Image
                   src="/images/logo.svg"
-                  alt="Selecta"
+                  alt="Silecta"
                   width={220}
                   height={65}
                 />
@@ -176,14 +176,14 @@ export const Footer = () => {
 
           <div className={styles.bottom}>
             <p className={styles.copyright}>
-              © {year} Selecta. {copyright}
+              © {year} Silecta. {copyright}
             </p>
           </div>
         </div>
       </div>
       <Image
         src="/images/footer-logo.svg"
-        alt="Selecta"
+        alt="Silecta"
         width={1534}
         height={400}
         className={styles.footerBottomLogo}

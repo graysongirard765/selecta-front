@@ -114,7 +114,7 @@
       "eyebrow": "Contactar con el equipo",
       "title": "Aqui para ayudar",
       "description": "Si necesitas aclaraciones o resolver dudas sobre como funciona la plataforma, puedes contactar directamente con el equipo.",
-      "note": "Tu informacion de contacto solo se utilizara para responder a tu consulta. Selecta no comparte informacion personal con terceros."
+      "note": "Tu informacion de contacto solo se utilizara para responder a tu consulta. Silecta no comparte informacion personal con terceros."
     },
     "decision": {
       "explore": {
@@ -138,7 +138,7 @@
       "subtitle": "La seleccion de brokers se desarrolla en tres pasos.",
       "title": "Pasar de la busqueda a la seleccion"
     },
-    "heroEyebrow": "SELECTA · BROKER DISCOVERY",
+    "heroEyebrow": "SILECTA · BROKER DISCOVERY",
     "heroTitleLineOne": "Descubre tu",
     "heroTitleLineTwo": "broker.",
     "heroDescription": "Encuentra la plataforma, banco o broker que mas se adapte a tu perfil y a tus necesidades.",
@@ -149,13 +149,13 @@
     "introQuestionLineTwo": "de inversion la primera pregunta suele ser:",
     "introQuestionHighlight": "Donde?",
     "introBodyPrimary": "Encontrar la respuesta normalmente implica gastar mucho tiempo en diferentes webs, buscar resenas y descripciones que muchas veces no alcanzamos a entender o desconocemos.",
-    "introBodySecondary": "En Selecta, te ayudamos a que la eleccion sea facil y comoda ayudandote durante todo el proceso para que puedas elegir con una vision mas clara antes de tomar una decision.",
+    "introBodySecondary": "En Silecta, te ayudamos a que la eleccion sea facil y comoda ayudandote durante todo el proceso para que puedas elegir con una vision mas clara antes de tomar una decision.",
     "introCta": "Encontrar un broker",
     "platform": {
       "step": "07 / Nuestra plataforma",
       "title": "Estructura independiente",
       "cardTitle": "Un recurso independiente",
-      "lead": "Selecta es un recurso independiente dedicado a organizar la informacion de brokers y los desarrollos del sector.",
+      "lead": "Silecta es un recurso independiente dedicado a organizar la informacion de brokers y los desarrollos del sector.",
       "body": "No actua como broker ni gestiona cuentas de trading. Su proposito es presentar la informacion de las diferentes alternativas dentro de una estructura mas clara que facilite la exploracion y la comparacion.",
       "metaPrimary": "Plataforma · Independiente",
       "metaSecondary": "Est. 2026",
@@ -178,7 +178,7 @@
         "name": "Lucia O.",
         "source": "Google Reviews",
         "rating": "5.0 / 5",
-        "quote": "Selecta no me vende nada. Me organiza la informacion y me deja elegir con calma."
+        "quote": "Silecta no me vende nada. Me organiza la informacion y me deja elegir con calma."
       },
       "step": "04 / Verificar",
       "titleLine1": "Perspectivas",
@@ -233,7 +233,7 @@
     "workPlatformDescription": "The platform is built for your convenience, based on time saving and easy to use methods.",
     "workSupportTitle": "Professional support",
     "workSupportDescription": "A highly experienced customer support staff is at your disposal for any issue you may have.",
-    "workTitle": "Why Selecta?",
+    "workTitle": "Why Silecta?",
     "workCta": "Create a profile",
     "converterSpendLabel": "You spend",
     "converterReceiveLabel": "You get",
@@ -242,7 +242,7 @@
     "converterTitle": "Exchange BTC & ETH",
     "converterDescription": "Make an exchange with an incredible speed",
     "plansTitle": "Exchange instantly!",
-    "plansDescription": "Exchange swiftly and securely. At Selecta, all of your funds are transferred using the safest possible methods.",
+    "plansDescription": "Exchange swiftly and securely. At Silecta, all of your funds are transferred using the safest possible methods.",
     "plansCta": "Exchange now",
     "faqPersonalDataEncryptionTitle": "Personal data encryption",
     "faqPersonalDataEncryptionBody": "Your personal information is completely encrypted with cutting-edge technologies.",
@@ -264,9 +264,9 @@
     "startTitle": "How to start exchanging?",
     "startCta": "Create a profile",
     "approachBodyPrimary": "Every transaction is carefully screened and reviewed, not only for the platform's security but also for yours.",
-    "approachBodySecondary": "Selecta offers a cryptocurrency exchange that is guaranteed safe, efficient and convenient. Anyone, whether new or experienced, may buy and sell crypto at competitive rates and in a 'worry-free' environment, thanks to the technologies we deploy.",
+    "approachBodySecondary": "Silecta offers a cryptocurrency exchange that is guaranteed safe, efficient and convenient. Anyone, whether new or experienced, may buy and sell crypto at competitive rates and in a 'worry-free' environment, thanks to the technologies we deploy.",
     "solutionsTitleLineOne": "Welcome",
-    "solutionsTitleLineTwo": "to Selecta!",
+    "solutionsTitleLineTwo": "to Silecta!",
     "solutionsDescription": "Your privacy and security are our main objectives.",
     "solutionsCta": "More about safety"
   },
@@ -279,9 +279,9 @@
     "linkTitle": "Ir a Contacto"
   },
   "AboutPageHero": {
-    "subtitle": "SELECTA · ACERCA DE",
+    "subtitle": "SILECTA · ACERCA DE",
     "title": "Un lugar donde la investigación se integra",
-    "description": "La investigación de brokers a menudo requiere consultar múltiples fuentes. Selecta reúne la información de brokers y el contexto del sector en un solo lugar para facilitar la exploración."
+    "description": "La investigación de brokers a menudo requiere consultar múltiples fuentes. Silecta reúne la información de brokers y el contexto del sector en un solo lugar para facilitar la exploración."
   },
   "AboutPageInformation": {
     "subtitle": "Qué información se suele revisar",
@@ -300,10 +300,10 @@
     "subtitle": "Una plataforma diseñada para la exploración",
     "title": "La investigación rara vez sigue un orden estricto.",
     "descriptionOne": "Un usuario puede comenzar revisando listados, mientras que otro puede empezar con herramientas analíticas o con observaciones del sector.",
-    "descriptionTwo": "Dado que los caminos de investigación difieren, Selecta permite moverse entre secciones sin imponer una secuencia fija.",
+    "descriptionTwo": "Dado que los caminos de investigación difieren, Silecta permite moverse entre secciones sin imponer una secuencia fija.",
     "linkTitle": "Ver cómo funciona",
-    "listSubtitle": "El papel independiente de Selecta",
-    "listDescription": "Selecta opera como una plataforma independiente de búsqueda de brokers. El servicio no abre cuentas de trading, no retiene fondos de clientes, no ejecuta operaciones ni proporciona asesoramiento de inversión. Nuestro papel se limita a:",
+    "listSubtitle": "El papel independiente de Silecta",
+    "listDescription": "Silecta opera como una plataforma independiente de búsqueda de brokers. El servicio no abre cuentas de trading, no retiene fondos de clientes, no ejecuta operaciones ni proporciona asesoramiento de inversión. Nuestro papel se limita a:",
     "listItemTitleOne": "Organización de la información de brokers",
     "listItemTitleOneTwo": "Observaciones del sector",
     "listItemTitleOneThree": "Herramientas analíticas de investigación",
@@ -313,7 +313,7 @@
     "subtitle": "Por qué la organización cambia el proceso de investigación",
     "descriptionOne": "Las plataformas de brokers rara vez presentan su información de la misma manera. Los costes de trading pueden aparecer en una página, las capacidades de la plataforma en otra y el acceso al mercado en la documentación técnica.",
     "descriptionTwo": "Cuando estos elementos se analizan dentro de un mismo marco, las diferencias entre plataformas se vuelven más fáciles de identificar.",
-    "descriptionThree": "Ese es el principio detrás de Selecta: mantener la información de brokers dentro de un entorno consistente donde las plataformas puedan explorarse sin cambiar constantemente de formato."
+    "descriptionThree": "Ese es el principio detrás de Silecta: mantener la información de brokers dentro de un entorno consistente donde las plataformas puedan explorarse sin cambiar constantemente de formato."
   },
   "AboutPageResources": {
     "subtitle": "Un entorno, varias perspectivas",
@@ -334,7 +334,7 @@
     "exploreBody": "Las observaciones del sector pueden proporcionar contexto adicional al revisar las plataformas de corretaje. Continúa tu investigación explorando los listados de brokers y las herramientas analíticas disponibles en la plataforma.",
     "explorePrimary": "Encontrar un broker",
     "exploreSecondary": "Explorar herramientas",
-    "heroKicker": "SELECTA · ACTUALIZACIONES DEL SECTOR",
+    "heroKicker": "SILECTA · ACTUALIZACIONES DEL SECTOR",
     "heroTitle": "Actualizaciones del sector.",
     "heroDescription": "Comprende cómo evolucionan las plataformas de corretaje con el tiempo desde cambios tecnológicos hasta transformaciones en la infraestructura de trading y los entornos de las plataformas.",
     "servicesTitlePlatformUpdates": "Actualizaciones de la plataforma",
@@ -379,18 +379,18 @@
     "step4": {
       "kicker": "Paso 4",
       "title": "Continua tu investigación",
-      "body": "Una vez que una plataforma capte tu atención puedes seguir explorándola directamente. Selecta no abre cuentas, no gestiona transacciones ni participa en actividades de trading. El servicio se centra en organizar la información de brokers para que los usuarios puedan revisar las plataformas antes de avanzar por su cuenta.",
+      "body": "Una vez que una plataforma capte tu atención puedes seguir explorándola directamente. Silecta no abre cuentas, no gestiona transacciones ni participa en actividades de trading. El servicio se centra en organizar la información de brokers para que los usuarios puedan revisar las plataformas antes de avanzar por su cuenta.",
       "ctaPrimary": "Encontrar un broker"
     },
     "hero": {
-      "kicker": "Selecta · Cómo funciona",
+      "kicker": "Silecta · Cómo funciona",
       "title": "Cómo funciona.",
-      "description": "Sigue el proceso que siguen los inversores al explorar plataformas y descubre cómo Selecta organiza la información para que la búsqueda sea más clara y estructurada."
+      "description": "Sigue el proceso que siguen los inversores al explorar plataformas y descubre cómo Silecta organiza la información para que la búsqueda sea más clara y estructurada."
     },
     "intro": {
       "kicker": "Cómo comienza la elección de una plataforma",
-      "title": "Selecta reúne listados de plataformas, contexto de mercado y herramientas prácticas.",
-      "body": "Selecta reúne listados de plataformas, contexto de mercado y herramientas prácticas para que los usuarios puedan avanzar en la búsqueda de una forma más clara y estructurada. El proceso se desarrolla en cuatro pasos que se describen a continuación."
+      "title": "Silecta reúne listados de plataformas, contexto de mercado y herramientas prácticas.",
+      "body": "Silecta reúne listados de plataformas, contexto de mercado y herramientas prácticas para que los usuarios puedan avanzar en la búsqueda de una forma más clara y estructurada. El proceso se desarrolla en cuatro pasos que se describen a continuación."
     },
     "explore": {
       "kicker": "Explora a tu propio ritmo",
@@ -399,7 +399,7 @@
     },
     "selection": {
       "kicker": "Selección a tu medida",
-      "body": "Selecta opera como una plataforma independiente de búsqueda y comparación de brokers. No retiene fondos de clientes ni proporciona asesoramiento de inversión. Su función se limita a presentar información de brokers, herramientas y contexto del sector dentro de una estructura de investigación más clara."
+      "body": "Silecta opera como una plataforma independiente de búsqueda y comparación de brokers. No retiene fondos de clientes ni proporciona asesoramiento de inversión. Su función se limita a presentar información de brokers, herramientas y contexto del sector dentro de una estructura de investigación más clara."
     }
   },
   "contactPage": {
@@ -409,11 +409,11 @@
       "description": "Si prefieres una comunicación directa, puedes ponerte en contacto con el equipo utilizando los datos de contacto a continuación.",
       "emailLabel": "CORREO ELECTRÓNICO",
       "phoneLabel": "TELÉFONO",
-      "privacyTitle": "Selecta de privacidad",
-      "privacyBody": "Tu información de contacto solo se utilizará para responder a tu consulta. Selecta no comparte información personal con terceros."
+      "privacyTitle": "Silecta de privacidad",
+      "privacyBody": "Tu información de contacto solo se utilizará para responder a tu consulta. Silecta no comparte información personal con terceros."
     },
     "hero": {
-      "kicker": "SELECTA · CONTACTO",
+      "kicker": "SILECTA · CONTACTO",
       "title": "Hablemos.",
       "description": "Pueden surgir preguntas al explorar los listados de brokers, revisar la información de las plataformas o navegar por las diferentes secciones del sitio web. Si algo en la plataforma requiere aclaración, puedes contactar directamente con el equipo."
     }
@@ -435,7 +435,7 @@
     "link": "Ver actualizaciones del sector"
   },
   "FindABrokerPagePlatformSelect": {
-    "title": "Selecta de plataforma independiente",
+    "title": "Silecta de plataforma independiente",
     "description": "La plataforma se centra en organizar la información de brokers para que los usuarios puedan explorar plataformas de corretaje inversión antes de continuar su investigación directamente con un broker."
   },
   "FindABrokerPageReviewing": {
@@ -460,7 +460,7 @@
     "ctaBody": "Las herramientas analíticas pueden complementar los listados de brokers y la información del sector disponible en la plataforma.",
     "ctaPrimary": "Encontrar un broker",
     "ctaSecondary": "Actualizaciones del sector",
-    "heroKicker": "SELECTA · HERRAMIENTAS ANALÍTICAS",
+    "heroKicker": "SILECTA · HERRAMIENTAS ANALÍTICAS",
     "heroTitle": "Herramientas.",
     "heroDescription": "Herramientas analíticas disponibles para ayudar a examinar entornos de trading, condiciones de las plataformas y posibles escenarios de estrategia.",
     "toolsKicker": "HERRAMIENTAS DE ANÁLISIS",
@@ -568,22 +568,22 @@
     "about": "Acerca de",
     "contact": "Contacto",
     "copyright": "Todos los derechos reservados.",
-    "banner": "Selecta presenta informacion independiente sobre brokers y desarrollos del mercado. No ofrece servicios de inversion ni actua como intermediario financiero.",
+    "banner": "Silecta presenta informacion independiente sobre brokers y desarrollos del mercado. No ofrece servicios de inversion ni actua como intermediario financiero.",
     "descriptionLead": "Plataforma independiente de descubrimiento de brokers.",
     "descriptionBody": "Disenada para ayudar a las personas que estan interesados en invertir y ahorrar a identificar plataformas y bancos que ofrezcan las mejores condiciones del mercado.",
     "navigationLabel": "Navegación",
     "legalLabel": "Legal",
     "eyebrow": "Descubrimiento de brokers",
-    "brand": "Selecta",
+    "brand": "Silecta",
     "menuLabel": "Menú",
     "productsLabel": "Productos",
     "officeLabel": "Oficina",
-    "description": "Selecta es una plataforma de intercambio de criptomonedas poderosa y totalmente segura.",
-    "legalPrimary1": "Selecta.es es propiedad y operada por",
+    "description": "Silecta es una plataforma de intercambio de criptomonedas poderosa y totalmente segura.",
+    "legalPrimary1": "Silecta.es es propiedad y operada por",
     "legalPrimary2": "Exchange de Criptomonedas DCE No.",
     "legalSecondary": "This website and its content have been produced and disseminated for persons outside of the United Kingdom. The information provided is not directed at or intended for distribution to, or use by, any person or entity located within the UK. The financial products and services mentioned on this website are not eligible for the UK. Cryptoassets are classified as Restricted Mass Market Investments in the UK, meaning that they are high-risk investments and are not suitable for most retail investors",
     "paymentsAlt": "Tarjetas de pago aceptadas",
-    "legalPrimary": "Selecta.es es propiedad y operada por Digitex Corp Pty Ltd ACN 643 966 250 (Level 35, International Towers Sydney, 100 Barangaroo Ave, NSW 2000, Australia). Exchange de Criptomonedas DCE No. 100713696-001",
+    "legalPrimary": "Silecta.es es propiedad y operada por Digitex Corp Pty Ltd ACN 643 966 250 (Level 35, International Towers Sydney, 100 Barangaroo Ave, NSW 2000, Australia). Exchange de Criptomonedas DCE No. 100713696-001",
     "companyNumber": "Exchange de Criptomonedas DCE No.",
     "howToExchange": "Cómo intercambiar",
     "affiliateProgram": "Programa de afiliados",
@@ -612,7 +612,7 @@
     "noticeTitle": "AVISO IMPORTANTE",
     "noticeBodyPrimary": "Este sitio web no está destinado al público del Reino Unido. Si está accediendo a este sitio web desde el Reino Unido, por favor salga de este sitio inmediatamente.",
     "noticeBodySecondary": "Por favor, infórmese de que los servicios ofrecidos en este sitio web no están actualmente accesibles para Clientes Minoristas basados en el Reino Unido.",
-    "brand": "Selecta",
+    "brand": "Silecta",
     "signUp": "Registrarse",
     "logIn": "Iniciar sesión",
     "home": "Inicio",

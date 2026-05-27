@@ -226,7 +226,7 @@ const buildAffiliateUserEmailHtml = (payload: AffiliatePayload) => {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Affiliate Request Received - Selecta</title>
+  <title>Affiliate Request Received - Silecta</title>
 </head>
 <body style="margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; background-color: #fff; color: #333;">
   <table role="presentation" style="width: 100%; border-collapse: collapse; background-color: #fff;">
@@ -239,11 +239,11 @@ const buildAffiliateUserEmailHtml = (payload: AffiliatePayload) => {
                 Dear ${safeFirstName},
               </p>
               <p style="margin: 0 0 24px; color: #333;font-size: 16px;font-style: normal;font-weight: 400;line-height: 140%;">
-                Your request has been sent successfully. Our Selecta team will review it and contact you asap.
+                Your request has been sent successfully. Our Silecta team will review it and contact you asap.
               </p>
               <p style="margin: 0 0 24px; color: #333;font-size: 16px;font-style: normal;font-weight: 400;line-height: 140%;">
                 Best regards,<br>
-                <strong style="color: #333;">The Selecta Team</strong>
+                <strong style="color: #333;">The Silecta Team</strong>
               </p>
               <p style="margin: 0; color: #333;font-size: 18px;font-style: normal;font-weight: 400;line-height: 140%;">
                 <a href="https://selecta.com" target="_blank" style="color: #333;font-weight: 400;text-decoration: underline;">selecta.com</a>
@@ -268,7 +268,7 @@ const buildSupportUserEmailHtml = (payload: SupportPayload) => {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Support Request Received - Selecta</title>
+  <title>Support Request Received - Silecta</title>
 </head>
 <body style="margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; background-color: #fff; color: #333;">
   <table role="presentation" style="width: 100%; border-collapse: collapse; background-color: #fff;">
@@ -281,11 +281,11 @@ const buildSupportUserEmailHtml = (payload: SupportPayload) => {
                 Dear ${safeFirstName},
               </p>
               <p style="margin: 0 0 24px; color: #333;font-size: 16px;font-style: normal;font-weight: 400;line-height: 140%;">
-                Your request has been sent successfully! Our Selecta team will review it and contact you asap!
+                Your request has been sent successfully! Our Silecta team will review it and contact you asap!
               </p>
               <p style="margin: 0 0 24px; color: #333;font-size: 16px;font-style: normal;font-weight: 400;line-height: 140%;">
                 Best regards,<br>
-                <strong style="color: #333;">The Selecta Team</strong>
+                <strong style="color: #333;">The Silecta Team</strong>
               </p>
               <p style="margin: 0; color: #333;font-size: 18px;font-style: normal;font-weight: 400;line-height: 140%;">
                 <a href="https://selecta.com" target="_blank" style="color: #333;font-weight: 400;text-decoration: underline;">selecta.com</a>

@@ -12,7 +12,7 @@ export const HeroSection = async () => {
         <div className={styles.content}>
           <p className={styles.kicker}>
             {t("heroKicker", {
-              fallback: "SELECTA · ACTUALIZACIONES DEL SECTOR",
+              fallback: "SILECTA · ACTUALIZACIONES DEL SECTOR",
             })}
           </p>
           <h1 className={styles.title}>

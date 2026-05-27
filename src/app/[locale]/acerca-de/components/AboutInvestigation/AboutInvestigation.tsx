@@ -20,7 +20,7 @@ export const AboutInvestigation = () => {
   });
   const descriptionTwo = t('descriptionTwo', {
     fallback:
-      'Dado que los caminos de investigación difieren, Selecta permite moverse entre secciones sin imponer una secuencia fija.',
+      'Dado que los caminos de investigación difieren, Silecta permite moverse entre secciones sin imponer una secuencia fija.',
   });
 
   const linkTitle = t('linkTitle', {
@@ -28,12 +28,12 @@ export const AboutInvestigation = () => {
   });
 
   const listSubtitle = t('listSubtitle', {
-    fallback: 'El papel independiente de Selecta',
+    fallback: 'El papel independiente de Silecta',
   });
 
   const listDescription = t('listDescription', {
     fallback:
-      'Selecta opera como una plataforma independiente de búsqueda de brokers. El servicio no abre cuentas de trading, no retiene fondos de clientes, no ejecuta operaciones ni proporciona asesoramiento de inversión. Nuestro papel se limita a:',
+      'Silecta opera como una plataforma independiente de búsqueda de brokers. El servicio no abre cuentas de trading, no retiene fondos de clientes, no ejecuta operaciones ni proporciona asesoramiento de inversión. Nuestro papel se limita a:',
   });
 
   const list = [

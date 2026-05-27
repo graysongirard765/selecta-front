@@ -17,7 +17,7 @@ export const ContactSection = () => {
   });
   const note = t('note', {
     fallback:
-      'Tu informacion de contacto solo se utilizara para responder a tu consulta. Selecta no comparte informacion personal con terceros.',
+      'Tu informacion de contacto solo se utilizara para responder a tu consulta. Silecta no comparte informacion personal con terceros.',
   });
 
   return (

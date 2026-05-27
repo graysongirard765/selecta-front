@@ -79,7 +79,7 @@ export default function HowItWorksPage() {
       title: t("step4.title", { fallback: "Continua tu investigación" }),
       body: t("step4.body", {
         fallback:
-          "Una vez que una plataforma capte tu atención puedes seguir explorándola directamente. Selecta no abre cuentas, no gestiona transacciones ni participa en actividades de trading. El servicio se centra en organizar la información de brokers para que los usuarios puedan revisar las plataformas antes de avanzar por su cuenta.",
+          "Una vez que una plataforma capte tu atención puedes seguir explorándola directamente. Silecta no abre cuentas, no gestiona transacciones ni participa en actividades de trading. El servicio se centra en organizar la información de brokers para que los usuarios puedan revisar las plataformas antes de avanzar por su cuenta.",
       }),
       ctas: [
         {
@@ -93,11 +93,11 @@ export default function HowItWorksPage() {
   return (
     <div className={styles.page}>
       <HeroSection
-        kicker={t("hero.kicker", { fallback: "Selecta · Cómo funciona" })}
+        kicker={t("hero.kicker", { fallback: "Silecta · Cómo funciona" })}
         title={t("hero.title", { fallback: "Cómo funciona." })}
         description={t("hero.description", {
           fallback:
-            "Sigue el proceso que siguen los inversores al explorar plataformas y descubre cómo Selecta organiza la información para que la búsqueda sea más clara y estructurada.",
+            "Sigue el proceso que siguen los inversores al explorar plataformas y descubre cómo Silecta organiza la información para que la búsqueda sea más clara y estructurada.",
         })}
       />
 
@@ -107,11 +107,11 @@ export default function HowItWorksPage() {
         })}
         title={t("intro.title", {
           fallback:
-            "Selecta reúne listados de plataformas, contexto de mercado y herramientas prácticas.",
+            "Silecta reúne listados de plataformas, contexto de mercado y herramientas prácticas.",
         })}
         body={t("intro.body", {
           fallback:
-            "Selecta reúne listados de plataformas, contexto de mercado y herramientas prácticas para que los usuarios puedan avanzar en la búsqueda de una forma más clara y estructurada. El proceso se desarrolla en cuatro pasos que se describen a continuación.",
+            "Silecta reúne listados de plataformas, contexto de mercado y herramientas prácticas para que los usuarios puedan avanzar en la búsqueda de una forma más clara y estructurada. El proceso se desarrolla en cuatro pasos que se describen a continuación.",
         })}
       />
 
@@ -133,7 +133,7 @@ export default function HowItWorksPage() {
         kicker={t("selection.kicker", { fallback: "Selección a tu medida" })}
         body={t("selection.body", {
           fallback:
-            "Selecta opera como una plataforma independiente de búsqueda y comparación de brokers. No retiene fondos de clientes ni proporciona asesoramiento de inversión. Su función se limita a presentar información de brokers, herramientas y contexto del sector dentro de una estructura de investigación más clara.",
+            "Silecta opera como una plataforma independiente de búsqueda y comparación de brokers. No retiene fondos de clientes ni proporciona asesoramiento de inversión. Su función se limita a presentar información de brokers, herramientas y contexto del sector dentro de una estructura de investigación más clara.",
         })}
       />
     </div>

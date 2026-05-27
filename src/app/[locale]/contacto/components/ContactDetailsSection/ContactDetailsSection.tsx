@@ -1,13 +1,16 @@
 import Image from "next/image";
+
 import { getTranslations } from "next-intl/server";
 
 import { ContactFormContacts } from "@/features/contact-form/ui/ContactFormContacts";
 
+import { WEBSITE_EMAIL, WEBSITE_PHONE } from "@/shared/lib/constants/constants";
+
 import styles from "./ContactDetailsSection.module.scss";
 
-const CONTACT_EMAIL = "hola@selecta.com";
-const CONTACT_PHONE_DISPLAY = "+34 900 000 000";
-const CONTACT_PHONE_HREF = "+34900000000";
+const CONTACT_EMAIL = WEBSITE_EMAIL;
+const CONTACT_PHONE_DISPLAY = WEBSITE_PHONE;
+const CONTACT_PHONE_HREF = WEBSITE_PHONE;
 
 export const ContactDetailsSection = async () => {
   const t = await getTranslations("contactPage");
@@ -77,13 +80,13 @@ export const ContactDetailsSection = async () => {
           <div className={styles.privacyCard}>
             <p className={styles.privacyTitle}>
               {t("contact.privacyTitle", {
-                fallback: "Selecta de privacidad",
+                fallback: "Silecta de privacidad",
               })}
             </p>
             <p className={styles.privacyBody}>
               {t("contact.privacyBody", {
                 fallback:
-                  "Tu información de contacto solo se utilizará para responder a tu consulta. Selecta no comparte información personal con terceros.",
+                  "Tu información de contacto solo se utilizará para responder a tu consulta. Silecta no comparte información personal con terceros.",
               })}
             </p>
           </div>

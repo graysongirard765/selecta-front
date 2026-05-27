@@ -11,7 +11,7 @@ export const HeroSection = async () => {
       <div className={styles.inner}>
         <div className={styles.content}>
           <p className={styles.kicker}>
-            {t("hero.kicker", { fallback: "SELECTA · CONTACTO" })}
+            {t("hero.kicker", { fallback: "SILECTA · CONTACTO" })}
           </p>
           <h1 className={styles.title}>
             {t("hero.title", { fallback: "Hablemos." })}

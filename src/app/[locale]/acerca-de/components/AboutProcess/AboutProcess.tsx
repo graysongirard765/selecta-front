@@ -18,7 +18,7 @@ export const AboutProcess = () => {
   });
   const descriptionThree = t('descriptionThree', {
     fallback:
-      'Ese es el principio detrás de Selecta: mantener la información de brokers dentro de un entorno consistente donde las plataformas puedan explorarse sin cambiar constantemente de formato.',
+      'Ese es el principio detrás de Silecta: mantener la información de brokers dentro de un entorno consistente donde las plataformas puedan explorarse sin cambiar constantemente de formato.',
   });
 
   return (

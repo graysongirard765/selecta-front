@@ -65,11 +65,11 @@ const generalSans = localFont({
 });
 
 export const metadata: Metadata = {
-  title: 'Selecta | Broker Discovery',
-  description: 'Sign up and exchange BTC & ETH with Selecta. Explore a secure, fast, and transparent crypto exchange platform with simple verification and reliable transactions.',
+  title: 'Silecta | Broker Discovery',
+  description: 'Sign up and exchange BTC & ETH with Silecta. Explore a secure, fast, and transparent crypto exchange platform with simple verification and reliable transactions.',
   openGraph: {
-    title: 'Selecta | Broker Discovery',
-    description: 'Sign up and exchange BTC & ETH with Selecta. Explore a secure, fast, and transparent crypto exchange platform with simple verification and reliable transactions.',
+    title: 'Silecta | Broker Discovery',
+    description: 'Sign up and exchange BTC & ETH with Silecta. Explore a secure, fast, and transparent crypto exchange platform with simple verification and reliable transactions.',
     //images: 'https://selecta.com/images/meta.png',
   },
 };
