@@ -1,6 +1,7 @@
 @use '@/shared/lib/styles/mixin.scss' as *;
 
 .form {
+  position: relative;
   width: 100%;
 }
 
@@ -113,13 +114,6 @@
   border-bottom-color: #ff6b6b;
 }
 
-.recaptcha {
-  align-self: flex-start;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
 .actions {
   display: flex;
   justify-content: flex-end;
@@ -199,6 +193,107 @@
   margin: 0;
 }
 
+.successOverlay {
+  position: absolute;
+  inset: 0;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  border-radius: inherit;
+  background: rgba(3, 3, 3, 0.62);
+  backdrop-filter: blur(14px);
+}
+
+.successPopup {
+  position: relative;
+  width: min(100%, 440px);
+  display: grid;
+  justify-items: center;
+  gap: 16px;
+  padding: 32px 28px 28px;
+  border: 1px solid rgba(236, 145, 23, 0.24);
+  border-radius: 20px;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.96) 0%, rgba(247, 244, 236, 0.96) 100%);
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.22);
+  text-align: center;
+}
+
+.successClose {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 36px;
+  height: 36px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: 999px;
+  background: rgba(3, 3, 3, 0.06);
+  cursor: pointer;
+
+  span {
+    position: absolute;
+    width: 14px;
+    height: 1.5px;
+    background: #030303;
+
+    &:first-child {
+      transform: rotate(45deg);
+    }
+
+    &:last-child {
+      transform: rotate(-45deg);
+    }
+  }
+}
+
+.successIcon {
+  width: 64px;
+  height: 64px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #ec9117;
+  box-shadow: 0 12px 28px rgba(236, 145, 23, 0.28);
+}
+
+.successTitle {
+  margin: 0;
+  color: #030303;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+}
+
+.successBody {
+  max-width: 320px;
+  margin: 0;
+  color: rgba(3, 3, 3, 0.72);
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.successButton {
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: 999px;
+  background: #030303;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1.4;
+  padding: 12px 22px;
+}
+
 .formContactPage {
   .formInner {
     gap: 24px;
@@ -244,6 +339,25 @@
 }
 
 @include mobile {
+  .successOverlay {
+    padding: 16px;
+  }
+
+  .successPopup {
+    width: 100%;
+    gap: 14px;
+    padding: 28px 20px 24px;
+    border-radius: 18px;
+  }
+
+  .successTitle {
+    font-size: 24px;
+  }
+
+  .successBody {
+    font-size: 14px;
+  }
+
   .formContactPage {
     gap: 20px;
     padding: 40px 20px;

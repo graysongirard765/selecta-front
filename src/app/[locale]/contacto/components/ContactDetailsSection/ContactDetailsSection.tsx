@@ -93,7 +93,7 @@ export const ContactDetailsSection = async () => {
         </div>
 
         <div className={styles.formColumn}>
-          <ContactFormContacts variant="contactPage" showRecaptcha={false} />
+          <ContactFormContacts variant="contactPage" />
         </div>
       </div>
     </section>
