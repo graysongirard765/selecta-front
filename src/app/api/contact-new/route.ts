@@ -8,7 +8,6 @@ import {
   escapeHtml,
   renderEmailParagraph,
 } from '@/shared/lib/email/brandedEmail';
-import { verifyRecaptcha } from '@/shared/lib/recaptcha';
 
 const parseEmailList = (value: string | undefined) =>
   (value ?? '')
@@ -75,29 +74,6 @@ export async function POST(request: Request): Promise<NextResponse> {
     const email = formData.get('email') as string;
     const phone = formData.get('phone') as string | null;
     const message = formData.get('message') as string;
-    const recaptcha = formData.get('recaptcha') as string;
-
-    // Keep verification for forms that submit a real token, but allow
-    // intentionally recaptcha-free variants to pass `disabled`.
-    const ENABLE_RECAPTCHA = recaptcha !== 'disabled';
-
-    // Verify reCAPTCHA token (only if enabled)
-    if (ENABLE_RECAPTCHA) {
-      if (!recaptcha || recaptcha === 'disabled') {
-        return NextResponse.json(
-          { message: 'La verificación de reCAPTCHA es requerida.' },
-          { status: 400 }
-        );
-      }
-
-      const isRecaptchaValid = await verifyRecaptcha(recaptcha);
-      if (!isRecaptchaValid) {
-        return NextResponse.json(
-          { message: 'La verificación de reCAPTCHA falló. Por favor, inténtalo de nuevo.' },
-          { status: 400 }
-        );
-      }
-    }
 
     const { adminEmails, fromEmail } = getEmailConfig();
 

@@ -9,7 +9,6 @@ export const submitContactFormNew = async (data: ContactFormNewSchema) => {
     formData.append('phone', data.phone);
   }
   formData.append('message', data.message || '');
-  formData.append('recaptcha', data.recaptcha || 'disabled');
   
   const res = await fetch(`/api/contact-new`, {
     method: 'POST',

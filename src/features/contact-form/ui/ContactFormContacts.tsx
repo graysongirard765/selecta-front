@@ -4,14 +4,11 @@ import { useCallback, useState } from 'react';
 
 import { zodResolver } from '@hookform/resolvers/zod';
 import { useTranslations } from 'next-intl';
-import ReCAPTCHA from 'react-google-recaptcha';
 import { useForm } from 'react-hook-form';
 
 import { submitContactFormNew } from '../api/submitContactFormNew';
 import { type ContactFormNewSchema, createContactFormNewSchema } from '../model/ContactForm.schema';
 import styles from './ContactFormContacts.module.scss';
-
-const ENABLE_RECAPTCHA = true;
 
 type FormField = {
   key: 'firstName' | 'lastName' | 'email' | 'phone' | 'message';
@@ -22,15 +19,10 @@ type FormField = {
 
 type ContactFormContactsProps = {
   variant?: 'default' | 'contactPage';
-  showRecaptcha?: boolean;
 };
 
-export const ContactFormContacts = ({
-  variant = 'default',
-  showRecaptcha = ENABLE_RECAPTCHA,
-}: ContactFormContactsProps) => {
+export const ContactFormContacts = ({ variant = 'default' }: ContactFormContactsProps) => {
   const [isLoading, setIsLoading] = useState(false);
-  const [recaptchaKey, setRecaptchaKey] = useState(0);
   const [submitError, setSubmitError] = useState<string | null>(null);
   const [submitSuccess, setSubmitSuccess] = useState(false);
   const t = useTranslations('contactsForm');
@@ -70,18 +62,16 @@ export const ContactFormContacts = ({
   const {
     register,
     handleSubmit,
-    setValue,
     reset,
     formState: { errors },
   } = useForm<ContactFormNewSchema>({
-    resolver: zodResolver(createContactFormNewSchema(showRecaptcha)),
+    resolver: zodResolver(createContactFormNewSchema()),
     defaultValues: {
       firstName: '',
       lastName: '',
       email: '',
       phone: '',
       message: '',
-      recaptcha: showRecaptcha ? '' : 'disabled',
     },
   });
 
@@ -92,7 +82,6 @@ export const ContactFormContacts = ({
         setSubmitError(null);
         await submitContactFormNew(data);
         reset();
-        setRecaptchaKey((currentValue) => currentValue + 1);
         setSubmitSuccess(true);
       } catch (error: unknown) {
         setSubmitError(
@@ -102,22 +91,12 @@ export const ContactFormContacts = ({
                 fallback: 'No pudimos enviar tu mensaje. Inténtalo de nuevo.',
               }),
         );
-        setRecaptchaKey((currentValue) => currentValue + 1);
       } finally {
         setIsLoading(false);
       }
     },
     [reset, t],
   );
-
-  const handleRecaptchaChange = (token: string | null) => {
-    if (showRecaptcha) {
-      setValue('recaptcha', token || '', { shouldValidate: true });
-      return;
-    }
-
-    setValue('recaptcha', 'disabled', { shouldValidate: false });
-  };
 
   return (
     <div className={`${styles.form} ${variant === 'contactPage' ? styles.formContactPage : ''}`}>
@@ -248,17 +227,6 @@ export const ContactFormContacts = ({
             );
           })}
         </div>
-
-        {showRecaptcha ? (
-          <div className={styles.recaptcha}>
-            <ReCAPTCHA
-              key={recaptchaKey}
-              sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY || ''}
-              onChange={handleRecaptchaChange}
-            />
-            {errors.recaptcha ? <p className={styles.error}>{errors.recaptcha.message}</p> : null}
-          </div>
-        ) : null}
 
         {submitError ? <p className={styles.error}>{submitError}</p> : null}
 
