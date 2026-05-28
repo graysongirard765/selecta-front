@@ -17,6 +17,17 @@ export const submitContactFormNew = async (data: ContactFormNewSchema) => {
   });
 
   if (!res.ok) {
-    throw new Error('Submission failed');
+    let message = 'Submission failed';
+
+    try {
+      const payload = (await res.json()) as { message?: string };
+      if (payload?.message) {
+        message = payload.message;
+      }
+    } catch {
+      // Keep default message when the response body is not JSON.
+    }
+
+    throw new Error(message);
   }
 };

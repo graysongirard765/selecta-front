@@ -11,8 +11,6 @@ import { submitContactFormNew } from '../api/submitContactFormNew';
 import { type ContactFormNewSchema, createContactFormNewSchema } from '../model/ContactForm.schema';
 import styles from './ContactFormContacts.module.scss';
 
-import { useRouter } from '@/i18n/navigation';
-
 const ENABLE_RECAPTCHA = true;
 
 type FormField = {
@@ -33,8 +31,9 @@ export const ContactFormContacts = ({
 }: ContactFormContactsProps) => {
   const [isLoading, setIsLoading] = useState(false);
   const [recaptchaKey, setRecaptchaKey] = useState(0);
+  const [submitError, setSubmitError] = useState<string | null>(null);
+  const [submitSuccess, setSubmitSuccess] = useState(false);
   const t = useTranslations('contactsForm');
-  const router = useRouter();
   const fields: readonly FormField[] = [
     {
       key: 'firstName',
@@ -90,18 +89,25 @@ export const ContactFormContacts = ({
     async (data: ContactFormNewSchema) => {
       try {
         setIsLoading(true);
+        setSubmitError(null);
         await submitContactFormNew(data);
         reset();
         setRecaptchaKey((currentValue) => currentValue + 1);
-        router.push('/contacto/gracias');
-      } catch (error) {
-        console.error(error);
+        setSubmitSuccess(true);
+      } catch (error: unknown) {
+        setSubmitError(
+          error instanceof Error
+            ? error.message
+            : t('submitError', {
+                fallback: 'No pudimos enviar tu mensaje. Inténtalo de nuevo.',
+              }),
+        );
         setRecaptchaKey((currentValue) => currentValue + 1);
       } finally {
         setIsLoading(false);
       }
     },
-    [reset, router],
+    [reset, t],
   );
 
   const handleRecaptchaChange = (token: string | null) => {
@@ -115,6 +121,60 @@ export const ContactFormContacts = ({
 
   return (
     <div className={`${styles.form} ${variant === 'contactPage' ? styles.formContactPage : ''}`}>
+      {submitSuccess ? (
+        <div
+          className={styles.successOverlay}
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby="contact-form-success-title"
+        >
+          <div className={styles.successPopup}>
+            <button
+              type="button"
+              className={styles.successClose}
+              onClick={() => setSubmitSuccess(false)}
+              aria-label={t('successCloseAria', { fallback: 'Cerrar mensaje' })}
+            >
+              <span />
+              <span />
+            </button>
+            <div className={styles.successIcon} aria-hidden="true">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+              >
+                <path
+                  d="M6 12.5L10.25 16.75L18 8.75"
+                  stroke="#030303"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
+            <h3 id="contact-form-success-title" className={styles.successTitle}>
+              {t('successTitle', { fallback: 'Mensaje enviado correctamente' })}
+            </h3>
+            <p className={styles.successBody}>
+              {t('successBody', {
+                fallback:
+                  'Hemos recibido tu mensaje y nuestro equipo se pondrá en contacto contigo en breve.',
+              })}
+            </p>
+            <button
+              type="button"
+              className={styles.successButton}
+              onClick={() => setSubmitSuccess(false)}
+            >
+              {t('successAction', { fallback: 'Cerrar' })}
+            </button>
+          </div>
+        </div>
+      ) : null}
+
       {variant === 'contactPage' ? (
         <div className={styles.header}>
           <h2 className={styles.title}>
@@ -199,6 +259,8 @@ export const ContactFormContacts = ({
             {errors.recaptcha ? <p className={styles.error}>{errors.recaptcha.message}</p> : null}
           </div>
         ) : null}
+
+        {submitError ? <p className={styles.error}>{submitError}</p> : null}
 
         <div className={styles.actions}>
           <button type="submit" className={styles.submit} disabled={isLoading}>

@@ -544,6 +544,11 @@
     "optional": "Optional",
     "loading": "Loading...",
     "submit": "Send message",
+    "submitError": "We couldn't send your message. Please try again.",
+    "successTitle": "Message sent successfully",
+    "successBody": "We've received your message and our team will get back to you shortly.",
+    "successAction": "Close",
+    "successCloseAria": "Close message",
     "name": "Name",
     "namePlaceholder": "Enter your name"
   },
