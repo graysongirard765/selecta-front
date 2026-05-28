@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 
+import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 
 import { getArticle, getArticleSlugs } from "@/features/articles";
@@ -16,6 +17,22 @@ type ArticlePageProps = {
 
 export function generateStaticParams() {
   return getArticleSlugs().map((slug) => ({ slug }));
+}
+
+export async function generateMetadata({
+  params,
+}: ArticlePageProps): Promise<Metadata> {
+  const { locale, slug } = await params;
+  const article = await getArticle({ slug, locale });
+
+  if (!article) {
+    return {};
+  }
+
+  return {
+    title: article.seoTitle,
+    description: article.seoDescription,
+  };
 }
 
 export default async function SectorUpdateArticlePage({

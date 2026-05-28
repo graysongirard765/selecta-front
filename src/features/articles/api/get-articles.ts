@@ -1,9 +1,9 @@
-import fs from "node:fs/promises";
-import path from "node:path";
-
 import { cache } from "react";
+
 import matter from "gray-matter";
 import { marked } from "marked";
+import fs from "node:fs/promises";
+import path from "node:path";
 
 import { articleRegistry, type ArticleSlug } from "@/features/articles/lib/articleRegistry";
 import type { ArticleDetail, ArticleListItem, ArticleLocale, ArticleSection } from "@/features/articles/model/types";

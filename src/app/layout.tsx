@@ -65,11 +65,11 @@ const generalSans = localFont({
 });
 
 export const metadata: Metadata = {
-  title: 'Silecta | Broker Discovery',
-  description: 'Sign up and exchange BTC & ETH with Silecta. Explore a secure, fast, and transparent crypto exchange platform with simple verification and reliable transactions.',
+  title: 'Encontrar un broker para invertir y hacer trading | Silecta',
+  description: 'Compara brokers, plataformas de trading y bancos de inversión en un solo lugar. Descubre costes, herramientas y opiniones antes de elegir.',
   openGraph: {
-    title: 'Silecta | Broker Discovery',
-    description: 'Sign up and exchange BTC & ETH with Silecta. Explore a secure, fast, and transparent crypto exchange platform with simple verification and reliable transactions.',
+    title: 'Encontrar un broker para invertir y hacer trading | Silecta',
+    description: 'Compara brokers, plataformas de trading y bancos de inversión en un solo lugar. Descubre costes, herramientas y opiniones antes de elegir.',
     //images: 'https://selecta.com/images/meta.png',
   },
 };
