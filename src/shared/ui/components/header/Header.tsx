@@ -1,16 +1,15 @@
-'use client';
+"use client";
 
-import { useEffect, useState } from 'react';
-import Image from 'next/image';
+import { useEffect, useState } from "react";
+import Image from "next/image";
 
-import { useLocale, useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from "next-intl";
 
-import { WEBSITE_EMAIL } from '@/shared/lib/constants/constants';
-import { LangSelector } from '@/shared/ui/components/language-switcher/LangSelector';
+import { WEBSITE_EMAIL } from "@/shared/lib/constants/constants";
 
-import styles from './Header.module.scss';
+import styles from "./Header.module.scss";
 
-import { Link, usePathname } from '@/i18n/navigation';
+import { Link, usePathname } from "@/i18n/navigation";
 
 type NavItem = {
   href: string;
@@ -22,9 +21,9 @@ type NavItem = {
 export const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   const pathname = usePathname();
-  const t = useTranslations('header');
+  const t = useTranslations("header");
   const locale = useLocale();
-  const homePrefix = locale === 'es' ? '' : `/${locale}`;
+  const homePrefix = locale === "es" ? "" : `/${locale}`;
   const howItWorksHref = `${homePrefix}/como-funciona`;
   const updatesHref = `${homePrefix}/actualizaciones-del-sector`;
   const toolsHref = `${homePrefix}/herramientas`;
@@ -35,81 +34,130 @@ export const Header = () => {
   const navItems: readonly NavItem[] = [
     {
       href: howItWorksHref,
-      label: t('howItWorks', { fallback: 'Como funciona' }),
+      label: t("howItWorks", { fallback: "Como funciona" }),
       isRoute: true,
     },
     {
       href: updatesHref,
-      label: t('updates', { fallback: 'Actualizaciones del sector' }),
+      label: t("updates", { fallback: "Actualizaciones del sector" }),
       isRoute: true,
     },
-    { href: toolsHref, label: t('tools', { fallback: 'Herramientas' }), isRoute: true },
-    { href: aboutHref, label: t('about', { fallback: 'Acerca de' }), isRoute: true },
+    {
+      href: toolsHref,
+      label: t("tools", { fallback: "Herramientas" }),
+      isRoute: true,
+    },
+    {
+      href: aboutHref,
+      label: t("about", { fallback: "Acerca de" }),
+      isRoute: true,
+    },
   ] as const;
 
-  const contactLabel = t('contact', { fallback: 'Contacto' });
-  const ctaLabel = t('findBroker', { fallback: 'Encontrar un broker' });
+  const contactLabel = t("contact", { fallback: "Contacto" });
+  const ctaLabel = t("findBroker", { fallback: "Encontrar un broker" });
   const isPolicyPage =
-    pathname === '/terminos-y-condiciones' ||
-    pathname === '/politica-de-privacidad' ||
-    pathname === '/politica-de-cookies';
+    pathname === "/terminos-y-condiciones" ||
+    pathname === "/politica-de-privacidad" ||
+    pathname === "/politica-de-cookies";
 
   useEffect(() => {
     //setIsOpen(false);
   }, [pathname]);
 
   return (
-    <header className={`${styles.header} ${isPolicyPage ? styles.headerPolicy : ''}`}>
+    <header
+      className={`${styles.header} ${isPolicyPage ? styles.headerPolicy : ""}`}
+    >
       <div className={`${styles.notice}`}>
         <div className="container">
           <div className={styles.noticeInner}>
             <a href={`mailto:${WEBSITE_EMAIL}`} className={styles.noticeEmail}>
               {WEBSITE_EMAIL}
             </a>
-
-            <LangSelector compact />
           </div>
         </div>
       </div>
 
-      <div className={`${styles.desktopBar} ${isPolicyPage ? styles.desktopBarPolicy : ''}`}>
-      <div className="container">
-        <div className={styles.desktopShell}>
-          <Link href="/" className={styles.brand} aria-label="Silecta">
-            <Image src="/images/logo.svg" alt="Silecta" width={97} height={29} />
-          </Link>
-
-          <nav className={styles.nav} aria-label={t('navLabel', { fallback: 'Main navigation' })}>
-            {navItems.map((item) => (
-              item.isRoute ? (
-                <Link key={item.href} href={item.href} className={styles.navItem}>
-                  <span>{item.label}</span>
-                  {item.hasCaret ? <span className={styles.navCaret} aria-hidden="true" /> : null}
-                </Link>
-              ) : (
-                <a key={item.href} href={item.href} className={styles.navItem}>
-                  <span>{item.label}</span>
-                  {item.hasCaret ? <span className={styles.navCaret} aria-hidden="true" /> : null}
-                </a>
-              )
-            ))}
-          </nav>
-
-          <div className={styles.actions}>
-            <Link href={contactHref} className={styles.contactAction}>{contactLabel}</Link>
-
-            <Link href={brokersHref} className={styles.primaryAction}>
-              <span>{ctaLabel}</span>
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-  <path d="M13.3333 14.1667L17.5 10L13.3333 5.83334M17.5 10H2.5" stroke="white" strokeLinecap="round" strokeLinejoin="round"/>
-</svg>
+      <div
+        className={`${styles.desktopBar} ${
+          isPolicyPage ? styles.desktopBarPolicy : ""
+        }`}
+      >
+        <div className="container">
+          <div className={styles.desktopShell}>
+            <Link href="/" className={styles.brand} aria-label="Silecta">
+              <Image
+                src="/images/logo.svg"
+                alt="Silecta"
+                width={97}
+                height={29}
+              />
             </Link>
+
+            <nav
+              className={styles.nav}
+              aria-label={t("navLabel", { fallback: "Main navigation" })}
+            >
+              {navItems.map((item) =>
+                item.isRoute ? (
+                  <Link
+                    key={item.href}
+                    href={item.href}
+                    className={styles.navItem}
+                  >
+                    <span>{item.label}</span>
+                    {item.hasCaret ? (
+                      <span className={styles.navCaret} aria-hidden="true" />
+                    ) : null}
+                  </Link>
+                ) : (
+                  <a
+                    key={item.href}
+                    href={item.href}
+                    className={styles.navItem}
+                  >
+                    <span>{item.label}</span>
+                    {item.hasCaret ? (
+                      <span className={styles.navCaret} aria-hidden="true" />
+                    ) : null}
+                  </a>
+                ),
+              )}
+            </nav>
+
+            <div className={styles.actions}>
+              <Link href={contactHref} className={styles.contactAction}>
+                {contactLabel}
+              </Link>
+
+              <Link href={brokersHref} className={styles.primaryAction}>
+                <span>{ctaLabel}</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                >
+                  <path
+                    d="M13.3333 14.1667L17.5 10L13.3333 5.83334M17.5 10H2.5"
+                    stroke="white"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </Link>
+            </div>
           </div>
-        </div>
         </div>
       </div>
 
-      <div className={`${styles.mobileBar} ${isPolicyPage ? styles.mobileBarPolicy : ''}`}>
+      <div
+        className={`${styles.mobileBar} ${
+          isPolicyPage ? styles.mobileBarPolicy : ""
+        }`}
+      >
         <div className={styles.mobileShell}>
           <Link href="/" className={styles.brand} aria-label="Silecta">
             <span className={styles.brandMark}>
@@ -124,7 +172,7 @@ export const Header = () => {
             onClick={() => setIsOpen((value) => !value)}
             aria-expanded={isOpen}
             aria-controls="mobile-menu"
-            aria-label={t('menu', { fallback: 'Menu' })}
+            aria-label={t("menu", { fallback: "Menu" })}
           >
             <span className={styles.menuLine} />
             <span className={styles.menuLine} />
@@ -133,11 +181,20 @@ export const Header = () => {
         </div>
       </div>
 
-      <div id="mobile-menu" className={`${styles.mobilePanel} ${isOpen ? styles.mobilePanelOpen : ''}`}>
+      <div
+        id="mobile-menu"
+        className={`${styles.mobilePanel} ${
+          isOpen ? styles.mobilePanelOpen : ""
+        }`}
+      >
         <div className="container">
-          <div className={`${styles.mobileInner} ${isPolicyPage ? styles.mobileInnerPolicy : ''}`}>
+          <div
+            className={`${styles.mobileInner} ${
+              isPolicyPage ? styles.mobileInnerPolicy : ""
+            }`}
+          >
             <nav className={styles.mobileNav}>
-              {navItems.map((item) => (
+              {navItems.map((item) =>
                 item.isRoute ? (
                   <Link
                     key={item.href}
@@ -146,7 +203,9 @@ export const Header = () => {
                     onClick={() => setIsOpen(false)}
                   >
                     <span>{item.label}</span>
-                    {item.hasCaret ? <span className={styles.navCaret} aria-hidden="true" /> : null}
+                    {item.hasCaret ? (
+                      <span className={styles.navCaret} aria-hidden="true" />
+                    ) : null}
                   </Link>
                 ) : (
                   <a
@@ -156,19 +215,28 @@ export const Header = () => {
                     onClick={() => setIsOpen(false)}
                   >
                     <span>{item.label}</span>
-                    {item.hasCaret ? <span className={styles.navCaret} aria-hidden="true" /> : null}
+                    {item.hasCaret ? (
+                      <span className={styles.navCaret} aria-hidden="true" />
+                    ) : null}
                   </a>
-                )
-              ))}
+                ),
+              )}
             </nav>
 
-
             <div className={styles.mobileActions}>
-              <Link href={contactHref} className={styles.contactAction} onClick={() => setIsOpen(false)}>
+              <Link
+                href={contactHref}
+                className={styles.contactAction}
+                onClick={() => setIsOpen(false)}
+              >
                 {contactLabel}
               </Link>
 
-              <Link href={brokersHref} className={styles.primaryAction} onClick={() => setIsOpen(false)}>
+              <Link
+                href={brokersHref}
+                className={styles.primaryAction}
+                onClick={() => setIsOpen(false)}
+              >
                 <span>{ctaLabel}</span>
                 <span className={styles.actionArrow} aria-hidden="true" />
               </Link>
