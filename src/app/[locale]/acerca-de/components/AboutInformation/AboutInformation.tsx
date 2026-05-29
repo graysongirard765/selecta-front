@@ -55,8 +55,8 @@ export const AboutInformation = () => {
       <div className="container">
         <div className={styles.about_information__top}>
           <div>
-            <p className={styles.about_information__subtitle}>{subtitle}</p>
-            <h2 className={styles.about_information__title}>{title}</h2>
+            <p className={styles.about_information__subtitle}></p>
+            <h2 className={styles.about_information__title}>{subtitle}</h2>
           </div>
 
           <p className={styles.about_information__description}>{description}</p>

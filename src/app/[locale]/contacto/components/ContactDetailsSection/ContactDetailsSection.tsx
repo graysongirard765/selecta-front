@@ -25,9 +25,7 @@ export const ContactDetailsSection = async () => {
             </p>
 
             <div className={styles.textBlock}>
-              <h2 className={styles.title}>
-                {t("contact.title", { fallback: "Aquí para ayudar." })}
-              </h2>
+        
               <p className={styles.description}>
                 {t("contact.description", {
                   fallback:

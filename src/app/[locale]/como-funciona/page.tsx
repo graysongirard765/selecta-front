@@ -30,7 +30,7 @@ export default function HowItWorksPage() {
       title: t("step1.title", { fallback: "Explorar brokers" }),
       body: t("step1.body", {
         fallback:
-          "Comienza conociendo las plataformas más utilizadas y con mejores condiciones del mercado. La sección Encontrar un broker reúne perfiles de plataformas en un solo lugar. Cada perfil presenta los elementos clave de un entorno de corretaje en un formato consistente, lo que facilita revisar y moverse entre plataformas.",
+          "Comienza conociendo las plataformas más utilizadas y con mejores condiciones del mercado. <br/><br/>La sección Encontrar un broker reúne perfiles de plataformas en un solo lugar. Cada perfil presenta los elementos clave de un entorno de corretaje en un formato consistente, lo que facilita revisar y moverse entre plataformas.",
       }),
       dark: true,
       ctas: [
@@ -79,6 +79,9 @@ export default function HowItWorksPage() {
           fallback: "Opiniones de usuarios externos",
         }),
       ],
+      bottomBody: t("step3.bottomBody", {
+        fallback: "Analizar estos elementos en conjunto ayuda a formar una visión más completa de cada plataforma.",
+      }),
     },
     {
       step: t("step4.kicker", { fallback: "Paso 4" }),
@@ -103,13 +106,13 @@ export default function HowItWorksPage() {
         title={t("hero.title", { fallback: "Cómo funciona." })}
         description={t("hero.description", {
           fallback:
-            "Sigue el proceso que siguen los inversores al explorar plataformas y descubre cómo Silecta organiza la información para que la búsqueda sea más clara y estructurada.",
+            "Sigue la lista de las mejores plataformas que los inversores utilizan al invertir, pero antes de nada explora y revisa las plataformas.",
         })}
       />
 
       <IntroSection
         kicker={t("intro.kicker", {
-          fallback: "Cómo comienza la elección de una plataforma",
+          fallback: "Cómo comienza la elección de una plataforma Silecta",
         })}
         title={t("intro.title", {
           fallback:

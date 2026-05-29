@@ -3,7 +3,7 @@
     "brokers": {
       "step": "02 / Entender",
       "titleLine1": "Conoce tus opciones",
-      "titleLine2": "reales a la hora de decidir.",
+      "titleLine2": "reales a la hora de decidir",
       "closing": "Determina si alguna de estas companias puede cubrir tus necesidades informandote de una forma clara, rapida y precisa. Consulta sus servicios, costes y productos en un solo clic.",
       "tradeRepublic": {
         "name": "Trade Republic",
@@ -105,7 +105,7 @@
         "body": "Resenas de usuarios disponibles en plataformas independientes que califican el servicio."
       },
       "step": "03 / Comparar",
-      "title": "Elementos a tener en cuenta a la hora de elegir.",
+      "title": "Elementos a tener en cuenta a la hora de elegir",
       "description": "Al revisar plataformas o brokers, normalmente se comparan varios aspectos practicos que resumiremos a continuacion.",
       "note": "Estos elementos ayudan a formar una vision mas clara de como se diferencian las plataformas entre todas ellas y cual nos puede ofrecer un servicio mucho mas personalizado."
     },
@@ -140,7 +140,7 @@
     },
     "heroEyebrow": "SILECTA · BROKER DISCOVERY",
     "heroTitleLineOne": "Descubre tu",
-    "heroTitleLineTwo": "broker.",
+    "heroTitleLineTwo": "broker",
     "heroDescription": "Encuentra la plataforma, banco o broker que mas se adapte a tu perfil y a tus necesidades.",
     "heroPrimaryCta": "Encontrar un broker",
     "introStep": "01 / Inicio",
@@ -220,7 +220,7 @@
       }
     },
     "brokersStep": "02 / Entender",
-    "brokersTitle": "Conoce tus opciones reales a la hora de decidir.",
+    "brokersTitle": "Conoce tus opciones reales a la hora de decidir",
     "brokersMarketsLabel": "Mercados",
     "brokersPlatformLabel": "Plataforma",
     "brokersFeesLabel": "Comisiones",
@@ -276,7 +276,7 @@
     "description": "Las plataformas introducen nuevos instrumentos, actualizan el software de trading y ajustan las características de las cuentas con el tiempo. Seguir estos desarrollos puede proporcionar contexto adicional al revisar las plataformas de corretaje y sus entornos operativos.",
     "rightSubtitle": "Seguir explorando",
     "rightDesciption": "Si necesitas aclaraciones mientras exploras plataformas de brokers o utilizas sus herramientas analíticas, puedes ponerte en contacto a través de la página de contacto.",
-    "linkTitle": "Ir a Contacto"
+    "linkTitle": "Contacto"
   },
   "AboutPageHero": {
     "subtitle": "SILECTA · ACERCA DE",
@@ -335,7 +335,7 @@
     "explorePrimary": "Encontrar un broker",
     "exploreSecondary": "Explorar herramientas",
     "heroKicker": "SILECTA · ACTUALIZACIONES DEL SECTOR",
-    "heroTitle": "Actualizaciones del sector.",
+    "heroTitle": "Actualizaciones del sector",
     "heroDescription": "Comprende cómo evolucionan las plataformas de corretaje con el tiempo desde cambios tecnológicos hasta transformaciones en la infraestructura de trading y los entornos de las plataformas.",
     "servicesTitlePlatformUpdates": "Actualizaciones de la plataforma",
     "servicesBodyPlatformUpdates": "El software de trading evoluciona con nuevas funciones, actualizaciones de la interfaz y entornos de ejecución mejorados.",
@@ -347,7 +347,7 @@
     "servicesBodyAdjustments": "Las estructuras de cuentas, las capacidades de la plataforma y las funciones disponibles pueden cambiar a medida que las plataformas perfeccionan sus servicios.",
     "servicesKicker": "SERVICIOS DE BROKERS A LO LARGO DEL TIEMPO",
     "servicesTitle": "Servicios fiables en el largo plazo",
-    "servicesDescription": "Las plataformas de corretaje suelen ampliar y ajustar sus servicios a medida que evolucionan la tecnología de trading y el acceso al mercado. Con el tiempo, estos cambios pueden incluir:"
+    "servicesDescription": "Las plataformas de inversion suelen ampliar y ajustar sus servicios a medida que evolucionan la tecnología de trading y el acceso al mercado. Con el tiempo, estos cambios pueden incluir:"
   },
   "sectorUpdatesArticlePage": {
     "back": "Back",
@@ -357,38 +357,39 @@
     "step1": {
       "kicker": "Paso 1",
       "title": "Explorar brokers",
-      "body": "Comienza conociendo las plataformas más utilizadas y con mejores condiciones del mercado. La sección Encontrar un broker reúne perfiles de plataformas en un solo lugar. Cada perfil presenta los elementos clave de un entorno de corretaje en un formato consistente, lo que facilita revisar y moverse entre plataformas.",
+      "body": "Comienza conociendo las plataformas más utilizadas y con mejores condiciones del mercado. <br/><br/>La sección Encontrar un broker reúne perfiles de plataformas en un solo lugar. Cada perfil presenta los elementos clave de un entorno de trading en un formato consistente, lo que facilita revisar y moverse entre plataformas.",
       "ctaPrimary": "Explorar brokers"
     },
     "step2": {
       "kicker": "Paso 2",
-      "title": "No quedarse ahí e ir más allá del listado",
-      "body": "La investigación de brokers rara vez se detiene en el perfil básico. La sección Herramientas ofrece utilidades analíticas que ayudan a interpretar las condiciones de trading. Al mismo tiempo, Actualizaciones del sector sigue los cambios en torno a las plataformas, incluyendo nuevas funciones, ajustes y cambios en el acceso al mercado.",
+      "title": "No quedarse ahí e ir más allá",
+      "body": "La investigación de brokers rara vez se detiene en el perfil básico. <br/><br/>La sección Herramientas ofrece utilidades analíticas que ayudan a interpretar las condiciones de plataformas y las estructuras de las inversiones. Al mismo tiempo, Actualizaciones del sector sigue los cambios en torno a las plataformas de inversión, incluyendo nuevas funciones, ajustes y cambios en el acceso al mercado.",
       "ctaTools": "Ver herramientas",
       "ctaUpdates": "Leer actualizaciones del sector"
     },
     "step3": {
       "kicker": "Paso 3",
       "title": "Ver las diferencias",
-      "body": "Después de explorar los listados y revisar el contexto, el siguiente paso es observar cómo se diferencian las plataformas. Los usuarios suelen fijarse en los siguientes aspectos:",
+      "body": "Después de explorar los listados y revisar el contexto, el siguiente paso es simplemente observar cómo se diferencian las plataformas.. Los usuarios suelen fijarse en los siguientes aspectos:",
       "bulletPlatform": "Entorno de la plataforma",
       "bulletTrading": "Condiciones de trading",
       "bulletTechnology": "Tecnologías disponibles",
-      "bulletReviews": "Opiniones de usuarios externos"
+      "bulletReviews": "Opiniones de usuarios externos",
+      "bottomBody": "Analizar estos elementos en conjunto ayuda a formar una visión más completa de cada plataforma."
     },
     "step4": {
       "kicker": "Paso 4",
       "title": "Continua tu investigación",
-      "body": "Una vez que una plataforma capte tu atención puedes seguir explorándola directamente. Silecta no abre cuentas, no gestiona transacciones ni participa en actividades de trading. El servicio se centra en organizar la información de brokers para que los usuarios puedan revisar las plataformas antes de avanzar por su cuenta.",
+      "body": "Una vez que una plataforma capte tu atención ya sea porque patrocine a tu equipo favorito, algún amigo o conocido te haya hablado de ella puedes seguir explorándola directamente.<br/><br/>Silecta no abre cuentas, no gestiona transacciones ni participa en actividades de trading. El servicio se centra en organizar la información de brokers para que los usuarios puedan revisar las plataformas antes de avanzar por su cuenta.Silecta no abre cuentas, no gestiona transacciones ni participa en actividades de trading. El servicio se centra en organizar la información de brokers para que los usuarios puedan revisar las plataformas antes de avanzar por su cuenta.",
       "ctaPrimary": "Encontrar un broker"
     },
     "hero": {
       "kicker": "Silecta · Cómo funciona",
-      "title": "Cómo funciona.",
-      "description": "Sigue el proceso que siguen los inversores al explorar plataformas y descubre cómo Silecta organiza la información para que la búsqueda sea más clara y estructurada."
+      "title": "Cómo funciona",
+      "description": "Sigue la lista de las mejores plataformas que los inversores utilizan al invertir, pero antes de nada explora y revisa las plataformas."
     },
     "intro": {
-      "kicker": "Cómo comienza la elección de una plataforma",
+      "kicker": "Cómo comienza la elección de una plataforma Silecta",
       "title": "Silecta reúne listados de plataformas, contexto de mercado y herramientas prácticas.",
       "body": "Silecta reúne listados de plataformas, contexto de mercado y herramientas prácticas para que los usuarios puedan avanzar en la búsqueda de una forma más clara y estructurada. El proceso se desarrolla en cuatro pasos que se describen a continuación."
     },
@@ -405,7 +406,7 @@
   "contactPage": {
     "contact": {
       "kicker": "Datos de contacto",
-      "title": "Aquí para ayudar.",
+      "title": "Aquí para ayudar",
       "description": "Si prefieres una comunicación directa, puedes ponerte en contacto con el equipo utilizando los datos de contacto a continuación.",
       "emailLabel": "CORREO ELECTRÓNICO",
       "phoneLabel": "TELÉFONO",
@@ -414,7 +415,7 @@
     },
     "hero": {
       "kicker": "SILECTA · CONTACTO",
-      "title": "Hablemos.",
+      "title": "Hablemos",
       "description": "Pueden surgir preguntas al explorar los listados de brokers, revisar la información de las plataformas o navegar por las diferentes secciones del sitio web. Si algo en la plataforma requiere aclaración, puedes contactar directamente con el equipo."
     }
   },
@@ -436,7 +437,8 @@
   },
   "FindABrokerPagePlatformSelect": {
     "title": "Silecta de plataforma independiente",
-    "description": "La plataforma se centra en organizar la información de brokers para que los usuarios puedan explorar plataformas de corretaje inversión antes de continuar su investigación directamente con un broker."
+    "description1": "Silecta opera como una plataforma independiente de búsqueda de brokers. No retiene fondos de clientes, no gestiona cuentas de trading ni proporciona asesoramiento de inversión. ",
+    "description2": "La plataforma se centra en organizar la información de brokers para que los usuarios puedan explorar plataformas de corretaje inversión antes de continuar su investigación directamente con un broker."
   },
   "FindABrokerPageReviewing": {
     "title": "Qué buscar al revisar brokers",
@@ -461,7 +463,7 @@
     "ctaPrimary": "Encontrar un broker",
     "ctaSecondary": "Actualizaciones del sector",
     "heroKicker": "SILECTA · HERRAMIENTAS ANALÍTICAS",
-    "heroTitle": "Herramientas.",
+    "heroTitle": "Herramientas",
     "heroDescription": "Herramientas analíticas disponibles para ayudar a examinar entornos de trading, condiciones de las plataformas y posibles escenarios de estrategia.",
     "toolsKicker": "HERRAMIENTAS DE ANÁLISIS",
     "toolsTitle": "Cuatro herramientas para explorar condiciones de trading y supuestos de estrategia.",
@@ -521,11 +523,11 @@
     },
     "usageKicker": "USO DE HERRAMIENTAS ANALÍTICAS",
     "usageLead": "Estas utilidades permiten a los usuarios examinar diferentes parámetros relacionados con los entornos de trading y los supuestos de estrategia.",
-    "usageBody": "Están diseñadas para apoyar la investigación y la exploración de escenarios, no para proporcionar asesoramiento de inversión."
+    "usageBody": "Están diseñadas para apoyar la investigación y la exploración de escenarios."
   },
   "policyPage": {
-    "back": "Volver",
-    "toc": "Tabla de contenidos"
+    "toc": "Tabla de contenidos",
+    "back": "Volver"
   },
   "contactsForm": {
     "firstName": "Nombre",
@@ -538,17 +540,17 @@
     "phonePlaceholder": "Escribe tu numero de telefono",
     "message": "Mensaje",
     "messagePlaceholder": "Escribe tu mensaje aquí",
+    "submitError": "No pudimos enviar tu mensaje. Inténtalo de nuevo.",
+    "successCloseAria": "Cerrar mensaje",
+    "successTitle": "Mensaje enviado correctamente",
+    "successBody": "Hemos recibido tu mensaje y nuestro equipo se pondrá en contacto contigo en breve.",
+    "successAction": "Cerrar",
     "panelTitle": "Enviar un mensaje",
     "panelDescription": "También puedes ponerte en contacto con nosotros a través del siguiente formulario.",
     "required": "Requerido",
     "optional": "Opcional",
     "loading": "Cargando...",
     "submit": "Enviar mensaje",
-    "submitError": "No pudimos enviar tu mensaje. Inténtalo de nuevo.",
-    "successTitle": "Mensaje enviado correctamente",
-    "successBody": "Hemos recibido tu mensaje y nuestro equipo se pondrá en contacto contigo en breve.",
-    "successAction": "Cerrar",
-    "successCloseAria": "Cerrar mensaje",
     "name": "Nombre",
     "namePlaceholder": "Escribe tu nombre"
   },
