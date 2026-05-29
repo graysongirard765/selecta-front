@@ -150,12 +150,28 @@
         background: #EC9117;
         border: 1px solid #EC9117;
         color: #1E2218;
+        &:hover{
+            background-color: #fff;
+            color: #030303;
+            border-color: #fff;
+            img, svg{
+                //filter: brightness(0) invert(1);
+            }
+        }
     }
 
     &__item_link_two {
         background: transparent;
         border: 1px solid var(--color-white-25, rgba(255, 255, 255, 0.25));
         color: #FFF;
+        &:hover{
+            background-color: #fff;
+            color: #030303;
+            border-color: #fff;
+            img, svg{
+                filter: brightness(0) invert(1);
+            }
+        }
     }
 
     &__slide {

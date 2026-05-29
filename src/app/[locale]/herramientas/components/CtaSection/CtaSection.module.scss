@@ -65,11 +65,27 @@
 .buttonFilled {
   background: #ec9117;
   color: #1e2218;
+  &:hover{
+    background-color: #030303;
+    color: #fff;
+    border-color: #030303;
+    img, svg{
+      filter: brightness(0) invert(1);
+    }
+  }
 }
 
 .buttonOutline {
   border: 1px solid rgba(30, 34, 24, 0.22);
   color: rgba(30, 34, 24, 0.78);
+  &:hover{
+    background-color: #030303;
+    color: #fff;
+    border-color: #030303;
+    img, svg{
+      filter: brightness(0) invert(1);
+    }
+  }
 }
 
 @media (max-width: 767px) {

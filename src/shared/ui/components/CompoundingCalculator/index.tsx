@@ -5,7 +5,7 @@ import Script from 'next/script';
 export default function CompoundingCalculator() {
   return (
     <>
-      <div id="compounding-calculator-24035" />
+      <div id="compounding-calculator-770799" />
 
       <Script
         src="https://fxverify.com/Content/remote/remote-widgets.js"
@@ -26,13 +26,10 @@ export default function CompoundingCalculator() {
             ContainerWidth: '665',
             HighlightColor: 'rgba(0,0,0,1.0)',
             IsDisplayTitle: false,
-            IsShowEmbedButton: false,
+            IsShowEmbedButton: true,
             CompactType: 'large',
-            DefaultBalance: '20000',
-            DefaultPeriod: '12',
-            DefaultGain: '5',
             Calculator: 'compounding-calculator',
-            ContainerId: 'compounding-calculator-24035',
+            ContainerId: 'compounding-calculator-770799',
           });
         }}
       />

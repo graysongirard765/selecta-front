@@ -130,6 +130,14 @@
   padding: 11px 19px;
   text-decoration: none;
   width: fit-content;
+  &:hover{
+    background-color: #030303;
+    color: #fff;
+    border-color: #030303;
+    img, svg{
+      filter: brightness(0) invert(1);
+    }
+  }
 }
 
 .linkArrow {

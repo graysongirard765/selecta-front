@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 import { useTranslations } from 'next-intl';
 
-import CompoundingCalculator from '@/shared/ui/components/CompoundingCalculator';
+import LocalCompoundingCalculator from '@/shared/ui/components/LocalCompoundingCalculator';
 
 import styles from './FindABrokerTools.module.scss';
 
@@ -38,7 +38,7 @@ export const FindABrokerTools = () => {
           </div>
 
           <div className={styles.find_broker_tools__right}>
-            <CompoundingCalculator />
+            <LocalCompoundingCalculator />
           </div>
         </div>
       </div>

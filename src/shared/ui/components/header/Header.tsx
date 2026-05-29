@@ -160,10 +160,12 @@ export const Header = () => {
       >
         <div className={styles.mobileShell}>
           <Link href="/" className={styles.brand} aria-label="Silecta">
-            <span className={styles.brandMark}>
-              <span className={styles.brandDot} />
-            </span>
-            <span className={styles.brandText}>Silecta</span>
+           <Image
+                src="/images/logo.svg"
+                alt="Silecta"
+                width={97}
+                height={29}
+              />
           </Link>
 
           <button

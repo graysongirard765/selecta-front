@@ -143,8 +143,9 @@
     background-color 0.2s ease;
 
   &:hover {
-    background: #f2a12b;
-    transform: translateY(-1px);
+    background: #fff;
+    color: #030303;
+    border-color: #fff;
   }
 
   &:disabled {

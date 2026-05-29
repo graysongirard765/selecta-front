@@ -71,6 +71,17 @@
         font-size: 14px;
         font-weight: 400;
         line-height: 140%;
+        &:hover{
+            background-color: #fff;
+            color: #030303;
+            border-color: #fff;
+            img, svg{
+                //filter: brightness(0) invert(1);
+            }
+        }
+        @include mobile {
+            width: 100%;
+        }
     }
 
     &__list_subtitle {
