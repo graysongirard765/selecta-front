@@ -11,6 +11,7 @@ export type StepItem = {
     filled?: boolean;
   }[];
   bullets?: readonly string[];
+  bottomBody?: string;
 };
 
 type StepsSectionProps = {
@@ -37,7 +38,7 @@ export const StepsSection = ({ steps }: StepsSectionProps) => {
 
                 <div className={styles.content}>
                   <h2 className={styles.title}>{item.title}</h2>
-                  <p className={styles.body}>{item.body}</p>
+                  <div className={styles.body} dangerouslySetInnerHTML={{ __html: item.body }} />
 
                   {item.bullets ? (
                     <div className={styles.list}>
@@ -48,6 +49,10 @@ export const StepsSection = ({ steps }: StepsSectionProps) => {
                         </div>
                       ))}
                     </div>
+                  ) : null}
+
+                  {item.bottomBody ? (
+                    <div className={styles.body} dangerouslySetInnerHTML={{ __html: item.bottomBody }} />
                   ) : null}
 
                   {item.ctas ? (

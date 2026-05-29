@@ -54,11 +54,7 @@ export const ServicesSection = async () => {
       <div className={styles.inner}>
         <div className={styles.heading}>
           <div className={styles.copy}>
-            <p className={styles.kicker}>
-              {t("servicesKicker", {
-                fallback: "SERVICIOS DE BROKERS A LO LARGO DEL TIEMPO",
-              })}
-            </p>
+ 
             <h2 className={styles.title}>
               {t("servicesTitle", {
                 fallback: "Servicios fiables en el largo plazo",
@@ -69,7 +65,7 @@ export const ServicesSection = async () => {
           <p className={styles.description}>
             {t("servicesDescription", {
               fallback:
-                "Las plataformas de corretaje suelen ampliar y ajustar sus servicios a medida que evolucionan la tecnología de trading y el acceso al mercado. Con el tiempo, estos cambios pueden incluir:",
+                "Las plataformas de inversion suelen ampliar y ajustar sus servicios a medida que evolucionan la tecnología de trading y el acceso al mercado. Con el tiempo, estos cambios pueden incluir:",
             })}
           </p>
         </div>

@@ -5,11 +5,11 @@ import styles from './FindABrokerPlatformSelect.module.scss';
 export const FindABrokerPlatformSelect = () => {
   const t = useTranslations('FindABrokerPagePlatformSelect');
   const title = t('title', { fallback: 'Silecta de plataforma independiente' });
-  const description = t('description', {
+  const description = t('description1', {
     fallback:
       'Silecta opera como una plataforma independiente de búsqueda de brokers. No retiene fondos de clientes, no gestiona cuentas de trading ni proporciona asesoramiento de inversión.',
   });
-  const descriptionTwo = t('description', {
+  const descriptionTwo = t('description2', {
     fallback:
       'La plataforma se centra en organizar la información de brokers para que los usuarios puedan explorar plataformas de corretaje inversión antes de continuar su investigación directamente con un broker.',
   });
