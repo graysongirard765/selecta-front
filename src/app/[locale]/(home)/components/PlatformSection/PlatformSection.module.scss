@@ -93,6 +93,14 @@
   text-decoration: none;
   font-size: 14px;
   white-space: nowrap;
+  &:hover{
+    background-color: #fff;
+    color: #030303;
+    border-color: #fff;
+    img, svg{
+      //filter: brightness(0) invert(1);
+    }
+  }
 }
 
 .ctaArrow {
