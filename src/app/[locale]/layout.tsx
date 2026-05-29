@@ -4,6 +4,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { setRequestLocale } from "next-intl/server";
 
 import { Footer, Header } from "@/shared/ui/components";
+import { Preloader } from "@/shared/ui/components/preloader/Preloader";
 
 import { routing } from "@/i18n/routing";
 
@@ -28,6 +29,7 @@ export default async function LocaleLayout({
 
   return (
     <NextIntlClientProvider>
+      <Preloader />
       <Header />
       {children}
       <Footer />
