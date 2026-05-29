@@ -34,7 +34,7 @@ export const Preloader: React.FC = () => {
     // Check if page is already loaded
     if (typeof window !== 'undefined' && document.readyState === 'complete') {
       // Page already loaded, hide preloader after minimum display time
-      const timer = setTimeout(hidePreloader, 3000);
+      const timer = setTimeout(hidePreloader, 2000);
       return () => {
         clearTimeout(resetTimer);
         clearTimeout(timer);
@@ -69,7 +69,7 @@ export const Preloader: React.FC = () => {
         left: 0,
         width: '100%',
         height: '100%',
-        backgroundColor: '#fff',
+        backgroundColor: '#030303',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
