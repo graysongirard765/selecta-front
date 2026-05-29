@@ -1,13 +1,11 @@
 import { NextResponse } from 'next/server';
 
-import type { MailDataRequired } from '@sendgrid/mail';
-import sgMail from '@sendgrid/mail';
+import nodemailer from 'nodemailer';
 
-import {
-  createBrandedEmailHtml,
-  escapeHtml,
-  renderEmailParagraph,
-} from '@/shared/lib/email/brandedEmail';
+import { escapeHtml } from '@/shared/lib/email/brandedEmail';
+
+const SMTP_HOST = 'mail.privateemail.com';
+const SMTP_PORT = 465;
 
 const parseEmailList = (value: string | undefined) =>
   (value ?? '')
@@ -16,72 +14,44 @@ const parseEmailList = (value: string | undefined) =>
     .filter(Boolean);
 
 const getEmailConfig = () => {
-  const apiKey = process.env.SENDGRID_API_KEY;
   const adminEmails = parseEmailList(process.env.ADMIN_EMAIL);
   const fromEmail = process.env.FROM_EMAIL?.trim();
+  const password = process.env.EMAIL_PASSWORD?.trim();
 
-  if (!apiKey || adminEmails.length === 0 || !fromEmail) {
+  if (adminEmails.length === 0 || !fromEmail || !password) {
     throw new Error('Email configuration is missing.');
   }
 
-  sgMail.setApiKey(apiKey);
-
-  return { adminEmails, fromEmail };
+  return { adminEmails, fromEmail, password };
 };
 
-const getSendGridErrorDetails = (error: unknown) => {
-  if (
-    typeof error === 'object' &&
-    error !== null &&
-    'code' in error &&
-    typeof error.code === 'number'
-  ) {
-    return {
-      statusCode: error.code,
-      body:
-        'response' in error &&
-        error.response &&
-        typeof error.response === 'object' &&
-        'body' in error.response
-          ? error.response.body
-          : undefined,
-    };
-  }
-
-  return {
-    statusCode: undefined,
-    body: undefined,
-  };
-};
-
-const sendEmail = async (message: MailDataRequired, label: string) => {
-  try {
-    await sgMail.send(message);
-  } catch (error) {
-    const { body } = getSendGridErrorDetails(error);
-    if (body) {
-      console.error(`SendGrid ${label} error:`, body);
-    }
-
-    throw error;
-  }
-};
+const createTransporter = (fromEmail: string, password: string) =>
+  nodemailer.createTransport({
+    host: SMTP_HOST,
+    port: SMTP_PORT,
+    secure: true,
+    auth: {
+      user: fromEmail,
+      pass: password,
+    },
+  });
 
 export async function POST(request: Request): Promise<NextResponse> {
   try {
     const formData = await request.formData();
-    const fullName = formData.get('fullName') as string;
-    const email = formData.get('email') as string;
-    const phone = formData.get('phone') as string | null;
-    const message = formData.get('message') as string;
+    const fullName = String(formData.get('fullName') ?? '').trim();
+    const email = String(formData.get('email') ?? '').trim();
+    const phone = String(formData.get('phone') ?? '').trim();
+    const message = String(formData.get('message') ?? '').trim();
 
-    const { adminEmails, fromEmail } = getEmailConfig();
+    const { adminEmails, fromEmail, password } = getEmailConfig();
+    const transporter = createTransporter(fromEmail, password);
 
-    // Create email content for admin
-    const msg = {
-      to: adminEmails,
+    await transporter.sendMail({
       from: fromEmail,
+      to: adminEmails,
       subject: 'Nueva solicitud de contacto',
+      replyTo: email || fromEmail,
       html: `
         <h2>Nueva solicitud de contacto</h2>
         <p><strong>Nombre completo:</strong> ${escapeHtml(fullName)}</p>
@@ -89,50 +59,16 @@ export async function POST(request: Request): Promise<NextResponse> {
         ${phone ? `<p><strong>Teléfono:</strong> ${escapeHtml(phone)}</p>` : ''}
         <p><strong>Mensaje:</strong> ${escapeHtml(message)}</p>
       `,
-    };
-
-    // Create confirmation email for user
-    const userMsg = {
-      to: email,
-      from: fromEmail,
-      subject: "Hemos recibido tu mensaje",
-      html: createBrandedEmailHtml({
-        previewTitle: 'Gracias por contactar a selecta!',
-        title: 'Gracias por contactar a selecta!',
-        bodyHtml: [
-          renderEmailParagraph(
-            'Tu mensaje ha sido recibido. Nuestro equipo revisará tu consulta cuidadosamente y te responderá brevemente.'
-          ),
-          renderEmailParagraph('Apreciamos tu interés y te esperamos para ayudarte.'),
-        ].join('<div style="height: 24px; line-height: 24px;">&nbsp;</div>'),
-      }),
-    };
-
-    // Send emails
-    await sendEmail(msg, 'admin');
-    await sendEmail(userMsg, 'user');
+    });
 
     return NextResponse.json({ message: 'Solicitud de contacto enviada correctamente.' });
   } catch (error: unknown) {
-    const { statusCode } = getSendGridErrorDetails(error);
     const errorMessage = error instanceof Error ? error.message : 'Error desconocido';
     console.error('Error al enviar la solicitud de contacto:', errorMessage);
 
-    if (process.env.NODE_ENV !== 'production' && statusCode === 403) {
-      console.warn(
-        'SendGrid rejected the request in local development. Returning success so the form flow remains testable locally.',
-      );
-
-      return NextResponse.json({
-        message:
-          'El formulario se procesó en desarrollo, pero SendGrid rechazó el envío. Revisa FROM_EMAIL / sender identity antes de producción.',
-        warning: 'sendgrid_forbidden_dev_bypass',
-      });
-    }
-
     return NextResponse.json(
       { message: 'Error al enviar la solicitud de contacto.', error: errorMessage },
-      { status: 500 }
+      { status: 500 },
     );
   }
 }
