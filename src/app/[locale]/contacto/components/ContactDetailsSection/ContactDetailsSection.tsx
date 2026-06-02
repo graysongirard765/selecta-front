@@ -4,13 +4,13 @@ import { getTranslations } from "next-intl/server";
 
 import { ContactFormContacts } from "@/features/contact-form/ui/ContactFormContacts";
 
-import { WEBSITE_EMAIL, WEBSITE_PHONE } from "@/shared/lib/constants/constants";
+import { WEBSITE_EMAIL } from "@/shared/lib/constants/constants";
 
 import styles from "./ContactDetailsSection.module.scss";
 
 const CONTACT_EMAIL = WEBSITE_EMAIL;
-const CONTACT_PHONE_DISPLAY = WEBSITE_PHONE;
-const CONTACT_PHONE_HREF = WEBSITE_PHONE;
+//const CONTACT_PHONE_DISPLAY = WEBSITE_PHONE;
+//const CONTACT_PHONE_HREF = WEBSITE_PHONE;
 
 export const ContactDetailsSection = async () => {
   const t = await getTranslations("contactPage");
@@ -55,7 +55,7 @@ export const ContactDetailsSection = async () => {
               </span>
             </a>
 
-            <a href={`tel:${CONTACT_PHONE_HREF}`} className={styles.contactItem}>
+            {/**<a href={`tel:${CONTACT_PHONE_HREF}`} className={styles.contactItem}>
               <span className={styles.iconWrap}>
                 <Image
                   src="/images/contact/icon-phone.svg"
@@ -70,7 +70,7 @@ export const ContactDetailsSection = async () => {
                 </span>
                 <span className={styles.contactValue}>{CONTACT_PHONE_DISPLAY}</span>
               </span>
-            </a>
+            </a> */}
           </div>
 
           <div className={styles.divider} aria-hidden="true" />

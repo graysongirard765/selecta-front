@@ -116,7 +116,7 @@ export default function HowItWorksPage() {
         })}
         title={t("intro.title", {
           fallback:
-            "Silecta reúne listados de plataformas, contexto de mercado y herramientas prácticas.",
+            "Silecta reúne listados de plataformas, contexto de mercado y herramientas prácticas para que los usuarios puedan avanzar en la búsqueda de una forma más clara y estructurada.",
         })}
         body={t("intro.body", {
           fallback:

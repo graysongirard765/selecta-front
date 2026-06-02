@@ -4,10 +4,10 @@
       "step": "02 / Entender",
       "titleLine1": "Conoce tus opciones",
       "titleLine2": "reales a la hora de decidir",
-      "closing": "Determina si alguna de estas companias puede cubrir tus necesidades informandote de una forma clara, rapida y precisa. Consulta sus servicios, costes y productos en un solo clic.",
+      "closing": "Determina si alguna de estas compañías puede cubrir tus necesidades informándote de una forma clara, rápida y precisa. Consulta sus servicios, costes y productos en un solo clic.",
       "tradeRepublic": {
         "name": "Trade Republic",
-        "description": "Broker global · EU · UK",
+        "description": "Bróker global · EU · UK",
         "badge": "Verificado",
         "markets": "Forex · Acciones · Cripto · ETFs",
         "platform": "Web · Móvil · Escritorio",
@@ -15,11 +15,11 @@
         "tagRegulated": "Regulado",
         "tagFastExecution": "Ejecución rápida",
         "tagApi": "API",
-        "rating": "4.8 · 12,4k resenas",
-        "platforms": "Web · Movil · Escritorio",
+        "rating": "4.8 · 12,4k reseñas",
+        "platforms": "Web · Móvil · Escritorio",
         "spreads": "Desde 0,0 pips · 0€ custodia",
         "tag1": "Regulado",
-        "tag2": "Ejecucion rapida",
+        "tag2": "Ejecución rápida",
         "tag3": "API"
       },
       "labels": {
@@ -31,7 +31,7 @@
       },
       "jadeTrax": {
         "name": "JadeTrax",
-        "description": "Banco + broker · ES",
+        "description": "Banco + bróker · ES",
         "badge": "Verificado",
         "markets": "Acciones · Fondos · Bonos",
         "tagLongTerm": "Largo plazo",
@@ -41,7 +41,7 @@
       },
       "swissquote": {
         "name": "Swissquote",
-        "description": "Broker · Acciones · ES",
+        "description": "Bróker · Acciones · ES",
         "badge": "Verificado",
         "markets": "Acciones · ETFs · Planes",
         "tagZeroFee": "0€ compra",
@@ -58,7 +58,7 @@
         "tagAnalytics": "Analítica",
         "tagAlwaysOn": "24/7",
         "tag1": "Copy trading",
-        "tag2": "Analitica",
+        "tag2": "Analítica",
         "tag3": "24/7"
       },
       "xtb": {
@@ -73,21 +73,21 @@
       },
       "fxpro": {
         "name": "FxPro",
-        "description": "Broker retail · UE",
+        "description": "Bróker retail · UE",
         "badge": "Verificado",
         "markets": "Acciones · Cripto · Derivados",
         "tagCommunity": "Comunidad",
         "tagEducation": "Educación",
         "tag1": "Comunidad",
-        "tag2": "Educacion"
+        "tag2": "Educación"
       },
       "title": "Conoce tus opciones reales a la hora de decidir."
     },
     "comparison": {
       "execution": {
         "step": "01",
-        "title": "Entorno de ejecucion",
-        "body": "Infraestructura que respalda el procesamiento de ordenes y las operaciones de trading."
+        "title": "Entorno de ejecución",
+        "body": "Infraestructura que respalda el procesamiento de órdenes y las operaciones de trading."
       },
       "costs": {
         "step": "02",
@@ -97,30 +97,30 @@
       "platform": {
         "step": "03",
         "title": "Plataforma",
-        "body": "Desde la plataforma acceso a tu cartera de inversion, noticias y diferentes ordenes."
+        "body": "Desde la plataforma acceso a tu cartera de inversión, noticias y diferentes órdenes."
       },
       "reviews": {
         "step": "04",
-        "title": "Opinion de los clientes",
-        "body": "Resenas de usuarios disponibles en plataformas independientes que califican el servicio."
+        "title": "Opinión de los clientes",
+        "body": "Reseñas de usuarios disponibles en plataformas independientes que califican el servicio."
       },
       "step": "03 / Comparar",
       "title": "Elementos a tener en cuenta a la hora de elegir",
-      "description": "Al revisar plataformas o brokers, normalmente se comparan varios aspectos practicos que resumiremos a continuacion.",
-      "note": "Estos elementos ayudan a formar una vision mas clara de como se diferencian las plataformas entre todas ellas y cual nos puede ofrecer un servicio mucho mas personalizado."
+      "description": "Al revisar plataformas o brókers, normalmente se comparan varios aspectos prácticos que resumiremos a continuación.",
+      "note": "Estos elementos ayudan a formar una visión más clara de cómo se diferencian las plataformas entre todas ellas y cuál nos puede ofrecer un servicio mucho más personalizado."
     },
     "contact": {
       "step": "08 / Contacto",
       "eyebrow": "Contactar con el equipo",
-      "title": "Aqui para ayudar",
-      "description": "Si necesitas aclaraciones o resolver dudas sobre como funciona la plataforma, puedes contactar directamente con el equipo.",
-      "note": "Tu informacion de contacto solo se utilizara para responder a tu consulta. Silecta no comparte informacion personal con terceros."
+      "title": "Aquí para ayudar",
+      "description": "Si necesitas aclaraciones o resolver dudas sobre cómo funciona la plataforma, puedes contactar directamente con el equipo.",
+      "note": "Tu información de contacto solo se utilizará para responder a tu consulta. Silecta no comparte información personal con terceros."
     },
     "decision": {
       "explore": {
         "step": "01",
         "title": "Explora",
-        "body": "Revisar el funcionamiento de las plataformas y la informacion disponible sobre ellas."
+        "body": "Revisar el funcionamiento de las plataformas y la información disponible sobre ellas."
       },
       "compare": {
         "step": "02",
@@ -130,33 +130,33 @@
       "select": {
         "step": "03",
         "title": "Selecciona",
-        "body": "Identificar cual de ellas se puede ajustar a tus preferencias de trading."
+        "body": "Identificar cuál de ellas se puede ajustar a tus preferencias de trading."
       },
       "step": "05 / Decidir",
       "titleLine1": "Pasar de la búsqueda",
       "titleLine2": "a la selección",
-      "subtitle": "La seleccion de brokers se desarrolla en tres pasos.",
-      "title": "Pasar de la busqueda a la seleccion"
+      "subtitle": "La selección de brókers se desarrolla en tres pasos.",
+      "title": "Pasar de la búsqueda a la selección"
     },
     "heroEyebrow": "SILECTA · BROKER DISCOVERY",
     "heroTitleLineOne": "Descubre tu",
-    "heroTitleLineTwo": "broker",
-    "heroDescription": "Encuentra la plataforma, banco o broker que mas se adapte a tu perfil y a tus necesidades.",
-    "heroPrimaryCta": "Encontrar un broker",
+    "heroTitleLineTwo": "bróker",
+    "heroDescription": "Encuentra la plataforma, banco o bróker que más se adapte a tu perfil y a tus necesidades.",
+    "heroPrimaryCta": "Encontrar un bróker",
     "introStep": "01 / Inicio",
-    "introTitle": "Comienza con una vision mas clara",
+    "introTitle": "Comienza con una visión más clara",
     "introQuestionLineOne": "Cuando empiezas a buscar una empresa que te ofrezca un servicio",
-    "introQuestionLineTwo": "de inversion la primera pregunta suele ser:",
-    "introQuestionHighlight": "Donde?",
-    "introBodyPrimary": "Encontrar la respuesta normalmente implica gastar mucho tiempo en diferentes webs, buscar resenas y descripciones que muchas veces no alcanzamos a entender o desconocemos.",
-    "introBodySecondary": "En Silecta, te ayudamos a que la eleccion sea facil y comoda ayudandote durante todo el proceso para que puedas elegir con una vision mas clara antes de tomar una decision.",
-    "introCta": "Encontrar un broker",
+    "introQuestionLineTwo": "de inversión la primera pregunta suele ser:",
+    "introQuestionHighlight": "¿Dónde?",
+    "introBodyPrimary": "Encontrar la respuesta normalmente implica gastar mucho tiempo en diferentes webs, buscar reseñas y descripciones que muchas veces no alcanzamos a entender o desconocemos.",
+    "introBodySecondary": "En Silecta, te ayudamos a que la elección sea fácil y cómoda ayudándote durante todo el proceso para que puedas elegir con una visión más clara antes de tomar una decisión.",
+    "introCta": "Encontrar un bróker",
     "platform": {
       "step": "07 / Nuestra plataforma",
       "title": "Estructura independiente",
       "cardTitle": "Un recurso independiente",
-      "lead": "Silecta es un recurso independiente dedicado a organizar la informacion de brokers y los desarrollos del sector.",
-      "body": "No actua como broker ni gestiona cuentas de trading. Su proposito es presentar la informacion de las diferentes alternativas dentro de una estructura mas clara que facilite la exploracion y la comparacion.",
+      "lead": "Silecta es un recurso independiente dedicado a organizar la información de brókers y los desarrollos del sector.",
+      "body": "No actúa como bróker ni gestiona cuentas de trading. Su propósito es presentar la información de las diferentes alternativas dentro de una estructura más clara que facilite la exploración y la comparación.",
       "metaPrimary": "Plataforma · Independiente",
       "metaSecondary": "Est. 2026",
       "cta": "Acerca de la plataforma"
@@ -166,27 +166,27 @@
         "name": "Maria A.",
         "source": "Trustpilot",
         "rating": "4.7 / 5",
-        "quote": "Las condiciones de ejecucion y las comisiones se ven con claridad, sin tener que saltar entre webs."
+        "quote": "Las condiciones de ejecución y las comisiones se ven con claridad, sin tener que saltar entre webs."
       },
       "javier": {
         "name": "Javier P.",
         "source": "Trustpilot",
         "rating": "4.9 / 5",
-        "quote": "Mire cuatro brokers en un rato. La comparacion estructurada ayuda a decidir sin prisa."
+        "quote": "Miré cuatro brókers en un rato. La comparación estructurada ayuda a decidir sin prisa."
       },
       "lucia": {
-        "name": "Lucia O.",
+        "name": "Lucía O.",
         "source": "Google Reviews",
         "rating": "5.0 / 5",
-        "quote": "Silecta no me vende nada. Me organiza la informacion y me deja elegir con calma."
+        "quote": "Silecta no me vende nada. Me organiza la información y me deja elegir con calma."
       },
       "step": "04 / Verificar",
       "titleLine1": "Perspectivas",
       "titleLine2": "externas de",
       "titleLine3": "comunidades",
       "titleLine4": "de trading",
-      "description": "Las plataformas de brokers se discuten con frecuencia en plataformas de resenas independientes donde los traders comparten sus experiencias.",
-      "note": "Estas perspectivas externas pueden proporcionar una ayuda adicional para entender y valorar el servicio antes de realizar una eleccion.",
+      "description": "Las plataformas de brókers se discuten con frecuencia en plataformas de reseñas independientes donde los traders comparten sus experiencias.",
+      "note": "Estas perspectivas externas pueden proporcionar una ayuda adicional para entender y valorar el servicio antes de realizar una elección.",
       "titleLineOne": "Perspectivas externas de",
       "titleLineTwo": "comunidades de trading",
       "title": "Perspectivas externas de comunidades de trading"
@@ -224,7 +224,7 @@
     "brokersMarketsLabel": "Mercados",
     "brokersPlatformLabel": "Plataforma",
     "brokersFeesLabel": "Comisiones",
-    "brokersFooter": "Determina si alguna de estas companias puede cubrir tus necesidades informandote de una forma clara, rapida y precisa. Consulta sus servicios, costes y productos en un solo clic.",
+    "brokersFooter": "Determina si alguna de estas compañías puede cubrir tus necesidades informándote de una forma clara, rápida y precisa. Consulta sus servicios, costes y productos en un solo clic.",
     "workSecurityTitle": "Security",
     "workSecurityDescription": "We use cutting edge technologies to secure your transactions.",
     "workTransparencyTitle": "Transparency",
@@ -275,13 +275,13 @@
     "title": "Los servicios de trading continúan cambiando a medida que evoluciona la tecnología de trading y se amplía el acceso al mercado.",
     "description": "Las plataformas introducen nuevos instrumentos, actualizan el software de trading y ajustan las características de las cuentas con el tiempo. Seguir estos desarrollos puede proporcionar contexto adicional al revisar las plataformas de corretaje y sus entornos operativos.",
     "rightSubtitle": "Seguir explorando",
-    "rightDesciption": "Si necesitas aclaraciones mientras exploras plataformas de brokers o utilizas sus herramientas analíticas, puedes ponerte en contacto a través de la página de contacto.",
+    "rightDesciption": "Si necesitas aclaraciones mientras exploras plataformas de brókers o utilizas sus herramientas analíticas, puedes ponerte en contacto a través de la página de contacto.",
     "linkTitle": "Contacto"
   },
   "AboutPageHero": {
     "subtitle": "SILECTA · ACERCA DE",
     "title": "Un lugar donde la investigación se integra",
-    "description": "La investigación de brokers a menudo requiere consultar múltiples fuentes. Silecta reúne la información de brokers y el contexto del sector en un solo lugar para facilitar la exploración."
+    "description": "La investigación de brókers a menudo requiere consultar múltiples fuentes. Silecta reúne la información de brókers y el contexto del sector en un solo lugar para facilitar la exploración."
   },
   "AboutPageInformation": {
     "subtitle": "Qué información se suele revisar",
@@ -303,22 +303,22 @@
     "descriptionTwo": "Dado que los caminos de investigación difieren, Silecta permite moverse entre secciones sin imponer una secuencia fija.",
     "linkTitle": "Ver cómo funciona",
     "listSubtitle": "El papel independiente de Silecta",
-    "listDescription": "Silecta opera como una plataforma independiente de búsqueda de brokers. El servicio no abre cuentas de trading, no retiene fondos de clientes, no ejecuta operaciones ni proporciona asesoramiento de inversión. Nuestro papel se limita a:",
-    "listItemTitleOne": "Organización de la información de brokers",
+    "listDescription": "Silecta opera como una plataforma independiente de búsqueda de brókers. El servicio no abre cuentas de trading, no retiene fondos de clientes, no ejecuta operaciones ni proporciona asesoramiento de inversión. Nuestro papel se limita a:",
+    "listItemTitleOne": "Organización de la información de brókers",
     "listItemTitleOneTwo": "Observaciones del sector",
     "listItemTitleOneThree": "Herramientas analíticas de investigación",
     "listItemTitleOneFour": "Referencias a reseñas externas"
   },
   "AboutPageProcess": {
     "subtitle": "Por qué la organización cambia el proceso de investigación",
-    "descriptionOne": "Las plataformas de brokers rara vez presentan su información de la misma manera. Los costes de trading pueden aparecer en una página, las capacidades de la plataforma en otra y el acceso al mercado en la documentación técnica.",
+    "descriptionOne": "Las plataformas de brókers rara vez presentan su información de la misma manera. Los costes de trading pueden aparecer en una página, las capacidades de la plataforma en otra y el acceso al mercado en la documentación técnica.",
     "descriptionTwo": "Cuando estos elementos se analizan dentro de un mismo marco, las diferencias entre plataformas se vuelven más fáciles de identificar.",
-    "descriptionThree": "Ese es el principio detrás de Silecta: mantener la información de brokers dentro de un entorno consistente donde las plataformas puedan explorarse sin cambiar constantemente de formato."
+    "descriptionThree": "Ese es el principio detrás de Silecta: mantener la información de brókers dentro de un entorno consistente donde las plataformas puedan explorarse sin cambiar constantemente de formato."
   },
   "AboutPageResources": {
     "subtitle": "Un entorno, varias perspectivas",
     "title": "Tres recursos integrados en una sola plataforma.",
-    "itemTitleOne": "Listados de brokers",
+    "itemTitleOne": "Listados de brókers",
     "itemDescriptionOne": "Perfiles estructurados que presentan las plataformas de trading en una sola vista general.",
     "itemTitleTwo": "Observaciones del sector",
     "itemDescriptionTwo": "Artículos que cubren desarrollos de plataformas, actualizaciones de infraestructura y cambios en el entorno.",
@@ -331,8 +331,8 @@
     "articlesKicker": "ACTUALIZACIONES RECIENTES",
     "articlesTitle": "Qué está cambiando en las plataformas",
     "exploreKicker": "DE LA INFORMACIÓN A LA EXPLORACIÓN",
-    "exploreBody": "Las observaciones del sector pueden proporcionar contexto adicional al revisar las plataformas de corretaje. Continúa tu investigación explorando los listados de brokers y las herramientas analíticas disponibles en la plataforma.",
-    "explorePrimary": "Encontrar un broker",
+    "exploreBody": "Las observaciones del sector pueden proporcionar contexto adicional al revisar las plataformas de corretaje. Continúa tu investigación explorando los listados de brókers y las herramientas analíticas disponibles en la plataforma.",
+    "explorePrimary": "Encontrar un bróker",
     "exploreSecondary": "Explorar herramientas",
     "heroKicker": "SILECTA · ACTUALIZACIONES DEL SECTOR",
     "heroTitle": "Actualizaciones del sector",
@@ -347,7 +347,7 @@
     "servicesBodyAdjustments": "Las estructuras de cuentas, las capacidades de la plataforma y las funciones disponibles pueden cambiar a medida que las plataformas perfeccionan sus servicios.",
     "servicesKicker": "SERVICIOS DE BROKERS A LO LARGO DEL TIEMPO",
     "servicesTitle": "Servicios fiables en el largo plazo",
-    "servicesDescription": "Las plataformas de inversion suelen ampliar y ajustar sus servicios a medida que evolucionan la tecnología de trading y el acceso al mercado. Con el tiempo, estos cambios pueden incluir:"
+    "servicesDescription": "Las plataformas de inversión suelen ampliar y ajustar sus servicios a medida que evolucionan la tecnología de trading y el acceso al mercado. Con el tiempo, estos cambios pueden incluir:"
   },
   "sectorUpdatesArticlePage": {
     "back": "Back",
@@ -356,21 +356,21 @@
   "howItWorksPage": {
     "step1": {
       "kicker": "Paso 1",
-      "title": "Explorar brokers",
-      "body": "Comienza conociendo las plataformas más utilizadas y con mejores condiciones del mercado. <br/><br/>La sección Encontrar un broker reúne perfiles de plataformas en un solo lugar. Cada perfil presenta los elementos clave de un entorno de trading en un formato consistente, lo que facilita revisar y moverse entre plataformas.",
-      "ctaPrimary": "Explorar brokers"
+      "title": "Explorar brókers",
+      "body": "Comienza conociendo las plataformas más utilizadas y con mejores condiciones del mercado. <br/><br/>La sección Encontrar un bróker reúne perfiles de plataformas en un solo lugar. Cada perfil presenta los elementos clave de un entorno de trading en un formato consistente, lo que facilita revisar y moverse entre plataformas.",
+      "ctaPrimary": "Explorar brókers"
     },
     "step2": {
       "kicker": "Paso 2",
       "title": "No quedarse ahí e ir más allá",
-      "body": "La investigación de brokers rara vez se detiene en el perfil básico. <br/><br/>La sección Herramientas ofrece utilidades analíticas que ayudan a interpretar las condiciones de plataformas y las estructuras de las inversiones. Al mismo tiempo, Actualizaciones del sector sigue los cambios en torno a las plataformas de inversión, incluyendo nuevas funciones, ajustes y cambios en el acceso al mercado.",
+      "body": "La investigación de brókers rara vez se detiene en el perfil básico. <br/><br/>La sección Herramientas ofrece utilidades analíticas que ayudan a interpretar las condiciones de plataformas y las estructuras de las inversiones. Al mismo tiempo, Actualizaciones del sector sigue los cambios en torno a las plataformas de inversión, incluyendo nuevas funciones, ajustes y cambios en el acceso al mercado.",
       "ctaTools": "Ver herramientas",
       "ctaUpdates": "Leer actualizaciones del sector"
     },
     "step3": {
       "kicker": "Paso 3",
       "title": "Ver las diferencias",
-      "body": "Después de explorar los listados y revisar el contexto, el siguiente paso es simplemente observar cómo se diferencian las plataformas.. Los usuarios suelen fijarse en los siguientes aspectos:",
+      "body": "Después de explorar los listados y revisar el contexto, el siguiente paso es simplemente observar cómo se diferencian las plataformas. <br/><br/>Los usuarios suelen fijarse en los siguientes aspectos:",
       "bulletPlatform": "Entorno de la plataforma",
       "bulletTrading": "Condiciones de trading",
       "bulletTechnology": "Tecnologías disponibles",
@@ -380,8 +380,8 @@
     "step4": {
       "kicker": "Paso 4",
       "title": "Continua tu investigación",
-      "body": "Una vez que una plataforma capte tu atención ya sea porque patrocine a tu equipo favorito, algún amigo o conocido te haya hablado de ella puedes seguir explorándola directamente.<br/><br/>Silecta no abre cuentas, no gestiona transacciones ni participa en actividades de trading. El servicio se centra en organizar la información de brokers para que los usuarios puedan revisar las plataformas antes de avanzar por su cuenta.Silecta no abre cuentas, no gestiona transacciones ni participa en actividades de trading. El servicio se centra en organizar la información de brokers para que los usuarios puedan revisar las plataformas antes de avanzar por su cuenta.",
-      "ctaPrimary": "Encontrar un broker"
+      "body": "Una vez que una plataforma capte tu atención ya sea porque patrocine a tu equipo favorito, algún amigo o conocido te haya hablado de ella puedes seguir explorándola directamente.<br/><br/>Silecta no abre cuentas, no gestiona transacciones ni participa en actividades de trading. El servicio se centra en organizar la información de brókers para que los usuarios puedan revisar las plataformas antes de avanzar por su cuenta.",
+      "ctaPrimary": "Encontrar un bróker"
     },
     "hero": {
       "kicker": "Silecta · Cómo funciona",
@@ -390,17 +390,17 @@
     },
     "intro": {
       "kicker": "Cómo comienza la elección de una plataforma Silecta",
-      "title": "Silecta reúne listados de plataformas, contexto de mercado y herramientas prácticas.",
+      "title": "Silecta reúne listados de plataformas, contexto de mercado y herramientas prácticas para que los usuarios puedan avanzar en la búsqueda de una forma más clara y estructurada.",
       "body": "Silecta reúne listados de plataformas, contexto de mercado y herramientas prácticas para que los usuarios puedan avanzar en la búsqueda de una forma más clara y estructurada. El proceso se desarrolla en cuatro pasos que se describen a continuación."
     },
     "explore": {
       "kicker": "Explora a tu propio ritmo",
-      "lead": "La investigación de brokers rara vez sigue un único camino. Algunos usuarios identifican rápidamente las plataformas que desean explorar más a fondo, mientras que otros dedican más tiempo a revisar herramientas, actualizaciones del sector y detalles de las plataformas antes de decidir en qué centrarse a continuación.",
+      "lead": "La investigación de brókers rara vez sigue un único camino. Algunos usuarios identifican rápidamente las plataformas que desean explorar más a fondo, mientras que otros dedican más tiempo a revisar herramientas, actualizaciones del sector y detalles de las plataformas antes de decidir en qué centrarse a continuación.",
       "body": "La estructura de la plataforma permite a los usuarios moverse libremente entre secciones a medida que evoluciona su investigación."
     },
     "selection": {
       "kicker": "Selección a tu medida",
-      "body": "Silecta opera como una plataforma independiente de búsqueda y comparación de brokers. No retiene fondos de clientes ni proporciona asesoramiento de inversión. Su función se limita a presentar información de brokers, herramientas y contexto del sector dentro de una estructura de investigación más clara."
+      "body": "Silecta opera como una plataforma independiente de búsqueda y comparación de brókers. No retiene fondos de clientes ni proporciona asesoramiento de inversión. Su función se limita a presentar información de brókers, herramientas y contexto del sector dentro de una estructura de investigación más clara."
     }
   },
   "contactPage": {
@@ -416,32 +416,32 @@
     "hero": {
       "kicker": "SILECTA · CONTACTO",
       "title": "Hablemos",
-      "description": "Pueden surgir preguntas al explorar los listados de brokers, revisar la información de las plataformas o navegar por las diferentes secciones del sitio web. Si algo en la plataforma requiere aclaración, puedes contactar directamente con el equipo."
+      "description": "Pueden surgir preguntas al explorar los listados de brókers, revisar la información de las plataformas o navegar por las diferentes secciones del sitio web. Si algo en la plataforma requiere aclaración, puedes contactar directamente con el equipo."
     }
   },
   "FindABrokerPageHero": {
-    "title": "Encontrar un broker",
-    "description": "Explora diferentes plataformas a través de listados organizados y perfiles de brokers estructurados."
+    "title": "Encontrar un bróker",
+    "description": "Explora diferentes plataformas a través de listados organizados y perfiles de brókers estructurados."
   },
   "FindABrokerPageBrokerListings": {
-    "title": "Listados de brokers",
+    "title": "Listados de brókers",
     "description": "Explora las plataformas disponibles y revisa sus entornos a través de una visión general. Cada listado presenta detalles clave de cada una de estas, lo que permite explorar diferentes alternativas dentro de la misma estructura.",
     "itemLinkOno": "Ver reseñas",
-    "itemLinkTwo": "Visitar broker",
+    "itemLinkTwo": "Visitar bróker",
     "sliderNext": "Siguiente"
   },
   "FindABrokerPlatforms": {
     "title": "Mantente actualizado sobre las plataformas",
-    "description": "Los servicios de brokers y los entornos de trading continúan evolucionando. Seguir los desarrollos del sector puede proporcionar contexto adicional al explorar plataformas de inversión.",
+    "description": "Los servicios de brókers y los entornos de trading continúan evolucionando. Seguir los desarrollos del sector puede proporcionar contexto adicional al explorar plataformas de inversión.",
     "link": "Ver actualizaciones del sector"
   },
   "FindABrokerPagePlatformSelect": {
     "title": "Silecta de plataforma independiente",
-    "description1": "Silecta opera como una plataforma independiente de búsqueda de brokers. No retiene fondos de clientes, no gestiona cuentas de trading ni proporciona asesoramiento de inversión. ",
-    "description2": "La plataforma se centra en organizar la información de brokers para que los usuarios puedan explorar plataformas de corretaje inversión antes de continuar su investigación directamente con un broker."
+    "description1": "Silecta opera como una plataforma independiente de búsqueda de brókers. No retiene fondos de clientes, no gestiona cuentas de trading ni proporciona asesoramiento de inversión. ",
+    "description2": "La plataforma se centra en organizar la información de brókers para que los usuarios puedan explorar plataformas de corretaje inversión antes de continuar su investigación directamente con un bróker."
   },
   "FindABrokerPageReviewing": {
-    "title": "Qué buscar al revisar brokers",
+    "title": "Qué buscar al revisar brókers",
     "description": "Al explorar los listados de plataformas, los inversores suelen prestar atención a varios aspectos prácticos de una plataforma. Estos elementos ayudan a crear una imagen más clara de cómo difieren los entornos de inversión.",
     "itemTitleOne": "Entorno de ejecución",
     "itemDescriptionOne": "Infraestructura que respalda el procesamiento de órdenes y las operaciones de trading.",
@@ -453,14 +453,14 @@
     "itemDescriptionFour": "Reseñas compartidas por traders en plataformas independientes."
   },
   "FindABrokerPageTools": {
-    "title": "Herramientas para la investigación de brokers",
-    "description": "Además de los listados de brokers, nuestra plataforma ofrece herramientas analíticas que ayudan a los usuarios a revisar las condiciones de trading y el entorno de la plataforma desde una perspectiva diferente.",
+    "title": "Herramientas para la investigación de brókers",
+    "description": "Además de los listados de brókers, nuestra plataforma ofrece herramientas analíticas que ayudan a los usuarios a revisar las condiciones de trading y el entorno de la plataforma desde una perspectiva diferente.",
     "link": "Explorar herramientas"
   },
   "toolsPage": {
     "ctaKicker": "CONTINUAR LA INVESTIGACIÓN",
-    "ctaBody": "Las herramientas analíticas pueden complementar los listados de brokers y la información del sector disponible en la plataforma.",
-    "ctaPrimary": "Encontrar un broker",
+    "ctaBody": "Las herramientas analíticas pueden complementar los listados de brókers y la información del sector disponible en la plataforma.",
+    "ctaPrimary": "Encontrar un bróker",
     "ctaSecondary": "Actualizaciones del sector",
     "heroKicker": "SILECTA · HERRAMIENTAS ANALÍTICAS",
     "heroTitle": "Herramientas",
@@ -536,8 +536,8 @@
     "lastNamePlaceholder": "Escribe tu apellido",
     "email": "Email",
     "emailPlaceholder": "Escribe tu email",
-    "phone": "Numero de telefono",
-    "phonePlaceholder": "Escribe tu numero de telefono",
+    "phone": "Número de teléfono",
+    "phonePlaceholder": "Escribe tu número de teléfono",
     "message": "Mensaje",
     "messagePlaceholder": "Escribe tu mensaje aquí",
     "submitError": "No pudimos enviar tu mensaje. Inténtalo de nuevo.",
@@ -555,7 +555,7 @@
     "namePlaceholder": "Escribe tu nombre"
   },
   "contactThankYou": {
-    "title": "Gracias por contactar a selecta!",
+    "title": "¡Gracias por contactar a selecta!",
     "messageReceived": "Tu mensaje ha sido recibido. Nuestro equipo revisará tu consulta cuidadosamente y te responderá brevemente.",
     "appreciation": "Apreciamos tu interés y te esperamos para ayudarte.",
     "prompt": "Volver a la página anterior o:",
@@ -568,23 +568,23 @@
     "link": "Más sobre cookies"
   },
   "footer": {
-    "terms": "Terminos y condiciones",
-    "privacy": "Politica de privacidad",
-    "cookies": "Politica de cookies",
+    "terms": "Términos y condiciones",
+    "privacy": "Política de privacidad",
+    "cookies": "Política de cookies",
     "home": "Inicio",
-    "howItWorks": "Como funciona",
-    "findBroker": "Encontrar un broker",
+    "howItWorks": "Cómo funciona",
+    "findBroker": "Encontrar un bróker",
     "updates": "Actualizaciones del sector",
     "tools": "Herramientas",
     "about": "Acerca de",
     "contact": "Contacto",
     "copyright": "Todos los derechos reservados.",
-    "banner": "Silecta presenta informacion independiente sobre brokers y desarrollos del mercado. No ofrece servicios de inversion ni actua como intermediario financiero.",
-    "descriptionLead": "Plataforma independiente de descubrimiento de brokers.",
-    "descriptionBody": "Disenada para ayudar a las personas que estan interesados en invertir y ahorrar a identificar plataformas y bancos que ofrezcan las mejores condiciones del mercado.",
+    "banner": "Silecta presenta información independiente sobre brókers y desarrollos del mercado. No ofrece servicios de inversión ni actúa como intermediario financiero.",
+    "descriptionLead": "Plataforma independiente de descubrimiento de brókers.",
+    "descriptionBody": "Diseñada para ayudar a las personas que están interesadas en invertir y ahorrar a identificar plataformas y bancos que ofrezcan las mejores condiciones del mercado.",
     "navigationLabel": "Navegación",
     "legalLabel": "Legal",
-    "eyebrow": "Descubrimiento de brokers",
+    "eyebrow": "Descubrimiento de brókers",
     "brand": "Silecta",
     "menuLabel": "Menú",
     "productsLabel": "Productos",
@@ -611,15 +611,15 @@
     "officeEmail": "Correo electrónico"
   },
   "header": {
-    "howItWorks": "Como funciona",
+    "howItWorks": "Cómo funciona",
     "updates": "Actualizaciones del sector",
     "tools": "Herramientas",
     "about": "Acerca de",
     "contact": "Contacto",
-    "findBroker": "Encontrar un broker",
+    "findBroker": "Encontrar un bróker",
     "navLabel": "Navegación principal",
     "menu": "Menú",
-    "brandMeta": "Descubrimiento de brokers",
+    "brandMeta": "Descubrimiento de brókers",
     "noticeTitle": "AVISO IMPORTANTE",
     "noticeBodyPrimary": "Este sitio web no está destinado al público del Reino Unido. Si está accediendo a este sitio web desde el Reino Unido, por favor salga de este sitio inmediatamente.",
     "noticeBodySecondary": "Por favor, infórmese de que los servicios ofrecidos en este sitio web no están actualmente accesibles para Clientes Minoristas basados en el Reino Unido.",

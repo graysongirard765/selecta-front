@@ -19,9 +19,7 @@ export const IntroSection = ({ kicker, title, body }: IntroSectionProps) => {
         <div className={styles.content}>
           <p className={styles.kicker}>{kicker}</p>
           <h2 className={styles.title}>{title}</h2>
-          <div className={styles.card}>
-            <p className={styles.cardText}>{body}</p>
-          </div>
+
         </div>
       </div>
     </section>
