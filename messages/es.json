@@ -142,7 +142,7 @@
     "heroTitleLineOne": "Descubre tu",
     "heroTitleLineTwo": "broker",
     "heroDescription": "Encuentra la plataforma, banco o broker que mas se adapte a tu perfil y a tus necesidades.",
-    "heroPrimaryCta": "Encontrar un broker",
+    "heroPrimaryCta": "Encontrar un bróker",
     "introStep": "01 / Inicio",
     "introTitle": "Comienza con una vision mas clara",
     "introQuestionLineOne": "Cuando empiezas a buscar una empresa que te ofrezca un servicio",
@@ -150,7 +150,7 @@
     "introQuestionHighlight": "Donde?",
     "introBodyPrimary": "Encontrar la respuesta normalmente implica gastar mucho tiempo en diferentes webs, buscar resenas y descripciones que muchas veces no alcanzamos a entender o desconocemos.",
     "introBodySecondary": "En Silecta, te ayudamos a que la eleccion sea facil y comoda ayudandote durante todo el proceso para que puedas elegir con una vision mas clara antes de tomar una decision.",
-    "introCta": "Encontrar un broker",
+    "introCta": "Encontrar un bróker",
     "platform": {
       "step": "07 / Nuestra plataforma",
       "title": "Estructura independiente",
@@ -332,7 +332,7 @@
     "articlesTitle": "Qué está cambiando en las plataformas",
     "exploreKicker": "DE LA INFORMACIÓN A LA EXPLORACIÓN",
     "exploreBody": "Las observaciones del sector pueden proporcionar contexto adicional al revisar las plataformas de corretaje. Continúa tu investigación explorando los listados de brokers y las herramientas analíticas disponibles en la plataforma.",
-    "explorePrimary": "Encontrar un broker",
+    "explorePrimary": "Encontrar un bróker",
     "exploreSecondary": "Explorar herramientas",
     "heroKicker": "SILECTA · ACTUALIZACIONES DEL SECTOR",
     "heroTitle": "Actualizaciones del sector",
@@ -357,7 +357,7 @@
     "step1": {
       "kicker": "Paso 1",
       "title": "Explorar brokers",
-      "body": "Comienza conociendo las plataformas más utilizadas y con mejores condiciones del mercado. <br/><br/>La sección Encontrar un broker reúne perfiles de plataformas en un solo lugar. Cada perfil presenta los elementos clave de un entorno de trading en un formato consistente, lo que facilita revisar y moverse entre plataformas.",
+      "body": "Comienza conociendo las plataformas más utilizadas y con mejores condiciones del mercado. <br/><br/>La sección Encontrar un bróker reúne perfiles de plataformas en un solo lugar. Cada perfil presenta los elementos clave de un entorno de trading en un formato consistente, lo que facilita revisar y moverse entre plataformas.",
       "ctaPrimary": "Explorar brokers"
     },
     "step2": {
@@ -381,7 +381,7 @@
       "kicker": "Paso 4",
       "title": "Continua tu investigación",
       "body": "Una vez que una plataforma capte tu atención ya sea porque patrocine a tu equipo favorito, algún amigo o conocido te haya hablado de ella puedes seguir explorándola directamente.<br/><br/>Silecta no abre cuentas, no gestiona transacciones ni participa en actividades de trading. El servicio se centra en organizar la información de brokers para que los usuarios puedan revisar las plataformas antes de avanzar por su cuenta.",
-      "ctaPrimary": "Encontrar un broker"
+      "ctaPrimary": "Encontrar un bróker"
     },
     "hero": {
       "kicker": "Silecta · Cómo funciona",
@@ -420,7 +420,7 @@
     }
   },
   "FindABrokerPageHero": {
-    "title": "Encontrar un broker",
+    "title": "Encontrar un bróker",
     "description": "Explora diferentes plataformas a través de listados organizados y perfiles de brokers estructurados."
   },
   "FindABrokerPageBrokerListings": {
@@ -460,7 +460,7 @@
   "toolsPage": {
     "ctaKicker": "CONTINUAR LA INVESTIGACIÓN",
     "ctaBody": "Las herramientas analíticas pueden complementar los listados de brokers y la información del sector disponible en la plataforma.",
-    "ctaPrimary": "Encontrar un broker",
+    "ctaPrimary": "Encontrar un bróker",
     "ctaSecondary": "Actualizaciones del sector",
     "heroKicker": "SILECTA · HERRAMIENTAS ANALÍTICAS",
     "heroTitle": "Herramientas",
@@ -573,7 +573,7 @@
     "cookies": "Politica de cookies",
     "home": "Inicio",
     "howItWorks": "Como funciona",
-    "findBroker": "Encontrar un broker",
+    "findBroker": "Encontrar un bróker",
     "updates": "Actualizaciones del sector",
     "tools": "Herramientas",
     "about": "Acerca de",
@@ -616,7 +616,7 @@
     "tools": "Herramientas",
     "about": "Acerca de",
     "contact": "Contacto",
-    "findBroker": "Encontrar un broker",
+    "findBroker": "Encontrar un bróker",
     "navLabel": "Navegación principal",
     "menu": "Menú",
     "brandMeta": "Descubrimiento de brokers",
