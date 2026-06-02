@@ -370,7 +370,7 @@
     "step3": {
       "kicker": "Paso 3",
       "title": "Ver las diferencias",
-      "body": "Después de explorar los listados y revisar el contexto, el siguiente paso es simplemente observar cómo se diferencian las plataformas.. Los usuarios suelen fijarse en los siguientes aspectos:",
+      "body": "Después de explorar los listados y revisar el contexto, el siguiente paso es simplemente observar cómo se diferencian las plataformas. <br/><br/>Los usuarios suelen fijarse en los siguientes aspectos:",
       "bulletPlatform": "Entorno de la plataforma",
       "bulletTrading": "Condiciones de trading",
       "bulletTechnology": "Tecnologías disponibles",
@@ -380,7 +380,7 @@
     "step4": {
       "kicker": "Paso 4",
       "title": "Continua tu investigación",
-      "body": "Una vez que una plataforma capte tu atención ya sea porque patrocine a tu equipo favorito, algún amigo o conocido te haya hablado de ella puedes seguir explorándola directamente.<br/><br/>Silecta no abre cuentas, no gestiona transacciones ni participa en actividades de trading. El servicio se centra en organizar la información de brokers para que los usuarios puedan revisar las plataformas antes de avanzar por su cuenta.Silecta no abre cuentas, no gestiona transacciones ni participa en actividades de trading. El servicio se centra en organizar la información de brokers para que los usuarios puedan revisar las plataformas antes de avanzar por su cuenta.",
+      "body": "Una vez que una plataforma capte tu atención ya sea porque patrocine a tu equipo favorito, algún amigo o conocido te haya hablado de ella puedes seguir explorándola directamente.<br/><br/>Silecta no abre cuentas, no gestiona transacciones ni participa en actividades de trading. El servicio se centra en organizar la información de brokers para que los usuarios puedan revisar las plataformas antes de avanzar por su cuenta.",
       "ctaPrimary": "Encontrar un broker"
     },
     "hero": {
@@ -390,7 +390,7 @@
     },
     "intro": {
       "kicker": "Cómo comienza la elección de una plataforma Silecta",
-      "title": "Silecta reúne listados de plataformas, contexto de mercado y herramientas prácticas.",
+      "title": "Silecta reúne listados de plataformas, contexto de mercado y herramientas prácticas para que los usuarios puedan avanzar en la búsqueda de una forma más clara y estructurada.",
       "body": "Silecta reúne listados de plataformas, contexto de mercado y herramientas prácticas para que los usuarios puedan avanzar en la búsqueda de una forma más clara y estructurada. El proceso se desarrolla en cuatro pasos que se describen a continuación."
     },
     "explore": {
