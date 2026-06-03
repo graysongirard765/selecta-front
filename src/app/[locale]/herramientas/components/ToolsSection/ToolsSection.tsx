@@ -1,7 +1,8 @@
 "use client";
 
+import { type ReactNode,useId, useMemo, useState } from "react";
+
 import { useTranslations } from "next-intl";
-import { useId, useMemo, useState, type ReactNode } from "react";
 
 import styles from "./ToolsSection.module.scss";
 
@@ -96,9 +97,36 @@ const NumberField = ({
   decimals = 0,
   onChange,
 }: NumberFieldProps) => {
-  const inputValue = Number(value.toFixed(decimals));
-  const displayValue = String(inputValue).replace(".", ",");
+  const [draft, setDraft] = useState<string | null>(null);
+
+  const formattedValue = String(Number(value.toFixed(decimals))).replace(".", ",");
+  const displayValue = draft ?? formattedValue;
   const inputWidth = `${Math.max(displayValue.length, 2)}ch`;
+
+  const handleChange = (raw: string) => {
+    setDraft(raw);
+
+    const normalized = raw.replace(",", ".");
+    if (normalized === "" || normalized === "-" || normalized === ".") {
+      return;
+    }
+
+    const parsed = Number(normalized);
+    if (!Number.isNaN(parsed)) {
+      onChange(parsed);
+    }
+  };
+
+  const handleBlur = () => {
+    if (draft !== null) {
+      const normalized = draft.replace(",", ".");
+      const parsed = Number(normalized);
+      if (normalized === "" || Number.isNaN(parsed)) {
+        onChange(min ?? 0);
+      }
+    }
+    setDraft(null);
+  };
 
   return (
     <label className={styles.fieldControl} htmlFor={id}>
@@ -106,14 +134,16 @@ const NumberField = ({
         {prefix ? <span className={styles.fieldPrefix}>{prefix}</span> : null}
         <input
           id={id}
-          type="number"
+          type="text"
+          inputMode="decimal"
           className={styles.numberInput}
           style={{ width: inputWidth }}
-          value={inputValue}
+          value={displayValue}
           min={min}
           max={max}
           step={step}
-          onChange={(event) => onChange(Number(event.target.value))}
+          onChange={(event) => handleChange(event.target.value)}
+          onBlur={handleBlur}
         />
         {suffix ? <span className={styles.fieldSuffix}>{suffix}</span> : null}
       </span>
