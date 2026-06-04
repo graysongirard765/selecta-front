@@ -63,7 +63,7 @@ export const BrokerListings = () => {
           {cards?.map((card) => (
             <SwiperSlide className={`${styles.broker_listings__slide} swiper-slide`} key={card.key}>
               <div
-                className={`${styles.broker_listings__item} ${card.dark ? styles.broker_listings__item_dark : ''}`}
+                className={`${styles.broker_listings__item} ${card.dark ? styles.broker_listings__item_first : ''}`}
               >
                 <div>
                   <div className={styles.broker_listings__item_image}>
