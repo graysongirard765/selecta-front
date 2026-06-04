@@ -30,8 +30,8 @@ export const BrokersSection = () => {
               className={[
                 styles.card,
                 styles[`card${card.key[0].toUpperCase()}${card.key.slice(1)}`],
-                card.dark ? styles.cardDark : '',
-                card.large ? styles.cardLarge : '',
+                //card.dark ? styles.cardDark : '',
+                //card.large ? styles.cardLarge : '',
               ]
                 .filter(Boolean)
                 .join(' ')}
@@ -75,12 +75,12 @@ export const BrokersSection = () => {
                 ))}
               </div>
 
-              {card.rating ? (
+              {/* {card.rating ? (
                 <div className={styles.ratingRow}>
                   <span className={styles.ratingStars}>★★★★★</span>
                   <span className={styles.ratingText}>{card.rating}</span>
                 </div>
-              ) : null}
+              ) : null} */}
             </article>
           ))}
         </div>
