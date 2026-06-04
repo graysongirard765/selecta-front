@@ -107,10 +107,12 @@
   }
 
   &__slider_container {
-    max-width: 1379px;
-    margin-left: auto;
-    padding-left: 16px;
     position: relative;
+    margin-left: max(16px, calc((100% - 1328px) / 2 + 16px));
+
+    @include largeDesktop {
+      margin-left: max(16px, calc((100% - 1440px) / 2 + 16px));
+    }
   }
 
   &__item_spec_label {
