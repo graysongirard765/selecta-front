@@ -71,7 +71,7 @@ export const BrokerListings = () => {
                 }`}
               >
                 <div>
-                  <div className={styles.broker_listings__item_image}>
+                  <Link href={card.link || ""} target="_blank" rel="noopener noreferrer" className={styles.broker_listings__item_image}>
                     <Image
                       src={card.logo}
                       alt={card.logoAlt}
@@ -79,7 +79,7 @@ export const BrokerListings = () => {
                       height={card.logoHeight}
                       loading={"lazy"}
                     />
-                  </div>
+                  </Link>
 
                   <h3 className={styles.broker_listings__item_title}>
                     {card.name}

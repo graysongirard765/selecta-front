@@ -50,7 +50,7 @@ export const useBrokersData = () => {
       rating: t('tradeRepublic.rating', { fallback: '4.8 · 12,4k reseñas' }),
       dark: true,
       large: true,
-      link: 'https://traderepublic.com/en-de',
+      link: 'https://traderepublic.com/',
       trustpilot: 'https://es.trustpilot.com/review/www.traderepublic.com',
     },
 

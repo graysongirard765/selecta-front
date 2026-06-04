@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 import { useTranslations } from 'next-intl';
 
@@ -37,7 +38,7 @@ export const BrokersSection = () => {
                 .join(' ')}
             >
               <div className={styles.cardTop}>
-                <div className={styles.logoBadge}>
+                <Link href={card.link || ''} target="_blank" rel="noopener noreferrer" className={styles.logoBadge}>
                   <Image
                     src={card.logo}
                     alt={card.logoAlt}
@@ -45,7 +46,7 @@ export const BrokersSection = () => {
                     height={card.logoHeight}
                     className={styles.logoImage}
                   />
-                </div>
+                </Link>
 
                 <div className={styles.verified}>
                   <span className={styles.verifiedDot} />
