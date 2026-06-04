@@ -3,85 +3,58 @@
     "brokers": {
       "step": "02 / Entender",
       "titleLine1": "Conoce tus opciones",
-      "titleLine2": "reales a la hora de decidir",
+      "titleLine2": "reales a la hora de decidir.",
       "closing": "Determina si alguna de estas compañías puede cubrir tus necesidades informándote de una forma clara, rápida y precisa. Consulta sus servicios, costes y productos en un solo clic.",
+      "title": "Conoce tus opciones reales a la hora de decidir.",
+      "labels": {
+        "markets": "Mercados"
+      },
       "tradeRepublic": {
         "name": "Trade Republic",
-        "description": "Bróker global · EU · UK",
+        "description": "Bróker de inversión para particulares",
         "badge": "Verificado",
-        "markets": "Forex · Acciones · Cripto · ETFs",
-        "platform": "Web · Móvil · Escritorio",
-        "fees": "Desde 0,0 pips · 0€ custodia",
-        "tagRegulated": "Regulado",
-        "tagFastExecution": "Ejecución rápida",
-        "tagApi": "API",
-        "rating": "4.8 · 12,4k reseñas",
-        "platforms": "Web · Móvil · Escritorio",
-        "spreads": "Desde 0,0 pips · 0€ custodia",
-        "tag1": "Regulado",
-        "tag2": "Ejecución rápida",
-        "tag3": "API"
+        "markets": "Acciones · ETFs · Bonos",
+        "tag1": "Inversión periódica",
+        "tag2": "App móvil",
+        "tag3": "Fraccionadas",
+        "rating": "4.8 · 12,4k reseñas"
       },
-      "labels": {
-        "markets": "Mercados",
-        "platform": "Plataforma",
-        "fees": "Comisiones",
-        "platforms": "Plataforma",
-        "spreads": "Spreads"
-      },
-      "jadeTrax": {
-        "name": "JadeTrax",
-        "description": "Banco + bróker · ES",
+      "degiro": {
+        "name": "Degiro",
+        "description": "Plataforma para inversores independientes",
         "badge": "Verificado",
-        "markets": "Acciones · Fondos · Bonos",
-        "tagLongTerm": "Largo plazo",
-        "tagRoboAdvisor": "Robo-advisor",
-        "tag1": "Largo plazo",
-        "tag2": "Robo-advisor"
+        "markets": "Acciones · ETFs · Fondos",
+        "tag1": "Mercados globales",
+        "tag2": "Largo plazo",
+        "tag3": "Análisis"
       },
-      "swissquote": {
-        "name": "Swissquote",
-        "description": "Bróker · Acciones · ES",
+      "musenova": {
+        "name": "Musenova",
+        "description": "Plataforma multiactivo",
         "badge": "Verificado",
-        "markets": "Acciones · ETFs · Planes",
-        "tagZeroFee": "0€ compra",
-        "tagFractional": "Fraccionadas",
-        "tag1": "0€ compra",
-        "tag2": "Fraccionadas"
-      },
-      "revolut": {
-        "name": "Revolut",
-        "description": "Plataforma · Multi-mercado",
-        "badge": "Verificado",
-        "markets": "Forex · CFDs · Cripto",
-        "tagCopyTrading": "Copy trading",
-        "tagAnalytics": "Analítica",
-        "tagAlwaysOn": "24/7",
+        "markets": "Forex · Acciones · Cripto",
         "tag1": "Copy trading",
         "tag2": "Analítica",
         "tag3": "24/7"
       },
-      "xtb": {
-        "name": "XTB",
-        "description": "Banco privado · Global",
+      "capital": {
+        "name": "Capital.com",
+        "description": "Bróker digital internacional",
         "badge": "Verificado",
-        "markets": "Acciones · Fondos · Alternativos",
-        "tagHighNetWorth": "Alta cartera",
-        "tagDedicatedAdvisor": "Asesor dedicado",
-        "tag1": "Alta cartera",
-        "tag2": "Asesor dedicado"
+        "markets": "Acciones · CFDs · Forex",
+        "tag1": "Educación",
+        "tag2": "Herramientas",
+        "tag3": "Móvil"
       },
-      "fxpro": {
-        "name": "FxPro",
-        "description": "Bróker retail · UE",
+      "etoro": {
+        "name": "Etoro",
+        "description": "Plataforma de inversión social",
         "badge": "Verificado",
-        "markets": "Acciones · Cripto · Derivados",
-        "tagCommunity": "Comunidad",
-        "tagEducation": "Educación",
-        "tag1": "Comunidad",
-        "tag2": "Educación"
-      },
-      "title": "Conoce tus opciones reales a la hora de decidir."
+        "markets": "Acciones · ETFs · Cripto",
+        "tag1": "Copy trading",
+        "tag2": "Comunidad",
+        "tag3": "Fraccionadas"
+      }
     },
     "comparison": {
       "execution": {
@@ -110,7 +83,7 @@
       "note": "Estos elementos ayudan a formar una visión más clara de cómo se diferencian las plataformas entre todas ellas y cuál nos puede ofrecer un servicio mucho más personalizado."
     },
     "contact": {
-      "step": "08 / Contacto",
+      "step": "09 / Contacto",
       "eyebrow": "Contactar con el equipo",
       "title": "Aquí para ayudar",
       "description": "Si necesitas aclaraciones o resolver dudas sobre cómo funciona la plataforma, puedes contactar directamente con el equipo.",
@@ -152,7 +125,7 @@
     "introBodySecondary": "En Silecta, te ayudamos a que la elección sea fácil y cómoda ayudándote durante todo el proceso para que puedas elegir con una visión más clara antes de tomar una decisión.",
     "introCta": "Encontrar un bróker",
     "platform": {
-      "step": "07 / Nuestra plataforma",
+      "step": "08 / Nuestra plataforma",
       "title": "Estructura independiente",
       "cardTitle": "Un recurso independiente",
       "lead": "Silecta es un recurso independiente dedicado a organizar la información de brókers y los desarrollos del sector.",
@@ -194,7 +167,7 @@
     "updates": {
       "articleLabelPrefix": "Artículo",
       "readArticle": "Leer artículo",
-      "step": "06 / Actualizaciones",
+      "step": "07 / Actualizaciones",
       "eyebrow": "El mercado global avanza, nosotros también.",
       "titleLine1": "Qué está cambiando",
       "titleLine2": "en las plataformas",
@@ -268,7 +241,16 @@
     "solutionsTitleLineOne": "Welcome",
     "solutionsTitleLineTwo": "to Silecta!",
     "solutionsDescription": "Your privacy and security are our main objectives.",
-    "solutionsCta": "More about safety"
+    "solutionsCta": "More about safety",
+    "calculator": {
+      "step": "06 / Herramienta destacada",
+      "subtitle": "¿Cuánto podría crecer tu inversión con el tiempo?",
+      "title": "Calculadora de inversión",
+      "bodyPrimary": "Antes de elegir una plataforma de inversión, muchos usuarios quieren entender cómo podrían evolucionar sus ahorros a largo plazo. Esta calculadora permite explorar distintos escenarios utilizando un capital inicial, una rentabilidad estimada y un periodo de tiempo determinado.",
+      "bodySecondary": "Modifica los valores y observa cómo pequeños cambios pueden influir en el resultado final a lo largo de los años.",
+      "footer": "Las simulaciones pueden ayudar a comprender mejor el impacto del crecimiento compuesto y aportar una perspectiva adicional al comparar plataformas de inversión y servicios financieros.",
+      "cta": "Explorar más herramientas"
+    }
   },
   "AboutPageBroaderView": {
     "subtitle": "Una visión más amplia del entorno de trading",

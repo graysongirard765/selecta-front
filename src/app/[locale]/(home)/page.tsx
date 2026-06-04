@@ -1,5 +1,6 @@
 import {
   BrokersSection,
+  CalculatorSection,
   ComparisonSection,
   ContactSection,
   DecisionSection,
@@ -20,6 +21,7 @@ export default function Home() {
       <ComparisonSection />
       <ReviewsSection />
       <DecisionSection />
+      <CalculatorSection />
       <div className={styles.waveBand} aria-hidden="true" />
       <UpdatesSection />
       <PlatformSection />
