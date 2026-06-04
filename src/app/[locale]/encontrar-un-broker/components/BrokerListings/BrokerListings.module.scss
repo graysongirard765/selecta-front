@@ -46,7 +46,7 @@
   &__item_first {
     .broker_listings__item_image {
       img {
-        filter: brightness(1) invert(1);
+        //filter: brightness(1) invert(1);
       }
     }
   }
@@ -174,9 +174,9 @@
   }
 
   &__item_link_two {
-    background: transparent;
-    border: 1px solid #ec9117;
-    color: #ec9117;
+    background: #030303;
+    border: 1px solid #030303;
+    color: rgba(255, 255, 255, 0.78);
     &:hover {
       background-color: #fff;
       color: #030303;
