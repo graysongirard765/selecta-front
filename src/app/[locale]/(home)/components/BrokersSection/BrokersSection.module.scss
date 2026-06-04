@@ -67,13 +67,8 @@
 }
 
 .cardLarge {
-  grid-column: span 6;
-  height: 406px;
+  height: 405px;
   padding: 27px 24px 23px;
-
-  @include tablet {
-    grid-column: span 12;
-  }
 
   @include mobile {
     height: auto;
@@ -89,16 +84,19 @@
 }
 
 .cardTradeRepublic {
-  grid-column: span 6;
+  grid-column: span 8;
 
   @include tablet {
     grid-column: span 12;
   }
+
+  @include mobile {
+    grid-column: auto;
+  }
 }
 
-.cardJadeTrax,
-.cardSwissquote {
-  grid-column: span 3;
+.cardDegiro {
+  grid-column: span 4;
 
   @include tablet {
     grid-column: span 6;
@@ -109,9 +107,9 @@
   }
 }
 
-.cardRevolut,
-.cardXtb,
-.cardFxpro {
+.cardMusenova,
+.cardCapital,
+.cardEtoro {
   grid-column: span 4;
 
   @include tablet {
@@ -134,9 +132,10 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  height: 44px;
   border-radius: 12px;
   background: rgba(236, 145, 23, 0.05);
-  padding: 10px 20px;
+  padding: 0 20px;
 }
 
 .cardDark .logoBadge {
@@ -153,23 +152,21 @@
 .verified {
   display: inline-flex;
   align-items: center;
-  gap: 7px;
-  color: #98a37f;
+  gap: 6px;
+  color: #6d7263;
   font-size: 12px;
   font-weight: 400;
   line-height: 1.4;
-  letter-spacing: -0.12px;
   text-transform: uppercase;
   white-space: nowrap;
 
   @include mobile {
     font-size: 10px;
-    letter-spacing: -0.1px;
   }
 }
 
 .cardDark .verified {
-  color: #e7e1c7;
+  color: #e4e6c3;
   font-size: 11px;
   letter-spacing: 1.32px;
 }
@@ -178,8 +175,12 @@
   width: 6px;
   height: 6px;
   flex: 0 0 6px;
-  border-radius: 50%;
-  background: currentColor;
+  border-radius: 3px;
+  background: #899878;
+}
+
+.cardDark .verifiedDot {
+  background: #fff;
 }
 
 .cardBody {
@@ -194,6 +195,7 @@
 
 .cardTitle {
   margin: 0;
+  color: #1e2218;
   font-size: 24px;
   font-weight: 500;
   line-height: 1.3;
@@ -206,6 +208,7 @@
 }
 
 .cardDark .cardTitle {
+  color: #f7f7f2;
   font-size: 21px;
   line-height: 1.5;
   letter-spacing: -0.27px;
@@ -281,10 +284,9 @@
 }
 
 .cardDark .specValue {
-  color: #fff;
+  color: #f7f7f2;
   font-size: 13px;
   letter-spacing: -0.13px;
-  text-transform: none;
 }
 
 .tags {
@@ -320,8 +322,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-top: 1px solid rgba(255, 255, 255, 0.08);
-  padding-top: 17px;
+  border-top: 1px dashed rgba(255, 255, 255, 0.14);
+  padding-top: 15px;
 
   @include mobile {
     margin-top: 14px;
@@ -330,18 +332,18 @@
 }
 
 .ratingStars {
-  color: #e7e1c7;
+  color: #e4e6c3;
   font-size: 13px;
   font-weight: 400;
-  line-height: 1;
+  line-height: 1.5;
   letter-spacing: 2px;
 }
 
 .ratingText {
-  color: rgba(255, 255, 255, 0.8);
-  font-size: 14px;
+  color: #f7f7f2;
+  font-size: 13px;
   font-weight: 400;
-  line-height: 1.4;
+  line-height: 1.5;
 }
 
 .footerNote {
@@ -363,23 +365,19 @@
     order: 1;
   }
 
-  .cardJadeTrax {
+  .cardDegiro {
     order: 2;
   }
 
-  .cardRevolut {
+  .cardMusenova {
     order: 3;
   }
 
-  .cardFxpro {
+  .cardCapital {
     order: 4;
   }
 
-  .cardSwissquote {
+  .cardEtoro {
     order: 5;
-  }
-
-  .cardXtb {
-    order: 6;
   }
 }

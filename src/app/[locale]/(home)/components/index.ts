@@ -1,4 +1,5 @@
 export * from './BrokersSection/BrokersSection';
+export * from './CalculatorSection/CalculatorSection';
 export * from './ComparisonSection/ComparisonSection';
 export * from './ContactSection/ContactSection';
 export * from './DecisionSection/DecisionSection';

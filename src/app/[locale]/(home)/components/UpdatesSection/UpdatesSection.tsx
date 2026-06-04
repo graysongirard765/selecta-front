@@ -32,7 +32,7 @@ export const UpdatesSection = async () => {
         <div className={styles.heading}>
           <div className={styles.copy}>
             <p className={styles.step}>
-              {t("step", { fallback: "06 / Actualizaciones" })}
+              {t("step", { fallback: "07 / Actualizaciones" })}
             </p>
             <p className={styles.eyebrow}>
               {t("eyebrow", {

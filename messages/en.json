@@ -5,83 +5,56 @@
       "titleLine1": "Know your real",
       "titleLine2": "options before deciding.",
       "closing": "See whether any of these companies can meet your needs with clear, fast and precise information. Review their services, costs and products in a single click.",
+      "title": "Know your real options before deciding.",
+      "labels": {
+        "markets": "Markets"
+      },
       "tradeRepublic": {
         "name": "Trade Republic",
-        "description": "Broker global · EU · UK",
+        "description": "Investment broker for individuals",
         "badge": "Verified",
-        "markets": "Forex · Stocks · Crypto · ETFs",
-        "platform": "Web · Mobile · Desktop",
-        "fees": "From 0.0 pips · €0 custody",
-        "tagRegulated": "Regulated",
-        "tagFastExecution": "Fast execution",
-        "tagApi": "API",
-        "rating": "4.8 · 12.4k reviews",
-        "platforms": "Web · Mobile · Desktop",
-        "spreads": "From 0.0 pips · €0 custody",
-        "tag1": "Regulated",
-        "tag2": "Fast execution",
-        "tag3": "API"
+        "markets": "Stocks · ETFs · Bonds",
+        "tag1": "Recurring investing",
+        "tag2": "Mobile app",
+        "tag3": "Fractional",
+        "rating": "4.8 · 12.4k reviews"
       },
-      "labels": {
-        "markets": "Markets",
-        "platform": "Platform",
-        "fees": "Fees",
-        "platforms": "Platform",
-        "spreads": "Spreads"
-      },
-      "jadeTrax": {
-        "name": "JadeTrax",
-        "description": "Bank + broker · ES",
+      "degiro": {
+        "name": "Degiro",
+        "description": "Platform for independent investors",
         "badge": "Verified",
-        "markets": "Stocks · Funds · Bonds",
-        "tagLongTerm": "Long term",
-        "tagRoboAdvisor": "Robo-advisor",
-        "tag1": "Long term",
-        "tag2": "Robo-advisor"
+        "markets": "Stocks · ETFs · Funds",
+        "tag1": "Global markets",
+        "tag2": "Long term",
+        "tag3": "Analysis"
       },
-      "swissquote": {
-        "name": "Swissquote",
-        "description": "Broker · Stocks · ES",
+      "musenova": {
+        "name": "Musenova",
+        "description": "Multi-asset platform",
         "badge": "Verified",
-        "markets": "Stocks · ETFs · Plans",
-        "tagZeroFee": "€0 purchase",
-        "tagFractional": "Fractional",
-        "tag1": "€0 purchase",
-        "tag2": "Fractional"
-      },
-      "revolut": {
-        "name": "Revolut",
-        "description": "Platform · Multi-market",
-        "badge": "Verified",
-        "markets": "Forex · CFDs · Cripto",
-        "tagCopyTrading": "Copy trading",
-        "tagAnalytics": "Analytics",
-        "tagAlwaysOn": "24/7",
+        "markets": "Forex · Stocks · Crypto",
         "tag1": "Copy trading",
         "tag2": "Analytics",
         "tag3": "24/7"
       },
-      "xtb": {
-        "name": "XTB",
-        "description": "Private bank · Global",
+      "capital": {
+        "name": "Capital.com",
+        "description": "International digital broker",
         "badge": "Verified",
-        "markets": "Stocks · Funds · Alternatives",
-        "tagHighNetWorth": "High-net-worth",
-        "tagDedicatedAdvisor": "Dedicated advisor",
-        "tag1": "High-net-worth",
-        "tag2": "Dedicated advisor"
+        "markets": "Stocks · CFDs · Forex",
+        "tag1": "Education",
+        "tag2": "Tools",
+        "tag3": "Mobile"
       },
-      "fxpro": {
-        "name": "FxPro",
-        "description": "Retail broker · EU",
+      "etoro": {
+        "name": "Etoro",
+        "description": "Social investing platform",
         "badge": "Verified",
-        "markets": "Stocks · Crypto · Derivatives",
-        "tagCommunity": "Community",
-        "tagEducation": "Education",
-        "tag1": "Community",
-        "tag2": "Education"
-      },
-      "title": "Know your real options before deciding."
+        "markets": "Stocks · ETFs · Crypto",
+        "tag1": "Copy trading",
+        "tag2": "Community",
+        "tag3": "Fractional"
+      }
     },
     "comparison": {
       "execution": {
@@ -268,7 +241,16 @@
     "solutionsTitleLineOne": "Welcome",
     "solutionsTitleLineTwo": "to Silecta!",
     "solutionsDescription": "Your privacy and security are our main objectives.",
-    "solutionsCta": "More about safety"
+    "solutionsCta": "More about safety",
+    "calculator": {
+      "step": "06 / Featured tool",
+      "subtitle": "How much could your investment grow over time?",
+      "title": "Investment calculator",
+      "bodyPrimary": "Before choosing an investment platform, many users want to understand how their savings could evolve over the long term. This calculator lets you explore different scenarios using an initial capital, an estimated return and a set time period.",
+      "bodySecondary": "Adjust the values and see how small changes can influence the final result over the years.",
+      "footer": "Simulations can help you better understand the impact of compound growth and provide additional perspective when comparing investment platforms and financial services.",
+      "cta": "Explore more tools"
+    }
   },
   "AboutPageBroaderView": {
     "subtitle": "A broader view of the trading environment",
