@@ -18,6 +18,7 @@ type BrokerCard = {
   large?: boolean;
   rating?: string;
   link?: string;
+  trustpilot?: string;
 };
 
 export const useBrokersData = () => {
@@ -50,6 +51,7 @@ export const useBrokersData = () => {
       dark: true,
       large: true,
       link: 'https://traderepublic.com/en-de',
+      trustpilot: 'https://es.trustpilot.com/review/www.traderepublic.com',
     },
 
     {
@@ -76,6 +78,7 @@ export const useBrokersData = () => {
       ],
       large: true,
       link: 'https://www.degiro.com/',
+      trustpilot: 'https://www.trustpilot.com/review/www.degiro.com',
     },
 
     {
@@ -98,6 +101,8 @@ export const useBrokersData = () => {
         t('musenova.tag2', { fallback: 'Analítica' }),
         t('musenova.tag3', { fallback: '24/7' }),
       ],
+      link: 'https://www.musenova.live/',
+      trustpilot: 'https://www.trustpilot.com/review/www.musenova.live',
     },
 
     {
@@ -121,6 +126,7 @@ export const useBrokersData = () => {
         t('capital.tag3', { fallback: 'Móvil' }),
       ],
       link: 'https://capital.com/',
+      trustpilot: 'https://www.trustpilot.com/review/capital.com',
     },
 
     {
@@ -144,6 +150,7 @@ export const useBrokersData = () => {
         t('etoro.tag3', { fallback: 'Fraccionadas' }),
       ],
       link: 'https://www.etoro.com/',
+      trustpilot: 'https://www.trustpilot.com/review/www.etoro.com',
     },
   ] as const;
 
