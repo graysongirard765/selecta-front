@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -27,6 +28,9 @@ export const BrokerListings = () => {
   const itemLinkTwo = t("itemLinkTwo", { fallback: "Visitar broker" });
 
   const sliderNext = t("sliderNext", { fallback: "Siguiente" });
+  const sliderPrev = t("sliderPrev", { fallback: "Anterior" });
+
+  const [activeIndex, setActiveIndex] = useState(0);
 
   const { cards } = useBrokersData();
 
@@ -40,6 +44,14 @@ export const BrokerListings = () => {
       </div>
 
       <div className={styles.broker_listings__slider_container}>
+        <button
+          className={`${styles.broker_listings__slider_prev} ${
+            activeIndex === 0 ? styles.broker_listings__slider_prev_hidden : ""
+          } prev-btn`}
+        >
+          ← {sliderPrev}
+        </button>
+
         <button className={`${styles.broker_listings__slider_next} next-btn`}>
           {sliderNext} →
         </button>
@@ -47,8 +59,10 @@ export const BrokerListings = () => {
         <Swiper
           modules={[Navigation]}
           navigation={{
+            prevEl: ".prev-btn",
             nextEl: ".next-btn",
           }}
+          onSlideChange={(swiper) => setActiveIndex(swiper.realIndex)}
           spaceBetween={40}
           breakpoints={{
             0: {

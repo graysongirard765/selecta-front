@@ -31,7 +31,7 @@
   }
 
   &__item {
-    padding: 40px 24px;
+    padding: 40px;
     display: grid;
     grid-template-columns: 1.19602fr 1fr;
     gap: 40px;
@@ -112,6 +112,15 @@
 
     @include largeDesktop {
       margin-left: max(16px, calc((100% - 1440px) / 2 + 16px));
+    }
+
+    @include mobile {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 16px;
+      margin-left: 16px;
+      margin-right: 16px;
     }
   }
 
@@ -201,7 +210,8 @@
     gap: 32px;
   }
 
-  &__slider_next {
+  &__slider_next,
+  &__slider_prev {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -216,9 +226,34 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 140%;
+
+    @include mobile {
+      position: static;
+      transform: none;
+      order: 2;
+    }
   }
 
   &__slider_next {
     right: 50px;
+  }
+
+  &__slider_prev {
+    left: -80px;
+  }
+
+  &__slider_prev_hidden {
+    display: none;
+
+    @include mobile {
+      display: block;
+    }
+  }
+
+  @include mobile {
+    :global(.swiper) {
+      order: 1;
+      width: 100%;
+    }
   }
 }
