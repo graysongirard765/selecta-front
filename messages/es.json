@@ -410,7 +410,8 @@
     "description": "Explora las plataformas disponibles y revisa sus entornos a través de una visión general. Cada listado presenta detalles clave de cada una de estas, lo que permite explorar diferentes alternativas dentro de la misma estructura.",
     "itemLinkOno": "Ver reseñas",
     "itemLinkTwo": "Visitar bróker",
-    "sliderNext": "Siguiente"
+    "sliderNext": "Siguiente",
+    "sliderPrev": "Anterior"
   },
   "FindABrokerPlatforms": {
     "title": "Mantente actualizado sobre las plataformas",
