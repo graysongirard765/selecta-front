@@ -1,12 +1,12 @@
-import type { Metadata } from "next";
+//import type { Metadata } from "next";
 
 import { ContactDetailsSection, HeroSection } from "./components";
 import styles from "./page.module.scss";
 
-export const metadata: Metadata = {
+/*export const metadata: Metadata = {
   title: 'Contacto y soporte sobre brokers y plataformas | Silecta',
   description: 'Contacta con el equipo de Silecta para resolver dudas sobre brokers, plataformas de trading y herramientas analíticas.',
-};
+};*/
 
 export default function ContactPage() {
   return (
