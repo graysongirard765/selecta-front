@@ -8,7 +8,7 @@ export const AboutHero = () => {
   const title = t('title', { fallback: 'Un lugar donde la investigación se integra' });
   const description = t('description', {
     fallback:
-      'La investigación de brokers a menudo requiere consultar múltiples fuentes. Silecta reúne la información de brokers y el contexto del sector en un solo lugar para facilitar la exploración.',
+      'La investigacion de un banco, plataforma o Etf a menudo requiere consultar múltiples fuentes. Silecta reune la informacion y el contexto del sector en un solo lugar para facilitar la exploración.',
   });
 
   return (

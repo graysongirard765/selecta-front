@@ -263,7 +263,7 @@
   "AboutPageHero": {
     "subtitle": "SILECTA · ACERCA DE",
     "title": "Un lugar donde la investigación se integra",
-    "description": "La investigación de brókers a menudo requiere consultar múltiples fuentes. Silecta reúne la información de brókers y el contexto del sector en un solo lugar para facilitar la exploración."
+    "description": "La investigacion de un banco, plataforma o Etf a menudo requiere consultar múltiples fuentes. Silecta reune la informacion y el contexto del sector en un solo lugar para facilitar la exploración."
   },
   "AboutPageInformation": {
     "subtitle": "Qué información se suele revisar",
@@ -293,14 +293,14 @@
   },
   "AboutPageProcess": {
     "subtitle": "Por qué la organización cambia el proceso de investigación",
-    "descriptionOne": "Las plataformas de brókers rara vez presentan su información de la misma manera. Los costes de trading pueden aparecer en una página, las capacidades de la plataforma en otra y el acceso al mercado en la documentación técnica.",
+    "descriptionOne": "A la hora de presentar un portafolio rara vez presentan su información de la misma manera. Los costes operativos pueden aparecer en una página, las capacidades de la plataforma en otra y el acceso al mercado en la documentación técnica.",
     "descriptionTwo": "Cuando estos elementos se analizan dentro de un mismo marco, las diferencias entre plataformas se vuelven más fáciles de identificar.",
-    "descriptionThree": "Ese es el principio detrás de Silecta: mantener la información de brókers dentro de un entorno consistente donde las plataformas puedan explorarse sin cambiar constantemente de formato."
+    "descriptionThree": "Ese es el principio detrás de Silecta: mantener la información dentro de un entorno consistente donde las plataformas puedan explorarse sin cambiar constantemente de formato."
   },
   "AboutPageResources": {
     "subtitle": "Un entorno, varias perspectivas",
     "title": "Tres recursos integrados en una sola plataforma.",
-    "itemTitleOne": "Listados de brókers",
+    "itemTitleOne": "Listados de diferentes firmas y productos",
     "itemDescriptionOne": "Perfiles estructurados que presentan las plataformas de trading en una sola vista general.",
     "itemTitleTwo": "Observaciones del sector",
     "itemDescriptionTwo": "Artículos que cubren desarrollos de plataformas, actualizaciones de infraestructura y cambios en el entorno.",
