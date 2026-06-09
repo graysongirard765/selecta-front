@@ -6,7 +6,7 @@ export const IntroSection = () => {
   const t = useTranslations('homePage');
   const locale = useLocale();
   const homePrefix = locale === 'es' ? '' : `/${locale}`;
-  const brokersHref = `${homePrefix}/encontrar-un-silecta`;
+  const brokersHref = `${homePrefix}/silecta`;
   const step = t('introStep', { fallback: '01 / Inicio' });
   const title = t('introTitle', { fallback: 'Comienza con una vision mas clara' });
   const questionLineOne = t('introQuestionLineOne', {
@@ -24,7 +24,7 @@ export const IntroSection = () => {
     fallback:
       'En Silecta, te ayudamos a que la eleccion sea facil y comoda ayudandote durante todo el proceso para que puedas elegir con una vision mas clara antes de tomar una decision.',
   });
-  const cta = t('introCta', { fallback: 'Encontrar un Silecta' });
+  const cta = t('introCta', { fallback: 'Silecta' });
 
   return (
     <section className={styles.section} id="intro">

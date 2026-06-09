@@ -65,11 +65,11 @@ const generalSans = localFont({
 });
 
 export const metadata: Metadata = {
-  title: 'Encontrar un Silecta para invertir y hacer trading | Silecta',
-  description: 'Compara brokers, plataformas de trading y bancos de inversión en un solo lugar. Descubre costes, herramientas y opiniones antes de elegir.',
+  title: 'Silecta',
+  description: '',
   openGraph: {
-    title: 'Encontrar un Silecta para invertir y hacer trading | Silecta',
-    description: 'Compara brokers, plataformas de trading y bancos de inversión en un solo lugar. Descubre costes, herramientas y opiniones antes de elegir.',
+    title: 'Silecta',
+    description: '',
     images: 'https://silecta.es/images/meta.png',
   },
 };
