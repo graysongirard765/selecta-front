@@ -338,14 +338,14 @@
   "howItWorksPage": {
     "step1": {
       "kicker": "Paso 1",
-      "title": "Explorar brókers",
+      "title": "Explora sin limitaciones",
       "body": "Comienza conociendo las plataformas más utilizadas y con mejores condiciones del mercado. <br/><br/>La sección Silecta reúne perfiles de plataformas en un solo lugar. Cada perfil presenta los elementos clave de un entorno de trading en un formato consistente, lo que facilita revisar y moverse entre plataformas.",
-      "ctaPrimary": "Explorar brókers"
+      "ctaPrimary": "Saber más"
     },
     "step2": {
       "kicker": "Paso 2",
       "title": "No quedarse ahí e ir más allá",
-      "body": "La investigación de brókers rara vez se detiene en el perfil básico. <br/><br/>La sección Herramientas ofrece utilidades analíticas que ayudan a interpretar las condiciones de plataformas y las estructuras de las inversiones. Al mismo tiempo, Actualizaciones del sector sigue los cambios en torno a las plataformas de inversión, incluyendo nuevas funciones, ajustes y cambios en el acceso al mercado.",
+      "body": "La investigación rara vez se detiene en el perfil básico. <br/><br/>La sección Herramientas ofrece utilidades analíticas que ayudan a interpretar las condiciones de plataformas y las estructuras de las inversiones. Al mismo tiempo, Actualizaciones del sector sigue los cambios en torno a las plataformas de inversión, incluyendo nuevas funciones, ajustes y cambios en el acceso al mercado.",
       "ctaTools": "Ver herramientas",
       "ctaUpdates": "Leer actualizaciones del sector"
     },
@@ -362,7 +362,7 @@
     "step4": {
       "kicker": "Paso 4",
       "title": "Continua tu investigación",
-      "body": "Una vez que una plataforma capte tu atención ya sea porque patrocine a tu equipo favorito, algún amigo o conocido te haya hablado de ella puedes seguir explorándola directamente.<br/><br/>Silecta no abre cuentas, no gestiona transacciones ni participa en actividades de trading. El servicio se centra en organizar la información de brókers para que los usuarios puedan revisar las plataformas antes de avanzar por su cuenta.",
+      "body": "Una vez que una plataforma capte tu atención ya sea porque patrocine a tu equipo favorito, algún amigo o conocido te haya hablado de ella puedes seguir explorándola directamente.<br/><br/>Silecta no abre cuentas, no gestiona transacciones ni participa en actividades de trading. El servicio se centra en organizar la información para que los usuarios puedan revisar las plataformas antes de avanzar por su cuenta.",
       "ctaPrimary": "Silecta"
     },
     "hero": {
@@ -377,12 +377,12 @@
     },
     "explore": {
       "kicker": "Explora a tu propio ritmo",
-      "lead": "La investigación de brókers rara vez sigue un único camino. Algunos usuarios identifican rápidamente las plataformas que desean explorar más a fondo, mientras que otros dedican más tiempo a revisar herramientas, actualizaciones del sector y detalles de las plataformas antes de decidir en qué centrarse a continuación.",
+      "lead": "La investigación rara vez sigue sigue un único camino. Algunos usuarios identifican rápidamente las plataformas que desean explorar más a fondo, mientras que otros dedican más tiempo a revisar herramientas, actualizaciones del sector y detalles de las plataformas antes de decidir en qué centrarse a continuación.",
       "body": "La estructura de la plataforma permite a los usuarios moverse libremente entre secciones a medida que evoluciona su investigación."
     },
     "selection": {
       "kicker": "Selección a tu medida",
-      "body": "Silecta opera como una plataforma independiente de búsqueda y comparación de brókers. No retiene fondos de clientes ni proporciona asesoramiento de inversión. Su función se limita a presentar información de brókers, herramientas y contexto del sector dentro de una estructura de investigación más clara."
+      "body": "Silecta opera como una plataforma independiente de busqueda y comparación de bancos, plataformas y fondos. No retiene fondos de clientes ni proporciona asesoramiento de inversión. Su función se limita a presentar información, herramientas y contexto del sector dentro de una estructura de investigación más clara."
     }
   },
   "contactPage": {

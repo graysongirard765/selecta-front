@@ -27,7 +27,7 @@ export default function HowItWorksPage() {
   const steps: readonly StepItem[] = [
     {
       step: t("step1.kicker", { fallback: "Paso 1" }),
-      title: t("step1.title", { fallback: "Explorar brokers" }),
+      title: t("step1.title", { fallback: "Explora sin limitaciones" }),
       body: t("step1.body", {
         fallback:
           "Comienza conociendo las plataformas más utilizadas y con mejores condiciones del mercado. <br/><br/>La sección Silecta reúne perfiles de plataformas en un solo lugar. Cada perfil presenta los elementos clave de un entorno de corretaje en un formato consistente, lo que facilita revisar y moverse entre plataformas.",
@@ -35,7 +35,7 @@ export default function HowItWorksPage() {
       dark: true,
       ctas: [
         {
-          label: t("step1.ctaPrimary", { fallback: "Explorar brokers" }),
+          label: t("step1.ctaPrimary", { fallback: "Saber más" }),
           href: brokersHref,
           filled: true,
         },
@@ -48,7 +48,7 @@ export default function HowItWorksPage() {
       }),
       body: t("step2.body", {
         fallback:
-          "La investigación de brokers rara vez se detiene en el perfil básico. La sección Herramientas ofrece utilidades analíticas que ayudan a interpretar las condiciones de trading. Al mismo tiempo, Actualizaciones del sector sigue los cambios en torno a las plataformas, incluyendo nuevas funciones, ajustes y cambios en el acceso al mercado.",
+          "La investigación rara vez se detiene en el perfil básico. La sección Herramientas ofrece utilidades analíticas que ayudan a interpretar las condiciones de trading. Al mismo tiempo, Actualizaciones del sector sigue los cambios en torno a las plataformas, incluyendo nuevas funciones, ajustes y cambios en el acceso al mercado.",
       }),
       ctas: [
         {
@@ -88,7 +88,7 @@ export default function HowItWorksPage() {
       title: t("step4.title", { fallback: "Continua tu investigación" }),
       body: t("step4.body", {
         fallback:
-          "Una vez que una plataforma capte tu atención puedes seguir explorándola directamente. Silecta no abre cuentas, no gestiona transacciones ni participa en actividades de trading. El servicio se centra en organizar la información de brokers para que los usuarios puedan revisar las plataformas antes de avanzar por su cuenta.",
+          "Una vez que una plataforma capte tu atención puedes seguir explorándola directamente. Silecta no abre cuentas, no gestiona transacciones ni participa en actividades de trading. El servicio se centra en organizar la información para que los usuarios puedan revisar las plataformas antes de avanzar por su cuenta.",
       }),
       ctas: [
         {
@@ -130,7 +130,7 @@ export default function HowItWorksPage() {
         kicker={t("explore.kicker", { fallback: "Explora a tu propio ritmo" })}
         lead={t("explore.lead", {
           fallback:
-            "La investigación de brokers rara vez sigue un único camino. Algunos usuarios identifican rápidamente las plataformas que desean explorar más a fondo, mientras que otros dedican más tiempo a revisar herramientas, actualizaciones del sector y detalles de las plataformas antes de decidir en qué centrarse a continuación.",
+            "La investigación rara vez sigue un único camino. Algunos usuarios identifican rápidamente las plataformas que desean explorar más a fondo, mientras que otros dedican más tiempo a revisar herramientas, actualizaciones del sector y detalles de las plataformas antes de decidir en qué centrarse a continuación.",
         })}
         body={t("explore.body", {
           fallback:
@@ -142,7 +142,7 @@ export default function HowItWorksPage() {
         kicker={t("selection.kicker", { fallback: "Selección a tu medida" })}
         body={t("selection.body", {
           fallback:
-            "Silecta opera como una plataforma independiente de búsqueda y comparación de brokers. No retiene fondos de clientes ni proporciona asesoramiento de inversión. Su función se limita a presentar información de brokers, herramientas y contexto del sector dentro de una estructura de investigación más clara.",
+            "Silecta opera como una plataforma independiente de busqueda y comparación de bancos, plataformas y fondos. No retiene fondos de clientes ni proporciona asesoramiento de inversión. Su función se limita a presentar información, herramientas y contexto del sector dentro de una estructura de investigación más clara.",
         })}
       />
     </div>
