@@ -19,7 +19,7 @@ export const HeroSection = async () => {
           <p className={styles.description}>
             {t("hero.description", {
               fallback:
-                "Pueden surgir preguntas al explorar los listados de brokers, revisar la información de las plataformas o navegar por las diferentes secciones del sitio web. Si algo en la plataforma requiere aclaración, puedes contactar directamente con el equipo.",
+                "Pueden surgir preguntas al explorar, revisar la información de las plataformas o navegar por las diferentes secciones del sitio web. Si algo en la plataforma requiere aclaración, puedes contactar directamente con el equipo.",
             })}
           </p>
         </div>
