@@ -313,7 +313,7 @@
     "articlesKicker": "ACTUALIZACIONES RECIENTES",
     "articlesTitle": "Qué está cambiando en las plataformas",
     "exploreKicker": "DE LA INFORMACIÓN A LA EXPLORACIÓN",
-    "exploreBody": "Las observaciones del sector pueden proporcionar contexto adicional al revisar las plataformas de corretaje. Continúa tu investigación explorando los listados de brókers y las herramientas analíticas disponibles en la plataforma.",
+    "exploreBody": "Las observaciones del sector pueden proporcionar contexto adicional al revisar las plataformas de corretaje. Continua tu investigación explorando entre las diferentes empresas y las herramientas analíticas disponibles en la plataforma.",
     "explorePrimary": "Silecta",
     "exploreSecondary": "Explorar herramientas",
     "heroKicker": "SILECTA · ACTUALIZACIONES DEL SECTOR",
@@ -403,10 +403,10 @@
   },
   "FindABrokerPageHero": {
     "title": "Silecta",
-    "description": "Explora diferentes plataformas a través de listados organizados y perfiles de brókers estructurados."
+    "description": "Explora diferentes bancos, plataformas o activos a través de listados organizados y perfiles estructurados."
   },
   "FindABrokerPageBrokerListings": {
-    "title": "Listados de brókers",
+    "title": "Descubre las mejores compañias del mercado",
     "description": "Explora las plataformas disponibles y revisa sus entornos a través de una visión general. Cada listado presenta detalles clave de cada una de estas, lo que permite explorar diferentes alternativas dentro de la misma estructura.",
     "itemLinkOno": "Ver reseñas",
     "itemLinkTwo": "Visitar bróker",
@@ -415,16 +415,16 @@
   },
   "FindABrokerPlatforms": {
     "title": "Mantente actualizado sobre las plataformas",
-    "description": "Los servicios de brókers y los entornos de trading continúan evolucionando. Seguir los desarrollos del sector puede proporcionar contexto adicional al explorar plataformas de inversión.",
+    "description": "Los servicios y las condiciones de estas empresas y los entornos de trading continúan evolucionando. Seguir los desarrollos del sector puede proporcionar contexto adicional al explorar plataformas de inversión.",
     "link": "Ver actualizaciones del sector"
   },
   "FindABrokerPagePlatformSelect": {
     "title": "Silecta de plataforma independiente",
-    "description1": "Silecta opera como una plataforma independiente de búsqueda de brókers. No retiene fondos de clientes, no gestiona cuentas de trading ni proporciona asesoramiento de inversión. ",
-    "description2": "La plataforma se centra en organizar la información de brókers para que los usuarios puedan explorar plataformas de corretaje inversión antes de continuar su investigación directamente con un bróker."
+    "description1": "Silecta opera como una plataforma independiente. No retiene fondos de clientes, no gestiona cuentas de trading ni proporciona asesoramiento de inversión. ",
+    "description2": "La plataforma se centra en organizar la informacion para que los usuarios puedan explorar las diferentes opciones que tienen antes de centrarse en una única opción."
   },
   "FindABrokerPageReviewing": {
-    "title": "Qué buscar al revisar brókers",
+    "title": "Que buscar al revisar",
     "description": "Al explorar los listados de plataformas, los inversores suelen prestar atención a varios aspectos prácticos de una plataforma. Estos elementos ayudan a crear una imagen más clara de cómo difieren los entornos de inversión.",
     "itemTitleOne": "Entorno de ejecución",
     "itemDescriptionOne": "Infraestructura que respalda el procesamiento de órdenes y las operaciones de trading.",
@@ -436,8 +436,8 @@
     "itemDescriptionFour": "Reseñas compartidas por traders en plataformas independientes."
   },
   "FindABrokerPageTools": {
-    "title": "Herramientas para la investigación de brókers",
-    "description": "Además de los listados de brókers, nuestra plataforma ofrece herramientas analíticas que ayudan a los usuarios a revisar las condiciones de trading y el entorno de la plataforma desde una perspectiva diferente.",
+    "title": "Herramientas para una elección adecuada",
+    "description": "Además de los listados de las compañías que ofrecen mejores condiciones de trading y el entorno de la plataforma desde una perspectiva diferente.",
     "link": "Explorar herramientas"
   },
   "toolsPage": {

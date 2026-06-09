@@ -33,7 +33,7 @@ export const FindABrokerPlatforms = async () => {
             <p className={styles.description}>
               {t('description', {
                 fallback:
-                  'Los servicios de brokers y los entornos de trading continúan evolucionando. Seguir los desarrollos del sector puede proporcionar contexto adicional al explorar plataformas de inversión.',
+                  'Los servicios y las condiciones de estas empresas y los entornos de trading continúan evolucionando. Seguir los desarrollos del sector puede proporcionar contexto adicional al explorar plataformas de inversión.',
               })}
             </p>
           </div>
