@@ -55,7 +55,7 @@ export const ComparisonSection = () => {
         <p className={styles.description}>
           {t('description', {
             fallback:
-              'Al revisar plataformas o brokers, normalmente se comparan varios aspectos practicos que resumiremos a continuacion.',
+              'Al revisar plataformas o bancos, normalmente se comparan varios aspectos practicos que resumiremos a continuacion.',
           })}
         </p>
 

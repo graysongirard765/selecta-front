@@ -23,7 +23,7 @@ export const Footer = () => {
   const howItWorksHref = `${homePrefix}/como-funciona`;
   const updatesHref = `${homePrefix}/actualizaciones-del-sector`;
   const toolsHref = `${homePrefix}/herramientas`;
-  const brokersHref = `${homePrefix}/encontrar-un-broker`;
+  const brokersHref = `${homePrefix}/encontrar-un-silecta`;
   const aboutHref = `${homePrefix}/acerca-de`;
   const contactHref = `${homePrefix}/contacto`;
   const termsHref = `${homePrefix}/terminos-y-condiciones`;
@@ -45,7 +45,7 @@ export const Footer = () => {
     },
     {
       href: brokersHref,
-      label: t("findBroker", { fallback: "Encontrar un broker" }),
+      label: t("findBroker", { fallback: "Encontrar un Silecta" }),
       isRoute: true,
     },
     {
@@ -84,7 +84,7 @@ export const Footer = () => {
             <p className={styles.bannerText}>
               {t("banner", {
                 fallback:
-                  "Silecta es una plataforma independiente de busqueda de brokers. No retenemos fondos de clientes ni proporcionamos asesoramiento de inversion.",
+                  "Silecta es una plataforma independiente sobre desarrollos del mercado. No retenemos fondos de clientes ni proporcionamos asesoramiento de inversion.",
               })}
             </p>
           </div>
@@ -107,7 +107,7 @@ export const Footer = () => {
                 <p className={styles.descriptionStrong}>
                   {t("descriptionLead", {
                     fallback:
-                      "Plataforma independiente de descubrimiento de brokers.",
+                      "Plataforma independiente de descubrimiento de bancos, plataformas o Etf.",
                   })}
                 </p>
                 <p className={styles.descriptionText}>

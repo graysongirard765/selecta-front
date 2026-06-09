@@ -6,15 +6,15 @@ export const HeroSection = () => {
   const t = useTranslations('homePage');
   const locale = useLocale();
   const homePrefix = locale === 'es' ? '' : `/${locale}`;
-  const brokersHref = `${homePrefix}/encontrar-un-broker`;
-  const eyebrow = t('heroEyebrow', { fallback: 'SILECTA · BROKER DISCOVERY' });
+  const brokersHref = `${homePrefix}/encontrar-un-silecta`;
+  const eyebrow = t('heroEyebrow', { fallback: 'SILECTA' });
   const titleLineOne = t('heroTitleLineOne', { fallback: 'Descubre tu' });
-  const titleLineTwo = t('heroTitleLineTwo', { fallback: 'broker.' });
+  const titleLineTwo = t('heroTitleLineTwo', { fallback: 'camino.' });
   const description = t('heroDescription', {
     fallback:
-      'Encuentra la plataforma, banco o broker que mas se adapte a tu perfil y a tus necesidades.',
+      'Encuentra la plataforma, banco o Etf que mas se adapte a tu perfil y a tus necesidades.',
   });
-  const cta = t('heroPrimaryCta', { fallback: 'Encontrar un broker' });
+  const cta = t('heroPrimaryCta', { fallback: 'Encontrar un Silecta' });
 
   return (
     <section className={styles.hero} id="top">

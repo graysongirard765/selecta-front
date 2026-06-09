@@ -74,7 +74,7 @@ export const ReviewsSection = () => {
             <p className={styles.description}>
               {t('description', {
                 fallback:
-                  'Las plataformas de brokers se discuten con frecuencia en plataformas de reseñas independientes donde los traders comparten sus experiencias.',
+                  'Las plataformas, bancos o Etf se discuten con frecuencia en plataformas de reseñas independientes donde los usuarios comparten sus experiencias.',
               })}
             </p>
 

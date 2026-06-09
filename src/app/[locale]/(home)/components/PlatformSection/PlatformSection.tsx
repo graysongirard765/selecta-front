@@ -12,11 +12,11 @@ export const PlatformSection = () => {
   const cardTitle = t("cardTitle", { fallback: "Un recurso independiente" });
   const lead = t("lead", {
     fallback:
-      "Silecta es un recurso independiente dedicado a organizar la informacion de brokers y los desarrollos del sector.",
+      "Silecta es un recurso independiente dedicado a organizar la información y los desarrollos del sector.",
   });
   const body = t("body", {
     fallback:
-      "No actua como broker ni gestiona cuentas de trading. Su proposito es presentar la informacion de las diferentes alternativas dentro de una estructura mas clara que facilite la exploracion y la comparacion.",
+      "No actua como depositaria de fondos, ni gestiona sus fondos. Su proposito es presentar la informacion de las diferentes alternativas dentro de una estructura mas clara que facilite la exploracion y la comparacion.",
   });
   const metaPrimary = t("metaPrimary", {
     fallback: "Plataforma · Independiente",
