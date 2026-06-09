@@ -13,7 +13,7 @@ export const AboutResources = () => {
   const items = [
     {
       id: 'execution',
-      title: t('itemTitleOne', { fallback: 'Listados de brokers' }),
+      title: t('itemTitleOne', { fallback: 'Listados de diferentes firmas y productos' }),
       description: t('itemDescriptionOne', {
         fallback:
           'Perfiles estructurados que presentan las plataformas de trading en una sola vista general.',
