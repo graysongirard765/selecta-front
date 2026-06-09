@@ -79,7 +79,7 @@
       },
       "step": "03 / Comparar",
       "title": "Elementos a tener en cuenta a la hora de elegir",
-      "description": "Al revisar plataformas o brókers, normalmente se comparan varios aspectos prácticos que resumiremos a continuación.",
+      "description": "Al revisar plataformas o bancos, normalmente se comparan varios aspectos prácticos que resumiremos a continuación.",
       "note": "Estos elementos ayudan a formar una visión más clara de cómo se diferencian las plataformas entre todas ellas y cuál nos puede ofrecer un servicio mucho más personalizado."
     },
     "contact": {
@@ -108,14 +108,14 @@
       "step": "05 / Decidir",
       "titleLine1": "Pasar de la búsqueda",
       "titleLine2": "a la selección",
-      "subtitle": "La selección de brókers se desarrolla en tres pasos.",
+      "subtitle": "La selección se desarrolla en tres pasos.",
       "title": "Pasar de la búsqueda a la selección"
     },
-    "heroEyebrow": "SILECTA · BROKER DISCOVERY",
+    "heroEyebrow": "SILECTA",
     "heroTitleLineOne": "Descubre tu",
-    "heroTitleLineTwo": "bróker",
-    "heroDescription": "Encuentra la plataforma, banco o bróker que más se adapte a tu perfil y a tus necesidades.",
-    "heroPrimaryCta": "Encontrar un bróker",
+    "heroTitleLineTwo": "camino",
+    "heroDescription": "Encuentra la plataforma, banco o Etf que mas se adapte a tu perfil y a tus necesidades.",
+    "heroPrimaryCta": "Encontrar un Silecta",
     "introStep": "01 / Inicio",
     "introTitle": "Comienza con una visión más clara",
     "introQuestionLineOne": "Cuando empiezas a buscar una empresa que te ofrezca un servicio",
@@ -123,13 +123,13 @@
     "introQuestionHighlight": "¿Dónde?",
     "introBodyPrimary": "Encontrar la respuesta normalmente implica gastar mucho tiempo en diferentes webs, buscar reseñas y descripciones que muchas veces no alcanzamos a entender o desconocemos.",
     "introBodySecondary": "En Silecta, te ayudamos a que la elección sea fácil y cómoda ayudándote durante todo el proceso para que puedas elegir con una visión más clara antes de tomar una decisión.",
-    "introCta": "Encontrar un bróker",
+    "introCta": "Encontrar un Silecta",
     "platform": {
       "step": "08 / Nuestra plataforma",
       "title": "Estructura independiente",
       "cardTitle": "Un recurso independiente",
-      "lead": "Silecta es un recurso independiente dedicado a organizar la información de brókers y los desarrollos del sector.",
-      "body": "No actúa como bróker ni gestiona cuentas de trading. Su propósito es presentar la información de las diferentes alternativas dentro de una estructura más clara que facilite la exploración y la comparación.",
+      "lead": "Silecta es un recurso independiente dedicado a organizar la información y los desarrollos del sector.",
+      "body": "No actua como depositaria de fondos, ni gestiona sus fondos. Su proposito es presentar la informacion de las diferentes alternativas dentro de una estructura mas clara que facilite la exploracion y la comparacion.",
       "metaPrimary": "Plataforma · Independiente",
       "metaSecondary": "Est. 2026",
       "cta": "Acerca de la plataforma"
@@ -158,7 +158,7 @@
       "titleLine2": "externas de",
       "titleLine3": "comunidades",
       "titleLine4": "de trading",
-      "description": "Las plataformas de brókers se discuten con frecuencia en plataformas de reseñas independientes donde los traders comparten sus experiencias.",
+      "description": "Las plataformas, bancos o Etf se discuten con frecuencia en plataformas de reseñas independientes donde los usuarios comparten sus experiencias.",
       "note": "Estas perspectivas externas pueden proporcionar una ayuda adicional para entender y valorar el servicio antes de realizar una elección.",
       "titleLineOne": "Perspectivas externas de",
       "titleLineTwo": "comunidades de trading",
@@ -314,7 +314,7 @@
     "articlesTitle": "Qué está cambiando en las plataformas",
     "exploreKicker": "DE LA INFORMACIÓN A LA EXPLORACIÓN",
     "exploreBody": "Las observaciones del sector pueden proporcionar contexto adicional al revisar las plataformas de corretaje. Continúa tu investigación explorando los listados de brókers y las herramientas analíticas disponibles en la plataforma.",
-    "explorePrimary": "Encontrar un bróker",
+    "explorePrimary": "Encontrar un Silecta",
     "exploreSecondary": "Explorar herramientas",
     "heroKicker": "SILECTA · ACTUALIZACIONES DEL SECTOR",
     "heroTitle": "Actualizaciones del sector",
@@ -339,7 +339,7 @@
     "step1": {
       "kicker": "Paso 1",
       "title": "Explorar brókers",
-      "body": "Comienza conociendo las plataformas más utilizadas y con mejores condiciones del mercado. <br/><br/>La sección Encontrar un bróker reúne perfiles de plataformas en un solo lugar. Cada perfil presenta los elementos clave de un entorno de trading en un formato consistente, lo que facilita revisar y moverse entre plataformas.",
+      "body": "Comienza conociendo las plataformas más utilizadas y con mejores condiciones del mercado. <br/><br/>La sección Encontrar un Silecta reúne perfiles de plataformas en un solo lugar. Cada perfil presenta los elementos clave de un entorno de trading en un formato consistente, lo que facilita revisar y moverse entre plataformas.",
       "ctaPrimary": "Explorar brókers"
     },
     "step2": {
@@ -363,7 +363,7 @@
       "kicker": "Paso 4",
       "title": "Continua tu investigación",
       "body": "Una vez que una plataforma capte tu atención ya sea porque patrocine a tu equipo favorito, algún amigo o conocido te haya hablado de ella puedes seguir explorándola directamente.<br/><br/>Silecta no abre cuentas, no gestiona transacciones ni participa en actividades de trading. El servicio se centra en organizar la información de brókers para que los usuarios puedan revisar las plataformas antes de avanzar por su cuenta.",
-      "ctaPrimary": "Encontrar un bróker"
+      "ctaPrimary": "Encontrar un Silecta"
     },
     "hero": {
       "kicker": "Silecta · Cómo funciona",
@@ -402,7 +402,7 @@
     }
   },
   "FindABrokerPageHero": {
-    "title": "Encontrar un bróker",
+    "title": "Encontrar un Silecta",
     "description": "Explora diferentes plataformas a través de listados organizados y perfiles de brókers estructurados."
   },
   "FindABrokerPageBrokerListings": {
@@ -443,7 +443,7 @@
   "toolsPage": {
     "ctaKicker": "CONTINUAR LA INVESTIGACIÓN",
     "ctaBody": "Las herramientas analíticas pueden complementar los listados de brókers y la información del sector disponible en la plataforma.",
-    "ctaPrimary": "Encontrar un bróker",
+    "ctaPrimary": "Encontrar un Silecta",
     "ctaSecondary": "Actualizaciones del sector",
     "heroKicker": "SILECTA · HERRAMIENTAS ANALÍTICAS",
     "heroTitle": "Herramientas",
@@ -556,14 +556,14 @@
     "cookies": "Política de cookies",
     "home": "Inicio",
     "howItWorks": "Cómo funciona",
-    "findBroker": "Encontrar un bróker",
+    "findBroker": "Encontrar un Silecta",
     "updates": "Actualizaciones del sector",
     "tools": "Herramientas",
     "about": "Acerca de",
     "contact": "Contacto",
     "copyright": "Todos los derechos reservados.",
-    "banner": "Silecta presenta información independiente sobre brókers y desarrollos del mercado. No ofrece servicios de inversión ni actúa como intermediario financiero.",
-    "descriptionLead": "Plataforma independiente de descubrimiento de brókers.",
+    "banner": "Silecta presenta información independiente sobre desarrollos del mercado. No ofrece servicios de inversión ni actúa como intermediario financiero.",
+    "descriptionLead": "Plataforma independiente de descubrimiento de bancos, plataformas o Etf.",
     "descriptionBody": "Diseñada para ayudar a las personas que están interesadas en invertir y ahorrar a identificar plataformas y bancos que ofrezcan las mejores condiciones del mercado.",
     "navigationLabel": "Navegación",
     "legalLabel": "Legal",
@@ -599,7 +599,7 @@
     "tools": "Herramientas",
     "about": "Acerca de",
     "contact": "Contacto",
-    "findBroker": "Encontrar un bróker",
+    "findBroker": "Encontrar un Silecta",
     "navLabel": "Navegación principal",
     "menu": "Menú",
     "brandMeta": "Descubrimiento de brókers",

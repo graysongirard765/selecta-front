@@ -1,6 +1,6 @@
 ---
-title: El camino que siguen los inversores al elegir un broker
-excerpt: La selección de un broker suele comenzar con la investigación, continuar con la comparación y terminar con la identificación de una plataforma que se ajuste a las preferencias individuales.
+title: El camino que siguen los inversores al elegir
+excerpt: La selección suele comenzar con la investigación, continua y termina con la identificación de una plataforma que se ajuste a las preferencias individuales.
 seoTitle: "Cómo elegir un broker de inversión y trading | Silecta"
 seoDescription: "Aprende qué factores analizar al comparar brokers online: plataformas, costes, ejecución, mercados y opiniones de usuarios."
 ---

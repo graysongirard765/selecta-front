@@ -27,7 +27,7 @@ export const Header = () => {
   const howItWorksHref = `${homePrefix}/como-funciona`;
   const updatesHref = `${homePrefix}/actualizaciones-del-sector`;
   const toolsHref = `${homePrefix}/herramientas`;
-  const brokersHref = `${homePrefix}/encontrar-un-broker`;
+  const brokersHref = `${homePrefix}/encontrar-un-silecta`;
   const aboutHref = `${homePrefix}/acerca-de`;
   const contactHref = `${homePrefix}/contacto`;
 
@@ -55,7 +55,7 @@ export const Header = () => {
   ] as const;
 
   const contactLabel = t("contact", { fallback: "Contacto" });
-  const ctaLabel = t("findBroker", { fallback: "Encontrar un broker" });
+  const ctaLabel = t("findBroker", { fallback: "Encontrar un Silecta" });
   const isPolicyPage =
     pathname === "/terminos-y-condiciones" ||
     pathname === "/politica-de-privacidad" ||

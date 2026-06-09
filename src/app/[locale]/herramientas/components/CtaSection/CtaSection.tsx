@@ -8,7 +8,7 @@ export const CtaSection = async () => {
   const locale = await getLocale();
   const t = await getTranslations("toolsPage");
   const homePrefix = locale === "es" ? "" : `/${locale}`;
-  const brokersHref = `${homePrefix}/encontrar-un-broker`;
+  const brokersHref = `${homePrefix}/encontrar-un-silecta`;
   const updatesHref = `${homePrefix}/actualizaciones-del-sector`;
 
   return (
@@ -29,7 +29,7 @@ export const CtaSection = async () => {
 
           <div className={styles.actions}>
             <a href={brokersHref} className={`${styles.button} ${styles.buttonFilled}`}>
-              <span>{t("ctaPrimary", { fallback: "Encontrar un broker" })}</span>
+              <span>{t("ctaPrimary", { fallback: "Encontrar un Silecta" })}</span>
               <Image
                 src="/images/home/updates-arrow.svg"
                 alt=""

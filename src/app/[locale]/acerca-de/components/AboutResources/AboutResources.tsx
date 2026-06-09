@@ -19,8 +19,8 @@ export const AboutResources = () => {
           'Perfiles estructurados que presentan las plataformas de trading en una sola vista general.',
       }),
       icon: 'candle.svg',
-      link: 'encontrar-un-broker',
-      linkTitle: 'Encontrar un broker',
+      link: 'encontrar-un-silecta',
+      linkTitle: 'Encontrar un Silecta',
     },
     {
       id: 'costs',

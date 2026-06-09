@@ -20,7 +20,7 @@ export default function HowItWorksPage() {
   const t = useTranslations("howItWorksPage");
   const locale = useLocale();
   const homePrefix = locale === "es" ? "" : `/${locale}`;
-  const brokersHref = `${homePrefix}/encontrar-un-broker`;
+  const brokersHref = `${homePrefix}/encontrar-un-silecta`;
   const updatesHref = `${homePrefix}/actualizaciones-del-sector`;
   const toolsHref = `${homePrefix}/herramientas`;
 
@@ -30,7 +30,7 @@ export default function HowItWorksPage() {
       title: t("step1.title", { fallback: "Explorar brokers" }),
       body: t("step1.body", {
         fallback:
-          "Comienza conociendo las plataformas más utilizadas y con mejores condiciones del mercado. <br/><br/>La sección Encontrar un broker reúne perfiles de plataformas en un solo lugar. Cada perfil presenta los elementos clave de un entorno de corretaje en un formato consistente, lo que facilita revisar y moverse entre plataformas.",
+          "Comienza conociendo las plataformas más utilizadas y con mejores condiciones del mercado. <br/><br/>La sección Encontrar un Silecta reúne perfiles de plataformas en un solo lugar. Cada perfil presenta los elementos clave de un entorno de corretaje en un formato consistente, lo que facilita revisar y moverse entre plataformas.",
       }),
       dark: true,
       ctas: [
@@ -92,7 +92,7 @@ export default function HowItWorksPage() {
       }),
       ctas: [
         {
-          label: t("step4.ctaPrimary", { fallback: "Encontrar un broker" }),
+          label: t("step4.ctaPrimary", { fallback: "Encontrar un Silecta" }),
           href: brokersHref,
         },
       ],

@@ -50,7 +50,7 @@ export const DecisionSection = () => {
 
         <p className={styles.description}>
           {t('subtitle', {
-            fallback: 'La selección de brokers se desarrolla en tres pasos.',
+            fallback: 'La selección se desarrolla en tres pasos',
           })}
         </p>
 
