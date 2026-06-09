@@ -24,7 +24,7 @@ export const AboutBroaderView = () => {
 
   const rightDesciption = t('rightDesciption', {
     fallback:
-      'Si necesitas aclaraciones mientras exploras plataformas de brokers o utilizas sus herramientas analíticas, puedes ponerte en contacto a través de la página de contacto.',
+      'Si necesitas aclaraciones mientras exploras plataformas, bancos, Etf o utilizas sus herramientas analíticas, puedes ponerte en contacto a través de la página de contacto.',
   });
 
   const linkTitle = t('linkTitle', {

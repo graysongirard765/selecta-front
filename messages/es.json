@@ -257,7 +257,7 @@
     "title": "Los servicios de trading continúan cambiando a medida que evoluciona la tecnología de trading y se amplía el acceso al mercado.",
     "description": "Las plataformas introducen nuevos instrumentos, actualizan el software de trading y ajustan las características de las cuentas con el tiempo. Seguir estos desarrollos puede proporcionar contexto adicional al revisar las plataformas de corretaje y sus entornos operativos.",
     "rightSubtitle": "Seguir explorando",
-    "rightDesciption": "Si necesitas aclaraciones mientras exploras plataformas de brókers o utilizas sus herramientas analíticas, puedes ponerte en contacto a través de la página de contacto.",
+    "rightDesciption": "Si necesitas aclaraciones mientras exploras plataformas, bancos, Etf o utilizas sus herramientas analíticas, puedes ponerte en contacto a través de la página de contacto.",
     "linkTitle": "Contacto"
   },
   "AboutPageHero": {
@@ -285,8 +285,8 @@
     "descriptionTwo": "Dado que los caminos de investigación difieren, Silecta permite moverse entre secciones sin imponer una secuencia fija.",
     "linkTitle": "Ver cómo funciona",
     "listSubtitle": "El papel independiente de Silecta",
-    "listDescription": "Silecta opera como una plataforma independiente de búsqueda de brókers. El servicio no abre cuentas de trading, no retiene fondos de clientes, no ejecuta operaciones ni proporciona asesoramiento de inversión. Nuestro papel se limita a:",
-    "listItemTitleOne": "Organización de la información de brókers",
+    "listDescription": "Silecta opera como una plataforma independiente. El servicio no abre cuentas de trading, no retiene fondos de clientes, no ejecuta operaciones ni proporciona asesoramiento de inversión. Nuestro papel se limita a:",
+    "listItemTitleOne": "Organización de las condiciones mas importantes a la hora de elegir",
     "listItemTitleOneTwo": "Observaciones del sector",
     "listItemTitleOneThree": "Herramientas analíticas de investigación",
     "listItemTitleOneFour": "Referencias a reseñas externas"
@@ -398,7 +398,7 @@
     "hero": {
       "kicker": "SILECTA · CONTACTO",
       "title": "Hablemos",
-      "description": "Pueden surgir preguntas al explorar los listados de brókers, revisar la información de las plataformas o navegar por las diferentes secciones del sitio web. Si algo en la plataforma requiere aclaración, puedes contactar directamente con el equipo."
+      "description": "Pueden surgir preguntas al explorar, revisar la información de las plataformas o navegar por las diferentes secciones del sitio web. Si algo en la plataforma requiere aclaración, puedes contactar directamente con el equipo."
     }
   },
   "FindABrokerPageHero": {

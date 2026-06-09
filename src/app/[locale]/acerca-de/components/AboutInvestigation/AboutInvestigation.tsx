@@ -33,13 +33,13 @@ export const AboutInvestigation = () => {
 
   const listDescription = t('listDescription', {
     fallback:
-      'Silecta opera como una plataforma independiente de búsqueda de brokers. El servicio no abre cuentas de trading, no retiene fondos de clientes, no ejecuta operaciones ni proporciona asesoramiento de inversión. Nuestro papel se limita a:',
+      'Silecta opera como una plataforma independiente. El servicio no abre cuentas de trading, no retiene fondos de clientes, no ejecuta operaciones ni proporciona asesoramiento de inversión. Nuestro papel se limita a:',
   });
 
   const list = [
     {
       id: 'broker-information',
-      title: t('listItemTitleOne', { fallback: 'Organización de la información de brokers' }),
+      title: t('listItemTitleOne', { fallback: 'Organización de las condiciones mas importantes a la hora de elegir' }),
     },
     {
       id: 'industry-observations',
