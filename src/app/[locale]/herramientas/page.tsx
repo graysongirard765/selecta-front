@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+//import type { Metadata } from "next";
 
 import {
   CtaSection,
@@ -8,10 +8,10 @@ import {
 } from "./components";
 import styles from "./page.module.scss";
 
-export const metadata: Metadata = {
+/*export const metadata: Metadata = {
   title: 'Herramientas de trading y calculadoras de inversión | Silecta',
   description: 'Utiliza calculadoras de riesgo, costes y proyección de capital para analizar estrategias y condiciones de trading.',
-};
+};*/
 
 export default function ToolsPage() {
   return (
