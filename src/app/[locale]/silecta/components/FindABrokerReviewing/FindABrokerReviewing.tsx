@@ -6,7 +6,7 @@ import styles from './FindABrokerReviewing.module.scss';
 
 export const FindABrokerReviewing = () => {
   const t = useTranslations('FindABrokerPageReviewing');
-  const title = t('title', { fallback: 'Qué buscar al revisar brokers' });
+  const title = t('title', { fallback: 'Que buscar al revisar' });
   const description = t('description', {
     fallback:
       'Al explorar los listados de plataformas, los inversores suelen prestar atención a varios aspectos prácticos de una plataforma. Estos elementos ayudan a crear una imagen más clara de cómo difieren los entornos de inversión.',

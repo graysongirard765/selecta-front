@@ -7,7 +7,7 @@ export const BrokerHero = () => {
   const title = t('title', { fallback: 'Silecta' });
   const description = t('description', {
     fallback:
-      'Explora diferentes plataformas a través de listados organizados y perfiles de brokers estructurados.',
+      'Explora diferentes bancos, plataformas o activos a través de listados organizados y perfiles estructurados.',
   });
 
   return (

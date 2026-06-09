@@ -9,10 +9,10 @@ import styles from './FindABrokerTools.module.scss';
 
 export const FindABrokerTools = () => {
   const t = useTranslations('FindABrokerPageTools');
-  const title = t('title', { fallback: 'Herramientas para la investigación de brokers' });
+  const title = t('title', { fallback: 'Herramientas para una elección adecuada' });
   const description = t('description', {
     fallback:
-      'Además de los listados de brokers, nuestra plataforma ofrece herramientas analíticas que ayudan a los usuarios a revisar las condiciones de trading y el entorno de la plataforma desde una perspectiva diferente.',
+      'Además de los listados de las compañías que ofrecen mejores condiciones de trading y el entorno de la plataforma desde una perspectiva diferente.',
   });
   const link = t('link', {
     fallback: 'Explorar herramientas',

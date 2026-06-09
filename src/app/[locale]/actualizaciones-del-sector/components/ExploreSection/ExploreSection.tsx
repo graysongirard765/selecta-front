@@ -24,7 +24,7 @@ export const ExploreSection = async () => {
             <p className={styles.body}>
               {t("exploreBody", {
                 fallback:
-                  "Las observaciones del sector pueden proporcionar contexto adicional al revisar las plataformas de corretaje. Continúa tu investigación explorando los listados de brokers y las herramientas analíticas disponibles en la plataforma.",
+                  "Las observaciones del sector pueden proporcionar contexto adicional al revisar las plataformas de corretaje. Continua tu investigación explorando entre las diferentes empresas y las herramientas analíticas disponibles en la plataforma.",
               })}
             </p>
 
