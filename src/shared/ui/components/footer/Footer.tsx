@@ -23,7 +23,7 @@ export const Footer = () => {
   const howItWorksHref = `${homePrefix}/como-funciona`;
   const updatesHref = `${homePrefix}/actualizaciones-del-sector`;
   const toolsHref = `${homePrefix}/herramientas`;
-  const brokersHref = `${homePrefix}/encontrar-un-silecta`;
+  const brokersHref = `${homePrefix}/silecta`;
   const aboutHref = `${homePrefix}/acerca-de`;
   const contactHref = `${homePrefix}/contacto`;
   const termsHref = `${homePrefix}/terminos-y-condiciones`;
@@ -45,7 +45,7 @@ export const Footer = () => {
     },
     {
       href: brokersHref,
-      label: t("findBroker", { fallback: "Encontrar un Silecta" }),
+      label: t("findBroker", { fallback: "Silecta" }),
       isRoute: true,
     },
     {

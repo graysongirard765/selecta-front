@@ -6,7 +6,7 @@ export const HeroSection = () => {
   const t = useTranslations('homePage');
   const locale = useLocale();
   const homePrefix = locale === 'es' ? '' : `/${locale}`;
-  const brokersHref = `${homePrefix}/encontrar-un-silecta`;
+  const brokersHref = `${homePrefix}/silecta`;
   const eyebrow = t('heroEyebrow', { fallback: 'SILECTA' });
   const titleLineOne = t('heroTitleLineOne', { fallback: 'Descubre tu' });
   const titleLineTwo = t('heroTitleLineTwo', { fallback: 'camino.' });
@@ -14,7 +14,7 @@ export const HeroSection = () => {
     fallback:
       'Encuentra la plataforma, banco o Etf que mas se adapte a tu perfil y a tus necesidades.',
   });
-  const cta = t('heroPrimaryCta', { fallback: 'Encontrar un Silecta' });
+  const cta = t('heroPrimaryCta', { fallback: 'Silecta' });
 
   return (
     <section className={styles.hero} id="top">

@@ -4,7 +4,7 @@ import styles from './BrokerHero.module.scss';
 
 export const BrokerHero = () => {
   const t = useTranslations('FindABrokerPageHero');
-  const title = t('title', { fallback: 'Encontrar un Silecta' });
+  const title = t('title', { fallback: 'Silecta' });
   const description = t('description', {
     fallback:
       'Explora diferentes plataformas a través de listados organizados y perfiles de brokers estructurados.',

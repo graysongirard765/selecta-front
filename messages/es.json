@@ -115,7 +115,7 @@
     "heroTitleLineOne": "Descubre tu",
     "heroTitleLineTwo": "camino",
     "heroDescription": "Encuentra la plataforma, banco o Etf que mas se adapte a tu perfil y a tus necesidades.",
-    "heroPrimaryCta": "Encontrar un Silecta",
+    "heroPrimaryCta": "Silecta",
     "introStep": "01 / Inicio",
     "introTitle": "Comienza con una visión más clara",
     "introQuestionLineOne": "Cuando empiezas a buscar una empresa que te ofrezca un servicio",
@@ -123,7 +123,7 @@
     "introQuestionHighlight": "¿Dónde?",
     "introBodyPrimary": "Encontrar la respuesta normalmente implica gastar mucho tiempo en diferentes webs, buscar reseñas y descripciones que muchas veces no alcanzamos a entender o desconocemos.",
     "introBodySecondary": "En Silecta, te ayudamos a que la elección sea fácil y cómoda ayudándote durante todo el proceso para que puedas elegir con una visión más clara antes de tomar una decisión.",
-    "introCta": "Encontrar un Silecta",
+    "introCta": "Silecta",
     "platform": {
       "step": "08 / Nuestra plataforma",
       "title": "Estructura independiente",
@@ -314,7 +314,7 @@
     "articlesTitle": "Qué está cambiando en las plataformas",
     "exploreKicker": "DE LA INFORMACIÓN A LA EXPLORACIÓN",
     "exploreBody": "Las observaciones del sector pueden proporcionar contexto adicional al revisar las plataformas de corretaje. Continúa tu investigación explorando los listados de brókers y las herramientas analíticas disponibles en la plataforma.",
-    "explorePrimary": "Encontrar un Silecta",
+    "explorePrimary": "Silecta",
     "exploreSecondary": "Explorar herramientas",
     "heroKicker": "SILECTA · ACTUALIZACIONES DEL SECTOR",
     "heroTitle": "Actualizaciones del sector",
@@ -339,7 +339,7 @@
     "step1": {
       "kicker": "Paso 1",
       "title": "Explorar brókers",
-      "body": "Comienza conociendo las plataformas más utilizadas y con mejores condiciones del mercado. <br/><br/>La sección Encontrar un Silecta reúne perfiles de plataformas en un solo lugar. Cada perfil presenta los elementos clave de un entorno de trading en un formato consistente, lo que facilita revisar y moverse entre plataformas.",
+      "body": "Comienza conociendo las plataformas más utilizadas y con mejores condiciones del mercado. <br/><br/>La sección Silecta reúne perfiles de plataformas en un solo lugar. Cada perfil presenta los elementos clave de un entorno de trading en un formato consistente, lo que facilita revisar y moverse entre plataformas.",
       "ctaPrimary": "Explorar brókers"
     },
     "step2": {
@@ -363,7 +363,7 @@
       "kicker": "Paso 4",
       "title": "Continua tu investigación",
       "body": "Una vez que una plataforma capte tu atención ya sea porque patrocine a tu equipo favorito, algún amigo o conocido te haya hablado de ella puedes seguir explorándola directamente.<br/><br/>Silecta no abre cuentas, no gestiona transacciones ni participa en actividades de trading. El servicio se centra en organizar la información de brókers para que los usuarios puedan revisar las plataformas antes de avanzar por su cuenta.",
-      "ctaPrimary": "Encontrar un Silecta"
+      "ctaPrimary": "Silecta"
     },
     "hero": {
       "kicker": "Silecta · Cómo funciona",
@@ -402,7 +402,7 @@
     }
   },
   "FindABrokerPageHero": {
-    "title": "Encontrar un Silecta",
+    "title": "Silecta",
     "description": "Explora diferentes plataformas a través de listados organizados y perfiles de brókers estructurados."
   },
   "FindABrokerPageBrokerListings": {
@@ -442,8 +442,8 @@
   },
   "toolsPage": {
     "ctaKicker": "CONTINUAR LA INVESTIGACIÓN",
-    "ctaBody": "Las herramientas analíticas pueden complementar los listados de brókers y la información del sector disponible en la plataforma.",
-    "ctaPrimary": "Encontrar un Silecta",
+    "ctaBody": "Las herramientas analíticas pueden complementar los listados y la información del sector disponible en la plataforma.",
+    "ctaPrimary": "Silecta",
     "ctaSecondary": "Actualizaciones del sector",
     "heroKicker": "SILECTA · HERRAMIENTAS ANALÍTICAS",
     "heroTitle": "Herramientas",
@@ -556,7 +556,7 @@
     "cookies": "Política de cookies",
     "home": "Inicio",
     "howItWorks": "Cómo funciona",
-    "findBroker": "Encontrar un Silecta",
+    "findBroker": "Silecta",
     "updates": "Actualizaciones del sector",
     "tools": "Herramientas",
     "about": "Acerca de",
@@ -599,7 +599,7 @@
     "tools": "Herramientas",
     "about": "Acerca de",
     "contact": "Contacto",
-    "findBroker": "Encontrar un Silecta",
+    "findBroker": "Silecta",
     "navLabel": "Navegación principal",
     "menu": "Menú",
     "brandMeta": "Descubrimiento de brókers",

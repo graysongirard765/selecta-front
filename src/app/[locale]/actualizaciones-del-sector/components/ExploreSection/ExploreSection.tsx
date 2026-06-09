@@ -8,7 +8,7 @@ export const ExploreSection = async () => {
   const locale = await getLocale();
   const t = await getTranslations("sectorUpdatesPage");
   const homePrefix = locale === "es" ? "" : `/${locale}`;
-  const brokersHref = `${homePrefix}/encontrar-un-silecta`;
+  const brokersHref = `${homePrefix}/silecta`;
   const toolsHref = `${homePrefix}/herramientas`;
 
   return (
@@ -35,7 +35,7 @@ export const ExploreSection = async () => {
               >
                 <span>
                   {t("explorePrimary", {
-                    fallback: "Encontrar un Silecta",
+                    fallback: "Silecta",
                   })}
                 </span>
                 <Image
