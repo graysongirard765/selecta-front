@@ -84,7 +84,7 @@
 }
 
 .cardTradeRepublic {
-  grid-column: span 6;
+  grid-column: span 4;
 
   @include tablet {
     grid-column: span 12;
@@ -96,7 +96,7 @@
 }
 
 .cardDegiro {
-  grid-column: span 6;
+  grid-column: span 4;
 
   @include tablet {
     grid-column: span 6;
@@ -109,7 +109,8 @@
 
 .cardMusenova,
 .cardCapital,
-.cardEtoro {
+.cardEtoro,
+.cardRevolut {
   grid-column: span 4;
 
   @include tablet {

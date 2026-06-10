@@ -6,7 +6,7 @@ Al acceder o utilizar este Sitio web, confirmas que has leído, comprendido y ac
 
 ## **Alcance y aplicación**
 
-Estos Términos se aplican a tu uso del Sitio web de Silecta y a cualquier función disponible a través de él, incluidos los listados de brokers, el contenido informativo, las herramientas analíticas y los recursos de investigación.
+Estos Términos se aplican a tu uso del Sitio web de Silecta y a cualquier función disponible a través de él, incluidos los listados de plataformas financieras, el contenido informativo, las herramientas analíticas y los recursos de investigación.
 
 Definen la relación entre Silecta (“nosotros”) y tú como usuario del Sitio web.
 
@@ -14,7 +14,7 @@ El Sitio web está diseñado para organizar información sobre plataformas de co
 
 ## **Operador de la plataforma**
 
-El Sitio web es operado por Silecta, una plataforma independiente de descubrimiento de brokers que organiza información sobre entornos de corretaje y desarrollos del mercado.
+El Sitio web es operado por Silecta, una plataforma independiente que organiza información sobre plataformas de inversión, servicios financieros y desarrollos del mercado.
 
 Si tienes preguntas sobre el Sitio web, su contenido o estos Términos, puedes contactar directamente con el equipo a través del siguiente canal:
 
@@ -60,7 +60,7 @@ Se recomienda a los usuarios revisar esta página periódicamente para manteners
 
 La estructura, el contenido y la funcionalidad del Sitio web pueden actualizarse o modificarse ocasionalmente.
 
-Dichos cambios pueden incluir ajustes en los listados de brokers, herramientas analíticas, materiales informativos u otras funciones de la plataforma. Estas modificaciones ayudan a garantizar que el Sitio web siga siendo relevante y operativo a medida que evolucionan el entorno de corretaje y la infraestructura técnica.
+Dichos cambios pueden incluir ajustes en los listados de plataformas de inversión, en las herramientas analíticas, en los materiales informativos u en otras funciones de la plataforma. Estas modificaciones ayudan a garantizar que el Sitio web siga siendo relevante y operativo a medida que evolucionan el entorno de corretaje y la infraestructura técnica.
 
 Aunque nuestro objetivo es mantener un acceso continuo al Sitio web, pueden producirse interrupciones debido a mantenimiento, actualizaciones o problemas técnicos. Por lo tanto, pueden aplicarse restricciones temporales a ciertas secciones o funciones del Sitio web.
 
@@ -101,7 +101,7 @@ Estas restricciones tienen como objetivo preservar la integridad del contenido y
 
 La información disponible en el Sitio web se proporciona únicamente con fines informativos y de investigación.
 
-Silecta opera como una plataforma independiente que organiza información relacionada con brokers. No actúa como servicio de corretaje ni participa en actividades de trading.
+Silecta opera como una plataforma independiente que organiza información sobre plataformas de inversión y servicios financieros. No presta servicios financieros ni participa en actividades de trading.
 
 En particular, la plataforma no:
 
@@ -110,7 +110,7 @@ En particular, la plataforma no:
 * Retiene fondos de clientes, ni  
 * Proporciona asesoramiento financiero, de inversión, legal o fiscal.
 
-A lo largo del Sitio web pueden aparecer referencias a brokers y enlaces a plataformas externas. Estas referencias tienen como objetivo ayudar a los usuarios a continuar su investigación y no representan recomendaciones ni avales.
+A lo largo del Sitio web pueden aparecer referencias a terceros y enlaces a sitios web externos. Estas referencias tienen como objetivo ayudar a los usuarios a continuar su investigación y no representan recomendaciones ni avales.
 
 Los usuarios siguen siendo responsables de evaluar de forma independiente las plataformas de corretaje antes de participar en actividades de trading o financieras.
 
@@ -163,13 +163,13 @@ Estas acciones pueden violar las leyes aplicables y pueden dar lugar a la termin
 
 ## **Enlaces y contenido de terceros**
 
-El Sitio web puede incluir enlaces a sitios web externos, plataformas de brokers o servicios de reseñas independientes.
+El Sitio web puede incluir enlaces a sitios web externos, servicios financieros de terceros o plataformas de reseñas independientes.
 
 Estos enlaces se proporcionan únicamente para ayudar a los usuarios a continuar su investigación. Dado que estos recursos externos operan de forma independiente, Silecta no controla su contenido, prácticas de seguridad ni políticas.
 
 Una vez que los usuarios abandonan el Sitio web, sus interacciones con plataformas externas se rigen por los términos y políticas correspondientes de dichos servicios.
 
-Algunas secciones del Sitio web también pueden hacer referencia a información proporcionada por terceros. Aunque dicho contenido puede aportar contexto adicional a la investigación de brokers, Silecta no puede garantizar la exactitud ni la integridad de los materiales de terceros.
+Algunas secciones del Sitio web también pueden hacer referencia a información proporcionada por terceros. Aunque dicho contenido puede aportar contexto adicional a los usuarios, Silecta no puede garantizar la exactitud ni la integridad de los materiales de terceros.
 
 ## **Disposiciones adicionales**
 

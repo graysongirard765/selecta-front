@@ -8,7 +8,7 @@ El propósito de este documento es proporcionar transparencia sobre qué datos p
 
 Silecta es una plataforma en línea independiente que ayuda a los usuarios a explorar servicios de corretaje a través de listados estructurados, herramientas de investigación y contenido informativo.
 
-El Sitio web no proporciona servicios de corretaje, no abre cuentas de trading ni gestiona transacciones financieras. En su lugar, la plataforma organiza información disponible públicamente y ofrece utilidades analíticas que apoyan la investigación de brokers.
+El Sitio web no presta servicios de inversión, no abre cuentas de trading ni gestiona transacciones financieras. En su lugar, la plataforma organiza información disponible públicamente y ofrece utilidades analíticas que apoyan la investigación de plataformas de inversión.
 
 Dado que ciertas interacciones con el Sitio web pueden implicar el envío o la recopilación automática de información, esta Política de privacidad explica cómo se gestiona dicha información.
 
@@ -38,9 +38,7 @@ Esta información ayuda a mantener el funcionamiento técnico del Sitio web y a 
 
 La información recopilada a través del Sitio web puede utilizarse de varias maneras relacionadas con el funcionamiento y la mejora de la plataforma.
 
-Por ejemplo, la información proporcionada a través de formularios de contacto nos permite responder a consultas de los usuarios y ayudar con listados de brokers, herramientas o funcionalidades de la plataforma.
-
-Los datos técnicos y de uso también pueden analizarse con el fin de mejorar la estructura y la usabilidad del Sitio web. Estos análisis nos ayudan a comprender cómo los visitantes interactúan con diferentes secciones, como los listados de brokers, las herramientas de investigación y el contenido informativo.
+Los datos técnicos y de uso también pueden analizarse con el fin de mejorar la estructura y la usabilidad del Sitio web. Estos análisis nos ayudan a comprender cómo los visitantes interactúan con diferentes secciones, como los listados disponibles en la plataforma, las herramientas de investigación y el contenido informativo.
 
 Los datos también pueden procesarse con fines de seguridad, incluida la detección de actividades sospechosas o no autorizadas que puedan afectar la estabilidad de la plataforma.
 
@@ -96,7 +94,7 @@ Cada solicitud se revisa individualmente de acuerdo con los requisitos legales a
 
 ## **Enlaces a plataformas externas**
 
-El Sitio web puede contener enlaces a plataformas externas, incluidos sitios web de brokers o servicios de reseñas independientes.
+El Sitio web puede contener enlaces a plataformas externas, servicios financieros de terceros o sitios web de reseñas independientes.
 
 Estos sitios web operan de forma independiente de Silecta y mantienen sus propias políticas de privacidad y tratamiento de datos.
 

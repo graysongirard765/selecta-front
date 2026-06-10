@@ -54,6 +54,15 @@
         "tag1": "Copy trading",
         "tag2": "Comunidad",
         "tag3": "Fraccionadas"
+      },
+      "revolut": {
+        "name": "Revolut",
+        "description": "Banco digital con servicios de inversión",
+        "badge": "Verificado",
+        "markets": "Acciones · ETFs · Cripto",
+        "tag1": "App móvil",
+        "tag2": "Fraccionadas",
+        "tag3": "Multidivisa"
       }
     },
     "comparison": {
