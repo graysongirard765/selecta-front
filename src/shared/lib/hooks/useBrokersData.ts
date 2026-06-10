@@ -1,7 +1,7 @@
 import { useTranslations } from 'next-intl';
 
 type BrokerCard = {
-  key: 'tradeRepublic' | 'degiro' | 'musenova' | 'capital' | 'etoro';
+  key: 'tradeRepublic' | 'degiro' | 'musenova' | 'capital' | 'etoro' | 'revolut';
   name: string;
   description: string;
   badge: string;
@@ -151,6 +151,30 @@ export const useBrokersData = () => {
       ],
       link: 'https://www.etoro.com/',
       trustpilot: 'https://www.trustpilot.com/review/www.etoro.com',
+    },
+
+    {
+      key: 'revolut',
+      name: t('revolut.name', { fallback: 'Revolut' }),
+      description: t('revolut.description', { fallback: 'Banco digital con servicios de inversión' }),
+      badge: t('revolut.badge', { fallback: 'Verificado' }),
+      logo: '/images/home/brokers/revolut.svg',
+      logoAlt: 'Revolut',
+      logoWidth: 52,
+      logoHeight: 16,
+      specs: [
+        {
+          label: t('labels.markets', { fallback: 'Mercados' }),
+          value: t('etoro.markets', { fallback: 'Acciones · ETFs · Cripto' }),
+        },
+      ],
+      tags: [
+        t('etoro.tag1', { fallback: 'App móvil' }),
+        t('etoro.tag2', { fallback: 'Fraccionadas' }),
+        t('etoro.tag3', { fallback: 'Multidivisa' }),
+      ],
+      link: 'https://www.revolut.com/',
+      trustpilot: 'https://www.trustpilot.com/review/www.revolut.com',
     },
   ] as const;
 
