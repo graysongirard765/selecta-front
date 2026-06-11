@@ -8,7 +8,7 @@ import styles from './ContactSection.module.scss';
 
 export const ContactSection = () => {
   const t = useTranslations('homePage.contact');
-  const step = t('step', { fallback: '09 / Contacto' });
+  const step = t('step', { fallback: '10 / Contacto' });
   const eyebrow = t('eyebrow', { fallback: 'Contactar con el equipo' });
   const title = t('title', { fallback: 'Aqui para ayudar' });
   const description = t('description', {

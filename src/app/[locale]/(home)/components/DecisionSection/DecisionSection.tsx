@@ -40,7 +40,7 @@ export const DecisionSection = () => {
     <section className={styles.section}>
       <div className="container">
         <div className={styles.heading}>
-          <p className={styles.step}>{t('step', { fallback: '05 / Decidir' })}</p>
+          <p className={styles.step}>{t('step', { fallback: '06 / Decidir' })}</p>
 
           <h2 className={styles.title}>
             <span>{t('titleLine1', { fallback: 'Pasar de la búsqueda' })}</span>

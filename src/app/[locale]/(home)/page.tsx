@@ -4,6 +4,7 @@ import {
   ComparisonSection,
   ContactSection,
   DecisionSection,
+  HeatmapSection,
   HeroSection,
   IntroSection,
   PlatformSection,
@@ -19,6 +20,7 @@ export default function Home() {
       <IntroSection />
       <BrokersSection />
       <ComparisonSection />
+      <HeatmapSection />
       <ReviewsSection />
       <DecisionSection />
       <CalculatorSection />

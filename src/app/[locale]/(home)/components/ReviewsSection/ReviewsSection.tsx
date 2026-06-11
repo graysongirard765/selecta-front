@@ -62,7 +62,7 @@ export const ReviewsSection = () => {
       <div className="container">
         <div className={styles.shell}>
           <div className={styles.copy}>
-            <p className={styles.step}>{t('step', { fallback: '04 / Verificar' })}</p>
+            <p className={styles.step}>{t('step', { fallback: '05 / Verificar' })}</p>
 
             <h2 className={styles.title}>
               <span>{t('titleLine1', { fallback: 'Perspectivas' })}</span>
