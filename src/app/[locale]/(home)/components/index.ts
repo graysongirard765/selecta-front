@@ -3,6 +3,7 @@ export * from './CalculatorSection/CalculatorSection';
 export * from './ComparisonSection/ComparisonSection';
 export * from './ContactSection/ContactSection';
 export * from './DecisionSection/DecisionSection';
+export * from './HeatmapSection/HeatmapSection';
 export * from './HeroSection/HeroSection';
 export * from './IntroSection/IntroSection';
 export * from './PlatformSection/PlatformSection';

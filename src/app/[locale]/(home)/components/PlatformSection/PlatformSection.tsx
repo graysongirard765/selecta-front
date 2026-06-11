@@ -7,7 +7,7 @@ export const PlatformSection = () => {
   const locale = useLocale();
   const homePrefix = locale === "es" ? "" : `/${locale}`;
   const aboutHref = `${homePrefix}/acerca-de`;
-  const step = t("step", { fallback: "08 / Nuestra plataforma" });
+  const step = t("step", { fallback: "09 / Nuestra plataforma" });
   const title = t("title", { fallback: "Estructura independiente" });
   const cardTitle = t("cardTitle", { fallback: "Un recurso independiente" });
   const lead = t("lead", {

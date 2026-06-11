@@ -18,7 +18,7 @@ export const CalculatorSection = () => {
             <div className={styles.info}>
               <div className={styles.heading}>
                 <p className={styles.kicker}>
-                  {t('step', { fallback: '06 / Herramienta destacada' })}
+                  {t('step', { fallback: '07 / Herramienta destacada' })}
                 </p>
                 <p className={styles.subtitle}>
                   {t('subtitle', { fallback: '¿Cuánto podría crecer tu inversión con el tiempo?' })}

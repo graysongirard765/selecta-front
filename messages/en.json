@@ -82,6 +82,11 @@
       "description": "When reviewing platforms or brokers, several practical aspects are usually compared, which we summarize below.",
       "note": "These elements help create a clearer view of how platforms differ from one another and which one may offer a more suitable service."
     },
+    "heatmap": {
+      "step": "04 / Heat Map",
+      "title": "What's happening in the market right now",
+      "description": "The heat map lets you quickly visualize which assets, sectors or markets are seeing the most activity and how movements are distributed across the market."
+    },
     "contact": {
       "step": "08 / Contact",
       "eyebrow": "Contact the team",
