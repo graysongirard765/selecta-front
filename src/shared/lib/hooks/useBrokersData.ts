@@ -101,8 +101,8 @@ export const useBrokersData = () => {
         t('musenova.tag2', { fallback: 'Analítica' }),
         t('musenova.tag3', { fallback: '24/7' }),
       ],
-      link: 'https://www.musenova.live/',
-      trustpilot: 'https://www.trustpilot.com/review/www.musenova.live',
+      link: 'https://musenova.live/',
+      trustpilot: 'https://www.trustpilot.com/review/musenova.live',
     },
 
     {
