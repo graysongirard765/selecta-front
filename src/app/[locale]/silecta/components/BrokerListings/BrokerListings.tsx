@@ -18,12 +18,12 @@ import "swiper/css/pagination";
 
 export const BrokerListings = () => {
   const t = useTranslations("FindABrokerPageBrokerListings");
-  const title = t("title", { fallback: "Descubre las mejores compañias del mercado" });
+  const title = t("title", { fallback: "Descubre las mejores compañías del mercado" });
   const description = t("description", {
     fallback:
       "Explora las plataformas disponibles y revisa sus entornos a través de una visión general. Cada listado presenta detalles clave de cada una de estas, lo que permite explorar diferentes alternativas dentro de la misma estructura.",
   });
-
+ 
   const itemLinkOne = t("itemLinkOno", { fallback: "Ver reseñas" });
   const itemLinkTwo = t("itemLinkTwo", { fallback: "Visitar broker" });
 
