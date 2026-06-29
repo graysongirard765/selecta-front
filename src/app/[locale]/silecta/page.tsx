@@ -7,12 +7,10 @@ import { FindABrokerTools } from './components';
 import { FindABrokerPlatformSelect } from './components';
 import { FindABrokerPlatforms } from './components';
 
-/*export const metadata: Metadata = {
-  title: 'Comparador de brokers y plataformas de trading | Silecta',
-  description: 'Explora brokers online, revisa plataformas de trading, compara costes, mercados y opiniones de usuarios en un entorno estructurado.',
-};*/
-
 export const metadata: Metadata = {
+  title: 'Silecta | Explora plataformas de inversión y servicios financieros',
+  description:
+    'Consulta perfiles de plataformas de inversión, compara características, mercados, herramientas y servicios dentro de una estructura clara e independiente.',
   alternates: {
     canonical: '/silecta',
   },

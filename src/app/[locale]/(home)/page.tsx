@@ -16,6 +16,9 @@ import {
 import styles from './page.module.scss';
 
 export const metadata: Metadata = {
+  title: 'Silecta | Plataforma independiente para explorar opciones de inversión',
+  description:
+    'Silecta es una plataforma independiente que reúne información sobre plataformas de inversión, bancos, herramientas y tendencias del mercado para ayudarte a investigar con mayor claridad.',
   alternates: {
     canonical: '/',
   },

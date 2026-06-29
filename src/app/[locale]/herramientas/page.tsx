@@ -8,12 +8,10 @@ import {
 } from "./components";
 import styles from "./page.module.scss";
 
-/*export const metadata: Metadata = {
-  title: 'Herramientas de trading y calculadoras de inversión | Silecta',
-  description: 'Utiliza calculadoras de riesgo, costes y proyección de capital para analizar estrategias y condiciones de trading.',
-};*/
-
 export const metadata: Metadata = {
+  title: 'Silecta | Calculadoras y herramientas para invertir',
+  description:
+    'Explora calculadoras de inversión, simuladores y herramientas analíticas para comprender diferentes escenarios financieros y apoyar tu investigación.',
   alternates: {
     canonical: '/herramientas',
   },

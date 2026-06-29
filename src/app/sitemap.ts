@@ -1,6 +1,7 @@
 import type { MetadataRoute } from 'next';
 
 import { getArticleSlugs } from '@/features/articles';
+
 import { SITE_URL } from '@/shared/lib/constants/constants';
 
 const staticRoutes = [

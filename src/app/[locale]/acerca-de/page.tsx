@@ -7,12 +7,10 @@ import { AboutInformation } from './components';
 import { AboutInvestigation } from './components';
 import { AboutBroaderView } from './components';
 
-/*export const metadata: Metadata = {
-  title: 'Plataforma independiente de comparación de brokers | Silecta',
-  description: 'Conoce cómo Silecta organiza información de brokers, herramientas y análisis del sector para facilitar la investigación.',
-};*/
-
 export const metadata: Metadata = {
+  title: 'Silecta | Plataforma independiente de investigación financiera',
+  description:
+    'Conoce Silecta, una plataforma independiente que organiza información, herramientas y recursos para explorar servicios financieros con mayor claridad.',
   alternates: {
     canonical: '/acerca-de',
   },

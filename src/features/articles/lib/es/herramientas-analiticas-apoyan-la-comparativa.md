@@ -1,8 +1,8 @@
 ---
 title: Herramientas analíticas apoyan la comparativa
 excerpt: Las herramientas analíticas ayudan a los traders a revisar características clave de las plataformas, como los costes de trading, las condiciones de ejecución y los entornos de las plataformas.
-seoTitle: "Herramientas analíticas para comparar brokers | Silecta"
-seoDescription: "Descubre cómo las herramientas analíticas ayudan a comparar spreads, comisiones, plataformas y condiciones de trading."
+seoTitle: "Silecta | Herramientas para analizar plataformas de inversión"
+seoDescription: "Descubre cómo las herramientas analíticas permiten evaluar costes, características, condiciones y distintos escenarios antes de elegir una plataforma."
 ---
 
 Algo curioso ocurre cuando un inversor comienza a comparar plataformas manualmente: la información empieza a volverse confusa. 
