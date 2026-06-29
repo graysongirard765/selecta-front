@@ -1,4 +1,4 @@
-//import type { Metadata } from "next";
+import type { Metadata } from "next";
 
 import {
   ArticlesSection,
@@ -12,6 +12,12 @@ import styles from "./page.module.scss";
   title: 'Noticias y actualizaciones sobre brokers y trading | Silecta',
   description: 'Mantente al día sobre plataformas de trading, cambios en brokers, herramientas analíticas y evolución del mercado financiero.',
 };*/
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: '/actualizaciones-del-sector',
+  },
+};
 
 export default async function SectorUpdatesPage() {
   return (

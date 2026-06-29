@@ -1,4 +1,4 @@
-//import type { Metadata } from "next";
+import type { Metadata } from "next";
 import { useLocale, useTranslations } from "next-intl";
 
 import {
@@ -15,6 +15,12 @@ import styles from "./page.module.scss";
   title: 'Cómo elegir un broker online paso a paso | Silecta',
   description: 'Descubre cómo comparar brokers, revisar plataformas de trading y analizar herramientas antes de abrir una cuenta de inversión.',
 };*/
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: '/como-funciona',
+  },
+};
 
 export default function HowItWorksPage() {
   const t = useTranslations("howItWorksPage");

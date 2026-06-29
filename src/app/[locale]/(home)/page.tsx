@@ -1,3 +1,5 @@
+import type { Metadata } from 'next';
+
 import {
   BrokersSection,
   CalculatorSection,
@@ -12,6 +14,12 @@ import {
   UpdatesSection,
 } from './components';
 import styles from './page.module.scss';
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: '/',
+  },
+};
 
 export default function Home() {
   return (

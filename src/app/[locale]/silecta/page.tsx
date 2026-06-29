@@ -1,4 +1,4 @@
-//import type { Metadata } from "next";
+import type { Metadata } from "next";
 
 import { BrokerHero } from './components';
 import { BrokerListings } from './components';
@@ -11,6 +11,12 @@ import { FindABrokerPlatforms } from './components';
   title: 'Comparador de brokers y plataformas de trading | Silecta',
   description: 'Explora brokers online, revisa plataformas de trading, compara costes, mercados y opiniones de usuarios en un entorno estructurado.',
 };*/
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: '/silecta',
+  },
+};
 
 export default function FindABrokerPage() {
   return (

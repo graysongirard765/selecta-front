@@ -24,14 +24,18 @@ export async function generateMetadata({
 }: ArticlePageProps): Promise<Metadata> {
   const { locale, slug } = await params;
   const article = await getArticle({ slug, locale });
+  const canonical = `/actualizaciones-del-sector/${slug}`;
 
   if (!article) {
-    return {};
+    return {
+      alternates: { canonical },
+    };
   }
 
   return {
     title: article.seoTitle,
     description: article.seoDescription,
+    alternates: { canonical },
   };
 }
 

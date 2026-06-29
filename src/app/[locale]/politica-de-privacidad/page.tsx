@@ -1,11 +1,18 @@
 import { notFound } from "next/navigation";
 
+import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 
 import { getPolicy } from "@/features/policies";
 
 import { PolicyContentSection, PolicyHeroSection } from "../policies/components";
 import styles from "./page.module.scss";
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: "/politica-de-privacidad",
+  },
+};
 
 type PrivacyPageProps = {
   params: Promise<{

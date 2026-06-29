@@ -3,6 +3,8 @@ import localFont from 'next/font/local';
 import type { Metadata } from 'next';
 import { getLocale } from 'next-intl/server';
 
+import { SITE_URL } from '@/shared/lib/constants/constants';
+
 import 'react-toastify/dist/ReactToastify.css';
 import '@/shared/lib/styles/null.scss';
 import '@/shared/lib/styles/base.scss';
@@ -65,6 +67,7 @@ const generalSans = localFont({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
   title: 'Silecta',
   description: '',
   openGraph: {
