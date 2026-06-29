@@ -1,4 +1,4 @@
-//import type { Metadata } from "next";
+import type { Metadata } from "next";
 
 import { AboutHero } from './components';
 import { AboutResources } from './components';
@@ -11,6 +11,12 @@ import { AboutBroaderView } from './components';
   title: 'Plataforma independiente de comparación de brokers | Silecta',
   description: 'Conoce cómo Silecta organiza información de brokers, herramientas y análisis del sector para facilitar la investigación.',
 };*/
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: '/acerca-de',
+  },
+};
 
 export default function FindABrokerPage() {
   return (

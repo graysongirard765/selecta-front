@@ -1,3 +1,6 @@
+export const SITE_URL =
+  process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, '') ?? 'https://silecta.es';
+
 export const WEBSITE_EMAIL = 'areacliente@silecta.es';
 export const WEBSITE_PHONE = '[phone number]';
 
