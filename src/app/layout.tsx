@@ -72,6 +72,9 @@ export const metadata: Metadata = {
     description: '',
     images: 'https://silecta.es/images/meta.png',
   },
+  verification: {
+    google: 'd9YyNSBxpqcVeF9AvVPxPiHvnig3d2HQrSv4KbYHWmM',
+  },
 };
 
 export default async function RootLayout({
