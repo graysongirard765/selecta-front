@@ -68,12 +68,12 @@ const generalSans = localFont({
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: 'Silecta',
-  description: '',
+  title: 'Silecta | Plataforma independiente para explorar opciones de inversión',
+  description: 'Silecta es una plataforma independiente que reúne información sobre plataformas de inversión, bancos, herramientas y tendencias del mercado para ayudarte a investigar con mayor claridad.',
   openGraph: {
-    title: 'Silecta',
-    description: '',
-    images: 'https://silecta.es/images/meta.png',
+    title: 'Silecta | Plataforma independiente para explorar opciones de inversión',
+    description: 'Silecta es una plataforma independiente que reúne información sobre plataformas de inversión, bancos, herramientas y tendencias del mercado para ayudarte a investigar con mayor claridad.',
+    images: `${SITE_URL}/images/meta.png`,
   },
   verification: {
     google: 'd9YyNSBxpqcVeF9AvVPxPiHvnig3d2HQrSv4KbYHWmM',

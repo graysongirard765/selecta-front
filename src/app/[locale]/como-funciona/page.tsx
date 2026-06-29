@@ -11,12 +11,10 @@ import {
 import type { StepItem } from "./components/StepsSection/StepsSection";
 import styles from "./page.module.scss";
 
-/*export const metadata: Metadata = {
-  title: 'Cómo elegir un broker online paso a paso | Silecta',
-  description: 'Descubre cómo comparar brokers, revisar plataformas de trading y analizar herramientas antes de abrir una cuenta de inversión.',
-};*/
-
 export const metadata: Metadata = {
+  title: 'Silecta | Cómo comparar plataformas de inversión paso a paso',
+  description:
+    'Descubre cómo utilizar Silecta para explorar plataformas de inversión, analizar características, comparar opciones y avanzar en tu investigación antes de tomar una decisión.',
   alternates: {
     canonical: '/como-funciona',
   },
