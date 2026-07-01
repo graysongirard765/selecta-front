@@ -82,7 +82,7 @@ Se recomienda a los usuarios revisar esta página ocasionalmente para mantenerse
 
 Si tienes preguntas sobre esta Política de cookies o sobre cómo se utilizan las cookies en el Sitio web, puedes contactar con el equipo de Silecta en:
 
-* **Correo electrónico:** [areacliente@silecta.es](mailto:Areacliente@selecta.es)
+* **Correo electrónico:** [areacliente@gruposilecta.es](mailto:Areacliente@selecta.es)
 
 Revisaremos las consultas y proporcionaremos aclaraciones siempre que sea posible.
 

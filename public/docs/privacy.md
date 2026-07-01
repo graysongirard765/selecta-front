@@ -20,7 +20,7 @@ Esto significa que Silecta determina cómo y por qué se procesa la información
 
 Las preguntas relacionadas con el tratamiento de la información personal o las solicitudes relativas a derechos de datos pueden dirigirse a:
 
-* **Correo electrónico:** [areacliente@silecta.es](mailto:Areacliente@selecta.es)
+* **Correo electrónico:** [areacliente@gruposilecta.es](mailto:Areacliente@selecta.es)
 
 El equipo revisa las consultas relacionadas con la protección de datos y responde en un plazo razonable.
 
@@ -114,7 +114,7 @@ Se recomienda a los usuarios revisar esta página periódicamente para manteners
 
 Si tienes preguntas sobre esta Política de privacidad o sobre cómo se procesan los datos personales a través del Sitio web, puedes contactar con el equipo de Silecta en:
 
-* **Correo electrónico:** [areacliente@silecta.es](mailto:Areacliente@selecta.es)
+* **Correo electrónico:** [areacliente@gruposilecta.es](mailto:Areacliente@selecta.es)
 
 Revisaremos las consultas y responderemos lo antes posible dentro de un plazo razonable.
 
