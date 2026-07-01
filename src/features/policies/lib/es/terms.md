@@ -18,7 +18,7 @@ El Sitio web es operado por Silecta, una plataforma independiente que organiza i
 
 Si tienes preguntas sobre el Sitio web, su contenido o estos Términos, puedes contactar directamente con el equipo a través del siguiente canal:
 
-* Correo electrónico: [areacliente@silecta.es](mailto:Areacliente@selecta.es) 
+* Correo electrónico: [areacliente@gruposilecta.es](mailto:Areacliente@selecta.es) 
 
 Haremos esfuerzos razonables para responder a las consultas y proporcionar aclaraciones sobre el funcionamiento de la plataforma.
 
@@ -197,7 +197,7 @@ Estas normas ayudan a garantizar que el Sitio web siga siendo un entorno de inve
 
 Si tienes preguntas sobre estos Términos y condiciones o necesitas aclaraciones sobre el uso del Sitio web, puedes contactar con el equipo a través de la siguiente dirección:
 
-* **Correo electrónico:** [areacliente@silecta.es](mailto:Areacliente@selecta.es)
+* **Correo electrónico:** [areacliente@gruposilecta.es](mailto:Areacliente@selecta.es)
 
 Revisaremos las consultas y responderemos tan pronto como sea razonablemente posible.
 
