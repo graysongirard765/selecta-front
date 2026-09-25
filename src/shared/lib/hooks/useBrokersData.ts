@@ -1,7 +1,7 @@
 import { useTranslations } from 'next-intl';
 
 type BrokerCard = {
-  key: 'tradeRepublic' | 'degiro' | 'musenova' | 'capital' | 'etoro' | 'revolut';
+  key: 'tradeRepublic' | 'degiro' | 'musenova' | 'capital' | 'etoro' | 'revolut' | 'europednr';
   name: string;
   description: string;
   badge: string;
@@ -53,7 +53,6 @@ export const useBrokersData = () => {
       link: 'https://traderepublic.com/',
       trustpilot: 'https://es.trustpilot.com/review/www.traderepublic.com',
     },
-
     {
       key: 'degiro',
       name: t('degiro.name', { fallback: 'Degiro' }),
@@ -80,53 +79,31 @@ export const useBrokersData = () => {
       link: 'https://www.degiro.com/',
       trustpilot: 'https://www.trustpilot.com/review/www.degiro.com',
     },
-
     {
-      key: 'musenova',
-      name: t('musenova.name', { fallback: 'Musenova' }),
-      description: t('musenova.description', { fallback: 'Plataforma multiactivo' }),
-      badge: t('musenova.badge', { fallback: 'Verificado' }),
-      logo: '/images/home/brokers/musenova.svg',
-      logoAlt: 'Musenova',
-      logoWidth: 84,
-      logoHeight: 16,
+      key: 'europednr',
+      name: t('europednr.name', { fallback: 'Europednr' }),
+      description: t('europednr.description', {
+        fallback: 'Plataforma multiactivo',
+      }),
+      badge: t('degiro.badge', { fallback: 'Verificado' }),
+      logo: '/images/home/brokers/europednr.svg',
+      logoAlt: 'Europednr',
+      logoWidth: 101,
+      logoHeight: 9,
       specs: [
         {
           label: t('labels.markets', { fallback: 'Mercados' }),
-          value: t('musenova.markets', { fallback: 'Forex · Acciones · Cripto' }),
+          value: t('europednr.markets', { fallback: 'Forex · Acciones · Cripto' }),
         },
       ],
       tags: [
-        t('musenova.tag1', { fallback: 'Copy trading' }),
-        t('musenova.tag2', { fallback: 'Analítica' }),
-        t('musenova.tag3', { fallback: '24/7' }),
+        t('europednr.tag1', { fallback: 'Copy trading' }),
+        t('europednr.tag2', { fallback: 'Analítica' }),
+        t('europednr.tag3', { fallback: '24/7' }),
       ],
-      link: 'https://musenova.live/',
-      trustpilot: 'https://www.trustpilot.com/review/musenova.live',
-    },
-
-    {
-      key: 'capital',
-      name: t('capital.name', { fallback: 'Capital.com' }),
-      description: t('capital.description', { fallback: 'Bróker digital internacional' }),
-      badge: t('capital.badge', { fallback: 'Verificado' }),
-      logo: '/images/home/brokers/capital.svg',
-      logoAlt: 'Capital.com',
-      logoWidth: 87,
-      logoHeight: 16,
-      specs: [
-        {
-          label: t('labels.markets', { fallback: 'Mercados' }),
-          value: t('capital.markets', { fallback: 'Acciones · CFDs · Forex' }),
-        },
-      ],
-      tags: [
-        t('capital.tag1', { fallback: 'Educación' }),
-        t('capital.tag2', { fallback: 'Herramientas' }),
-        t('capital.tag3', { fallback: 'Móvil' }),
-      ],
-      link: 'https://capital.com/',
-      trustpilot: 'https://www.trustpilot.com/review/capital.com',
+      large: true,
+      link: 'https://europednr.live/es/home',
+      trustpilot: 'https://www.trustpilot.com/review/www.degiro.com',
     },
 
     {
@@ -154,9 +131,59 @@ export const useBrokersData = () => {
     },
 
     {
+      key: 'musenova',
+      name: t('musenova.name', { fallback: 'Musenova' }),
+      description: t('musenova.description', { fallback: 'Plataforma multiactivo' }),
+      badge: t('musenova.badge', { fallback: 'Verificado' }),
+      logo: '/images/home/brokers/musenova.svg',
+      logoAlt: 'Musenova',
+      logoWidth: 84,
+      logoHeight: 16,
+      specs: [
+        {
+          label: t('labels.markets', { fallback: 'Mercados' }),
+          value: t('musenova.markets', { fallback: 'Forex · Acciones · Cripto' }),
+        },
+      ],
+      tags: [
+        t('musenova.tag1', { fallback: 'Copy trading' }),
+        t('musenova.tag2', { fallback: 'Analítica' }),
+        t('musenova.tag3', { fallback: '24/7' }),
+      ],
+      link: 'https://musenova.live/',
+      trustpilot: 'https://www.trustpilot.com/review/musenova.live',
+    },
+
+    // {
+    //   key: 'capital',
+    //   name: t('capital.name', { fallback: 'Capital.com' }),
+    //   description: t('capital.description', { fallback: 'Bróker digital internacional' }),
+    //   badge: t('capital.badge', { fallback: 'Verificado' }),
+    //   logo: '/images/home/brokers/capital.svg',
+    //   logoAlt: 'Capital.com',
+    //   logoWidth: 87,
+    //   logoHeight: 16,
+    //   specs: [
+    //     {
+    //       label: t('labels.markets', { fallback: 'Mercados' }),
+    //       value: t('capital.markets', { fallback: 'Acciones · CFDs · Forex' }),
+    //     },
+    //   ],
+    //   tags: [
+    //     t('capital.tag1', { fallback: 'Educación' }),
+    //     t('capital.tag2', { fallback: 'Herramientas' }),
+    //     t('capital.tag3', { fallback: 'Móvil' }),
+    //   ],
+    //   link: 'https://capital.com/',
+    //   trustpilot: 'https://www.trustpilot.com/review/capital.com',
+    // },
+
+    {
       key: 'revolut',
       name: t('revolut.name', { fallback: 'Revolut' }),
-      description: t('revolut.description', { fallback: 'Banco digital con servicios de inversión' }),
+      description: t('revolut.description', {
+        fallback: 'Banco digital con servicios de inversión',
+      }),
       badge: t('revolut.badge', { fallback: 'Verificado' }),
       logo: '/images/home/brokers/revolut.svg',
       logoAlt: 'Revolut',

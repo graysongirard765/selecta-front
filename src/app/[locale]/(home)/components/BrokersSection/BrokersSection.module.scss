@@ -110,7 +110,8 @@
 .cardMusenova,
 .cardCapital,
 .cardEtoro,
-.cardRevolut {
+.cardRevolut,
+.cardEuropednr {
   grid-column: span 4;
 
   @include tablet {

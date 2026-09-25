@@ -28,6 +28,15 @@
         "tag2": "Long term",
         "tag3": "Analysis"
       },
+      "europednr": {
+        "name": "Europednr",
+        "description": "Multi-asset platform",
+        "badge": "Verified",
+        "markets": "Forex · Stocks · Crypto",
+        "tag1": "Copy trading",
+        "tag2": "Analytics",
+        "tag3": "24/7"
+      },
       "musenova": {
         "name": "Musenova",
         "description": "Multi-asset platform",
